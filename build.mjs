@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const DIST = path.join(ROOT, 'dist');
-const SITE = { name: 'teamtpp', url: 'https://teamtpp.com' };
+const SITE = { name: '民眾隊', url: 'https://teamtpp.com' };
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const isVid = (u) => u.includes('youtube.com') || u.includes('youtu.be');
@@ -51,7 +51,7 @@ function personPage(d) {
   return `${head({ title, desc, image: d.portrait, url })}
 <body>
 <header class="hd"><div class="wrap hdr">
-<a class="hdt brand" href="/">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
+<a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
 <span class="upd">更新至 ${esc(p.updated)}</span>
@@ -144,16 +144,16 @@ function indexPage(people) {
   for (let r = 0; slides.length < 9 && r < 9; r++) queues.forEach((q) => { if (q[r] && slides.length < 9) slides.push(q[r]); });
   const feed = all.slice(0, 8);
   const nm = (d) => `${esc(d.person.name)}<span class="nm-o">${esc(d.person.office)}</span>`;
-  return `${head({ title: `${SITE.name}｜做出來的，才算數`, desc: `民眾黨議員 ${total} 件看得見的改變，每一件都有照片、日期和出處。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
+  return `${head({ title: `${SITE.name}｜看得見的改變`, desc: `民眾黨議員 ${total} 件看得見的改變，每一件都有照片、日期和出處。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
 <body class="idx">
 <header class="hd"><div class="wrap hdr">
-<span class="hdt brand">${SITE.name}</span><span class="dot" aria-hidden="true"></span><span class="hdt">民眾黨議員</span>
+<span class="hdt brand"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</span>
 <span class="upd">更新至 ${esc(updated)}</span>
 </div></header>
 
 <section class="ih"><div class="wrap ih-in">
 <div class="ih-l">
-<h1 class="ih-h">做出來的，<br>才算數。</h1>
+<h1 class="ih-h">看得見的改變</h1>
 <p class="ih-s">民眾黨議員改過的路口、公園和制度，每一件都有照片、日期和出處。</p>
 <div class="stats">
 <div class="stat"><span class="sn">${people.length}</span><span class="sl">位議員</span></div>
@@ -181,8 +181,7 @@ ${slides.map((it, i) => `<a class="rs" href="/${esc(it.d.slug)}/" data-n="${i}"$
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">
-<span class="pc-cnt"><span class="pc-num">${d.items.length}</span><span class="pc-u">件改變</span></span></span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"></span>
 <span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>

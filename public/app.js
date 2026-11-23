@@ -68,7 +68,7 @@
   }
 
   async function card(d) {
-    await document.fonts.load("900 72px 'Noto Serif TC'", d.title + D.office + D.name + 'teamtpp');
+    await document.fonts.load("900 72px 'Noto Serif TC'", d.title + D.office + D.name + '民眾隊');
     await document.fonts.load("700 40px 'Noto Sans TC'", d.after + d.before + d.place + d.status + d.when + '以前現在');
     const img = new Image();
     img.src = d.thumb;
@@ -104,8 +104,8 @@
     let ny = y + 130;
     nowLines.forEach((l) => { x.fillText(l, 110, ny); ny += 60; });
     x.fillStyle = '#141414'; x.fillRect(80, H - 170, 920, 3);
-    x.font = "900 44px 'Noto Serif TC'"; x.fillText('teamtpp', 80, H - 90);
-    const bw = x.measureText('teamtpp').width;
+    x.font = "900 44px 'Noto Serif TC'"; x.fillText('民眾隊', 80, H - 90);
+    const bw = x.measureText('民眾隊').width;
     x.fillStyle = '#28C8C8'; x.beginPath(); x.arc(80 + bw + 28, H - 105, 9, 0, Math.PI * 2); x.fill();
     x.fillStyle = '#141414'; x.font = "900 40px 'Noto Serif TC'"; x.fillText(D.office + D.name, 80 + bw + 56, H - 90);
     return new Promise((r) => c.toBlob(r, 'image/png'));
