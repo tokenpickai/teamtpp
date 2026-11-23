@@ -10,9 +10,9 @@
 
 ## 部署
 
-Cloudflare Pages 連到這個 repo：
+Cloudflare Workers 連到這個 repo（`wrangler.jsonc` 指定靜態檔在 `dist/`）：
 - Build command：`node build.mjs`
-- Build output directory：`dist`
+- Deploy command：`npx wrangler deploy`
 
 推到 `main` 就自動上線。
 
