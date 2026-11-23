@@ -1,0 +1,106 @@
+{
+ "slug": "chen-yi-chen",
+ "person": {
+  "name": "陳乙辰",
+  "office": "雲林縣議員（虎尾土庫元長褒忠）",
+  "updated": "2026.11.24",
+  "local": "虎尾人",
+  "pron": "他",
+  "council": "",
+  "city": "雲林"
+ },
+ "personas": [
+  {
+   "id": "local",
+   "label": "住虎尾的",
+   "sub": "路燈、巷道",
+   "lead": "住虎尾的你，可能經過"
+  },
+  {
+   "id": "walk",
+   "label": "晚上走路回家的",
+   "sub": "路口照明",
+   "lead": "走路的你，可能經過"
+  },
+  {
+   "id": "family",
+   "label": "帶小孩出遊的",
+   "sub": "糖廠鐵橋安全",
+   "lead": "帶小孩出遊的你，可能經過"
+  }
+ ],
+ "items": [
+  {
+   "who": [
+    "walk",
+    "local"
+   ],
+   "when": "2026.11",
+   "status": "已改善",
+   "place": "虎尾・興南里 雲84線 × 文化路口",
+   "title": "興南里昏暗的路口，亮起來了",
+   "bShort": "路口一到晚上就看不清楚",
+   "aShort": "會勘後改善照明",
+   "before": "興南里雲84線與文化路口照明不足，等垃圾車的居民反映晚上看不清楚，走路經過很危險。",
+   "after": "他 10 月 20 日發現後立刻聯繫會勘，11 月 2 日縣府交工局到場，11 月 3 日發函提出改善方式，由虎尾鎮公所接續施作，路口照明改善完成。",
+   "url": "https://www.facebook.com/photo/?fbid=1775241287935643&set=a.416491793810606",
+   "thumb": "/img/chen-yi-chen/item-01.jpg"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "when": "2026.07",
+   "status": "爭取中",
+   "place": "虎尾・興南里巷道",
+   "title": "興南里裂開積水的巷道，爭取整段重鋪",
+   "bShort": "路面龜裂、凹凸，下雨就積水",
+   "aShort": "會勘完成，爭取重鋪經費",
+   "before": "興南里部分巷道長期使用後龜裂、凹凸不平、局部破損，雨季容易積水，影響通行安全。",
+   "after": "他接獲陳情後邀集相關單位會勘，把居民需求完整反映給主管機關，爭取道路改善與重鋪經費。",
+   "url": "https://www.facebook.com/photo/?fbid=1620522910074149&set=pcb.1620523070074133",
+   "thumb": "/img/chen-yi-chen/item-03.jpg"
+  },
+  {
+   "who": [
+    "family",
+    "local"
+   ],
+   "when": "2026.06",
+   "status": "已封閉維修",
+   "place": "虎尾・糖廠鐵橋",
+   "title": "糖廠鐵橋枕木鬆動，第一時間封橋",
+   "bShort": "枕木有空洞，踩上去會晃",
+   "aShort": "文觀處封橋，修好再開放",
+   "before": "虎尾糖廠鐵橋是熱門景點，民眾反映枕木毀損、步道鬆動，踩踏會晃，擔心遊客和小朋友受傷。",
+   "after": "他接獲通報後立即反映，雲林縣文化觀光處先行封閉鐵橋並設置警示，修復確認安全後才重新開放。",
+   "url": "https://www.facebook.com/photo/?fbid=1590357633090677&set=a.416491793810606",
+   "thumb": "/img/chen-yi-chen/item-02.jpg"
+  }
+ ],
+ "pitch": [
+  "四年來虎尾、土庫、元長、褒忠重要路口增設號誌與監視器",
+  "道路重鋪整平、農路改善，農民往返耕作更安全",
+  "增設路燈，晚上回家的路亮起來",
+  "教育委員會成員，替第一線老師爭取福利",
+  "鄉親一反映，他就找相關單位到現場"
+ ],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/Power.Hope.CHEN"
+  }
+ ],
+ "promises": [],
+ "citywide": [],
+ "pending": [
+  {
+   "title": "高鐵特定區永興北三路人行道",
+   "note": "雜草叢生、磚面不平，已會勘，追蹤清理與鋪面整修。"
+  }
+ ],
+ "council": "",
+ "portrait": "/img/chen-yi-chen/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

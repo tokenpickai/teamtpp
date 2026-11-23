@@ -1,0 +1,46 @@
+{
+ "slug": "chang-hsueh-ju",
+ "person": {"name": "張雪如", "office": "彰化縣議員（員林大村永靖）", "updated": "2026.11.24", "local": "員林人", "pron": "她", "council": "", "city": "彰化"},
+ "personas": [
+  {"id": "need", "label": "家裡遇到急難的", "sub": "急難救助、後事協助", "lead": "遇到急難的你，她會出現"},
+  {"id": "family", "label": "帶小孩的", "sub": "弱勢家庭物資", "lead": "帶小孩的你，可能用到"},
+  {"id": "elder", "label": "家裡有長輩的", "sub": "獨居長者", "lead": "家裡有長輩的你，可能用到"}
+ ],
+ "items": [
+  {"who": ["family", "need"], "when": "2026.10", "status": "已完成", "place": "彰化・金婚紀念",
+   "title": "二十幾年前保住的孩子，如今已長大成人",
+   "bShort": "孕婦遇危急，一家人不知所措", "aShort": "她親自開車送醫，孩子平安出生",
+   "before": "二十幾年前，一位懷孕的女兒和女婿遇到危急狀況，家人不知道該怎麼辦。",
+   "after": "她親自開車一路把他們送到基隆，保住了肚子裡的孩子。今年那對阿公阿嬤金婚 50 週年，握著她的手說一輩子都記得她，孩子已經二十幾歲。",
+   "url": "https://www.facebook.com/photo/?fbid=1797973048999882&set=a.386611326802735", "thumb": "/img/chang-hsueh-ju/item-03.jpg"},
+  {"who": ["family", "need"], "when": "2026.10", "status": "協助中", "place": "員林・弱勢家庭",
+   "title": "罹癌外婆獨力帶三個孫，物資送到家",
+   "bShort": "外婆罹癌，獨自扛三個孫子", "aShort": "送米、衛生紙，募集尿片",
+   "before": "一位罹患乳癌的外婆，要照顧年邁的母親，還有女兒服刑期間留下的 8 歲、3 歲、2 歲三個外孫，孩子的生父都已失聯。",
+   "after": "她的服務團隊和快樂天堂基金會接案後，協助尋找孩子的生父、送上白米與衛生紙等生活物資，並對外募集 3XL 尿片。",
+   "url": "https://www.facebook.com/photo/?fbid=1807998451330675&set=a.386611326802735", "thumb": "/img/chang-hsueh-ju/item-02.jpg"},
+  {"who": ["elder", "need"], "when": "2026.09", "status": "已完成", "place": "彰化・殯儀館",
+   "title": "沒人能付喪葬費的長者，中秋節有人送他最後一程",
+   "bShort": "長者過世，無人負擔後事", "aShort": "找到失聯 35 年的女兒，基金會辦好後事",
+   "before": "一位長者在中秋節前夕過世，沒有喪葬費，也沒有家人可以處理後事。",
+   "after": "她中秋節當天趕到殯儀館，團隊找到他失聯 35 年的女兒；女兒無力負擔費用，由快樂天堂基金會接手處理後事，讓長者有尊嚴地走完最後一程。",
+   "url": "https://www.facebook.com/photo/?fbid=1788020873328433&set=a.386611326802735", "thumb": "/img/chang-hsueh-ju/item-01.jpg"}
+ ],
+ "pitch": [
+  "2002 年起連任 6 屆彰化縣議員，選舉公報只放一個 QR Code，掃出 157 段助人的故事",
+  "快樂天堂基金會董事長，連續 12 年辦寒冬圍爐、千人饗宴",
+  "獨居長者沒人辦後事，她放下選務趕去處理",
+  "台中、南投、彰化寶貝每月收到生日禮物，夏令營 120 位孩子全程免費",
+  "弱勢家庭急難救助，一通電話就到"
+ ],
+ "links": [{"label": "Facebook", "url": "https://www.facebook.com/JHANG.SYUE.RU"}],
+ "promises": [],
+ "citywide": [],
+ "pending": [
+  {"title": "加錫地區空污與事業廢棄物", "note": "她站上第一線，反對把高風險事業廢棄物放在可能影響地下水和居民安全的地方。"}
+ ],
+ "council": "",
+ "portrait": "/img/chang-hsueh-ju/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
