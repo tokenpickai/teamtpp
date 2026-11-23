@@ -1,4 +1,23 @@
 (() => {
+  const slides = [...document.querySelectorAll('.rs')];
+  if (!slides.length) return;
+  const dots = [...document.querySelectorAll('.rd')];
+  let k = 0, stopped = false;
+  const go = (n) => {
+    slides[k].hidden = true; dots[k].setAttribute('aria-selected', 'false');
+    k = (n + slides.length) % slides.length;
+    slides[k].hidden = false; slides[k].classList.remove('in'); void slides[k].offsetWidth; slides[k].classList.add('in');
+    dots[k].setAttribute('aria-selected', 'true');
+  };
+  dots.forEach((d, i) => d.addEventListener('click', () => { stopped = true; go(i); }));
+  const rot = document.querySelector('.rot');
+  let hover = false;
+  rot.addEventListener('mouseenter', () => { hover = true; });
+  rot.addEventListener('mouseleave', () => { hover = false; });
+  setInterval(() => { if (!stopped && !hover && !document.hidden) go(k + 1); }, 6000);
+})();
+
+(() => {
   const dataEl = document.getElementById('page-data');
   if (!dataEl) return;
   const D = JSON.parse(dataEl.textContent);

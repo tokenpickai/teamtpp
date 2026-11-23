@@ -133,15 +133,77 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 }
 
 function indexPage(people) {
-  return `${head({ title: SITE.name, desc: '民眾黨民代做了什麼，用實際成果說話。', image: people[0]?.portrait, url: SITE.url + '/' })}
-<body>
-<header class="hd"><div class="wrap hdr"><span class="hdt brand">${SITE.name}</span></div></header>
-<main class="wrap mn">
-<h1 class="idx-h">他們做了什麼</h1>
-<div class="people">
-${people.map((d) => `<a class="pc" href="/${d.slug}/"><img src="${esc(d.portrait)}" alt="" loading="lazy"><span class="pc-o">${esc(d.person.office)}</span><span class="pc-n">${esc(d.person.name)}</span><span class="pc-p">${esc(d.pitch[0])}</span></a>`).join('\n')}
+  const all = people.flatMap((d) => d.items.map((it) => ({ ...it, d })));
+  all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
+  const total = all.length;
+  const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
+  const updated = people.map((d) => d.person.updated).sort().pop();
+  // carousel: newest first, but rotate through people so every councillor shows up
+  const queues = people.map((d) => all.filter((x) => x.d === d));
+  const slides = [];
+  for (let r = 0; slides.length < 9 && r < 9; r++) queues.forEach((q) => { if (q[r] && slides.length < 9) slides.push(q[r]); });
+  const feed = all.slice(0, 8);
+  const nm = (d) => `${esc(d.person.name)}<span class="nm-o">${esc(d.person.office)}</span>`;
+  return `${head({ title: `${SITE.name}｜做出來的，才算數`, desc: `民眾黨議員 ${total} 件看得見的改變，每一件都有照片、日期和出處。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
+<body class="idx">
+<header class="hd"><div class="wrap hdr">
+<span class="hdt brand">${SITE.name}</span><span class="dot" aria-hidden="true"></span><span class="hdt">民眾黨議員</span>
+<span class="upd">更新至 ${esc(updated)}</span>
+</div></header>
+
+<section class="ih"><div class="wrap ih-in">
+<div class="ih-l">
+<h1 class="ih-h">做出來的，<br>才算數。</h1>
+<p class="ih-s">民眾黨議員改過的路口、公園和制度，每一件都有照片、日期和出處。</p>
+<div class="stats">
+<div class="stat"><span class="sn">${people.length}</span><span class="sl">位議員</span></div>
+<div class="stat"><span class="sn">${total}</span><span class="sl">件看得見的改變</span></div>
+<div class="stat"><span class="sn">${council}</span><span class="sl">件議員提案</span></div>
 </div>
+</div>
+<div class="rot" aria-roledescription="carousel" aria-label="最新完成">
+${slides.map((it, i) => `<a class="rs" href="/${esc(it.d.slug)}/" data-n="${i}"${i ? ' hidden' : ''}>
+<span class="rs-img"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
+<span class="rs-body">
+<span class="rs-who"><img src="${esc(it.d.portrait)}" alt=""><span>${nm(it.d)}</span></span>
+<span class="rs-t">${esc(it.title)}</span>
+<span class="rs-ba"><span class="rs-b"><b>以前</b>${esc(it.bShort)}</span><span class="rs-a"><b>現在</b>${esc(it.aShort)}</span></span>
+<span class="rs-m">${esc(it.place)}・${esc(it.when)}</span>
+</span>
+</a>`).join('\n')}
+<div class="rot-dots" role="tablist">${slides.map((_, i) => `<button type="button" class="rd" data-n="${i}" aria-label="第 ${i + 1} 則" aria-selected="${i === 0}"></button>`).join('')}</div>
+</div>
+</div></section>
+
+<main class="wrap mn">
+<h2 class="h2 ix-h">從一位開始看</h2>
+<div class="people">
+${people.map((d) => {
+    const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
+    return `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">
+<span class="pc-cnt"><span class="pc-num">${d.items.length}</span><span class="pc-u">件改變</span></span></span>
+<span class="pc-o">${esc(d.person.office)}</span>
+<span class="pc-n">${esc(d.person.name)}</span>
+<span class="pc-p">${esc(d.pitch[0])}</span>
+<span class="pc-th">${th.map((x) => `<img src="${esc(x.thumb)}" alt="" loading="lazy">`).join('')}</span>
+<span class="pc-go">看完整紀錄</span>
+</a>`;
+  }).join('\n')}
+</div>
+
+<section class="sec">
+<h2 class="h2">最近完成</h2>
+<div class="feed">
+${feed.map((it) => `<a class="fd" href="/${esc(it.d.slug)}/"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
+<span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
+<span class="fd-t">${esc(it.title)}</span>
+<span class="fd-a">${esc(it.aShort)}</span></a>`).join('\n')}
+</div>
+</section>
 </main>
+<footer class="ft"><div class="wrap">${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</div></footer>
+<script src="/app.js" defer></script>
 </body>
 </html>
 `;
