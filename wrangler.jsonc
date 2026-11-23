@@ -1,5 +1,9 @@
 {
   "name": "teamtpp",
   "compatibility_date": "2026-11-01",
-  "assets": { "directory": "./dist", "html_handling": "auto-trailing-slash", "not_found_handling": "404-page" }
+  "assets": { "directory": "./dist", "html_handling": "auto-trailing-slash", "not_found_handling": "404-page" },
+  "routes": [
+    { "pattern": "teamtpp.com", "custom_domain": true },
+    { "pattern": "www.teamtpp.com", "custom_domain": true }
+  ]
 }
