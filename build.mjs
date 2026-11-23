@@ -105,17 +105,17 @@ ${d.duo.map((x) => `<article><a class="duo-a" href="${esc(x.url)}" target="_blan
 <p class="duo-l">${esc(x.label)}</p><h3>${esc(x.title)}</h3></article>`).join('\n')}
 </div>` : ''}
 
-<section aria-labelledby="council" class="sec">
+${(d.council || d.promises.length || d.citywide.length) ? `<section aria-labelledby="council" class="sec">
 <h2 id="council" class="h2">在議會</h2>
-<div class="big-row"><span class="big">${esc(d.council)}</span><span class="lead">件議員提案，然後兌現</span></div>
-<div class="promises">
+${d.council ? `<div class="big-row"><span class="big">${esc(d.council)}</span><span class="lead">件議員提案，然後兌現</span></div>` : ''}
+${d.promises.length ? `<div class="promises">
 ${d.promises.map((x) => `<div class="pr"><div class="pr-a"><p class="k">提案 ${esc(x.asked)}</p><p>${esc(x.ask)}</p></div><div class="pa" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#141414" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="pr-b"><p class="k">兌現 ${esc(x.done)}</p><p>${esc(x.result)}</p></div></div>`).join('\n')}
-</div>
-<h3 class="h3">全${esc(p.city)}都受惠</h3>
+</div>` : ''}
+${d.citywide.length ? `<h3 class="h3">全${esc(p.city)}都受惠</h3>
 <div class="cw">
 ${d.citywide.map((x) => `<div class="cwc"><p class="k">${esc(x.when)}</p><p class="t">${esc(x.title)}</p><p class="n">${esc(x.note)}</p></div>`).join('\n')}
-</div>
-</section>
+</div>` : ''}
+</section>` : ''}
 
 <section aria-labelledby="pending" class="sec">
 <h2 id="pending" class="h2">${esc(p.pron)}還在追的</h2>
