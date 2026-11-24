@@ -27,12 +27,19 @@ const head = ({ title, desc, image, url }) => `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${esc(url)}">
+<meta name="theme-color" content="#F4F1EA">
+<meta property="og:site_name" content="民眾隊 teamtpp.com">
+<meta property="og:locale" content="zh_TW">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(url)}">
 ${image ? `<meta property="og:image" content="${esc(SITE.url + image)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+${image ? `<meta name="twitter:image" content="${esc(SITE.url + image)}">` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
@@ -71,7 +78,7 @@ function personPage(d) {
   const first = d.personas[0];
   const firstItems = (cand ? d.platform : items).filter((it) => it.who.includes(first.id));
   const url = `${SITE.url}/${d.slug}/`;
-  const title = `${p.name}｜${p.office}｜${SITE.name}`;
+  const title = `${p.name}｜${p.office}｜${SITE.name} teamtpp.com`;
   const desc = d.pitch.slice(0, 3).join('；');
   const page = { slug: d.slug, name: p.name, office: p.office, personas: d.personas };
 
@@ -202,7 +209,7 @@ function indexPage(everyone) {
   for (let r = 0; slides.length < 9 && r < 9; r++) queues.forEach((q) => { if (q[r] && slides.length < 9) slides.push(q[r]); });
   const feed = all.slice(0, 8);
   const nm = (d) => `${esc(d.person.name)}<span class="nm-o">${esc(d.person.office)}</span>`;
-  return `${head({ title: `${SITE.name}｜看得見的改變`, desc: `民眾黨議員 ${total} 件看得見的改變，每一件都有照片、日期和出處。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
+  return `${head({ title: `${SITE.name} teamtpp.com｜看得見的改變`, desc: `從路口、公園到治安、反毒、校園和孩子的鮮奶，民眾黨議員 ${total} 件看得見的改變，以及 11/28 參選人的政見。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
 <body class="idx">
 <header class="hd"><div class="wrap hdr">
 <span class="hdt brand"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</span>
@@ -292,4 +299,6 @@ for (const d of people) {
   fs.writeFileSync(path.join(DIST, d.slug, 'index.html'), personPage(d));
 }
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
