@@ -246,7 +246,7 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 ${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
 <span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
 <span class="fd-t">${esc(it.title)}</span>
-<span class="fd-a">${esc(it.aShort)}</span><span class="go">看詳情</span></a>`).join('\n')}
+<span class="fd-a">${esc(it.aShort)}</span><span class="go">看更多</span></a>`).join('\n')}
 </div>
 </section>
 <h2 class="h2 ix-h">現任議員</h2>
@@ -259,7 +259,7 @@ ${people.map((d) => {
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>
 <span class="pc-th">${th.map((x) => `<img src="${esc(x.thumb)}" alt="" loading="lazy">`).join('')}</span>
-<span class="go">看${esc(d.person.pron)}做的事</span>
+<span class="go">看更多</span>
 </a>`;
   }).join('\n')}
 </div>
@@ -273,7 +273,7 @@ ${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.distric
 <span class="pc-n">${esc(d.person.name)}</span>
 ${distBox(d)}
 <span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => t).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>
-<span class="go">看${esc(d.person.pron)}的政見</span>
+<span class="go">看更多</span>
 </a>`).join('\n')}
 </div>`).join('\n')}
 </section>` : ''}

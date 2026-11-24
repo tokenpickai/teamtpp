@@ -233,6 +233,6 @@ a.hdt:hover{color:var(--teal-d)}
 .hdt.brand{font-size:26px}@media (max-width:600px){.hdt.brand{font-size:16.5px}}
 .ft-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;text-align:left}
 .ballot .dist{margin-left:3px;max-width:calc(100% - 3px)}@media (max-width:600px){.ballot .dist{margin-left:2px;max-width:calc(100% - 2px)}}
-.go{align-self:flex-start;margin:14px 4px 0;font-size:13px;font-weight:900;line-height:1;color:var(--teal-d);border:1.5px solid var(--teal-d);border-radius:999px;padding:6px 12px;transition:background .15s,color .15s}
-.cmp .go{margin-top:10px;font-size:12px;padding:5px 10px}.fd .go{margin-left:0}
-.pc:hover .go,.fd:hover .go{background:var(--teal-d);color:#fff}
+.go{display:inline-flex;align-items:center;justify-content:center;align-self:center;margin-top:auto;min-height:44px;padding:10px 18px;font-size:15px;font-weight:700;line-height:1;border-radius:999px;border:2px solid var(--ink);background:transparent;color:var(--ink);transition:background-color .15s ease}
+.pc>:nth-last-child(2),.fd>:nth-last-child(2){margin-bottom:16px}
+.pc:hover .go,.fd:hover .go{background:var(--teal-t)}
