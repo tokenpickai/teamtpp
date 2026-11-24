@@ -176,12 +176,12 @@ ${slides.map((it, i) => `<a class="rs" href="/${esc(it.d.slug)}/" data-n="${i}"$
 </div></section>
 
 <main class="wrap mn">
-<h2 class="h2 ix-h">從一位開始看</h2>
+<h2 class="h2 ix-h">找你家的議員</h2>
 <div class="people">
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"></span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}></span>
 <span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>
@@ -213,7 +213,10 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.cpSync(path.join(ROOT, 'public'), DIST, { recursive: true });
 const dir = path.join(ROOT, 'data', 'people');
 const people = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
-people.sort((a, b) => (a.person.updated < b.person.updated ? 1 : -1));
+// landing order: most popular first, then north → central → south. Unlisted slugs go last.
+const ORDER = ['chen-shih-hsuan', 'huang-ching-ying', 'lin-chen-yu', 'chen-yu-cheng', 'chang-chih-hao', 'sung-pin-ying', 'li-kuo-chang', 'lin-shuo-yen', 'chiang-ho-shu', 'chang-hsueh-ju', 'chen-yi-chen'];
+const rank = (d) => (ORDER.indexOf(d.slug) + 1) || 999;
+people.sort((a, b) => rank(a) - rank(b));
 for (const d of people) {
   fs.mkdirSync(path.join(DIST, d.slug), { recursive: true });
   fs.writeFileSync(path.join(DIST, d.slug, 'index.html'), personPage(d));
