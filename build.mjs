@@ -229,7 +229,7 @@ function indexPage(everyone) {
 <div class="rot" aria-roledescription="carousel" aria-label="重大政績">
 ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ? ' hidden' : ''}>
 <span class="rs-img" style="--bg:url('${esc(it.thumb)}')"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
-<span class="rs-body"><span class="rs-tag">重大政績</span>
+<span class="rs-body">
 <span class="rs-who"><img src="${esc(it.d.portrait)}" alt=""><span>${nm(it.d)}</span></span>
 <span class="rs-t">${esc(it.title)}</span>
 <span class="rs-ba"><span class="rs-b"><b>以前</b>${esc(it.bShort)}</span><span class="rs-a"><b>現在</b>${esc(it.aShort)}</span></span>
