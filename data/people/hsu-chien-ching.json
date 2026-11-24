@@ -1,0 +1,126 @@
+{
+ "slug": "hsu-chien-ching",
+ "kind": "candidate",
+ "person": {
+  "name": "徐千晴",
+  "office": "桃園市議員參選人（桃園區）",
+  "ballot": "1",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "桃園區人",
+  "pron": "她",
+  "council": "",
+  "city": "桃園"
+ },
+ "bio": "民眾黨發言人，前新竹市府發言人。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "搭公車、捷運的",
+   "sub": "候車亭、YouBike",
+   "lead": "搭公車、捷運的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "情緒教育、托育",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住桃園區的",
+   "sub": "舊城、後站、公園",
+   "lead": "住桃園區的你"
+  },
+  {
+   "id": "pet",
+   "label": "養毛孩的",
+   "sub": "動保專責機關",
+   "lead": "養毛孩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "公共交通",
+   "title": "公車亭加屋頂、班次加開",
+   "plan": "公車候車亭加裝屋頂，公車班次再增加。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "捷運配套",
+   "title": "捷運每站設 YouBike",
+   "plan": "捷運每站設 YouBike，施工期間要有替代道路；貫徹人車分道，打造連貫平整的人行道。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "校園",
+   "title": "全面推動校園情緒教育",
+   "plan": "桃園全面推動校園情緒教育，從源頭防範校園霸凌。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒友善",
+   "title": "托育中心嚴審、家長心理諮商",
+   "plan": "嚴審托育中心資格，提供爸媽專業心理諮商服務，鼓勵企業落實彈性工時。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "舊城復興",
+   "title": "騎樓整平、大廟周邊徒步區",
+   "plan": "騎樓整平、打造徒步區，輔導大廟周邊青年創業；補助後站商圈招牌重新設計，營造異國風情街區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "family"
+   ],
+   "cat": "公園設施",
+   "title": "球場、遊具加裝遮陽",
+   "plan": "球場、遊具加裝遮陽設施，避免酷暑高溫燙傷。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "pet"
+   ],
+   "cat": "動保",
+   "title": "成立動保專責機關",
+   "plan": "成立動保專責機關，推動公布虐待動物者長相，獸醫院價格公開透明，校園落實生命教育。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "公車亭加屋頂、班次再增加",
+  "捷運每站設 YouBike，施工有替代道路",
+  "校園情緒教育，從源頭防霸凌",
+  "成立動保專責機關，獸醫院價格透明",
+  "民眾黨發言人、前新竹市府發言人，桃園區 1 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hsu-chien-ching/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

@@ -1,0 +1,121 @@
+{
+ "slug": "huang-shen-tung",
+ "kind": "candidate",
+ "person": {
+  "name": "黃申棟",
+  "office": "基隆市議員參選人（信義）",
+  "ballot": "7",
+  "election": "11/28",
+  "district": 2,
+  "updated": "2026.11.24",
+  "local": "信義人",
+  "pron": "他",
+  "council": "",
+  "city": "基隆"
+ },
+ "bio": "立委邱慧洳辦公室秘書，民眾黨基隆市黨部發言人。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "通勤台北的",
+   "sub": "2088C、騎樓",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩、住老屋的",
+   "sub": "消防電線勘檢、結構補強",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住信義區的",
+   "sub": "砲台、街景",
+   "lead": "住信義區的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通平權",
+   "title": "2088C 加開直達台北路線",
+   "plan": "爭取 2088C 增設第四條通勤路線直達台北，縮短通勤時間。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute",
+    "local"
+   ],
+   "cat": "交通平權",
+   "title": "騎樓整平、機車停車重劃",
+   "plan": "監督騎樓整平計畫，推動機車停車空間重劃，保障行人路權。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "居住安全",
+   "title": "老屋、獨居長者全面勘檢",
+   "plan": "老舊建築及獨居長者住處，推動全面消防設備與老舊電線勘檢專案。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "居住安全",
+   "title": "老屋檢修、結構補強補助",
+   "plan": "爭取老舊建築安全檢修與結構補強補助計畫，提升老屋居住安全與防災韌性。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder",
+    "local"
+   ],
+   "cat": "社福升級",
+   "title": "閒置空間變青銀共融據點",
+   "plan": "活化閒置公共空間與建築，轉型為多功能福利設施；結合青年創生與長者照護，建立互助友善社區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "觀光創生",
+   "title": "槓子寮砲台活化",
+   "plan": "結合龍崗步道推動砲台景點活化，完善周邊休憩設施與導覽服務。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市容美化",
+   "title": "街道景觀改造、公共藝術",
+   "plan": "推動社區街道景觀改造與環境綠美化，引入公共藝術裝置。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "爭取 2088C 直達台北，通勤更快",
+  "老屋與獨居長者住處全面消防、電線勘檢",
+  "老屋檢修、結構補強爭取補助",
+  "槓子寮砲台結合龍崗步道活化",
+  "民眾黨基隆市黨部發言人，信義 7 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/huang-shen-tung/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

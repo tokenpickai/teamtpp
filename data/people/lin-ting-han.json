@@ -1,0 +1,107 @@
+{
+ "slug": "lin-ting-han",
+ "kind": "candidate",
+ "person": {
+  "name": "林廷翰",
+  "office": "基隆市議員參選人（中正）",
+  "ballot": "2",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "中正人",
+  "pron": "他",
+  "council": "",
+  "city": "基隆"
+ },
+ "bio": "基隆市政府副發言人、謝國樑市長機要秘書，高考職能治療師。",
+ "personas": [
+  {
+   "id": "drive",
+   "label": "開車找車位的",
+   "sub": "新豐街停車",
+   "lead": "開車找車位的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "防滑路網、長照接送",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "育兒設施、臨托",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "想留在基隆的",
+   "sub": "青年社宅",
+   "lead": "想留在基隆的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "drive"
+   ],
+   "cat": "停車友善",
+   "title": "新豐街爭取停車空間",
+   "plan": "爭取建置新豐街停車空間，改善祥豐－中正交通。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "人本安居",
+   "title": "「不倒翁」安心路網",
+   "plan": "人行路網增設防滑、移除青苔、優化排水、提升照明。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "世代共融",
+   "title": "長照接送結合計程車隊",
+   "plan": "結合在地計程車隊升級長照接送，擴大敬老卡使用範圍。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "安心生養",
+   "title": "育兒設施與臨托加量",
+   "plan": "增加育兒設施與臨托，減輕父母壓力，打造友善育兒環境。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "都星躍升",
+   "title": "推動「中正新都星」",
+   "plan": "推動「中正新都星」，增闢新生地，爭取青年社宅。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "新豐街爭取停車空間，改善祥豐－中正交通",
+  "「不倒翁」安心路網：防滑、除青苔、排水、照明",
+  "長照接送結合計程車隊，敬老卡範圍擴大",
+  "推動中正新都星，爭取青年社宅",
+  "市府副發言人、職能治療師，中正 2 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-ting-han/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

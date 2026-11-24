@@ -1,0 +1,111 @@
+{
+ "slug": "lin-yen-liang",
+ "kind": "candidate",
+ "person": {
+  "name": "林晏良",
+  "office": "桃園市議員參選人（八德）",
+  "ballot": "4",
+  "election": "11/28",
+  "district": 3,
+  "updated": "2026.11.24",
+  "local": "八德人",
+  "pron": "他",
+  "council": "",
+  "city": "桃園"
+ },
+ "bio": "民眾黨桃園市黨部發言人，善美生活公益協會理事長。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "騎車、通勤的",
+   "sub": "騎樓、路口、轉乘",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "保母、校園、食安",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住八德的",
+   "sub": "預算監督",
+   "lead": "住八德的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通安全",
+   "title": "騎樓、步道、危險路口改善",
+   "plan": "改善騎樓、步道、單行道與危險路口，讓回家的路更好走。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "捷運生活",
+   "title": "轉乘最後一哩先準備",
+   "plan": "優化通勤與轉乘環境，最後一哩先準備。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒減壓",
+   "title": "夜間保母支援、幼兒園監管",
+   "plan": "提倡夜間保母支援，加強 3 到 6 歲幼兒園監管，減輕父母身心壓力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "校園安全",
+   "title": "校園反毒、通學安全",
+   "plan": "強化校園毒品防禦與通學安全。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "local"
+   ],
+   "cat": "食安守護",
+   "title": "食材履歷透明",
+   "plan": "建立食安守護制度，食材履歷透明。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市政效率",
+   "title": "緊盯預算、工程進度",
+   "plan": "緊盯預算、工程進度與政策成效，把每一分錢用在刀口上。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "騎樓、步道、危險路口改善，回家路更好走",
+  "夜間保母支援，幼兒園加強監管",
+  "校園反毒、通學安全",
+  "緊盯預算與工程進度",
+  "民眾黨桃園市黨部發言人，八德 4 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-yen-liang/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

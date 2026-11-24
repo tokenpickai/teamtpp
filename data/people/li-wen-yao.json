@@ -1,0 +1,82 @@
+{
+ "slug": "li-wen-yao",
+ "kind": "candidate",
+ "person": {
+  "name": "李文耀",
+  "office": "基隆市議員參選人（安樂）",
+  "ballot": "7",
+  "election": "11/28",
+  "district": 5,
+  "updated": "2026.11.24",
+  "local": "安樂人",
+  "pron": "他",
+  "council": "",
+  "city": "基隆"
+ },
+ "bio": "前台視、華視基隆記者，海洋大學附屬海事學校訓練船二副。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "基金路、調撥車道",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "young",
+   "label": "想在地工作的",
+   "sub": "新創進駐",
+   "lead": "想在基隆工作的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "生活服務專線",
+   "lead": "家裡有長輩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通改善",
+   "title": "基金路分隔島研擬拆除",
+   "plan": "研擬拆除基金一路至基金三路中央分隔島，推動尖峰調撥車道，並檢討不合理的速限與測速設置。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/05%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "在地就業",
+   "title": "閒置空間低成本給新創",
+   "plan": "活化市府閒置空間，低成本吸引新創進駐，創造青年在地工作機會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/05%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長輩服務",
+   "title": "長輩生活服務專線",
+   "plan": "設立生活服務專線與社區接駁，協助長輩解決日常需求，讓在外工作的子女更安心。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/05%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "基金一路至三路分隔島研擬拆除，尖峰調撥車道",
+  "市府閒置空間低成本給新創，青年在地工作",
+  "長輩生活服務專線、社區接駁",
+  "前台視、華視基隆記者，安樂 7 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/li-wen-yao/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
