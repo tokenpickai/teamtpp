@@ -231,3 +231,4 @@ a.hdt:hover{color:var(--teal-d)}
 .long.plan{margin-top:10px;font-size:22px;line-height:1.5;font-weight:900}.b .long.plan{color:#4A4A4A}.a .long.plan{color:#141414}
 .ft a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .hdt.brand{font-size:26px}@media (max-width:600px){.hdt.brand{font-size:16.5px}}
+.ft-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;text-align:left}
