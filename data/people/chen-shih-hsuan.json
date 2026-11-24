@@ -1,578 +1,617 @@
 {
-  "slug": "chen-shih-hsuan",
-  "person": {
-    "name": "陳世軒",
-    "office": "新北市議員（新莊）",
-    "updated": "2026.11.22",
-    "local": "新莊人",
-    "pron": "他",
-    "council": "189",
-    "city": "新北"
-  },
-  "personas": [
-    {
-      "id": "moto",
-      "label": "騎機車的",
-      "sub": "大漢橋、兩段式左轉",
-      "lead": "騎機車的你，每天可能經過"
-    },
-    {
-      "id": "walk",
-      "label": "走路、推嬰兒車的",
-      "sub": "路口、人行道",
-      "lead": "走路的你，每天可能經過"
-    },
-    {
-      "id": "parent",
-      "label": "家裡有小孩的",
-      "sub": "上學路、校園、公園",
-      "lead": "你的孩子，每天可能經過"
-    },
-    {
-      "id": "ball",
-      "label": "愛打球運動的",
-      "sub": "球場、運動公園",
-      "lead": "愛運動的你，可能用過"
-    },
-    {
-      "id": "car",
-      "label": "開車的",
-      "sub": "左轉道、危險路口",
-      "lead": "開車的你，每天可能經過"
-    }
-  ],
-  "items": [
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.11",
-      "status": "試辦中",
-      "place": "IKEA 前・中正路與化成路口",
-      "title": "IKEA 前機車可以直接左轉",
-      "bShort": "內線禁行機車，左轉要切外側",
-      "aShort": "內線開放，機車直接左轉",
-      "before": "前一段能騎內線，到路口內線卻禁行機車，要左轉得切到車流最大的外側。",
-      "after": "取消內線禁行機車、開放直接左轉並保留左轉道，左轉時相加長，試辦到 2027 年 1 月底。",
-      "url": "https://www.threads.com/@jimmychen12/post/DfUWOFTAMbN",
-      "thumb": "/img/chen-shih-hsuan/item-01.jpg"
-    },
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.09",
-      "status": "已上路",
-      "place": "中原路全段、中正路兩個路口",
-      "title": "5 個路口不用再兩段式左轉",
-      "bShort": "待轉格塞爆，還可能被罰 1,800",
-      "aShort": "5 個路口可以直接左轉",
-      "before": "待轉格停三台就滿，機車只能停到格外或人行道上，還可能被罰 1,800 元。",
-      "after": "會勘後取消強制兩段式左轉、保留待轉格，騎士可以自己選。",
-      "url": "https://www.youtube.com/shorts/j92PNy_9C6E",
-      "thumb": "/img/chen-shih-hsuan/item-02.jpg"
-    },
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.08",
-      "status": "已上路",
-      "place": "萬壽路一段・迴龍派出所前",
-      "title": "下班回新莊不用被擠到路肩",
-      "bShort": "內線禁行，機車被擠到路肩",
-      "aShort": "禁行機車塗銷",
-      "before": "施工只剩兩線，內線又禁行機車，尖峰時機車被擠到最外側甚至路肩。",
-      "after": "7/31 會勘後塗銷禁行機車，機車可以騎內側車道。",
-      "url": "https://www.threads.com/@jimmychen12/post/DcSdiIBE1L6",
-      "thumb": "/img/chen-shih-hsuan/item-03.jpg"
-    },
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.07",
-      "status": "已完工",
-      "place": "大漢橋下（板橋往新莊）",
-      "title": "待轉區變大，不再跟上橋汽車交織",
-      "bShort": "待轉區小，還跟右轉車交織",
-      "aShort": "待轉區擴大，動線分開",
-      "before": "機車進待轉區要跟右轉上橋的汽車交織，尖峰時待轉區還不夠停。",
-      "after": "7/31 完工：調整車道寬度和槽化線避開右轉車流，待轉區擴大。",
-      "url": "https://www.threads.com/@jimmychen12/post/Dbk86gek06s",
-      "thumb": "/img/chen-shih-hsuan/item-04.jpg"
-    },
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.05",
-      "status": "已完工",
-      "place": "大漢橋",
-      "title": "大漢橋機車分隔島拆了",
-      "bShort": "機車被分隔島關在慢車道",
-      "aShort": "分隔島全拆，機車不再被困",
-      "before": "機車被分隔島關在慢車道裡，事故頻傳，一年多來被酸「拆了更危險」。",
-      "after": "機車分隔島全部拆除，比預定提早完工；他也要求交通局檢討全新北的橋。",
-      "url": "https://www.youtube.com/shorts/EPrAH3OEpaE",
-      "thumb": "/img/chen-shih-hsuan/item-05.jpg"
-    },
-    {
-      "who": [
-        "moto"
-      ],
-      "when": "2026.04",
-      "status": "已完工",
-      "place": "新海橋",
-      "title": "騎新海橋不再像騎越野車",
-      "bShort": "伸縮縫落差 2～3 公分",
-      "aShort": "換新伸縮縫，加止滑",
-      "before": "伸縮縫高低差 2～3 公分，機車每次經過都大幅跳動，怕摔車。",
-      "after": "更換伸縮縫、做止滑，橋面落差填平。",
-      "url": "https://www.threads.com/@jimmychen12/post/DXJm2TmlGWV",
-      "thumb": "/img/chen-shih-hsuan/item-06.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "moto",
-        "car"
-      ],
-      "when": "2025.09",
-      "status": "已完工",
-      "place": "幸福路與思源路口",
-      "title": "發生過死亡車禍的路口，改了",
-      "bShort": "曾發生死亡車禍的亂路口",
-      "aShort": "行穿線退縮，多了庇護島",
-      "before": "動線複雜、車流量大，曾發生死亡車禍，他會勘時還親眼看到擦撞。",
-      "after": "行穿線退縮、中央庇護島、時相調整減少人車交織，花了十個多月完工。",
-      "url": "https://www.youtube.com/shorts/XYYZGRGccVc",
-      "thumb": "/img/chen-shih-hsuan/item-07.jpg"
-    },
-    {
-      "who": [
-        "car",
-        "moto"
-      ],
-      "when": "2024",
-      "status": "已完工",
-      "place": "新北大道三段左轉中信街",
-      "title": "直行車不用再閃左轉車",
-      "bShort": "直行車卡在左轉車後面",
-      "aShort": "左轉有專用車道和號誌",
-      "before": "只有兩線道，直行車常卡在左轉車後面，堵又危險。",
-      "after": "縮減分隔島做出偏心式左轉道，加裝左轉專用號誌。",
-      "url": "https://www.youtube.com/shorts/Q8hjANPf2UA",
-      "thumb": "/img/chen-shih-hsuan/item-08.jpg"
-    },
-    {
-      "who": [
-        "moto",
-        "car"
-      ],
-      "when": "2023.07",
-      "status": "已完工",
-      "place": "重新橋",
-      "title": "重新橋分隔島拆了，死傷少三成",
-      "bShort": "每年 346 人死傷",
-      "aShort": "一年後降到 230 人",
-      "before": "往三重的上坡和回程下坡是肇事熱點，機車被分隔島夾在窄車道裡。",
-      "after": "2023 年 7 月拆除汽機車分隔島改成雙白線，一年後車禍死傷從每年 346 人降到 230 人，少了約三成。",
-      "url": "https://www.threads.com/@jimmychen12/post/Dc--ULiAK7S",
-      "thumb": "/img/chen-shih-hsuan/item-09.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "car"
-      ],
-      "when": "2026.11",
-      "status": "已完工",
-      "place": "龍安路與四維路口",
-      "title": "過馬路終於有行人號誌",
-      "bShort": "沒有行人號誌，車讓完人就紅燈",
-      "aShort": "新增行人號誌，行人先走",
-      "before": "路口沒有行人號誌；車子停下讓行人過，輪到自己過時已經轉紅燈。",
-      "after": "新增行人號誌，行人時相早開，人車錯開，車也多了通過的時間。",
-      "url": "https://www.threads.com/@jimmychen12/post/DfoP0Svn4Cu",
-      "thumb": "/img/chen-shih-hsuan/item-10.jpg"
-    },
-    {
-      "who": [
-        "car",
-        "walk"
-      ],
-      "when": "2026.11",
-      "status": "拆除完成，道路調整明年初",
-      "place": "民安西路五岔路口",
-      "title": "擋視線的違建車庫拆了",
-      "bShort": "違建車庫擋住路口視線",
-      "aShort": "車庫拆了，視野打開",
-      "before": "市有地上的違建車庫擋住視線，五岔路口又無法裝號誌，天天上演驚魂記。",
-      "after": "市府兌現承諾在 11 月前拆除，接著調整電桿和標線。",
-      "url": "https://www.youtube.com/shorts/4P0Dug8A6D0",
-      "thumb": "/img/chen-shih-hsuan/item-11.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "parent"
-      ],
-      "when": "2026.10",
-      "status": "已完工",
-      "place": "中華路・昌隆橋、昌中橋",
-      "title": "自行車斜坡不再害人摔車",
-      "bShort": "斜坡太陡，騎 YouBike 摔車",
-      "aShort": "兩座橋斜坡重整完工",
-      "before": "騎 YouBike 在昌隆橋斜坡因落差太大摔車，推嬰兒車、坐輪椅上下橋也吃力。",
-      "after": "昌隆橋 5 月、昌中橋 10 月斜坡重整完成，昌盛橋、幸福橋、自信橋接著改。",
-      "url": "https://www.threads.com/@jimmychen12/post/DedfUZGFlwK",
-      "thumb": "/img/chen-shih-hsuan/item-12.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "parent"
-      ],
-      "when": "2026.07",
-      "status": "已完工",
-      "place": "福前街到頭前路",
-      "title": "去頭前公園的路變平了",
-      "bShort": "人行道畫在凹凸水溝蓋上",
-      "aShort": "側溝蓋整平，標線重劃",
-      "before": "人行道劃在高低不平的水溝蓋上，標線剝落，推嬰兒車、長輩走路都容易絆倒。",
-      "after": "2025 年 11 月會勘，2026 年 7 月完工：側溝蓋整平、人行道標線重劃。",
-      "url": "https://www.threads.com/@jimmychen12/post/DbubPAUk5lI",
-      "thumb": "/img/chen-shih-hsuan/item-13.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "car"
-      ],
-      "when": "2026.05",
-      "status": "已裝 30 支，再加 12 支",
-      "place": "頭前重劃區、新莊副都心",
-      "title": "重劃區的治安死角裝上監視器",
-      "bShort": "監視器覆蓋不足，車手的逃逸破口",
-      "aShort": "30 支裝好，再加 12 支",
-      "before": "兩個重劃區監視器覆蓋率不足，成了車手躲警方追緝的治安斷點。",
-      "after": "2022 年競選承諾，2024 年先裝 30 支，2026 年再爭取 12 支。",
-      "url": "https://www.threads.com/@jimmychen12/post/DY60S-IFDf-",
-      "thumb": "/img/chen-shih-hsuan/item-14.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "parent",
-        "car"
-      ],
-      "when": "2026.04",
-      "status": "已完工",
-      "place": "雙鳳路 108 巷口",
-      "title": "公車事故路口裝了 5 個號誌",
-      "bShort": "沒有號誌，公車事故學生受傷",
-      "aShort": "5 個號誌加 2 段綠色人行道",
-      "before": "2025 年 11 月公車事故，學生和乘客受傷，路口連號誌都沒有。",
-      "after": "12 月會勘，2026 年 4 月全部完工：新增 5 個號誌、2 段綠色鋪面人行道。",
-      "url": "https://www.threads.com/@jimmychen12/post/DXt0uAhFG1n",
-      "thumb": "/img/chen-shih-hsuan/item-15.jpg"
-    },
-    {
-      "who": [
-        "parent",
-        "walk"
-      ],
-      "when": "2025.07",
-      "status": "已完工",
-      "place": "丹鳳國小旁・鳳山街",
-      "title": "上學路不用再跟車搶",
-      "bShort": "學童只能走在馬路上",
-      "aShort": "有了自己的人行道",
-      "before": "鳳山街沒有人行道，工廠車輛加上並排停車，學童只能走在馬路上。",
-      "after": "和工廠協調讓出空間、移管線和水溝，畫出一條標線型人行道。",
-      "url": "https://www.youtube.com/shorts/1NXQOkXoFPo",
-      "thumb": "/img/chen-shih-hsuan/item-16.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "parent"
-      ],
-      "when": "2025.01",
-      "status": "已完工",
-      "place": "中華路與中誠街口",
-      "title": "新莊第一條 Z 字型行穿線",
-      "bShort": "沒有人行道，行人卡在路中間",
-      "aShort": "新莊第一條 Z 字型行穿線",
-      "before": "沒有人行道，行穿線沒退縮，轉彎車有 A 柱死角，行人常卡在路中間。",
-      "after": "Z 字型行穿線加庇護島、無障礙斜坡，旁邊的路口也合併電桿、畫上人行道。",
-      "url": "https://www.youtube.com/shorts/574F6UjNx_Y",
-      "thumb": "/img/chen-shih-hsuan/item-17.jpg"
-    },
-    {
-      "who": [
-        "walk"
-      ],
-      "when": "2024.12",
-      "status": "已完工",
-      "place": "後港一路（建國一路、二路段）",
-      "title": "近 500 公尺的新人行道",
-      "bShort": "人車爭道，走路被後照鏡打到",
-      "aShort": "近 500 公尺新人行道",
-      "before": "賣場和新社區帶來大量車流，人車爭道，他自己走路都被後照鏡打到。",
-      "after": "和住戶、工廠協調讓出私人土地，畫設近 500 公尺標線型人行道。",
-      "url": "https://www.youtube.com/shorts/MPCNjYSHhsU",
-      "thumb": "/img/chen-shih-hsuan/item-18.jpg"
-    },
-    {
-      "who": [
-        "parent"
-      ],
-      "when": "2026.10",
-      "status": "已完工",
-      "place": "中信國小",
-      "title": "音樂教室變成小型展演廳",
-      "bShort": "天花板地板斑駁龜裂",
-      "aShort": "能練團也能表演的展演廳",
-      "before": "天花板、地面、牆壁斑駁龜裂，設備也不堪使用。",
-      "after": "改成安全地板加小舞台，換新音響和吸音板，可以練團也能表演。",
-      "url": "https://www.youtube.com/shorts/kAB4iDkI-tA",
-      "thumb": "/img/chen-shih-hsuan/item-19.jpg"
-    },
-    {
-      "who": [
-        "parent",
-        "ball"
-      ],
-      "when": "2026.09",
-      "status": "已完工",
-      "place": "中平國中",
-      "title": "風雨操場不再曬到睜不開眼",
-      "bShort": "豔陽直射，刺眼又高溫",
-      "aShort": "加裝遮光罩",
-      "before": "校慶、運動會都在風雨操場，豔陽直射刺眼又高溫，雨天地面濕滑。",
-      "after": "風雨操場遮光設備完工，上課、打球、辦活動不再曝曬。",
-      "url": "https://www.threads.com/@jimmychen12/post/DdTk8TOlhvf",
-      "thumb": "/img/chen-shih-hsuan/item-20.jpg"
-    },
-    {
-      "who": [
-        "parent"
-      ],
-      "when": "2026.09",
-      "status": "已完工",
-      "place": "後港新公園",
-      "title": "溜滑梯不再曬到燙手",
-      "bShort": "溜滑梯曬到燙手",
-      "aShort": "加了遮陽，晚上還有燈",
-      "before": "草坪溜滑梯沒有遮陽，夏天小孩只能在大太陽下玩。",
-      "after": "爭取 300 萬元建議款，加裝遮陽、翻新草皮、增設夜間水紋燈。",
-      "url": "https://www.youtube.com/shorts/hsKx108xzGM",
-      "thumb": "/img/chen-shih-hsuan/item-21.jpg"
-    },
-    {
-      "who": [
-        "parent"
-      ],
-      "when": "2026.08",
-      "status": "已完工",
-      "place": "頭前國中",
-      "title": "圖書館整個翻新",
-      "bShort": "冷氣壞、地磚破",
-      "aShort": "沙發區和窗邊環景書桌",
-      "before": "冷氣壞掉，大門、櫃檯、後陽台地磚老舊破損。",
-      "after": "暑假翻新揭牌：冷氣地磚修好，新增投影螢幕、沙發區和窗邊環景書桌。",
-      "url": "https://www.threads.com/@jimmychen12/post/Dc0wNKiE-bB",
-      "thumb": "/img/chen-shih-hsuan/item-22.jpg"
-    },
-    {
-      "who": [
-        "parent"
-      ],
-      "when": "2026.08",
-      "status": "已完工",
-      "place": "興化國小",
-      "title": "學校終於不臭了",
-      "bShort": "化糞池臭味飄進教室",
-      "aShort": "汙水接管完成，不臭了",
-      "before": "沒有廠商願意承攬汙水接管，學校只能用化糞池，上課時臭味飄進教室。",
-      "after": "他協調水利局和教育局合作接管，一年九個月後在開學前完工。",
-      "url": "https://www.youtube.com/shorts/0-_0L2Zc32k",
-      "thumb": "/img/chen-shih-hsuan/item-23.jpg"
-    },
-    {
-      "who": [
-        "ball",
-        "parent"
-      ],
-      "when": "2025–26",
-      "status": "已完工",
-      "place": "民安國小、昌平國小、頭前國中",
-      "title": "學校球場換上比賽級籃框",
-      "bShort": "老舊籃架還會壓壞地板",
-      "aShort": "比賽級懸吊式籃框",
-      "before": "籃球架老舊，還會壓壞體育館地板。",
-      "after": "用建議款陸續裝設懸吊式籃框和電子計分板，部分學校開放市民租借。",
-      "src": "2026.08",
-      "url": "https://www.youtube.com/shorts/vQGYczNiE_g",
-      "thumb": "/img/chen-shih-hsuan/item-24.jpg"
-    },
-    {
-      "who": [
-        "ball",
-        "parent"
-      ],
-      "when": "2025.08",
-      "status": "已完工",
-      "place": "頭前運動公園",
-      "title": "鐵皮廁所變新廁所",
-      "bShort": "鐵皮廁所漏水又臭",
-      "aShort": "全新鋼筋混凝土廁所",
-      "before": "十幾年的鐵皮廁所，鏽蝕、漏水、陰暗又臭。",
-      "after": "改建成鋼筋混凝土，並加設他建議的無障礙和性別友善廁所。",
-      "url": "https://www.youtube.com/shorts/BhSIWOnomB8",
-      "thumb": "/img/chen-shih-hsuan/item-25.jpg"
-    },
-    {
-      "who": [
-        "ball"
-      ],
-      "when": "2026.08",
-      "status": "試辦中",
-      "place": "西盛籃球場",
-      "title": "半夜也能打球",
-      "bShort": "晚上想打球沒地方去",
-      "aShort": "24 小時開放試辦",
-      "before": "下班下課太晚，想打球卻沒地方。",
-      "after": "爭取西盛籃球場 24 小時開放試辦，自己開燈、離場關燈。",
-      "url": "https://www.youtube.com/shorts/NwOqdzzkiJI",
-      "thumb": "/img/chen-shih-hsuan/item-26.jpg"
-    },
-    {
-      "who": [
-        "ball"
-      ],
-      "when": "2026.04",
-      "status": "已完工",
-      "place": "西盛環保公園",
-      "title": "直排輪場彎道坑洞補平",
-      "bShort": "長期滲水，彎道都是坑洞",
-      "aShort": "修復完成，恢復平整",
-      "before": "直排輪場長期滲水、彎道佈滿坑洞，選手高速過彎怕摔。",
-      "after": "要求高灘處修復，破損處補平，場地恢復平整。",
-      "url": "https://www.threads.com/@jimmychen12/post/DXEwKxzCcdV",
-      "thumb": "/img/chen-shih-hsuan/item-27.jpg"
-    }
-  ],
-  "pitch": [
-    "大漢橋、重新橋的分隔島是他拆的，重新橋死傷少了三成",
-    "這一任 1,000 多件交通改善，新莊路口一個一個改",
-    "新莊土地公：加裝監視器、跟警方合作，校園暴力、飆車族第一時間抓",
-    "六都第一個採購喪屍煙彈篩劑，強化校園毒品防治",
-    "在議會提了 189 件案，獸鋏回收獎勵、重機停機車格，全新北受惠"
-  ],
-  "links": [
-    {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/jimmychen242"
-    },
-    {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/jimmychen12"
-    },
-    {
-      "label": "Threads",
-      "url": "https://www.threads.com/@jimmychen12"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://www.youtube.com/@jimmy-242"
-    },
-    {
-      "label": "TikTok",
-      "url": "https://www.tiktok.com/@jimmychen_xinzhuang"
-    }
-  ],
-  "promises": [
-    {
-      "asked": "2024.07",
-      "ask": "鳳山街規劃行人專用道，保護丹鳳國小學童",
-      "done": "2025.07",
-      "result": "鳳山街人行道完工"
-    },
-    {
-      "asked": "2024.12",
-      "ask": "檢討新莊路口，行穿線能退縮的就退縮",
-      "done": "2025.09",
-      "result": "幸福路思源路口行穿線退縮，加了庇護島"
-    },
-    {
-      "asked": "2024.12",
-      "ask": "機車在中正路可以直接左轉新泰路",
-      "done": "2026.09",
-      "result": "中正路新泰路口取消兩段式左轉"
-    },
-    {
-      "asked": "2025.12",
-      "ask": "公園遊具增設遮陽",
-      "done": "2026.09",
-      "result": "後港新公園遮陽完工"
-    }
-  ],
-  "citywide": [
-    {
-      "when": "2026.07 全面開放",
-      "title": "大型重機可停路邊機車格",
-      "note": "2025 年 5 月質詢倡議，新北分區開放到全市。"
-    },
-    {
-      "when": "2026.03 新北首創",
-      "title": "獸鋏回收獎勵",
-      "note": "民眾拆除山區獸鋏、山豬吊送交，每組領 100 到 150 元。"
-    },
-    {
-      "when": "六都第一",
-      "title": "採購依托咪酯檢驗試劑",
-      "note": "吸食年齡不斷下降，新北率先採購試劑，強化校園毒品防治。"
-    },
-    {
-      "when": "2025.10 提案",
-      "title": "中央喊卡，新北自辦鮮奶",
-      "note": "提案用新北校園通 APP 加超商兌換，市府納入幸福鮮奶週。"
-    }
-  ],
-  "pending": [
-    {
-      "title": "潭底溝抽水站",
-      "note": "南新莊的惡臭根本解法。臨時抽水機組 2024 年啟用後臭味減少，但正式抽水站工程又延期。"
-    },
-    {
-      "title": "新莊行政園區停車",
-      "note": "市民洽公找不到車位，園區已經拖了五年。"
-    },
-    {
-      "title": "中港國小地下停車場",
-      "note": "棒球場周邊每逢球賽就塞車、停不到車，他持續爭取加蓋室內體育館和地下停車場。"
-    }
-  ],
+ "slug": "chen-shih-hsuan",
+ "person": {
+  "name": "陳世軒",
+  "office": "新北市議員（新莊）",
+  "updated": "2026.11.22",
+  "local": "新莊人",
+  "pron": "他",
   "council": "189",
-  "portrait": "/img/chen-shih-hsuan/portrait.jpg",
-  "duo": [
-    {
-      "label": "交通改善",
-      "title": "1,300 多天，改了 1,000+ 件",
-      "url": "https://www.youtube.com/shorts/0AUNnTEy3kw",
-      "img": "/img/chen-shih-hsuan/duo-1.jpg",
-      "ratio": "3 / 2"
-    },
-    {
-      "label": "社區安全",
-      "title": "為什麼被封新莊土地公",
-      "url": "https://www.youtube.com/shorts/krkEyaKwTkk",
-      "img": "/img/chen-shih-hsuan/duo-2.jpg",
-      "ratio": "3 / 2"
-    }
-  ],
-  "artifact": "https://claude.ai/artifact/Lb5L7zXAiCJ5jSYaZfc2er"
+  "city": "新北",
+  "ballot": "8",
+  "election": "11/28"
+ },
+ "personas": [
+  {
+   "id": "moto",
+   "label": "騎機車的",
+   "sub": "大漢橋、兩段式左轉",
+   "lead": "騎機車的你，每天可能經過"
+  },
+  {
+   "id": "walk",
+   "label": "走路、推嬰兒車的",
+   "sub": "路口、人行道",
+   "lead": "走路的你，每天可能經過"
+  },
+  {
+   "id": "parent",
+   "label": "家裡有小孩的",
+   "sub": "上學路、校園、公園",
+   "lead": "你的孩子，每天可能經過"
+  },
+  {
+   "id": "ball",
+   "label": "愛打球運動的",
+   "sub": "球場、運動公園",
+   "lead": "愛運動的你，可能用過"
+  },
+  {
+   "id": "car",
+   "label": "開車的",
+   "sub": "左轉道、危險路口",
+   "lead": "開車的你，每天可能經過"
+  }
+ ],
+ "items": [
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.11",
+   "status": "試辦中",
+   "place": "IKEA 前・中正路與化成路口",
+   "title": "IKEA 前機車可以直接左轉",
+   "bShort": "內線禁行機車，左轉要切外側",
+   "aShort": "內線開放，機車直接左轉",
+   "before": "前一段能騎內線，到路口內線卻禁行機車，要左轉得切到車流最大的外側。",
+   "after": "取消內線禁行機車、開放直接左轉並保留左轉道，左轉時相加長，試辦到 2027 年 1 月底。",
+   "url": "https://www.threads.com/@jimmychen12/post/DfUWOFTAMbN",
+   "thumb": "/img/chen-shih-hsuan/item-01.jpg"
+  },
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.09",
+   "status": "已上路",
+   "place": "中原路全段、中正路兩個路口",
+   "title": "5 個路口不用再兩段式左轉",
+   "bShort": "待轉格塞爆，還可能被罰 1,800",
+   "aShort": "5 個路口可以直接左轉",
+   "before": "待轉格停三台就滿，機車只能停到格外或人行道上，還可能被罰 1,800 元。",
+   "after": "會勘後取消強制兩段式左轉、保留待轉格，騎士可以自己選。",
+   "url": "https://www.youtube.com/shorts/j92PNy_9C6E",
+   "thumb": "/img/chen-shih-hsuan/item-02.jpg"
+  },
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.08",
+   "status": "已上路",
+   "place": "萬壽路一段・迴龍派出所前",
+   "title": "下班回新莊不用被擠到路肩",
+   "bShort": "內線禁行，機車被擠到路肩",
+   "aShort": "禁行機車塗銷",
+   "before": "施工只剩兩線，內線又禁行機車，尖峰時機車被擠到最外側甚至路肩。",
+   "after": "7/31 會勘後塗銷禁行機車，機車可以騎內側車道。",
+   "url": "https://www.threads.com/@jimmychen12/post/DcSdiIBE1L6",
+   "thumb": "/img/chen-shih-hsuan/item-03.jpg"
+  },
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.07",
+   "status": "已完工",
+   "place": "大漢橋下（板橋往新莊）",
+   "title": "待轉區變大，不再跟上橋汽車交織",
+   "bShort": "待轉區小，還跟右轉車交織",
+   "aShort": "待轉區擴大，動線分開",
+   "before": "機車進待轉區要跟右轉上橋的汽車交織，尖峰時待轉區還不夠停。",
+   "after": "7/31 完工：調整車道寬度和槽化線避開右轉車流，待轉區擴大。",
+   "url": "https://www.threads.com/@jimmychen12/post/Dbk86gek06s",
+   "thumb": "/img/chen-shih-hsuan/item-04.jpg"
+  },
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.05",
+   "status": "已完工",
+   "place": "大漢橋",
+   "title": "大漢橋機車分隔島拆了",
+   "bShort": "機車被分隔島關在慢車道",
+   "aShort": "分隔島全拆，機車不再被困",
+   "before": "機車被分隔島關在慢車道裡，事故頻傳，一年多來被酸「拆了更危險」。",
+   "after": "機車分隔島全部拆除，比預定提早完工；他也要求交通局檢討全新北的橋。",
+   "url": "https://www.youtube.com/shorts/EPrAH3OEpaE",
+   "thumb": "/img/chen-shih-hsuan/item-05.jpg"
+  },
+  {
+   "who": [
+    "moto"
+   ],
+   "when": "2026.04",
+   "status": "已完工",
+   "place": "新海橋",
+   "title": "騎新海橋不再像騎越野車",
+   "bShort": "伸縮縫落差 2～3 公分",
+   "aShort": "換新伸縮縫，加止滑",
+   "before": "伸縮縫高低差 2～3 公分，機車每次經過都大幅跳動，怕摔車。",
+   "after": "更換伸縮縫、做止滑，橋面落差填平。",
+   "url": "https://www.threads.com/@jimmychen12/post/DXJm2TmlGWV",
+   "thumb": "/img/chen-shih-hsuan/item-06.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "moto",
+    "car"
+   ],
+   "when": "2025.09",
+   "status": "已完工",
+   "place": "幸福路與思源路口",
+   "title": "發生過死亡車禍的路口，改了",
+   "bShort": "曾發生死亡車禍的亂路口",
+   "aShort": "行穿線退縮，多了庇護島",
+   "before": "動線複雜、車流量大，曾發生死亡車禍，他會勘時還親眼看到擦撞。",
+   "after": "行穿線退縮、中央庇護島、時相調整減少人車交織，花了十個多月完工。",
+   "url": "https://www.youtube.com/shorts/XYYZGRGccVc",
+   "thumb": "/img/chen-shih-hsuan/item-07.jpg"
+  },
+  {
+   "who": [
+    "car",
+    "moto"
+   ],
+   "when": "2024",
+   "status": "已完工",
+   "place": "新北大道三段左轉中信街",
+   "title": "直行車不用再閃左轉車",
+   "bShort": "直行車卡在左轉車後面",
+   "aShort": "左轉有專用車道和號誌",
+   "before": "只有兩線道，直行車常卡在左轉車後面，堵又危險。",
+   "after": "縮減分隔島做出偏心式左轉道，加裝左轉專用號誌。",
+   "url": "https://www.youtube.com/shorts/Q8hjANPf2UA",
+   "thumb": "/img/chen-shih-hsuan/item-08.jpg"
+  },
+  {
+   "who": [
+    "moto",
+    "car"
+   ],
+   "when": "2023.07",
+   "status": "已完工",
+   "place": "重新橋",
+   "title": "重新橋分隔島拆了，死傷少三成",
+   "bShort": "每年 346 人死傷",
+   "aShort": "一年後降到 230 人",
+   "before": "往三重的上坡和回程下坡是肇事熱點，機車被分隔島夾在窄車道裡。",
+   "after": "2023 年 7 月拆除汽機車分隔島改成雙白線，一年後車禍死傷從每年 346 人降到 230 人，少了約三成。",
+   "url": "https://www.threads.com/@jimmychen12/post/Dc--ULiAK7S",
+   "thumb": "/img/chen-shih-hsuan/item-09.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "car"
+   ],
+   "when": "2026.11",
+   "status": "已完工",
+   "place": "龍安路與四維路口",
+   "title": "過馬路終於有行人號誌",
+   "bShort": "沒有行人號誌，車讓完人就紅燈",
+   "aShort": "新增行人號誌，行人先走",
+   "before": "路口沒有行人號誌；車子停下讓行人過，輪到自己過時已經轉紅燈。",
+   "after": "新增行人號誌，行人時相早開，人車錯開，車也多了通過的時間。",
+   "url": "https://www.threads.com/@jimmychen12/post/DfoP0Svn4Cu",
+   "thumb": "/img/chen-shih-hsuan/item-10.jpg"
+  },
+  {
+   "who": [
+    "car",
+    "walk"
+   ],
+   "when": "2026.11",
+   "status": "拆除完成，道路調整明年初",
+   "place": "民安西路五岔路口",
+   "title": "擋視線的違建車庫拆了",
+   "bShort": "違建車庫擋住路口視線",
+   "aShort": "車庫拆了，視野打開",
+   "before": "市有地上的違建車庫擋住視線，五岔路口又無法裝號誌，天天上演驚魂記。",
+   "after": "市府兌現承諾在 11 月前拆除，接著調整電桿和標線。",
+   "url": "https://www.youtube.com/shorts/4P0Dug8A6D0",
+   "thumb": "/img/chen-shih-hsuan/item-11.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "parent"
+   ],
+   "when": "2026.10",
+   "status": "已完工",
+   "place": "中華路・昌隆橋、昌中橋",
+   "title": "自行車斜坡不再害人摔車",
+   "bShort": "斜坡太陡，騎 YouBike 摔車",
+   "aShort": "兩座橋斜坡重整完工",
+   "before": "騎 YouBike 在昌隆橋斜坡因落差太大摔車，推嬰兒車、坐輪椅上下橋也吃力。",
+   "after": "昌隆橋 5 月、昌中橋 10 月斜坡重整完成，昌盛橋、幸福橋、自信橋接著改。",
+   "url": "https://www.threads.com/@jimmychen12/post/DedfUZGFlwK",
+   "thumb": "/img/chen-shih-hsuan/item-12.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "parent"
+   ],
+   "when": "2026.07",
+   "status": "已完工",
+   "place": "福前街到頭前路",
+   "title": "去頭前公園的路變平了",
+   "bShort": "人行道畫在凹凸水溝蓋上",
+   "aShort": "側溝蓋整平，標線重劃",
+   "before": "人行道劃在高低不平的水溝蓋上，標線剝落，推嬰兒車、長輩走路都容易絆倒。",
+   "after": "2025 年 11 月會勘，2026 年 7 月完工：側溝蓋整平、人行道標線重劃。",
+   "url": "https://www.threads.com/@jimmychen12/post/DbubPAUk5lI",
+   "thumb": "/img/chen-shih-hsuan/item-13.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "car"
+   ],
+   "when": "2026.05",
+   "status": "已裝 30 支，再加 12 支",
+   "place": "頭前重劃區、新莊副都心",
+   "title": "重劃區的治安死角裝上監視器",
+   "bShort": "監視器覆蓋不足，車手的逃逸破口",
+   "aShort": "30 支裝好，再加 12 支",
+   "before": "兩個重劃區監視器覆蓋率不足，成了車手躲警方追緝的治安斷點。",
+   "after": "2022 年競選承諾，2024 年先裝 30 支，2026 年再爭取 12 支。",
+   "url": "https://www.threads.com/@jimmychen12/post/DY60S-IFDf-",
+   "thumb": "/img/chen-shih-hsuan/item-14.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "parent",
+    "car"
+   ],
+   "when": "2026.04",
+   "status": "已完工",
+   "place": "雙鳳路 108 巷口",
+   "title": "公車事故路口裝了 5 個號誌",
+   "bShort": "沒有號誌，公車事故學生受傷",
+   "aShort": "5 個號誌加 2 段綠色人行道",
+   "before": "2025 年 11 月公車事故，學生和乘客受傷，路口連號誌都沒有。",
+   "after": "12 月會勘，2026 年 4 月全部完工：新增 5 個號誌、2 段綠色鋪面人行道。",
+   "url": "https://www.threads.com/@jimmychen12/post/DXt0uAhFG1n",
+   "thumb": "/img/chen-shih-hsuan/item-15.jpg"
+  },
+  {
+   "who": [
+    "parent",
+    "walk"
+   ],
+   "when": "2025.07",
+   "status": "已完工",
+   "place": "丹鳳國小旁・鳳山街",
+   "title": "上學路不用再跟車搶",
+   "bShort": "學童只能走在馬路上",
+   "aShort": "有了自己的人行道",
+   "before": "鳳山街沒有人行道，工廠車輛加上並排停車，學童只能走在馬路上。",
+   "after": "和工廠協調讓出空間、移管線和水溝，畫出一條標線型人行道。",
+   "url": "https://www.youtube.com/shorts/1NXQOkXoFPo",
+   "thumb": "/img/chen-shih-hsuan/item-16.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "parent"
+   ],
+   "when": "2025.01",
+   "status": "已完工",
+   "place": "中華路與中誠街口",
+   "title": "新莊第一條 Z 字型行穿線",
+   "bShort": "沒有人行道，行人卡在路中間",
+   "aShort": "新莊第一條 Z 字型行穿線",
+   "before": "沒有人行道，行穿線沒退縮，轉彎車有 A 柱死角，行人常卡在路中間。",
+   "after": "Z 字型行穿線加庇護島、無障礙斜坡，旁邊的路口也合併電桿、畫上人行道。",
+   "url": "https://www.youtube.com/shorts/574F6UjNx_Y",
+   "thumb": "/img/chen-shih-hsuan/item-17.jpg"
+  },
+  {
+   "who": [
+    "walk"
+   ],
+   "when": "2024.12",
+   "status": "已完工",
+   "place": "後港一路（建國一路、二路段）",
+   "title": "近 500 公尺的新人行道",
+   "bShort": "人車爭道，走路被後照鏡打到",
+   "aShort": "近 500 公尺新人行道",
+   "before": "賣場和新社區帶來大量車流，人車爭道，他自己走路都被後照鏡打到。",
+   "after": "和住戶、工廠協調讓出私人土地，畫設近 500 公尺標線型人行道。",
+   "url": "https://www.youtube.com/shorts/MPCNjYSHhsU",
+   "thumb": "/img/chen-shih-hsuan/item-18.jpg"
+  },
+  {
+   "who": [
+    "parent"
+   ],
+   "when": "2026.10",
+   "status": "已完工",
+   "place": "中信國小",
+   "title": "音樂教室變成小型展演廳",
+   "bShort": "天花板地板斑駁龜裂",
+   "aShort": "能練團也能表演的展演廳",
+   "before": "天花板、地面、牆壁斑駁龜裂，設備也不堪使用。",
+   "after": "改成安全地板加小舞台，換新音響和吸音板，可以練團也能表演。",
+   "url": "https://www.youtube.com/shorts/kAB4iDkI-tA",
+   "thumb": "/img/chen-shih-hsuan/item-19.jpg"
+  },
+  {
+   "who": [
+    "parent",
+    "ball"
+   ],
+   "when": "2026.09",
+   "status": "已完工",
+   "place": "中平國中",
+   "title": "風雨操場不再曬到睜不開眼",
+   "bShort": "豔陽直射，刺眼又高溫",
+   "aShort": "加裝遮光罩",
+   "before": "校慶、運動會都在風雨操場，豔陽直射刺眼又高溫，雨天地面濕滑。",
+   "after": "風雨操場遮光設備完工，上課、打球、辦活動不再曝曬。",
+   "url": "https://www.threads.com/@jimmychen12/post/DdTk8TOlhvf",
+   "thumb": "/img/chen-shih-hsuan/item-20.jpg"
+  },
+  {
+   "who": [
+    "parent"
+   ],
+   "when": "2026.09",
+   "status": "已完工",
+   "place": "後港新公園",
+   "title": "溜滑梯不再曬到燙手",
+   "bShort": "溜滑梯曬到燙手",
+   "aShort": "加了遮陽，晚上還有燈",
+   "before": "草坪溜滑梯沒有遮陽，夏天小孩只能在大太陽下玩。",
+   "after": "爭取 300 萬元建議款，加裝遮陽、翻新草皮、增設夜間水紋燈。",
+   "url": "https://www.youtube.com/shorts/hsKx108xzGM",
+   "thumb": "/img/chen-shih-hsuan/item-21.jpg"
+  },
+  {
+   "who": [
+    "parent"
+   ],
+   "when": "2026.08",
+   "status": "已完工",
+   "place": "頭前國中",
+   "title": "圖書館整個翻新",
+   "bShort": "冷氣壞、地磚破",
+   "aShort": "沙發區和窗邊環景書桌",
+   "before": "冷氣壞掉，大門、櫃檯、後陽台地磚老舊破損。",
+   "after": "暑假翻新揭牌：冷氣地磚修好，新增投影螢幕、沙發區和窗邊環景書桌。",
+   "url": "https://www.threads.com/@jimmychen12/post/Dc0wNKiE-bB",
+   "thumb": "/img/chen-shih-hsuan/item-22.jpg"
+  },
+  {
+   "who": [
+    "parent"
+   ],
+   "when": "2026.08",
+   "status": "已完工",
+   "place": "興化國小",
+   "title": "學校終於不臭了",
+   "bShort": "化糞池臭味飄進教室",
+   "aShort": "汙水接管完成，不臭了",
+   "before": "沒有廠商願意承攬汙水接管，學校只能用化糞池，上課時臭味飄進教室。",
+   "after": "他協調水利局和教育局合作接管，一年九個月後在開學前完工。",
+   "url": "https://www.youtube.com/shorts/0-_0L2Zc32k",
+   "thumb": "/img/chen-shih-hsuan/item-23.jpg"
+  },
+  {
+   "who": [
+    "ball",
+    "parent"
+   ],
+   "when": "2025–26",
+   "status": "已完工",
+   "place": "民安國小、昌平國小、頭前國中",
+   "title": "學校球場換上比賽級籃框",
+   "bShort": "老舊籃架還會壓壞地板",
+   "aShort": "比賽級懸吊式籃框",
+   "before": "籃球架老舊，還會壓壞體育館地板。",
+   "after": "用建議款陸續裝設懸吊式籃框和電子計分板，部分學校開放市民租借。",
+   "src": "2026.08",
+   "url": "https://www.youtube.com/shorts/vQGYczNiE_g",
+   "thumb": "/img/chen-shih-hsuan/item-24.jpg"
+  },
+  {
+   "who": [
+    "ball",
+    "parent"
+   ],
+   "when": "2025.08",
+   "status": "已完工",
+   "place": "頭前運動公園",
+   "title": "鐵皮廁所變新廁所",
+   "bShort": "鐵皮廁所漏水又臭",
+   "aShort": "全新鋼筋混凝土廁所",
+   "before": "十幾年的鐵皮廁所，鏽蝕、漏水、陰暗又臭。",
+   "after": "改建成鋼筋混凝土，並加設他建議的無障礙和性別友善廁所。",
+   "url": "https://www.youtube.com/shorts/BhSIWOnomB8",
+   "thumb": "/img/chen-shih-hsuan/item-25.jpg"
+  },
+  {
+   "who": [
+    "ball"
+   ],
+   "when": "2026.08",
+   "status": "試辦中",
+   "place": "西盛籃球場",
+   "title": "半夜也能打球",
+   "bShort": "晚上想打球沒地方去",
+   "aShort": "24 小時開放試辦",
+   "before": "下班下課太晚，想打球卻沒地方。",
+   "after": "爭取西盛籃球場 24 小時開放試辦，自己開燈、離場關燈。",
+   "url": "https://www.youtube.com/shorts/NwOqdzzkiJI",
+   "thumb": "/img/chen-shih-hsuan/item-26.jpg"
+  },
+  {
+   "who": [
+    "ball"
+   ],
+   "when": "2026.04",
+   "status": "已完工",
+   "place": "西盛環保公園",
+   "title": "直排輪場彎道坑洞補平",
+   "bShort": "長期滲水，彎道都是坑洞",
+   "aShort": "修復完成，恢復平整",
+   "before": "直排輪場長期滲水、彎道佈滿坑洞，選手高速過彎怕摔。",
+   "after": "要求高灘處修復，破損處補平，場地恢復平整。",
+   "url": "https://www.threads.com/@jimmychen12/post/DXEwKxzCcdV",
+   "thumb": "/img/chen-shih-hsuan/item-27.jpg"
+  }
+ ],
+ "pitch": [
+  "大漢橋、重新橋的分隔島是他拆的，重新橋死傷少了三成",
+  "這一任 1,000 多件交通改善，新莊路口一個一個改",
+  "新莊土地公：加裝監視器、跟警方合作，校園暴力、飆車族第一時間抓",
+  "六都第一個採購喪屍煙彈篩劑，強化校園毒品防治",
+  "在議會提了 189 件案，獸鋏回收獎勵、重機停機車格，全新北受惠"
+ ],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/jimmychen242"
+  },
+  {
+   "label": "Instagram",
+   "url": "https://www.instagram.com/jimmychen12"
+  },
+  {
+   "label": "Threads",
+   "url": "https://www.threads.com/@jimmychen12"
+  },
+  {
+   "label": "YouTube",
+   "url": "https://www.youtube.com/@jimmy-242"
+  },
+  {
+   "label": "TikTok",
+   "url": "https://www.tiktok.com/@jimmychen_xinzhuang"
+  }
+ ],
+ "promises": [
+  {
+   "asked": "2024.07",
+   "ask": "鳳山街規劃行人專用道，保護丹鳳國小學童",
+   "done": "2025.07",
+   "result": "鳳山街人行道完工"
+  },
+  {
+   "asked": "2024.12",
+   "ask": "檢討新莊路口，行穿線能退縮的就退縮",
+   "done": "2025.09",
+   "result": "幸福路思源路口行穿線退縮，加了庇護島"
+  },
+  {
+   "asked": "2024.12",
+   "ask": "機車在中正路可以直接左轉新泰路",
+   "done": "2026.09",
+   "result": "中正路新泰路口取消兩段式左轉"
+  },
+  {
+   "asked": "2025.12",
+   "ask": "公園遊具增設遮陽",
+   "done": "2026.09",
+   "result": "後港新公園遮陽完工"
+  }
+ ],
+ "citywide": [
+  {
+   "when": "2026.07 全面開放",
+   "title": "大型重機可停路邊機車格",
+   "note": "2025 年 5 月質詢倡議，新北分區開放到全市。"
+  },
+  {
+   "when": "2026.03 新北首創",
+   "title": "獸鋏回收獎勵",
+   "note": "民眾拆除山區獸鋏、山豬吊送交，每組領 100 到 150 元。"
+  },
+  {
+   "when": "六都第一",
+   "title": "採購依托咪酯檢驗試劑",
+   "note": "吸食年齡不斷下降，新北率先採購試劑，強化校園毒品防治。"
+  },
+  {
+   "when": "2025.10 提案",
+   "title": "中央喊卡，新北自辦鮮奶",
+   "note": "提案用新北校園通 APP 加超商兌換，市府納入幸福鮮奶週。"
+  }
+ ],
+ "pending": [
+  {
+   "title": "潭底溝抽水站",
+   "note": "南新莊的惡臭根本解法。臨時抽水機組 2024 年啟用後臭味減少，但正式抽水站工程又延期。"
+  },
+  {
+   "title": "新莊行政園區停車",
+   "note": "市民洽公找不到車位，園區已經拖了五年。"
+  },
+  {
+   "title": "中港國小地下停車場",
+   "note": "棒球場周邊每逢球賽就塞車、停不到車，他持續爭取加蓋室內體育館和地下停車場。"
+  }
+ ],
+ "council": "189",
+ "portrait": "/img/chen-shih-hsuan/portrait.jpg",
+ "duo": [
+  {
+   "label": "交通改善",
+   "title": "1,300 多天，改了 1,000+ 件",
+   "url": "https://www.youtube.com/shorts/0AUNnTEy3kw",
+   "img": "/img/chen-shih-hsuan/duo-1.jpg",
+   "ratio": "3 / 2"
+  },
+  {
+   "label": "社區安全",
+   "title": "為什麼被封新莊土地公",
+   "url": "https://www.youtube.com/shorts/krkEyaKwTkk",
+   "img": "/img/chen-shih-hsuan/duo-2.jpg",
+   "ratio": "3 / 2"
+  }
+ ],
+ "artifact": "https://claude.ai/artifact/Lb5L7zXAiCJ5jSYaZfc2er",
+ "platform": [
+  {
+   "who": [],
+   "cat": "暢行新莊",
+   "title": "全面檢討禁行機車與兩段式左轉",
+   "plan": "全面檢視路面品質、通盤檢討連接橋梁分隔島；檢討禁行機車路段與兩段式左轉；爭取校園地下停車場，避免不合理罰單。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "教育新莊",
+   "title": "國泰國小舊址改建公幼公托",
+   "plan": "推動國泰國小舊址改建旗艦型公幼跟公托；優化臨托媒合、補足量能；營養午餐菜色升級、把關食安。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "宜居新莊",
+   "title": "監督潭底溝如期完工",
+   "plan": "監督潭底溝工程如期完工，強化夜間噪音取締；淘汰公園老舊罐頭遊具、推廣全齡設施；都更審議加速。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "育樂新莊",
+   "title": "第二座寵物公園、匹克球場",
+   "plan": "打造新莊第二個寵物公園；第二國民運動中心設籃球場、匹克球場；爭取滑板場；新月廣場觀光升級。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "安全新莊",
+   "title": "提高見警率、打擊毒駕",
+   "plan": "提高見警率、強力打擊毒駕，全面檢修監視器妥善率。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

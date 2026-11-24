@@ -7,7 +7,9 @@
   "local": "虎尾人",
   "pron": "他",
   "council": "",
-  "city": "雲林"
+  "city": "雲林",
+  "ballot": "9",
+  "election": "11/28"
  },
  "personas": [
   {
@@ -102,5 +104,49 @@
  "council": "",
  "portrait": "/img/chen-yi-chen/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "監督問政",
+   "title": "說到做到，持續監督",
+   "plan": "說到做到，持續監督，多點汗水、少點口水。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "基礎建設",
+   "title": "路平、燈亮、水溝通",
+   "plan": "路平、燈亮、水溝通。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "長輩照顧",
+   "title": "長輩安心，年輕人放心",
+   "plan": "長輩照顧到位，年輕人才放心。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "青年返鄉",
+   "title": "讓年輕人回來、留下來",
+   "plan": "讓年輕人願意回來、留得下來。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "親子幸福",
+   "title": "孩子快樂長大",
+   "plan": "讓孩子快樂長大，家長安心打拚。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "農業升級",
+   "title": "農民汗水換得到收入",
+   "plan": "農業升級，讓農民的汗水真正換得到收入。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

@@ -1,49 +1,135 @@
 {
  "slug": "sung-pin-ying",
- "person": {"name": "宋品瑩", "office": "新竹市議員（東區）", "updated": "2026.11.24", "local": "東區人", "pron": "她", "council": "", "city": "新竹"},
+ "person": {
+  "name": "宋品瑩",
+  "office": "新竹市議員（東區）",
+  "updated": "2026.11.24",
+  "local": "東區人",
+  "pron": "她",
+  "council": "",
+  "city": "新竹",
+  "ballot": "7",
+  "election": "11/28"
+ },
  "personas": [
-  {"id": "family", "label": "家有學生的", "sub": "鮮乳補助、通學", "lead": "家有學生的你，可能用到"},
-  {"id": "walk", "label": "走路上班上學的", "sub": "人行道重鋪", "lead": "走路的你，可能經過"},
-  {"id": "ride", "label": "騎車通勤的", "sub": "YouBike 站點", "lead": "通勤的你，可能用到"},
-  {"id": "local", "label": "住東區的", "sub": "隔音牆、監視器", "lead": "住東區的你，可能用到"}
+  {
+   "id": "family",
+   "label": "家有學生的",
+   "sub": "鮮乳補助、通學",
+   "lead": "家有學生的你，可能用到"
+  },
+  {
+   "id": "walk",
+   "label": "走路上班上學的",
+   "sub": "人行道重鋪",
+   "lead": "走路的你，可能經過"
+  },
+  {
+   "id": "ride",
+   "label": "騎車通勤的",
+   "sub": "YouBike 站點",
+   "lead": "通勤的你，可能用到"
+  },
+  {
+   "id": "local",
+   "label": "住東區的",
+   "sub": "隔音牆、監視器",
+   "lead": "住東區的你，可能用到"
+  }
  ],
  "items": [
-  {"who": ["family"], "when": "2026.11", "status": "已上路", "place": "全新竹市・國中生",
+  {
+   "who": [
+    "family"
+   ],
+   "when": "2026.11",
+   "status": "已上路",
+   "place": "全新竹市・國中生",
    "title": "國中生也能每週換鮮乳",
-   "bShort": "壯壯卡只到國小，國中生沒有", "aShort": "11 月起國中生納入，1.7 萬人受惠",
+   "bShort": "壯壯卡只到國小，國中生沒有",
+   "aShort": "11 月起國中生納入，1.7 萬人受惠",
    "before": "壯壯卡上路一個月兌換突破 10 萬次，但只補助 2 到 12 歲，國中生家長反映孩子還在發育卻沒有鮮乳補助。",
    "after": "她把家長的心聲帶進議會向市長提案，市長在總質詢宣布國中生納入生生喝鮮乳，11 月起每週可換鮮乳、豆漿或優酪乳，約 1 萬 7,000 名國中生受惠。",
-   "url": "https://www.facebook.com/photo/?fbid=1121575690475829&set=a.120903517209723", "thumb": "/img/sung-pin-ying/item-01.jpg"},
-  {"who": ["walk", "local"], "when": "2026.11", "status": "已完工", "place": "東區・埔頂二路 × 慈祥路",
+   "url": "https://www.facebook.com/photo/?fbid=1121575690475829&set=a.120903517209723",
+   "thumb": "/img/sung-pin-ying/item-01.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "local"
+   ],
+   "when": "2026.11",
+   "status": "已完工",
+   "place": "東區・埔頂二路 × 慈祥路",
    "title": "慈祥路兩側人行道，全面重鋪",
-   "bShort": "年久失修、多處破損", "aShort": "兩邊人行道更新完成",
+   "bShort": "年久失修、多處破損",
+   "aShort": "兩邊人行道更新完成",
    "before": "埔頂里長反映，埔頂二路與慈祥路的人行道老舊、多處破損，走起來不舒適也不安全。",
    "after": "她會勘後在議會開議時提案爭取，市府全面重新鋪設，11 月兩側人行道都更新完畢。",
-   "url": "https://www.facebook.com/reel/1543724327555952/", "thumb": "/img/sung-pin-ying/item-02.jpg"},
-  {"who": ["ride", "family"], "when": "2026.06", "status": "施作中", "place": "東區・長春公園、龍山公園、埔頂二路慈祥路口",
+   "url": "https://www.facebook.com/reel/1543724327555952/",
+   "thumb": "/img/sung-pin-ying/item-02.jpg"
+  },
+  {
+   "who": [
+    "ride",
+    "family"
+   ],
+   "when": "2026.06",
+   "status": "施作中",
+   "place": "東區・長春公園、龍山公園、埔頂二路慈祥路口",
    "title": "東區多 3 個 YouBike 站",
-   "bShort": "學校、公園附近沒有站點", "aShort": "3 站列入新設名單",
+   "bShort": "學校、公園附近沒有站點",
+   "aShort": "3 站列入新設名單",
    "before": "長春公園（關埔國小）、龍山公園、埔頂二路慈祥路口一帶沒有 YouBike 站，學生和上班族不方便轉乘。",
    "after": "她從議會質詢、書面建議到實地會勘一路爭取，新竹市 YouBike 新設 20 站名單中，這 3 站全數入列。",
-   "url": "https://www.facebook.com/photo/?fbid=981388134494586&set=a.120903503876391", "thumb": "/img/sung-pin-ying/item-03.jpg"},
-  {"who": ["local"], "when": "2026.05", "status": "施工中", "place": "東區・東光陸橋",
+   "url": "https://www.facebook.com/photo/?fbid=981388134494586&set=a.120903503876391",
+   "thumb": "/img/sung-pin-ying/item-03.jpg"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "when": "2026.05",
+   "status": "施工中",
+   "place": "東區・東光陸橋",
    "title": "東光陸橋爭取三年，隔音牆要來了",
-   "bShort": "橋上車聲吵，申請被打回票", "aShort": "經費到位，明年初隔音牆上線",
+   "bShort": "橋上車聲吵，申請被打回票",
+   "aShort": "經費到位，明年初隔音牆上線",
    "before": "東光陸橋周邊居民長期受噪音困擾，2023 年她首次爭取隔音牆，因經費不足、未達申請標準沒有通過。",
    "after": "她持續追蹤三年，今年爭取到經費，橋體結構補強工程進行中，預計明年初隔音牆上線。",
-   "url": "https://www.facebook.com/photo/?fbid=970858728880860&set=a.120903503876391", "thumb": "/img/sung-pin-ying/item-04.jpg"},
-  {"who": ["walk"], "when": "2026.05", "status": "已開工", "place": "東區・關新路東側",
+   "url": "https://www.facebook.com/photo/?fbid=970858728880860&set=a.120903503876391",
+   "thumb": "/img/sung-pin-ying/item-04.jpg"
+  },
+  {
+   "who": [
+    "walk"
+   ],
+   "when": "2026.05",
+   "status": "已開工",
+   "place": "東區・關新路東側",
    "title": "關新路人行道，樹根隆起要整平",
-   "bShort": "鋪面破損、樹根把路頂起來", "aShort": "600 萬元改善工程開工",
+   "bShort": "鋪面破損、樹根把路頂起來",
+   "aShort": "600 萬元改善工程開工",
    "before": "關新路東側人行道鋪面破損、樹根隆起，無障礙動線不足，鄰里反映很久。",
    "after": "光復路一段至關新二街的人行道改善工程開工，經費約 600 萬元，預計 115 年 7 月 20 日完工，她持續盯施工品質與進度。",
-   "url": "https://www.facebook.com/photo/?fbid=979956751304391&set=pcb.979956844637715", "thumb": "/img/sung-pin-ying/item-05.jpg"},
-  {"who": ["local"], "when": "2026.04", "status": "已完成", "place": "東區・社區巷弄",
+   "url": "https://www.facebook.com/photo/?fbid=979956751304391&set=pcb.979956844637715",
+   "thumb": "/img/sung-pin-ying/item-05.jpg"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "when": "2026.04",
+   "status": "已完成",
+   "place": "東區・社區巷弄",
    "title": "拖了半年的社區監視器，終於裝好",
-   "bShort": "爭取半年遲遲沒裝，還裝錯位置", "aShort": "監視器裝妥，社區守好",
+   "bShort": "爭取半年遲遲沒裝，還裝錯位置",
+   "aShort": "監視器裝妥，社區守好",
    "before": "社區爭取的監視器拖了半年沒裝好，其中一支一度裝錯位置。",
    "after": "她的服務團隊和里長一路追蹤，監視器全部裝設完成。",
-   "url": "https://www.facebook.com/photo/?fbid=935225922444141&set=pcb.935225949110805", "thumb": "/img/sung-pin-ying/item-06.jpg"}
+   "url": "https://www.facebook.com/photo/?fbid=935225922444141&set=pcb.935225949110805",
+   "thumb": "/img/sung-pin-ying/item-06.jpg"
+  }
  ],
  "pitch": [
   "國中生也能每週換鮮乳，她把家長的聲音帶進議會",
@@ -52,20 +138,66 @@
   "人行道一段段重鋪、變電箱一座座遷，東區的路越走越安心",
   "東光陸橋隔音牆追了三年，終於拿到經費"
  ],
- "links": [{"label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100078702253431"}],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=100078702253431"
+  }
+ ],
  "promises": [
-  {"asked": "2023", "ask": "東光陸橋增設隔音牆", "done": "2026", "result": "爭取到經費，明年初上線"}
+  {
+   "asked": "2023",
+   "ask": "東光陸橋增設隔音牆",
+   "done": "2026",
+   "result": "爭取到經費，明年初上線"
+  }
  ],
  "citywide": [
-  {"when": "2026.11 起", "title": "國中生納入生生喝鮮乳", "note": "壯壯卡延伸到國中，每週可兌換鮮乳、豆漿或優酪乳，約 1 萬 7,000 名國中生受惠。"}
+  {
+   "when": "2026.11 起",
+   "title": "國中生納入生生喝鮮乳",
+   "note": "壯壯卡延伸到國中，每週可兌換鮮乳、豆漿或優酪乳，約 1 萬 7,000 名國中生受惠。"
+  }
  ],
  "pending": [
-  {"title": "東光陸橋隔音牆", "note": "橋體結構補強中，預計明年初上線。"},
-  {"title": "東區 3 個 YouBike 新站", "note": "長春公園、龍山公園、埔頂二路慈祥路口站點施作中。"},
-  {"title": "埔頂路拓寬", "note": "路寬從 15 米拓為 30 米，她在議會追問通車時程。"}
+  {
+   "title": "東光陸橋隔音牆",
+   "note": "橋體結構補強中，預計明年初上線。"
+  },
+  {
+   "title": "東區 3 個 YouBike 新站",
+   "note": "長春公園、龍山公園、埔頂二路慈祥路口站點施作中。"
+  },
+  {
+   "title": "埔頂路拓寬",
+   "note": "路寬從 15 米拓為 30 米，她在議會追問通車時程。"
+  }
  ],
  "council": "",
  "portrait": "/img/sung-pin-ying/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "任內成果・教育",
+   "title": "代理教師薪資改全年聘",
+   "plan": "代理教師薪資調整為全年聘；爭取東園國小午餐廚房、光武國中新校舍；爭取設立新竹市立數位實驗高中、東區 K-12 學校。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "任內成果・交通",
+   "title": "多所學校通學步道",
+   "plan": "爭取劃設與改善東園國小、水源國小、三民國小、光武國中等校通學步道；武昌街停車場導入科技執法。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "任內成果・民生",
+   "title": "YouBike 前 30 分鐘免費",
+   "plan": "爭取 YouBike 前 30 分鐘免費、增設公園站點；爭取公共充電樁、中央公園親子公廁、十八尖山步道扶手。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

@@ -7,17 +7,42 @@
   "local": "大里霧峰人",
   "pron": "他",
   "council": "",
-  "city": "台中"
+  "city": "台中",
+  "ballot": "8",
+  "election": "11/28"
  },
  "personas": [
-  {"id": "ride", "label": "每天騎車開車的", "sub": "橋面、路面", "lead": "通勤的你，可能經過"},
-  {"id": "sport", "label": "愛運動、爬山的", "sub": "羽球場、登山步道", "lead": "愛運動的你，可能用到"},
-  {"id": "factory", "label": "開工廠的", "sub": "未登記工廠雙金", "lead": "開工廠的你，可能用到"},
-  {"id": "local", "label": "住大里霧峰的", "sub": "閒置空間、地方設施", "lead": "住大里霧峰的你，可能經過"}
+  {
+   "id": "ride",
+   "label": "每天騎車開車的",
+   "sub": "橋面、路面",
+   "lead": "通勤的你，可能經過"
+  },
+  {
+   "id": "sport",
+   "label": "愛運動、爬山的",
+   "sub": "羽球場、登山步道",
+   "lead": "愛運動的你，可能用到"
+  },
+  {
+   "id": "factory",
+   "label": "開工廠的",
+   "sub": "未登記工廠雙金",
+   "lead": "開工廠的你，可能用到"
+  },
+  {
+   "id": "local",
+   "label": "住大里霧峰的",
+   "sub": "閒置空間、地方設施",
+   "lead": "住大里霧峰的你，可能經過"
+  }
  ],
  "items": [
   {
-   "who": ["ride", "local"],
+   "who": [
+    "ride",
+    "local"
+   ],
    "when": "2026.07",
    "status": "經費到位",
    "place": "大里・立善橋",
@@ -30,7 +55,9 @@
    "thumb": "/img/chiang-ho-shu/item-01.jpg"
   },
   {
-   "who": ["factory"],
+   "who": [
+    "factory"
+   ],
    "when": "2026.05",
    "status": "已免收",
    "place": "全台中・未登記工廠",
@@ -43,7 +70,10 @@
    "thumb": "/img/chiang-ho-shu/item-02.jpg"
   },
   {
-   "who": ["sport", "local"],
+   "who": [
+    "sport",
+    "local"
+   ],
    "when": "2026.05",
    "status": "已啟用",
    "place": "大里・立新國中旁 甲堤南路",
@@ -56,7 +86,10 @@
    "thumb": "/img/chiang-ho-shu/item-03.jpg"
   },
   {
-   "who": ["sport", "local"],
+   "who": [
+    "sport",
+    "local"
+   ],
    "when": "2026.05",
    "status": "經費到位",
    "place": "霧峰・望月峰獻堂登山步道",
@@ -76,15 +109,66 @@
   "鄉親一陳情，他就到現場會勘"
  ],
  "links": [
-  {"label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100047297856752"}
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=100047297856752"
+  }
  ],
  "promises": [],
  "citywide": [
-  {"when": "2026 年免收", "title": "未登記工廠雙金免收", "note": "納管輔導金、營運管理金今年免收，超過 8,500 家業者受惠。"}
+  {
+   "when": "2026 年免收",
+   "title": "未登記工廠雙金免收",
+   "note": "納管輔導金、營運管理金今年免收，超過 8,500 家業者受惠。"
+  }
  ],
  "pending": [],
  "council": "",
  "portrait": "/img/chiang-ho-shu/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "捷運進屯區",
+   "title": "藍線延伸串連大里霧峰太平",
+   "plan": "爭取捷運藍線延伸，串連大里、霧峰、太平三區生活圈。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "檢舉",
+   "title": "改善優先、惡意檢舉也要管",
+   "plan": "違規該改善，但建立重複檢舉處理機制，合理執法。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "敬老卡",
+   "title": "敬老卡更好用",
+   "plan": "擴大可使用範圍，增加長輩真正需要的項目，簡化使用方式。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "育兒",
+   "title": "增設公托、課後照顧",
+   "plan": "增設公托減輕家長負擔，課後照顧與親子空間更完善。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "毛孩",
+   "title": "流浪動物結紮",
+   "plan": "完善動保政策、流浪動物結紮、推廣認養不棄養。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "服務",
+   "title": "霧峰設服務處",
+   "plan": "霧峰唯一設服務處的市議員，365 天服務不打烊。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

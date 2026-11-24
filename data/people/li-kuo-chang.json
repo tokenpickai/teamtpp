@@ -1,49 +1,136 @@
 {
  "slug": "li-kuo-chang",
- "person": {"name": "李國璋", "office": "新竹市議員（東區）", "updated": "2026.11.24", "local": "東區人", "pron": "他", "council": "", "city": "新竹"},
+ "person": {
+  "name": "李國璋",
+  "office": "新竹市議員（東區）",
+  "updated": "2026.11.24",
+  "local": "東區人",
+  "pron": "他",
+  "council": "",
+  "city": "新竹",
+  "ballot": "15",
+  "election": "11/28"
+ },
  "personas": [
-  {"id": "local", "label": "住東區的", "sub": "巷弄排水、里內標線", "lead": "住東區的你，可能經過"},
-  {"id": "ride", "label": "每天通勤的", "sub": "光復路、竹科車流", "lead": "通勤的你，可能用到"},
-  {"id": "family", "label": "帶小孩的", "sub": "關埔國小、空橋", "lead": "帶小孩的你，可能用到"},
-  {"id": "elder", "label": "家裡有長輩的", "sub": "健保費補助、爬山步道", "lead": "家裡有長輩的你，可能用到"}
+  {
+   "id": "local",
+   "label": "住東區的",
+   "sub": "巷弄排水、里內標線",
+   "lead": "住東區的你，可能經過"
+  },
+  {
+   "id": "ride",
+   "label": "每天通勤的",
+   "sub": "光復路、竹科車流",
+   "lead": "通勤的你，可能用到"
+  },
+  {
+   "id": "family",
+   "label": "帶小孩的",
+   "sub": "關埔國小、空橋",
+   "lead": "帶小孩的你，可能用到"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "健保費補助、爬山步道",
+   "lead": "家裡有長輩的你，可能用到"
+  }
  ],
  "items": [
-  {"who": ["ride", "local"], "when": "2026.11", "status": "已完成", "place": "東區・科園里 民有街、民享一街",
+  {
+   "who": [
+    "ride",
+    "local"
+   ],
+   "when": "2026.11",
+   "status": "已完成",
+   "place": "東區・科園里 民有街、民享一街",
    "title": "科園里三條路的雙黃線，改回好進出",
-   "bShort": "雙黃線擋住進出，還容易誤觸違規", "aShort": "三條路段雙黃線調整完成",
+   "bShort": "雙黃線擋住進出，還容易誤觸違規",
+   "aShort": "三條路段雙黃線調整完成",
    "before": "科園里民有街、民享一街等三條路段劃了雙黃線，居民進出家門、巷口都不方便，用路人也容易因標線不合理誤觸違規。",
    "after": "里長反映後他協調市府爭取改善，三條路段的雙黃線調整完成，標線回到符合地方實際需求。",
-   "url": "https://www.facebook.com/photo/?fbid=1624287076169810&set=pcb.1624292172835967", "thumb": "/img/li-kuo-chang/item-01.jpg"},
-  {"who": ["local"], "when": "2026.11", "status": "已完工", "place": "東區・明湖路",
+   "url": "https://www.facebook.com/photo/?fbid=1624287076169810&set=pcb.1624292172835967",
+   "thumb": "/img/li-kuo-chang/item-01.jpg"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "when": "2026.11",
+   "status": "已完工",
+   "place": "東區・明湖路",
    "title": "明湖路石牆改欄杆，豪雨不再淹進家門",
-   "bShort": "石牆擋水，豪雨一來住家就淹", "aShort": "改設路側欄杆，雨水順利排出",
+   "bShort": "石牆擋水，豪雨一來住家就淹",
+   "aShort": "改設路側欄杆，雨水順利排出",
    "before": "明湖路旁住家每逢豪雨，路邊石牆擋住水流、排水不順，同一側住家一再淹水。",
    "after": "他邀市府相關單位現場會勘，決議把原有石牆改成路側欄杆，工程已完工，雨水能順利排出。",
-   "url": "https://www.facebook.com/photo/?fbid=1617107376887780&set=pcb.1617108033554381", "thumb": "/img/li-kuo-chang/item-02.jpg"},
-  {"who": ["family", "local"], "when": "2026.09", "status": "施工中", "place": "東區・關埔國小",
+   "url": "https://www.facebook.com/photo/?fbid=1617107376887780&set=pcb.1617108033554381",
+   "thumb": "/img/li-kuo-chang/item-02.jpg"
+  },
+  {
+   "who": [
+    "family",
+    "local"
+   ],
+   "when": "2026.09",
+   "status": "施工中",
+   "place": "東區・關埔國小",
    "title": "關埔國小有了操場，體育館蓋到 45%",
-   "bShort": "沒操場沒體育館，校慶要借場地", "aShort": "操場完成，體育館 116 學年度啟用",
+   "bShort": "沒操場沒體育館，校慶要借場地",
+   "aShort": "操場完成，體育館 116 學年度啟用",
    "before": "關埔國小原本沒有操場、沒有體育館，孩子只能在水泥地上運動，連校慶都要向鄰近學校借場地；景觀工程五度流標，地下停車場還發生上浮。",
    "after": "他要求市府逐項重新檢討書圖、規格、工期與招標策略，先改善停車場上浮、完成操場，113 年體育館決標開工，目前進度超過 45%，預計 116 學年度啟用。",
-   "url": "https://www.facebook.com/photo/?fbid=1611261997050202&set=pcb.1611262120383523", "thumb": "/img/li-kuo-chang/item-05.jpg"},
-  {"who": ["ride"], "when": "2026.07", "status": "已完工", "place": "東區・光復路二段",
+   "url": "https://www.facebook.com/photo/?fbid=1611261997050202&set=pcb.1611262120383523",
+   "thumb": "/img/li-kuo-chang/item-05.jpg"
+  },
+  {
+   "who": [
+    "ride"
+   ],
+   "when": "2026.07",
+   "status": "已完工",
+   "place": "東區・光復路二段",
    "title": "光復路二段老化路面，夜間刨鋪完成",
-   "bShort": "竹科車流天天壓，路面龜裂不平", "aShort": "金城一路到建功一路整段刨鋪",
+   "bShort": "竹科車流天天壓，路面龜裂不平",
+   "aShort": "金城一路到建功一路整段刨鋪",
    "before": "光復路每天承載大量通勤、通學和往返竹科的車流，路面老化、龜裂、不平整。",
    "after": "他持續向市府爭取光復路改善工程，光復路二段金城一路至建功一路完成夜間刨鋪，路面重新平整。",
-   "url": "https://www.facebook.com/photo/?fbid=1514118400520012&set=pcb.1514118477186671", "thumb": "/img/li-kuo-chang/item-03.jpg"},
-  {"who": ["elder"], "when": "2026.07", "status": "已完工", "place": "東區・十八尖山獅子亭",
+   "url": "https://www.facebook.com/photo/?fbid=1514118400520012&set=pcb.1514118477186671",
+   "thumb": "/img/li-kuo-chang/item-03.jpg"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "when": "2026.07",
+   "status": "已完工",
+   "place": "東區・十八尖山獅子亭",
    "title": "十八尖山獅子亭樓梯，加裝扶手",
-   "bShort": "樓梯沒有扶手，長輩上下吃力", "aShort": "扶手加裝完成，爬山更安全",
+   "bShort": "樓梯沒有扶手，長輩上下吃力",
+   "aShort": "扶手加裝完成，爬山更安全",
    "before": "十八尖山是新竹市民的後花園，獅子亭的樓梯沒有扶手，長輩爬山休息上下樓梯不安全。",
    "after": "他向市府建議後，獅子亭樓梯扶手加裝完成。",
-   "url": "https://www.facebook.com/photo/?fbid=1492831345982051&set=a.430391998892663", "thumb": "/img/li-kuo-chang/item-04.jpg"},
-  {"who": ["family", "elder"], "when": "2026.06", "status": "已動工", "place": "東區・關埔 埔頂二路 × 慈雲路",
+   "url": "https://www.facebook.com/photo/?fbid=1492831345982051&set=a.430391998892663",
+   "thumb": "/img/li-kuo-chang/item-04.jpg"
+  },
+  {
+   "who": [
+    "family",
+    "elder"
+   ],
+   "when": "2026.06",
+   "status": "已動工",
+   "place": "東區・關埔 埔頂二路 × 慈雲路",
    "title": "關埔空橋系統，7 號空橋動工",
-   "bShort": "大路車多，行人過馬路不安全", "aShort": "第二層人行通道串起關埔",
+   "bShort": "大路車多，行人過馬路不安全",
+   "aShort": "第二層人行通道串起關埔",
    "before": "關埔地區快速發展，埔頂二路、慈雲路一帶車流大，居民在公聽會上反映行人安全與通行不便。",
    "after": "他和市府上任後推動關埔空橋系統，埔頂二路與慈雲路東側的第二層公共人行通道（7 號空橋）正式動工。",
-   "url": "https://www.facebook.com/photo/?fbid=1442709307660922&set=pcb.1442709390994247", "thumb": "/img/li-kuo-chang/item-06.jpg"}
+   "url": "https://www.facebook.com/photo/?fbid=1442709307660922&set=pcb.1442709390994247",
+   "thumb": "/img/li-kuo-chang/item-06.jpg"
+  }
  ],
  "pitch": [
   "新竹市 65 歲以上長輩自付健保費由市府補助，他在議會提案爭取",
@@ -52,19 +139,98 @@
   "光復路刨鋪、明湖路排水、科園里標線，居民一反映就會勘",
   "12 億棒球場埋廢棄物，他追查到底"
  ],
- "links": [{"label": "Facebook", "url": "https://www.facebook.com/ChooseBetterHsinchu"}],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/ChooseBetterHsinchu"
+  }
+ ],
  "promises": [],
  "citywide": [
-  {"when": "2026 年底起", "title": "長輩健保費補助", "note": "65 歲以上長輩（原住民 55 歲以上）自付健保費由市府補助，朝免申請、不排富規劃。他在議會提案爭取。"}
+  {
+   "when": "2026 年底起",
+   "title": "長輩健保費補助",
+   "note": "65 歲以上長輩（原住民 55 歲以上）自付健保費由市府補助，朝免申請、不排富規劃。他在議會提案爭取。"
+  }
  ],
  "pending": [
-  {"title": "關埔國小體育館", "note": "進度超過 45%，鋼構吊裝中，預計 116 學年度啟用。"},
-  {"title": "關埔 7 號空橋", "note": "已動工，持續串連關埔空橋系統。"},
-  {"title": "科園里親子公園匹克球場", "note": "已會勘，評估在公園內劃設匹克球標線。"},
-  {"title": "中央公園幼兒遊具", "note": "家長希望增設幼齡遊具，他已會勘，排水問題一併檢討。"}
+  {
+   "title": "關埔國小體育館",
+   "note": "進度超過 45%，鋼構吊裝中，預計 116 學年度啟用。"
+  },
+  {
+   "title": "關埔 7 號空橋",
+   "note": "已動工，持續串連關埔空橋系統。"
+  },
+  {
+   "title": "科園里親子公園匹克球場",
+   "note": "已會勘，評估在公園內劃設匹克球標線。"
+  },
+  {
+   "title": "中央公園幼兒遊具",
+   "note": "家長希望增設幼齡遊具，他已會勘，排水問題一併檢討。"
+  }
  ],
  "council": "",
  "portrait": "/img/li-kuo-chang/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "教育建設",
+   "title": "東區興辦 K-12 學校",
+   "plan": "爭取於東區興辦 K-12 學校；支持培英國中老舊校舍重建；加速建功高中擴校。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "交通建設",
+   "title": "光埔重劃區聯外道路",
+   "plan": "完善光埔重劃區路網與聯外道路；智慧交通控制系統；東區 YouBike 增加、竹科納入前 30 分鐘補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "社會福利",
+   "title": "敬老愛心卡點數再增加",
+   "plan": "持續推動朝山全日照中心；爭取敬老愛心卡點數與用途再增加、放寬安老津貼請領資格。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "友善育兒",
+   "title": "增設公托、幼托監視器",
+   "plan": "爭取增設公托據點，完善公私立幼托監視系統。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "行人安全",
+   "title": "關埔全區空橋",
+   "plan": "全力支持興建關埔全區空橋，改善老舊人行道與無障礙坡道。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "公共建設",
+   "title": "東區青少年館、柯子湖溪綠軸",
+   "plan": "督促新竹科學教育館與風城文創館；爭取東區青少年館；推動柯子湖溪綠軸；改善老舊側溝降低積淹水。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "警消護民",
+   "title": "補強警消人力、改建廳舍",
+   "plan": "爭取警消補強人力、提升福利、支持輪休；逐年增改建警消廳舍。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "寵物友善",
+   "title": "「水汪汪」專業訓練池",
+   "plan": "強化動物救援與醫療，建置水汪汪專業訓練池，打造多功能動物綜合園區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

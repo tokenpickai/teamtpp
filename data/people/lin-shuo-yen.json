@@ -1,43 +1,119 @@
 {
  "slug": "lin-shuo-yen",
- "person": {"name": "林碩彥", "office": "新竹縣議員（竹北）", "updated": "2026.11.24", "local": "竹北人", "pron": "他", "council": "", "city": "新竹縣"},
+ "person": {
+  "name": "林碩彥",
+  "office": "新竹縣議員（竹北）",
+  "updated": "2026.11.24",
+  "local": "竹北人",
+  "pron": "他",
+  "council": "",
+  "city": "新竹縣",
+  "ballot": "14",
+  "election": "11/28"
+ },
  "personas": [
-  {"id": "family", "label": "家有學生的", "sub": "新校舍、通學安全", "lead": "家有學生的你，可能用到"},
-  {"id": "ride", "label": "每天通勤的", "sub": "台1線替代道路", "lead": "通勤的你，可能用到"},
-  {"id": "read", "label": "愛看書的", "sub": "縣立總圖書館", "lead": "愛看書的你，可能用到"},
-  {"id": "sport", "label": "愛運動的", "sub": "國民運動中心", "lead": "愛運動的你，可能用到"}
+  {
+   "id": "family",
+   "label": "家有學生的",
+   "sub": "新校舍、通學安全",
+   "lead": "家有學生的你，可能用到"
+  },
+  {
+   "id": "ride",
+   "label": "每天通勤的",
+   "sub": "台1線替代道路",
+   "lead": "通勤的你，可能用到"
+  },
+  {
+   "id": "read",
+   "label": "愛看書的",
+   "sub": "縣立總圖書館",
+   "lead": "愛看書的你，可能用到"
+  },
+  {
+   "id": "sport",
+   "label": "愛運動的",
+   "sub": "國民運動中心",
+   "lead": "愛運動的你，可能用到"
+  }
  ],
  "items": [
-  {"who": ["family"], "when": "2026.11", "status": "已定案", "place": "竹北・嘉興路 六家高中",
+  {
+   "who": [
+    "family"
+   ],
+   "when": "2026.11",
+   "status": "已定案",
+   "place": "竹北・嘉興路 六家高中",
    "title": "六家高中門口擋路的電線桿，確定遷走",
-   "bShort": "電線桿卡在人行道，學生繞道走", "aShort": "遷到側門旁，加畫綠底斑馬線",
+   "bShort": "電線桿卡在人行道，學生繞道走",
+   "aShort": "遷到側門旁，加畫綠底斑馬線",
    "before": "六家高中校內工程動土後，校門口改成工地出入口，嘉興路 358 號旁的電線桿擋住人行道，學生上下學只能繞道。",
    "after": "他三次會勘、協調七個多月，11 月 9 日和台電、工務處、竹北市公所確認電線桿遷到側門旁，台電約兩個月內完成遷移；側門前也加畫綠底行人穿越線。",
-   "url": "https://www.facebook.com/photo/?fbid=1499485715327840&set=pcb.1499485768661168", "thumb": "/img/lin-shuo-yen/item-01.jpg"},
-  {"who": ["family"], "when": "2026.11", "status": "已落成", "place": "竹北・高鐵特區",
+   "url": "https://www.facebook.com/photo/?fbid=1499485715327840&set=pcb.1499485768661168",
+   "thumb": "/img/lin-shuo-yen/item-01.jpg"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "when": "2026.11",
+   "status": "已落成",
+   "place": "竹北・高鐵特區",
    "title": "文興國小、文興國中新校舍落成",
-   "bShort": "人口暴增，學區塞不下", "aShort": "國小容納 1,400 人，國中 116 學年改制高中",
+   "bShort": "人口暴增，學區塞不下",
+   "aShort": "國小容納 1,400 人，國中 116 學年改制高中",
    "before": "竹北高鐵特區人口快速成長，學齡孩子越來越多，家長擔心孩子無法就近入學。",
    "after": "他爭取新設的文興國小 11 月 4 日啟用，15.39 億元、48 間普通教室、可容納近 1,400 名學童；文興國中 11 月 10 日新校舍落成，116 學年度改制文興高中。",
-   "url": "https://www.facebook.com/photo/?fbid=1496191792323899&set=pcb.1496191962323882", "thumb": "/img/lin-shuo-yen/item-02.jpg"},
-  {"who": ["read", "family"], "when": "2026.10", "status": "試營運", "place": "竹北・新竹縣立總圖書館",
+   "url": "https://www.facebook.com/photo/?fbid=1496191792323899&set=pcb.1496191962323882",
+   "thumb": "/img/lin-shuo-yen/item-02.jpg"
+  },
+  {
+   "who": [
+    "read",
+    "family"
+   ],
+   "when": "2026.10",
+   "status": "試營運",
+   "place": "竹北・新竹縣立總圖書館",
    "title": "總圖書館屋頂，交給縣民投票決定",
-   "bShort": "屋頂像鐵皮屋，地方反彈", "aShort": "i-Voting 選出新屋頂，試營運開館",
+   "bShort": "屋頂像鐵皮屋，地方反彈",
+   "aShort": "i-Voting 選出新屋頂，試營運開館",
    "before": "新竹縣立總圖書館的屋頂外觀被批像鐵皮屋，周邊居民和縣民質疑不斷，縣府開了多次會議仍無共識。",
    "after": "他向文化局建議提出幾個屋頂方案、用 i-Voting 讓縣民票選，文化局採納並選出現在的改善方案；總圖已試營運，12 月 18 日正式開館。",
-   "url": "https://www.facebook.com/photo/?fbid=1484253950184350&set=a.387951766481246", "thumb": "/img/lin-shuo-yen/item-03.jpg"},
-  {"who": ["ride"], "when": "2026.09", "status": "已上梁", "place": "竹北・台1線替代道路",
+   "url": "https://www.facebook.com/photo/?fbid=1484253950184350&set=a.387951766481246",
+   "thumb": "/img/lin-shuo-yen/item-03.jpg"
+  },
+  {
+   "who": [
+    "ride"
+   ],
+   "when": "2026.09",
+   "status": "已上梁",
+   "place": "竹北・台1線替代道路",
    "title": "等了快 30 年的台1線替代道路，上梁了",
-   "bShort": "跨頭前溪只能擠台1線", "aShort": "118 線直通台68線武陵交流道",
+   "bShort": "跨頭前溪只能擠台1線",
+   "aShort": "118 線直通台68線武陵交流道",
    "before": "台1線替代道路從民國 86 年就開始規劃，竹北往返新竹市、竹科的車流都擠在台1線，尖峰時段跨頭前溪天天塞。",
    "after": "他在議會持續推動的台1線替代道路第一期（118 線到台68線，全長約 1.75 公里）已動工並完成上梁，跨越頭前溪接上武陵交流道。",
-   "url": "https://www.facebook.com/photo/?fbid=1457872556155823&set=pcb.1457873252822420", "thumb": "/img/lin-shuo-yen/item-04.jpg"},
-  {"who": ["sport"], "when": "2026.07", "status": "已完成", "place": "竹北・國民運動中心",
+   "url": "https://www.facebook.com/photo/?fbid=1457872556155823&set=pcb.1457873252822420",
+   "thumb": "/img/lin-shuo-yen/item-04.jpg"
+  },
+  {
+   "who": [
+    "sport"
+   ],
+   "when": "2026.07",
+   "status": "已完成",
+   "place": "竹北・國民運動中心",
    "title": "運動中心停車繳費機，從一台變兩台",
-   "bShort": "只有一台繳費機，暑假大排長龍", "aShort": "7 月 16 日增設一台",
+   "bShort": "只有一台繳費機，暑假大排長龍",
+   "aShort": "7 月 16 日增設一台",
    "before": "竹北國民運動中心停車場只有一台繳費機，暑假游泳、運動人潮一多，繳費就大排長龍。",
    "after": "他發函縣府教育局建議增設，教育局與營運廠商開會後，7 月 16 日完成增設一台繳費機；QR Code、電子支付、ETC 等多元繳費也在評估中。",
-   "url": "https://www.facebook.com/photo/?fbid=1407338381209241&set=pcb.1407338411209238", "thumb": "/img/lin-shuo-yen/item-05.jpg"}
+   "url": "https://www.facebook.com/photo/?fbid=1407338381209241&set=pcb.1407338411209238",
+   "thumb": "/img/lin-shuo-yen/item-05.jpg"
+  }
  ],
  "pitch": [
   "高鐵橋下興隆路直通竹科力行路，他爭取的路已完工",
@@ -46,16 +122,74 @@
   "總圖書館屋頂爭議，他讓縣民用 i-Voting 自己決定",
   "六家高中門口電線桿、運動中心繳費機，居民一反映就追到底"
  ],
- "links": [{"label": "Facebook", "url": "https://www.facebook.com/zhubeipeoplesquare"}],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/zhubeipeoplesquare"
+  }
+ ],
  "promises": [],
  "citywide": [],
  "pending": [
-  {"title": "六家高中電線桿遷移", "note": "位置已定案，台電預計兩個月內完成。"},
-  {"title": "台1線替代道路", "note": "第一期已上梁，持續監督工程品質與進度。"},
-  {"title": "頭前溪、鳳山溪新橋", "note": "推動竹北直通新竹市馬偕醫院、竹科三期，以及莊敬北路向北延伸。"}
+  {
+   "title": "六家高中電線桿遷移",
+   "note": "位置已定案，台電預計兩個月內完成。"
+  },
+  {
+   "title": "台1線替代道路",
+   "note": "第一期已上梁，持續監督工程品質與進度。"
+  },
+  {
+   "title": "頭前溪、鳳山溪新橋",
+   "note": "推動竹北直通新竹市馬偕醫院、竹科三期，以及莊敬北路向北延伸。"
+  }
  ],
  "council": "",
  "portrait": "/img/lin-shuo-yen/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "重教育",
+   "title": "增班增校，一鄉鎮一高中",
+   "plan": "增班增校平衡鄉鎮、普及一鄉鎮一高中；增設國中小校舍與通學步道；爭取高中職營養午餐、擴充早療資源。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "順交通",
+   "title": "前溪新橋、台鐵高架化",
+   "plan": "跨頭前溪新橋、台鐵高架化、興建科技大橋；莊敬北路向北打通、楊頭高架；改善國道一號涵洞與五叉路口。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "創科技",
+   "title": "LINE 縣政服務一次完成",
+   "plan": "整合 LINE 縣政服務，申辦、陳情、預約一次完成；智慧公車亭、智慧紅綠燈、智慧停車位導航。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "談永續",
+   "title": "海綿城市、豆子埔溪排水",
+   "plan": "推動 JW 生態工法與雨水貯留打造海綿城市；強化豆子埔溪、鳳山溪及重劃區排水防洪。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "好政府",
+   "title": "65 歲以上健保免費",
+   "plan": "推動預算公開與參與式預算；強化準公托與定點臨托；敬老愛心卡升級 1,000 點、65 歲以上健保免費。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "新都市",
+   "title": "風雨球場、寵物公園",
+   "plan": "推動風雨球場、網球場、匹克球場與共融親子公園；增加寵物公園；強化空汙與廢水監督。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }

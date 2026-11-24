@@ -1,372 +1,439 @@
 {
-  "slug": "huang-ching-ying",
-  "person": {
-    "name": "黃瀞瑩",
-    "office": "台北市議員（士林北投）",
-    "updated": "2026.11.23",
-    "local": "士北人",
-    "pron": "她",
-    "council": "275",
-    "city": "台北"
-  },
-  "personas": [
-    {
-      "id": "parent",
-      "label": "懷孕、帶小孩的",
-      "sub": "好孕專車、托嬰、公園",
-      "lead": "帶小孩的你，可能用過"
-    },
-    {
-      "id": "walk",
-      "label": "走路上學、買菜的",
-      "sub": "斑馬線、人行道",
-      "lead": "走路的你，每天可能經過"
-    },
-    {
-      "id": "elder",
-      "label": "家有長輩的",
-      "sub": "安駕課程、看診、公廁",
-      "lead": "你家長輩，可能用過"
-    },
-    {
-      "id": "ride",
-      "label": "騎車開車的",
-      "sub": "路面重鋪、機車彎",
-      "lead": "騎車開車的你，每天可能經過"
-    },
-    {
-      "id": "out",
-      "label": "假日出門玩的",
-      "sub": "河濱碼頭、公園",
-      "lead": "假日出門的你，可能去過"
-    }
-  ],
-  "items": [
-    {
-      "who": [
-        "parent"
-      ],
-      "when": "2026.10",
-      "status": "已上路",
-      "place": "全台北・好孕專車",
-      "title": "好孕專車加碼：1 萬元，用到產後一年",
-      "bShort": "安全座椅車少，生完就不能用",
-      "aShort": "乘車金 1 萬元，用到產後一年",
-      "before": "她懷孕時自己搭好孕專車，發現派車慢、配兒童安全座椅的車太少，生完就不能再用。",
-      "after": "2025 年 11 月總質詢提出 6 項升級。2026 年 3 月 Uber 加入，有 0–7 歲安全座椅的寶寶優步；10 月起乘車金提高到 1 萬元，用到產後一年。",
-      "url": "https://www.facebook.com/photo/?fbid=1072617778617512&set=a.135503045662328",
-      "thumb": "/img/huang-ching-ying/item-01.jpg"
-    },
-    {
-      "who": [
-        "parent",
-        "out"
-      ],
-      "when": "2026.07",
-      "status": "已完工",
-      "place": "北投・長安公園遊戲區",
-      "title": "遊戲區地墊整片換新",
-      "bShort": "地墊破損，一再局部補",
-      "aShort": "全新地墊鋪設完成",
-      "before": "遊戲區地墊多處破損，市府反覆局部修補，帶小孩來玩的家長不放心。",
-      "after": "年初會勘要求全面更新、不再補丁式修補，歷經備料和招標，全新地墊鋪設完成。",
-      "url": "https://www.facebook.com/photo/?fbid=1070140508865239&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-02.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "parent"
-      ],
-      "when": "2026.06",
-      "status": "已完工",
-      "place": "士林・葫蘆國小周邊",
-      "title": "通學路上的變電箱搬走了",
-      "bShort": "變電箱佔人行道，還疑似漏油",
-      "aShort": "變電箱遷走，人行道變寬",
-      "before": "變電箱和交接箱設在學童上下課的人行道上，加上機車停放，現場還曾疑似漏油。",
-      "after": "2024 年 4 月接到陳情，協調台電、中華電信、學校、公園處多次會勘，兩年後變電箱拆除，人行道還給學童。",
-      "url": "https://www.facebook.com/photo/?fbid=1034906195722004&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-03.jpg"
-    },
-    {
-      "who": [
-        "parent",
-        "out"
-      ],
-      "when": "2025.11",
-      "status": "已開放",
-      "place": "北投・北士科福星公園",
-      "title": "台北第一座兒童交通公園",
-      "bShort": "小孩沒地方練騎車",
-      "aShort": "滑步車、自行車的擬真道路",
-      "before": "受法規限制，台北一直沒有讓孩子在擬真道路上練騎自行車、滑步車的地方。",
-      "after": "她要求交通局參考國內外案例規劃，福星公園增設交通教學區，2025 年 11 月完工啟用，有擬真標線和主題解說。",
-      "url": "https://www.youtube.com/shorts/jVZ3T033rhk",
-      "thumb": "/img/huang-ching-ying/item-04.jpg"
-    },
-    {
-      "who": [
-        "parent",
-        "ride"
-      ],
-      "when": "2025.08",
-      "status": "已完工",
-      "place": "士林托嬰中心",
-      "title": "托嬰中心門口有了接送區",
-      "bShort": "門口全是紅線，接送沒處停",
-      "aShort": "劃設家長接送區",
-      "before": "托嬰中心前全是紅線，沒有家長接送區，接送小孩很不方便。",
-      "after": "會同義信里里長和局處會勘，調整無障礙車格和機車格位置，8 月中劃好黃線、立告示牌。",
-      "url": "https://www.facebook.com/photo/?fbid=799152119297414&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-05.jpg"
-    },
-    {
-      "who": [
-        "out",
-        "parent"
-      ],
-      "when": "2025.05",
-      "status": "已完工",
-      "place": "社子島・迎星碼頭",
-      "title": "滑水賽場的河岸廁所翻新",
-      "bShort": "公廁髒亂發臭",
-      "aShort": "新增淋浴間、親子廁所",
-      "before": "台北國際滑水公開賽每年在這裡舉行，河岸公廁卻髒亂發臭。",
-      "after": "2024 年 6 月總質詢要求改善，水利處、公園處、體育局協調翻新，增設淋浴間和親子友善廁所。",
-      "url": "https://www.facebook.com/photo/?fbid=712712534608040&set=pcb.712710831274877",
-      "thumb": "/img/huang-ching-ying/item-06.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "elder"
-      ],
-      "when": "2026.05",
-      "status": "已完工",
-      "place": "北投・復興四路與大屯路口",
-      "title": "路口終於有斑馬線",
-      "bShort": "上學、買菜的路口沒有行穿線",
-      "aShort": "劃設行穿線",
-      "before": "里民上課、買菜天天經過這個路口，卻沒有斑馬線。",
-      "after": "持續爭取半年，路口劃設行穿線，孩子上學、長輩買菜都有清楚的通行空間。",
-      "url": "https://www.facebook.com/photo/?fbid=1015464584332832&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-07.jpg"
-    },
-    {
-      "who": [
-        "elder",
-        "walk"
-      ],
-      "when": "2025.12",
-      "status": "已完工",
-      "place": "北投・長安公園擴建區",
-      "title": "眷村里民天天用的公廁翻新",
-      "bShort": "公廁年久失修",
-      "aShort": "整修更新完成",
-      "before": "七虎眷村早期房屋狹小，許多住戶家裡沒有廁所，日常靠這間公廁，設備卻老舊失修。",
-      "after": "里長和里民陳情後會勘，協調公園處整修，公廁更新完成。",
-      "url": "https://www.facebook.com/photo/?fbid=892310789981546&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-08.jpg"
-    },
-    {
-      "who": [
-        "walk",
-        "ride"
-      ],
-      "when": "2025.02",
-      "status": "已完工",
-      "place": "石牌路二段・榮總身障重建中心對面",
-      "title": "人行道不再被機車佔滿",
-      "bShort": "機車亂停，行人跟機車搶路",
-      "aShort": "重新規劃機車彎",
-      "before": "人行道沒有機車空間規劃，機車雜亂停放，身障者和行人跟機車搶路。",
-      "after": "邀里長和市府會勘，重新規劃機車彎、調整路面，人行道空間完整。",
-      "url": "https://www.facebook.com/photo/?fbid=634743815738246&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-09.jpg"
-    },
-    {
-      "who": [
-        "ride",
-        "walk"
-      ],
-      "when": "2024.12",
-      "status": "已完工",
-      "place": "士林・故宮路、力行街巷弄",
-      "title": "六條巷子的路面重鋪",
-      "bShort": "路面破損、標線斑駁",
-      "aShort": "六條巷弄路面重鋪",
-      "before": "故宮路、力行街的巷弄年久失修，路面破損、標線斑駁。",
-      "after": "年初邀里長、新工處會勘，爭取預算重鋪故宮路 7、15、23 巷和力行街 20、27、35 巷，年底前完工。",
-      "url": "https://www.facebook.com/photo/?fbid=593000863245875&set=pcb.593001163245845",
-      "thumb": "/img/huang-ching-ying/item-10.jpg"
-    },
-    {
-      "who": [
-        "elder"
-      ],
-      "when": "2026.01",
-      "status": "已上路",
-      "place": "台北市立聯合醫院・全院區",
-      "title": "聯醫每個院區都能刷悠遊卡",
-      "bShort": "院外門診不能刷，標準不一",
-      "aShort": "全院區含院外門診都能刷",
-      "before": "陽明院區本部能刷悠遊卡，院外門診卻不行，看診的人霧煞煞。",
-      "after": "在交通委員會要求悠遊卡公司擴大到所有聯醫院區，2026 年 1 月 1 日起全面開放。",
-      "url": "https://www.facebook.com/photo/?fbid=876961624849796&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-11.jpg"
-    },
-    {
-      "who": [
-        "elder",
-        "ride"
-      ],
-      "when": "2025.10",
-      "status": "開課中",
-      "place": "全台北・高齡駕駛",
-      "title": "長輩上安駕課，每人補助 3,000",
-      "bShort": "高齡駕駛事故逐年增加",
-      "aShort": "北市首辦汽車高齡安駕課程",
-      "before": "高齡駕駛的事故和死傷逐年攀升，長輩缺少重新學習道路規則的管道。",
-      "after": "總質詢多次要求後，北市首辦汽車高齡安駕課程，每人補助 3,000 元，10 月 17 日開班。",
-      "url": "https://www.facebook.com/photo/?fbid=840608078485151&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-12.jpg"
-    },
-    {
-      "who": [
-        "ride"
-      ],
-      "when": "2026.08",
-      "status": "已完工",
-      "place": "北投・中央北路三段",
-      "title": "中央北路三段整段重鋪",
-      "bShort": "路面老化，水溝蓋老舊",
-      "aShort": "全面銑鋪，水溝蓋換新",
-      "before": "桃源里里長反映中央北路三段路面老化破損，水溝蓋也該換了。",
-      "after": "2025 年 11 月會勘，爭取全段銑鋪，水溝蓋同步更新，路面變平整。",
-      "url": "https://www.facebook.com/photo/?fbid=1091843356694954&set=a.135503048995661",
-      "thumb": "/img/huang-ching-ying/item-13.jpg"
-    },
-    {
-      "who": [
-        "out"
-      ],
-      "when": "2024",
-      "status": "已完工",
-      "place": "士林・三腳渡碼頭",
-      "title": "龍舟碼頭換上新浮筒",
-      "bShort": "浮筒破損，用塑膠墊撐著",
-      "aShort": "浮筒翻新",
-      "before": "每年龍舟賽的碼頭，浮筒老舊破損，只能用塑膠墊勉強維持安全。",
-      "after": "和水利處會勘後翻新浮筒，接著處理地面積水和老舊龍頭。",
-      "url": "https://www.facebook.com/photo/?fbid=453652657180697&set=pcb.453654993847130",
-      "thumb": "/img/huang-ching-ying/item-14.jpg"
-    }
-  ],
-  "pitch": [
-    "好孕專車加碼到 1 萬元、用到產後一年，她懷孕時自己搭過才去改",
-    "NIPT 納入台北產檢補助，準媽媽多一個選擇",
-    "台北社宅統一登記平台上線，輪候制從這一步開始",
-    "台北率先補助長輩回訓，機車、汽車都有",
-    "台北第一座兒童交通公園，在北投福星公園開幕"
-  ],
-  "links": [
-    {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/chingyin81610"
-    },
-    {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/chingyin81610"
-    },
-    {
-      "label": "Threads",
-      "url": "https://www.threads.com/@chingyin81610"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://www.youtube.com/@%E9%BB%83%E7%80%9E%E7%91%A9%E5%8F%B0%E5%8C%97%E6%9C%89%E5%A7%90"
-    }
-  ],
-  "promises": [
-    {
-      "asked": "2024.05",
-      "ask": "社宅改用輪候制，不再只靠抽籤",
-      "done": "2025.12",
-      "result": "社宅統一登記平台上線，輪候制的基礎"
-    },
-    {
-      "asked": "2024.06",
-      "ask": "產檢補助納入 NIPT",
-      "done": "2025.01",
-      "result": "初唐、中唐、NIPT 三擇一補助"
-    },
-    {
-      "asked": "2024.06",
-      "ask": "翻新社子島河岸廁所、淋浴設備",
-      "done": "2025.05",
-      "result": "迎星碼頭公廁翻新，加了淋浴間"
-    },
-    {
-      "asked": "2025.11",
-      "ask": "好孕專車 6 項升級",
-      "done": "2026.10",
-      "result": "乘車金 1 萬元，用到產後一年"
-    }
-  ],
-  "citywide": [
-    {
-      "when": "2025.12 上線",
-      "title": "社宅統一登記平台",
-      "note": "登記一次，社宅招租時系統主動通知；市府也能掌握真實的居住需求。"
-    },
-    {
-      "when": "2025.01 起",
-      "title": "NIPT 納入產檢補助",
-      "note": "準媽媽可在初唐、中唐、NIPT 三擇一，NIPT 檢出率比初唐、中唐高。"
-    },
-    {
-      "when": "2024.10 加碼",
-      "title": "高齡機車駕訓名額增加",
-      "note": "交通部門質詢後，交通局擴大與駕訓班合作，增加長輩課程名額。"
-    },
-    {
-      "when": "逐年擴充",
-      "title": "定點臨時托育",
-      "note": "臨托量能逐年擴充，台北每個行政區都有臨托據點。"
-    }
-  ],
-  "pending": [
-    {
-      "title": "社宅輪候制",
-      "note": "登記平台已上線，下一步是讓社宅依居住需求排序分配，不再只靠抽籤。"
-    },
-    {
-      "title": "北投市場改建",
-      "note": "拆除重建中。鷹架倒塌意外後，她要求確認安全無虞才能復工。"
-    },
-    {
-      "title": "文林國小新校舍",
-      "note": "改建經費已爭取到，預計 117 年開工、120 年完工。"
-    }
-  ],
+ "slug": "huang-ching-ying",
+ "person": {
+  "name": "黃瀞瑩",
+  "office": "台北市議員（士林北投）",
+  "updated": "2026.11.23",
+  "local": "士北人",
+  "pron": "她",
   "council": "275",
-  "portrait": "/img/huang-ching-ying/portrait.jpg",
-  "duo": [
-    {
-      "label": "友善育兒",
-      "title": "好孕專車，她自己搭過才去改",
-      "url": "https://www.youtube.com/watch?v=PwFQkNR3f-E",
-      "img": "/img/huang-ching-ying/duo-1.jpg",
-      "ratio": "16 / 9"
-    },
-    {
-      "label": "居住正義",
-      "title": "四年只蓋 198 戶，社宅不能再等",
-      "url": "https://www.youtube.com/watch?v=lfAoug0DirU",
-      "img": "/img/huang-ching-ying/duo-2.jpg",
-      "ratio": "16 / 9"
-    }
-  ],
-  "artifact": "https://claude.ai/artifact/PuFq4HTwq6XxCWeNxrJJQW"
+  "city": "台北",
+  "ballot": "16",
+  "election": "11/28"
+ },
+ "personas": [
+  {
+   "id": "parent",
+   "label": "懷孕、帶小孩的",
+   "sub": "好孕專車、托嬰、公園",
+   "lead": "帶小孩的你，可能用過"
+  },
+  {
+   "id": "walk",
+   "label": "走路上學、買菜的",
+   "sub": "斑馬線、人行道",
+   "lead": "走路的你，每天可能經過"
+  },
+  {
+   "id": "elder",
+   "label": "家有長輩的",
+   "sub": "安駕課程、看診、公廁",
+   "lead": "你家長輩，可能用過"
+  },
+  {
+   "id": "ride",
+   "label": "騎車開車的",
+   "sub": "路面重鋪、機車彎",
+   "lead": "騎車開車的你，每天可能經過"
+  },
+  {
+   "id": "out",
+   "label": "假日出門玩的",
+   "sub": "河濱碼頭、公園",
+   "lead": "假日出門的你，可能去過"
+  }
+ ],
+ "items": [
+  {
+   "who": [
+    "parent"
+   ],
+   "when": "2026.10",
+   "status": "已上路",
+   "place": "全台北・好孕專車",
+   "title": "好孕專車加碼：1 萬元，用到產後一年",
+   "bShort": "安全座椅車少，生完就不能用",
+   "aShort": "乘車金 1 萬元，用到產後一年",
+   "before": "她懷孕時自己搭好孕專車，發現派車慢、配兒童安全座椅的車太少，生完就不能再用。",
+   "after": "2025 年 11 月總質詢提出 6 項升級。2026 年 3 月 Uber 加入，有 0–7 歲安全座椅的寶寶優步；10 月起乘車金提高到 1 萬元，用到產後一年。",
+   "url": "https://www.facebook.com/photo/?fbid=1072617778617512&set=a.135503045662328",
+   "thumb": "/img/huang-ching-ying/item-01.jpg"
+  },
+  {
+   "who": [
+    "parent",
+    "out"
+   ],
+   "when": "2026.07",
+   "status": "已完工",
+   "place": "北投・長安公園遊戲區",
+   "title": "遊戲區地墊整片換新",
+   "bShort": "地墊破損，一再局部補",
+   "aShort": "全新地墊鋪設完成",
+   "before": "遊戲區地墊多處破損，市府反覆局部修補，帶小孩來玩的家長不放心。",
+   "after": "年初會勘要求全面更新、不再補丁式修補，歷經備料和招標，全新地墊鋪設完成。",
+   "url": "https://www.facebook.com/photo/?fbid=1070140508865239&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-02.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "parent"
+   ],
+   "when": "2026.06",
+   "status": "已完工",
+   "place": "士林・葫蘆國小周邊",
+   "title": "通學路上的變電箱搬走了",
+   "bShort": "變電箱佔人行道，還疑似漏油",
+   "aShort": "變電箱遷走，人行道變寬",
+   "before": "變電箱和交接箱設在學童上下課的人行道上，加上機車停放，現場還曾疑似漏油。",
+   "after": "2024 年 4 月接到陳情，協調台電、中華電信、學校、公園處多次會勘，兩年後變電箱拆除，人行道還給學童。",
+   "url": "https://www.facebook.com/photo/?fbid=1034906195722004&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-03.jpg"
+  },
+  {
+   "who": [
+    "parent",
+    "out"
+   ],
+   "when": "2025.11",
+   "status": "已開放",
+   "place": "北投・北士科福星公園",
+   "title": "台北第一座兒童交通公園",
+   "bShort": "小孩沒地方練騎車",
+   "aShort": "滑步車、自行車的擬真道路",
+   "before": "受法規限制，台北一直沒有讓孩子在擬真道路上練騎自行車、滑步車的地方。",
+   "after": "她要求交通局參考國內外案例規劃，福星公園增設交通教學區，2025 年 11 月完工啟用，有擬真標線和主題解說。",
+   "url": "https://www.youtube.com/shorts/jVZ3T033rhk",
+   "thumb": "/img/huang-ching-ying/item-04.jpg"
+  },
+  {
+   "who": [
+    "parent",
+    "ride"
+   ],
+   "when": "2025.08",
+   "status": "已完工",
+   "place": "士林托嬰中心",
+   "title": "托嬰中心門口有了接送區",
+   "bShort": "門口全是紅線，接送沒處停",
+   "aShort": "劃設家長接送區",
+   "before": "托嬰中心前全是紅線，沒有家長接送區，接送小孩很不方便。",
+   "after": "會同義信里里長和局處會勘，調整無障礙車格和機車格位置，8 月中劃好黃線、立告示牌。",
+   "url": "https://www.facebook.com/photo/?fbid=799152119297414&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-05.jpg"
+  },
+  {
+   "who": [
+    "out",
+    "parent"
+   ],
+   "when": "2025.05",
+   "status": "已完工",
+   "place": "社子島・迎星碼頭",
+   "title": "滑水賽場的河岸廁所翻新",
+   "bShort": "公廁髒亂發臭",
+   "aShort": "新增淋浴間、親子廁所",
+   "before": "台北國際滑水公開賽每年在這裡舉行，河岸公廁卻髒亂發臭。",
+   "after": "2024 年 6 月總質詢要求改善，水利處、公園處、體育局協調翻新，增設淋浴間和親子友善廁所。",
+   "url": "https://www.facebook.com/photo/?fbid=712712534608040&set=pcb.712710831274877",
+   "thumb": "/img/huang-ching-ying/item-06.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "elder"
+   ],
+   "when": "2026.05",
+   "status": "已完工",
+   "place": "北投・復興四路與大屯路口",
+   "title": "路口終於有斑馬線",
+   "bShort": "上學、買菜的路口沒有行穿線",
+   "aShort": "劃設行穿線",
+   "before": "里民上課、買菜天天經過這個路口，卻沒有斑馬線。",
+   "after": "持續爭取半年，路口劃設行穿線，孩子上學、長輩買菜都有清楚的通行空間。",
+   "url": "https://www.facebook.com/photo/?fbid=1015464584332832&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-07.jpg"
+  },
+  {
+   "who": [
+    "elder",
+    "walk"
+   ],
+   "when": "2025.12",
+   "status": "已完工",
+   "place": "北投・長安公園擴建區",
+   "title": "眷村里民天天用的公廁翻新",
+   "bShort": "公廁年久失修",
+   "aShort": "整修更新完成",
+   "before": "七虎眷村早期房屋狹小，許多住戶家裡沒有廁所，日常靠這間公廁，設備卻老舊失修。",
+   "after": "里長和里民陳情後會勘，協調公園處整修，公廁更新完成。",
+   "url": "https://www.facebook.com/photo/?fbid=892310789981546&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-08.jpg"
+  },
+  {
+   "who": [
+    "walk",
+    "ride"
+   ],
+   "when": "2025.02",
+   "status": "已完工",
+   "place": "石牌路二段・榮總身障重建中心對面",
+   "title": "人行道不再被機車佔滿",
+   "bShort": "機車亂停，行人跟機車搶路",
+   "aShort": "重新規劃機車彎",
+   "before": "人行道沒有機車空間規劃，機車雜亂停放，身障者和行人跟機車搶路。",
+   "after": "邀里長和市府會勘，重新規劃機車彎、調整路面，人行道空間完整。",
+   "url": "https://www.facebook.com/photo/?fbid=634743815738246&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-09.jpg"
+  },
+  {
+   "who": [
+    "ride",
+    "walk"
+   ],
+   "when": "2024.12",
+   "status": "已完工",
+   "place": "士林・故宮路、力行街巷弄",
+   "title": "六條巷子的路面重鋪",
+   "bShort": "路面破損、標線斑駁",
+   "aShort": "六條巷弄路面重鋪",
+   "before": "故宮路、力行街的巷弄年久失修，路面破損、標線斑駁。",
+   "after": "年初邀里長、新工處會勘，爭取預算重鋪故宮路 7、15、23 巷和力行街 20、27、35 巷，年底前完工。",
+   "url": "https://www.facebook.com/photo/?fbid=593000863245875&set=pcb.593001163245845",
+   "thumb": "/img/huang-ching-ying/item-10.jpg"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "when": "2026.01",
+   "status": "已上路",
+   "place": "台北市立聯合醫院・全院區",
+   "title": "聯醫每個院區都能刷悠遊卡",
+   "bShort": "院外門診不能刷，標準不一",
+   "aShort": "全院區含院外門診都能刷",
+   "before": "陽明院區本部能刷悠遊卡，院外門診卻不行，看診的人霧煞煞。",
+   "after": "在交通委員會要求悠遊卡公司擴大到所有聯醫院區，2026 年 1 月 1 日起全面開放。",
+   "url": "https://www.facebook.com/photo/?fbid=876961624849796&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-11.jpg"
+  },
+  {
+   "who": [
+    "elder",
+    "ride"
+   ],
+   "when": "2025.10",
+   "status": "開課中",
+   "place": "全台北・高齡駕駛",
+   "title": "長輩上安駕課，每人補助 3,000",
+   "bShort": "高齡駕駛事故逐年增加",
+   "aShort": "北市首辦汽車高齡安駕課程",
+   "before": "高齡駕駛的事故和死傷逐年攀升，長輩缺少重新學習道路規則的管道。",
+   "after": "總質詢多次要求後，北市首辦汽車高齡安駕課程，每人補助 3,000 元，10 月 17 日開班。",
+   "url": "https://www.facebook.com/photo/?fbid=840608078485151&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-12.jpg"
+  },
+  {
+   "who": [
+    "ride"
+   ],
+   "when": "2026.08",
+   "status": "已完工",
+   "place": "北投・中央北路三段",
+   "title": "中央北路三段整段重鋪",
+   "bShort": "路面老化，水溝蓋老舊",
+   "aShort": "全面銑鋪，水溝蓋換新",
+   "before": "桃源里里長反映中央北路三段路面老化破損，水溝蓋也該換了。",
+   "after": "2025 年 11 月會勘，爭取全段銑鋪，水溝蓋同步更新，路面變平整。",
+   "url": "https://www.facebook.com/photo/?fbid=1091843356694954&set=a.135503048995661",
+   "thumb": "/img/huang-ching-ying/item-13.jpg"
+  },
+  {
+   "who": [
+    "out"
+   ],
+   "when": "2024",
+   "status": "已完工",
+   "place": "士林・三腳渡碼頭",
+   "title": "龍舟碼頭換上新浮筒",
+   "bShort": "浮筒破損，用塑膠墊撐著",
+   "aShort": "浮筒翻新",
+   "before": "每年龍舟賽的碼頭，浮筒老舊破損，只能用塑膠墊勉強維持安全。",
+   "after": "和水利處會勘後翻新浮筒，接著處理地面積水和老舊龍頭。",
+   "url": "https://www.facebook.com/photo/?fbid=453652657180697&set=pcb.453654993847130",
+   "thumb": "/img/huang-ching-ying/item-14.jpg"
+  }
+ ],
+ "pitch": [
+  "好孕專車加碼到 1 萬元、用到產後一年，她懷孕時自己搭過才去改",
+  "NIPT 納入台北產檢補助，準媽媽多一個選擇",
+  "台北社宅統一登記平台上線，輪候制從這一步開始",
+  "台北率先補助長輩回訓，機車、汽車都有",
+  "台北第一座兒童交通公園，在北投福星公園開幕"
+ ],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/chingyin81610"
+  },
+  {
+   "label": "Instagram",
+   "url": "https://www.instagram.com/chingyin81610"
+  },
+  {
+   "label": "Threads",
+   "url": "https://www.threads.com/@chingyin81610"
+  },
+  {
+   "label": "YouTube",
+   "url": "https://www.youtube.com/@%E9%BB%83%E7%80%9E%E7%91%A9%E5%8F%B0%E5%8C%97%E6%9C%89%E5%A7%90"
+  }
+ ],
+ "promises": [
+  {
+   "asked": "2024.05",
+   "ask": "社宅改用輪候制，不再只靠抽籤",
+   "done": "2025.12",
+   "result": "社宅統一登記平台上線，輪候制的基礎"
+  },
+  {
+   "asked": "2024.06",
+   "ask": "產檢補助納入 NIPT",
+   "done": "2025.01",
+   "result": "初唐、中唐、NIPT 三擇一補助"
+  },
+  {
+   "asked": "2024.06",
+   "ask": "翻新社子島河岸廁所、淋浴設備",
+   "done": "2025.05",
+   "result": "迎星碼頭公廁翻新，加了淋浴間"
+  },
+  {
+   "asked": "2025.11",
+   "ask": "好孕專車 6 項升級",
+   "done": "2026.10",
+   "result": "乘車金 1 萬元，用到產後一年"
+  }
+ ],
+ "citywide": [
+  {
+   "when": "2025.12 上線",
+   "title": "社宅統一登記平台",
+   "note": "登記一次，社宅招租時系統主動通知；市府也能掌握真實的居住需求。"
+  },
+  {
+   "when": "2025.01 起",
+   "title": "NIPT 納入產檢補助",
+   "note": "準媽媽可在初唐、中唐、NIPT 三擇一，NIPT 檢出率比初唐、中唐高。"
+  },
+  {
+   "when": "2024.10 加碼",
+   "title": "高齡機車駕訓名額增加",
+   "note": "交通部門質詢後，交通局擴大與駕訓班合作，增加長輩課程名額。"
+  },
+  {
+   "when": "逐年擴充",
+   "title": "定點臨時托育",
+   "note": "臨托量能逐年擴充，台北每個行政區都有臨托據點。"
+  }
+ ],
+ "pending": [
+  {
+   "title": "社宅輪候制",
+   "note": "登記平台已上線，下一步是讓社宅依居住需求排序分配，不再只靠抽籤。"
+  },
+  {
+   "title": "北投市場改建",
+   "note": "拆除重建中。鷹架倒塌意外後，她要求確認安全無虞才能復工。"
+  },
+  {
+   "title": "文林國小新校舍",
+   "note": "改建經費已爭取到，預計 117 年開工、120 年完工。"
+  }
+ ],
+ "council": "275",
+ "portrait": "/img/huang-ching-ying/portrait.jpg",
+ "duo": [
+  {
+   "label": "友善育兒",
+   "title": "好孕專車，她自己搭過才去改",
+   "url": "https://www.youtube.com/watch?v=PwFQkNR3f-E",
+   "img": "/img/huang-ching-ying/duo-1.jpg",
+   "ratio": "16 / 9"
+  },
+  {
+   "label": "居住正義",
+   "title": "四年只蓋 198 戶，社宅不能再等",
+   "url": "https://www.youtube.com/watch?v=lfAoug0DirU",
+   "img": "/img/huang-ching-ying/duo-2.jpg",
+   "ratio": "16 / 9"
+  }
+ ],
+ "artifact": "https://claude.ai/artifact/PuFq4HTwq6XxCWeNxrJJQW",
+ "platform": [
+  {
+   "who": [],
+   "cat": "居住正義",
+   "title": "社宅新增 7,000 戶潛力基地",
+   "plan": "爭取新增 7,000 戶潛力基地，提高幸福住宅量能；推動社宅統一登記平台、輪候制。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "居住正義",
+   "title": "社宅租金調漲提前通知",
+   "plan": "社宅租金調漲須提前通知，調整幅度透明、合理、可負擔；推動聯開宅轉作只租不售的可負擔住宅。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "安心樂養",
+   "title": "12 行政區皆設臨托據點",
+   "plan": "擴大定點臨托量能，實現 12 行政區皆設臨托據點。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "安心樂養",
+   "title": "好孕專車乘車金 1 萬元",
+   "plan": "好孕專車與 Uber 合作、完善申訴機制，乘車金調升到 1 萬元。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "安心樂養",
+   "title": "腸病毒 71 型、RSV 疫苗補助",
+   "plan": "爭取補助腸病毒 71 型與 RSV 疫苗；中低收入戶兒童納入第 2 類醫療補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "安心樂養",
+   "title": "0–2 歲一學區一公托",
+   "plan": "推動 0 到 2 歲一學區一公托，充實人力、調降師生比；爭取特教師生權益。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "交通安全",
+   "title": "福星公園交通教學區",
+   "plan": "爭取福星公園交通教學區，推動親子交通課程；高齡駕訓補助台北率先試辦；建置友善自行車路網。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "高齡長照",
+   "title": "友善失智社區、長照減工時",
+   "plan": "推動友善失智社區、在地安老；推動長照減工時，減輕勞工照顧壓力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  },
+  {
+   "who": [],
+   "cat": "在地建設",
+   "title": "北士科招商、北投市場改建",
+   "plan": "推動北士科招商與周邊交通規劃，監督北投市場改建、社子島開發；修復七虎籃球場。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/01%E8%87%BA%E5%8C%97%E5%B8%82/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf"
+  }
+ ]
 }

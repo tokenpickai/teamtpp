@@ -7,7 +7,9 @@
   "local": "彰化人",
   "pron": "他",
   "council": "",
-  "city": "彰化"
+  "city": "彰化",
+  "ballot": "13",
+  "election": "11/28"
  },
  "personas": [
   {
@@ -94,5 +96,42 @@
  "council": "",
  "portrait": "/img/wu-wei-ta/portrait.jpg",
  "duo": [],
- "artifact": ""
+ "artifact": "",
+ "platform": [
+  {
+   "who": [],
+   "cat": "人行路網",
+   "title": "20 公里無障礙步行路網",
+   "plan": "2025 年彰化交通死傷 3.1 萬人、兒少 2,166 人；推動新增或改善 20 公里無障礙步行路網。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "警消",
+   "title": "4 年補足警消編制",
+   "plan": "消防局編制 986 人、實際缺 225 人；監督縣府 4 年內編足警消人事、加班與裝備預算。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "老屋安全",
+   "title": "2,000 戶老屋安全健檢",
+   "plan": "約 38% 建物火災與電氣有關；推動 2,000 戶高風險老屋電線、消防、耐震、無障礙安全健檢並部分補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "長輩",
+   "title": "26 鄉鎮市長輩不漏餐",
+   "plan": "擴大送餐量能，午晚餐都送到，獨居、老老照顧長輩也納入部分補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [],
+   "cat": "學生參與",
+   "title": "每年 60 案學生改變彰化",
+   "plan": "縣府每年投入 800 萬元，鼓勵高中以下與大專學生研究產業、交通、觀光、環境議題，每年至少 5 案試辦。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ]
 }
