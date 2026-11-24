@@ -170,7 +170,7 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 </section>` : ''}
 
 </main>
-<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</span><span>聯繫信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
 <script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
 <script src="/app.js" defer></script>
 </body>
@@ -278,7 +278,7 @@ ${distBox(d)}
 </section>` : ''}
 
 </main>
-<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</span><span>聯繫信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
 <script src="/app.js" defer></script>
 </body>
 </html>
