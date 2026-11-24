@@ -227,3 +227,4 @@ a.hdt:hover{color:var(--teal-d)}
 .ih{border-bottom:0}
 .rs-img{position:relative}.rs-img::before{content:"";position:absolute;inset:-20px;background:var(--bg) center/cover;filter:blur(18px) brightness(.85)}
 .rs-img img{position:relative;object-fit:contain}
+.sec.ix-feed{margin-top:8px}
