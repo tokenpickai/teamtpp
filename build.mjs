@@ -221,7 +221,7 @@ function indexPage(everyone) {
 </div>
 <div class="rot" aria-roledescription="carousel" aria-label="最新完成">
 ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ? ' hidden' : ''}>
-<span class="rs-img"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
+<span class="rs-img" style="--bg:url('${esc(it.thumb)}')"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
 <span class="rs-body">
 <span class="rs-who"><img src="${esc(it.d.portrait)}" alt=""><span>${nm(it.d)}</span></span>
 <span class="rs-t">${esc(it.title)}</span>
@@ -235,7 +235,7 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 
 <main class="wrap mn">
 <section class="sec ix-feed">
-<h2 class="h2">最近完成</h2>
+<h2 class="h2">最新完成</h2>
 <div class="feed">
 ${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
 <span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>

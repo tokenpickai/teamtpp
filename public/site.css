@@ -224,3 +224,6 @@ a.hdt:hover{color:var(--teal-d)}
 @media (max-width:600px){.dl b{font-size:18px}.dl span{font-size:14px}.da{font-size:17px;padding:6px 12px}.pc .dl b{font-size:14px}.pc .dl span{font-size:12.5px}.pc .da{font-size:14px}}
 .pc-tag{top:auto;bottom:10px;right:auto;left:10px}
 .ix-feed{margin-top:40px}
+.ih{border-bottom:0}
+.rs-img{position:relative}.rs-img::before{content:"";position:absolute;inset:-20px;background:var(--bg) center/cover;filter:blur(18px) brightness(.85)}
+.rs-img img{position:relative;object-fit:contain}
