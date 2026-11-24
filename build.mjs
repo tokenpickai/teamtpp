@@ -78,7 +78,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${p.ballot ? `<span class="badge">${esc(p.election)} ${cand ? '投票' : '爭取連任'}</span>` : ''}
+${p.ballot ? `<span class="badge">${esc(p.election)} 投票</span>` : ''}
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
@@ -90,7 +90,7 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 </nav>
 </div>
 <div class="pitch-txt">
-${p.ballot ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員${cand ? '候選人' : '候選人・爭取連任'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
+${p.ballot ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員候選人${cand ? '' : ' <span class="tag-r">爭取連任</span>'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
 ${cand ? `<p class="bio">${esc(d.bio)}</p>` : ''}
 <h2 id="pitch">怎麼跟朋友推薦${esc(p.pron)}</h2>
 <ul>${d.pitch.map((t) => `<li><span class="bul" aria-hidden="true"></span><span>${esc(t)}</span></li>`).join('')}</ul>
@@ -191,7 +191,7 @@ function countChanges(people) {
 
 function indexPage(everyone) {
   const people = everyone.filter((d) => d.kind !== 'candidate');
-  const cands = everyone.filter((d) => d.kind === 'candidate');
+  const cands = everyone.filter((d) => d.person.ballot); // newcomers + incumbents running again
   const all = people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })));
   all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
   const total = countChanges(people);
@@ -251,13 +251,13 @@ ${d.person.ballot ? distBox(d) : `<span class="pc-o">${esc(d.person.office)}</sp
 
 ${cands.length ? `<section class="sec">
 <h2 class="h2">${esc(cands[0].person.election)} 參選人</h2>
-${CITIES.filter((c) => cands.some((d) => d.person.city === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
+${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
 <div class="people cmp">
-${cands.filter((d) => d.person.city === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}</span>
+${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}${d.kind === 'candidate' ? '' : '<span class="pc-tag">爭取連任</span>'}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 ${distBox(d)}
-<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
+<span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => t).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>
 </a>`).join('\n')}
 </div>`).join('\n')}
 </section>` : ''}
