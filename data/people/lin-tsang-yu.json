@@ -1,0 +1,119 @@
+{
+ "slug": "lin-tsang-yu",
+ "kind": "candidate",
+ "person": {
+  "name": "林蒼佑",
+  "office": "宜蘭縣議員參選人（宜蘭市）",
+  "ballot": "15",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "宜蘭市人",
+  "pron": "他",
+  "council": "",
+  "city": "宜蘭"
+ },
+ "bio": "宜蘭縣音雄藝術創作推廣協會理事長，多所國高中音樂課、熱音社指導老師。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "校園、藝文",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕、想留在宜蘭的",
+   "sub": "創業、租屋",
+   "lead": "想留在宜蘭的你"
+  },
+  {
+   "id": "local",
+   "label": "住宜蘭市的",
+   "sub": "醫療、消防、龍舟",
+   "lead": "住宜蘭市的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "校園安全",
+   "title": "反霸凌、護通學",
+   "plan": "反霸凌、護通學、強化心理支持，打造安心友善校園。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "多元教育",
+   "title": "學校、廟宇、社區一起推藝文",
+   "plan": "串聯學校、廟宇與社區，推動音樂、藝術、體育，讓孩子找到自己的舞台。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "消防改革",
+   "title": "補足消防人力、合理輪休",
+   "plan": "爭取補足人力、合理輪休、改善勤務環境，降低過勞，守護第一線消防員。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "醫療照護",
+   "title": "急重症、兒童、偏鄉醫療",
+   "plan": "強化急重症、兒童及偏鄉醫療，串聯醫療與長照。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "青年發展",
+   "title": "支持青年創業、返鄉",
+   "plan": "支持青年創業、返鄉與地方創生，增加發展機會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "居住正義",
+   "title": "青年租屋、社會住宅",
+   "plan": "關注青年租屋、社會住宅與住宅安全，讓青年住得起、家庭住得安心。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "龍舟運動",
+   "title": "完善龍舟賽事場域",
+   "plan": "完善龍舟競賽場地、設備與安全規劃。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "反霸凌、護通學，校園更安心",
+  "學校、廟宇、社區一起推音樂藝術體育",
+  "補足消防人力、合理輪休",
+  "青年租屋、社宅，讓青年留在宜蘭",
+  "音樂老師、藝術協會理事長，宜蘭市 15 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-tsang-yu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

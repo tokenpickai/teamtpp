@@ -1,0 +1,111 @@
+{
+ "slug": "tsai-yi-yang",
+ "kind": "candidate",
+ "person": {
+  "name": "蔡翼陽",
+  "office": "花蓮縣議員參選人（花蓮市）",
+  "ballot": "15",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "花蓮市人",
+  "pron": "他",
+  "council": "",
+  "city": "花蓮"
+ },
+ "bio": "兩屆花蓮市民代表，輔大體育系、球員出身。",
+ "personas": [
+  {
+   "id": "sport",
+   "label": "愛運動、帶校隊的",
+   "sub": "運動場、基層體育",
+   "lead": "愛運動的你"
+  },
+  {
+   "id": "family",
+   "label": "帶孩子出門的",
+   "sub": "公園、兒童樂園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住花蓮市的",
+   "sub": "陳情、在地產業",
+   "lead": "住花蓮市的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "sport"
+   ],
+   "cat": "運動環境升級",
+   "title": "運動場總體檢、深夜運動場域",
+   "plan": "各類運動場總體檢、修復、設備更新；親子友善運動設施、女性專用時段、深夜運動場域。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "sport"
+   ],
+   "cat": "支持基層體育",
+   "title": "校隊與教練經費專款",
+   "plan": "校隊比賽車錢、球衣常由家長自掏腰包，推動基層校隊與教練經費專款。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "sport",
+    "local"
+   ],
+   "cat": "運動品牌",
+   "title": "國際賽事常態化",
+   "plan": "推動花蓮在地運動品牌，國際賽事常態化、社區賽事深度化。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "山海健康產業",
+   "title": "健康運動飲食品牌",
+   "plan": "結合在地自然農業打造健康運動飲食品牌，從運動、飲食到樂齡養生。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "公園制度化",
+   "title": "公園設施體檢、限期修復",
+   "plan": "公園設施全面體檢、限期修復、進度公開；各區公園發展特色並輪流舉辦主題日。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "親子花蓮",
+   "title": "縣立室內兒童樂園",
+   "plan": "爭取縣立室內兒童樂園與風雨遊憩場，雨天也有地方去。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "運動場總體檢，增設女性時段、深夜運動場域",
+  "基層校隊與教練經費專款",
+  "公園設施限期修復、進度公開",
+  "爭取縣立室內兒童樂園",
+  "兩屆市民代表、球員出身，花蓮市 15 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/tsai-yi-yang/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

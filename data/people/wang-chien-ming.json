@@ -1,0 +1,112 @@
+{
+ "slug": "wang-chien-ming",
+ "kind": "candidate",
+ "person": {
+  "name": "王乾明",
+  "office": "宜蘭縣議員參選人（羅東）",
+  "ballot": "8",
+  "election": "11/28",
+  "district": 6,
+  "updated": "2026.11.24",
+  "local": "羅東人",
+  "pron": "他",
+  "council": "",
+  "city": "宜蘭"
+ },
+ "bio": "立委邱慧洳羅東區主任，民眾黨宜蘭黨部區主任，全銘實業創辦人。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "路霸、AI 號誌",
+   "lead": "在羅東通勤的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "通學、課後照顧",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住羅東的",
+   "sub": "市場、公園、夜市",
+   "lead": "住羅東的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "翻轉市場",
+   "title": "監督市場整建",
+   "plan": "監督推動市場整建與環境優化，通道乾淨、排水暢通，採買便利衛生。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "暢行羅東",
+   "title": "掃除路霸、AI 智慧號誌",
+   "plan": "堅決掃除路霸，全盤檢視易壅塞路段，運用 AI 智慧號誌順暢交通。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "commute"
+   ],
+   "cat": "校園廊道",
+   "title": "學區設通學廊道、人行道欄杆",
+   "plan": "學區門口設立通學廊道與人行道欄杆，學童步行通學有保障。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "family"
+   ],
+   "cat": "公園重塑",
+   "title": "改建羅東中山公園",
+   "plan": "活化改建羅東中山公園，加強照明與景觀維護，妥善安置遊民；推動夜市餐具統一洗滌區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "幸福托育",
+   "title": "延長課後照顧、臨時照顧",
+   "plan": "爭取幼兒園延長課後照顧彈性與臨時照顧機制，加碼育兒補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "共創繁榮",
+   "title": "整合夜市觀光，帶動溪南",
+   "plan": "整合夜市與在地商家觀光資源，偕同周邊鄉鎮整體行銷，推動溪南地區繁榮規劃。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "掃除路霸，AI 智慧號誌",
+  "改建羅東中山公園，加強照明",
+  "幼兒園延長課後照顧、臨時照顧",
+  "監督市場整建，乾淨衛生",
+  "立委邱慧洳羅東區主任，羅東 8 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/wang-chien-ming/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

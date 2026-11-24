@@ -1,0 +1,82 @@
+{
+ "slug": "shang-wen-kai",
+ "kind": "candidate",
+ "person": {
+  "name": "尚文凱",
+  "office": "金門縣議員參選人（金城金湖金寧烈嶼烏坵）",
+  "ballot": "5",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "金門人",
+  "pron": "她",
+  "council": "",
+  "city": "金門"
+ },
+ "bio": "前金門縣議會副議長辦公室主任，前台灣新光銀行經理。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "育兒津貼、校園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "長照據點",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "做生意的",
+   "sub": "金門品牌",
+   "lead": "在金門打拚的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "友善育兒",
+   "title": "擴大育兒津貼與托育資源",
+   "plan": "擴大育兒津貼與托育資源，創造友善校園環境。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "在地安老",
+   "title": "增設長照據點與關懷服務",
+   "plan": "增設長照據點與關懷服務，讓長輩在家鄉安心養老。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "行銷金門",
+   "title": "在地品牌、特色美食",
+   "plan": "提升在地品牌價值，推廣金門特色美食，拓展多元行銷通路。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "擴大育兒津貼與托育資源",
+  "增設長照據點，在地安老",
+  "推廣金門品牌與特色美食",
+  "前議會副議長辦公室主任，金門 5 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/shang-wen-kai/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

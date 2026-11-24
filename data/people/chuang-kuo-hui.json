@@ -1,0 +1,120 @@
+{
+ "slug": "chuang-kuo-hui",
+ "kind": "candidate",
+ "person": {
+  "name": "莊國輝",
+  "office": "澎湖縣議員參選人（馬公市）",
+  "ballot": "18",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "馬公人",
+  "pron": "他",
+  "council": "",
+  "city": "澎湖"
+ },
+ "bio": "前馬公市民代表會副主席，民眾黨第 1 屆黨代表。",
+ "personas": [
+  {
+   "id": "travel",
+   "label": "常搭飛機往返的",
+   "sub": "國內航線優惠",
+   "lead": "往返台澎的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "AI 教室、學區安全",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕人",
+   "sub": "AI 工具",
+   "lead": "年輕的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "travel"
+   ],
+   "cat": "居民有票坐",
+   "title": "國內航線學生優惠、離峰促銷",
+   "plan": "推動國內航線學生優惠及離峰促銷機制，居民有票坐、遊客願意來。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育改革",
+   "title": "小校行政專職化，老師回教學",
+   "plan": "小校共享行政專職化，讓老師回歸教學、行政回歸專業。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育改革",
+   "title": "AI 教學助理",
+   "plan": "AI 協助批改與學習診斷，讓老師進行差異化教學。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "長輩顧孫",
+   "title": "長輩顧孫教育基金",
+   "plan": "政府編預算、鼓勵企業與長輩敬老金捐款，成立長輩顧孫教育基金，補助學生赴台交通住宿。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "青年競爭力",
+   "title": "補助青年 AI 軟體工具",
+   "plan": "政府補助青年 AI 軟體工具，提升澎湖青年能力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "安心校園",
+   "title": "學區減速帶、行人優先",
+   "plan": "推行學區減速帶、行人優先、限速等學區周遭交通改善。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "travel",
+    "young"
+   ],
+   "cat": "國際度假島",
+   "title": "國際度假島計畫",
+   "plan": "推動國際度假島計畫，讓澎湖成為世界海島度假勝地。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "國內航線學生優惠、離峰促銷",
+  "小校行政專職化，老師回歸教學",
+  "長輩顧孫教育基金",
+  "學區減速帶、行人優先",
+  "前馬公市民代表會副主席，馬公 18 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chuang-kuo-hui/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
