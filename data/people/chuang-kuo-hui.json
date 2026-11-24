@@ -11,7 +11,11 @@
   "local": "馬公人",
   "pron": "他",
   "council": "",
-  "city": "澎湖"
+  "city": "澎湖",
+  "electCity": "澎湖",
+  "areas": [
+   "馬公"
+  ]
  },
  "bio": "前馬公市民代表會副主席，民眾黨第 1 屆黨代表。",
  "personas": [

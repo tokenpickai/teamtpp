@@ -9,7 +9,13 @@
   "council": "300",
   "city": "台北",
   "ballot": "13",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 6,
+  "electCity": "台北",
+  "areas": [
+   "大安",
+   "文山"
+  ]
  },
  "personas": [
   {

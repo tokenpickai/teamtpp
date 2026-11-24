@@ -9,7 +9,14 @@
   "council": "",
   "city": "彰化",
   "ballot": "13",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 1,
+  "electCity": "彰化",
+  "areas": [
+   "彰化",
+   "花壇",
+   "芬園"
+  ]
  },
  "personas": [
   {

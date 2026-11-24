@@ -11,7 +11,11 @@
   "local": "板橋人",
   "pron": "她",
   "council": "",
-  "city": "新北"
+  "city": "新北",
+  "electCity": "新北",
+  "areas": [
+   "板橋"
+  ]
  },
  "bio": "民眾黨發言人、國際部主任，美國南加大公共政策碩士。",
  "personas": [

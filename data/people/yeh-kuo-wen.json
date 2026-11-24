@@ -11,7 +11,11 @@
   "local": "香山人",
   "pron": "他",
   "council": "",
-  "city": "新竹市"
+  "city": "新竹市",
+  "electCity": "新竹市",
+  "areas": [
+   "香山"
+  ]
  },
  "bio": "新竹市政府市政顧問，香山區樂齡學習中心主任。",
  "personas": [

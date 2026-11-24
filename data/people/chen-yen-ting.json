@@ -11,7 +11,12 @@
   "local": "三蘆人",
   "pron": "他",
   "council": "",
-  "city": "新北"
+  "city": "新北",
+  "electCity": "新北",
+  "areas": [
+   "蘆洲",
+   "三重"
+  ]
  },
  "bio": "台大光電所碩士，家樂福 15 年資深員工。",
  "personas": [

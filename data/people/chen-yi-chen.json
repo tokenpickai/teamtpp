@@ -9,7 +9,15 @@
   "council": "",
   "city": "雲林",
   "ballot": "9",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 3,
+  "electCity": "雲林",
+  "areas": [
+   "虎尾",
+   "土庫",
+   "褒忠",
+   "元長"
+  ]
  },
  "personas": [
   {

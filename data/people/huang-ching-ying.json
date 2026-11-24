@@ -9,7 +9,13 @@
   "council": "275",
   "city": "台北",
   "ballot": "16",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 1,
+  "electCity": "台北",
+  "areas": [
+   "北投",
+   "士林"
+  ]
  },
  "personas": [
   {

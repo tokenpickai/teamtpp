@@ -11,7 +11,11 @@
   "local": "新豐人",
   "pron": "他",
   "council": "",
-  "city": "新竹縣"
+  "city": "新竹縣",
+  "electCity": "新竹縣",
+  "areas": [
+   "新豐"
+  ]
  },
  "bio": "立委洪毓祥辦公室新豐區特助，東華大學企管碩士。",
  "personas": [

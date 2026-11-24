@@ -9,7 +9,14 @@
   "council": "",
   "city": "彰化",
   "ballot": "2",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 4,
+  "electCity": "彰化",
+  "areas": [
+   "員林",
+   "大村",
+   "永靖"
+  ]
  },
  "personas": [
   {

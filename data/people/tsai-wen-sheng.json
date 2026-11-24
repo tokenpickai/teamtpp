@@ -11,7 +11,11 @@
   "local": "北區人",
   "pron": "他",
   "council": "",
-  "city": "新竹市"
+  "city": "新竹市",
+  "electCity": "新竹市",
+  "areas": [
+   "北區"
+  ]
  },
  "bio": "前新竹果菜公司總經理，曾任金竹里長。",
  "personas": [

@@ -11,7 +11,12 @@
   "pron": "他",
   "council": "",
   "city": "台北",
-  "district": 3
+  "district": 3,
+  "electCity": "台北",
+  "areas": [
+   "松山",
+   "信義"
+  ]
  },
  "bio": "前電視主播，民眾黨副秘書長，第一次參選。",
  "personas": [

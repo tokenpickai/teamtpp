@@ -9,7 +9,13 @@
   "council": "",
   "city": "台中",
   "ballot": "8",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 13,
+  "electCity": "台中",
+  "areas": [
+   "大里",
+   "霧峰"
+  ]
  },
  "personas": [
   {

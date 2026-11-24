@@ -198,9 +198,22 @@ a.hdt:hover{color:var(--teal-d)}
 .chip{display:inline-block;font-size:13px;font-weight:900;color:#0A6E70;background:var(--teal-t);padding:3px 10px;border-radius:999px;margin-right:10px;vertical-align:middle}
 .pc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;padding:0 4px}.pc-chips .chip{margin:0;font-size:14px;line-height:1.5}
 .plc{padding:36px 0 40px;border-bottom:1px solid var(--ink)}
-.pc-tag{position:absolute;left:10px;top:10px;font-size:13px;font-weight:900;color:#fff;background:var(--teal-d);padding:3px 10px;border-radius:999px}
+.pc-tag{position:absolute;left:62px;top:20px;font-size:13px;font-weight:900;color:#fff;background:var(--teal-d);padding:3px 10px;border-radius:999px}
 .cty{margin-top:36px}
 .people.cmp{margin-top:14px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
 .cmp .pc{border-radius:18px;padding:10px 10px 14px}.cmp .pc-img{aspect-ratio:1/1;border-radius:12px}
 .cmp .pc-o{margin-top:10px;font-size:13px}.cmp .pc-n{font-size:26px}.cmp .pc-chips{gap:6px;margin-top:8px}.cmp .pc-chips .chip{font-size:12.5px}
 @media (max-width:600px){.people.cmp{grid-template-columns:1fr 1fr}.cmp .pc-n{font-size:22px}}
+.bn{--r:#E50012;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;aspect-ratio:1;border-radius:50%;background:#fff;color:var(--r);font-family:'Noto Sans TC',sans-serif;font-weight:900;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.bn-l{width:104px;height:104px;font-size:60px;border:7px solid var(--r);box-shadow:0 0 0 4px #fff,0 0 0 10px var(--r)}
+.bn-s{position:absolute;left:12px;top:12px;width:42px;height:42px;font-size:24px;border:3px solid var(--r);box-shadow:0 0 0 2px #fff,0 0 0 5px var(--r)}
+.ballot{display:flex;align-items:center;gap:26px;margin-bottom:6px}.ballot .bn-l{margin:10px}
+.ballot-r{min-width:0}.bl{font-size:18px;font-weight:900;color:var(--ink)}.ballot .cn{margin:2px 0 10px}
+.dist{display:inline-flex;align-items:stretch;max-width:100%;background:var(--teal-d);border:2px solid var(--teal-d);border-radius:10px;overflow:hidden}
+.dl{display:flex;flex-direction:column;justify-content:center;padding:4px 12px;color:#fff;text-align:center;white-space:nowrap}
+.dl b{font-size:16px;font-weight:900;letter-spacing:.2em;margin-right:-.2em}.dl span{font-size:13px;letter-spacing:.1em}
+.da{display:flex;align-items:center;background:#fff;color:var(--teal-d);font-size:16px;font-weight:900;padding:6px 14px;border-radius:8px;line-height:1.45;min-width:0}
+.pc .dist{margin:10px 4px 0;align-self:flex-start}.pc .dl b{font-size:13px}.pc .dl span{font-size:11.5px}.pc .da{font-size:13px;padding:4px 10px}
+@media (max-width:600px){.bn-l{width:76px;height:76px;font-size:44px;border-width:5px;box-shadow:0 0 0 3px #fff,0 0 0 8px var(--r)}.ballot{gap:16px}.ballot .bn-l{margin:8px}.bl{font-size:15px}.da{font-size:14px;padding:5px 10px}}
+.pc .dist{flex-direction:column;align-self:stretch}.pc .dl{flex-direction:row;justify-content:center;gap:8px;align-items:baseline;padding:3px 8px}.pc .da{justify-content:center;text-align:center;border-radius:0 0 8px 8px}
+@media (max-width:600px){.people.cmp{grid-template-columns:repeat(2,minmax(0,1fr))}}.cmp .pc{min-width:0}.pc-chips .chip{overflow-wrap:anywhere}

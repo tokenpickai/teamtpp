@@ -11,7 +11,11 @@
   "local": "桃園區人",
   "pron": "她",
   "council": "",
-  "city": "桃園"
+  "city": "桃園",
+  "electCity": "桃園",
+  "areas": [
+   "桃園"
+  ]
  },
  "bio": "民眾黨發言人，前新竹市府發言人。",
  "personas": [

@@ -9,7 +9,12 @@
   "council": "",
   "city": "新竹",
   "ballot": "7",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 1,
+  "electCity": "新竹市",
+  "areas": [
+   "東區"
+  ]
  },
  "personas": [
   {

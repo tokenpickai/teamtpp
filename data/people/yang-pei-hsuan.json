@@ -3,7 +3,7 @@
  "kind": "candidate",
  "person": {
   "name": "楊霈璿",
-  "office": "金門縣議員參選人（金城金湖金寧烈嶼烏坵）",
+  "office": "金門縣議員參選人（金城金寧烏坵）",
   "ballot": "8",
   "election": "11/28",
   "district": 1,
@@ -11,7 +11,13 @@
   "local": "金門人",
   "pron": "他",
   "council": "",
-  "city": "金門"
+  "city": "金門",
+  "electCity": "金門",
+  "areas": [
+   "金城",
+   "金寧",
+   "烏坵"
+  ]
  },
  "bio": "民眾黨金門縣黨部立委聯合服務處主任、青年部主任。",
  "personas": [

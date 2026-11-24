@@ -11,7 +11,11 @@
   "local": "屏東市人",
   "pron": "他",
   "council": "",
-  "city": "屏東"
+  "city": "屏東",
+  "electCity": "屏東",
+  "areas": [
+   "屏東市"
+  ]
  },
  "bio": "民眾黨屏東縣黨部主委，義守大學兼任助理教授。",
  "personas": [

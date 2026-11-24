@@ -9,7 +9,13 @@
   "council": "327",
   "city": "台北",
   "ballot": "10",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 2,
+  "electCity": "台北",
+  "areas": [
+   "內湖",
+   "南港"
+  ]
  },
  "personas": [
   {

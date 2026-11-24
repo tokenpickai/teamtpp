@@ -11,7 +11,11 @@
   "local": "信義人",
   "pron": "他",
   "council": "",
-  "city": "基隆"
+  "city": "基隆",
+  "electCity": "基隆",
+  "areas": [
+   "信義"
+  ]
  },
  "bio": "立委邱慧洳辦公室秘書，民眾黨基隆市黨部發言人。",
  "personas": [

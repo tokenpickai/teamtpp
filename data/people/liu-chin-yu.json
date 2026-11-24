@@ -11,7 +11,11 @@
   "local": "西屯人",
   "pron": "她",
   "council": "",
-  "city": "台中"
+  "city": "台中",
+  "electCity": "台中",
+  "areas": [
+   "西屯"
+  ]
  },
  "bio": "民眾黨台中黨部發言人，前廣告公司客戶經理。",
  "personas": [

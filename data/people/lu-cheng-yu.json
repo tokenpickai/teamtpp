@@ -11,7 +11,11 @@
   "local": "中山人",
   "pron": "他",
   "council": "",
-  "city": "基隆"
+  "city": "基隆",
+  "electCity": "基隆",
+  "areas": [
+   "中山"
+  ]
  },
  "bio": "黃珊珊基隆服務處主任，國防醫學院碩士、眼科研究員。",
  "personas": [

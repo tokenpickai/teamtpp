@@ -51,6 +51,14 @@ ${it.now ? `<div class="b"><div class="tag">現在</div><p class="long">${esc(it
 </div>
 </article>`;
 // ballot tag: candidates 「6 號・11/28 投票」, incumbents running again 「…爭取連任」
+// 11/28 ballot: red double-ring number + 「縣市／第N選區」 block with town list
+const CITYFULL = { 台北: '台北市', 新北: '新北市', 基隆: '基隆市', 桃園: '桃園市', 台中: '台中市', 台南: '台南市', 高雄: '高雄市', 苗栗: '苗栗縣', 彰化: '彰化縣', 南投: '南投縣', 雲林: '雲林縣', 屏東: '屏東縣', 宜蘭: '宜蘭縣', 花蓮: '花蓮縣', 澎湖: '澎湖縣', 金門: '金門縣' };
+const zhNum = (n) => (n >= 20 ? '二' : '') + (n >= 10 ? '十' : '') + ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'][n % 10];
+const ballotNo = (d, size) => `<span class="bn bn-${size}" aria-label="${esc(d.person.ballot)} 號">${esc(d.person.ballot)}</span>`;
+const distBox = (d) => {
+  const p = d.person; const city = CITYFULL[p.electCity] || p.electCity;
+  return `<span class="dist"><span class="dl"><b>${esc(city)}</b><span>${p.indig ? `${esc(p.indig)}選區` : `第${zhNum(p.district)}選區`}</span></span><span class="da">${p.indig ? (city.endsWith('縣') ? '全縣' : '全市') : esc(p.areas.join('、'))}</span></span>`;
+};
 const ballotTag = (d) => d.person.ballot ? `${d.person.ballot} 號・${d.person.election} ${d.kind === 'candidate' ? '投票' : '爭取連任'}` : '';
 
 function personPage(d) {
@@ -70,7 +78,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${p.ballot ? `<span class="badge">${esc(ballotTag(d))}</span>` : ''}
+${p.ballot ? `<span class="badge">${esc(p.election)} ${cand ? '投票' : '爭取連任'}</span>` : ''}
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
@@ -82,7 +90,8 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 </nav>
 </div>
 <div class="pitch-txt">
-${cand ? `<p class="cn">${esc(p.name)}</p><p class="bio">${esc(d.bio)}</p>` : ''}
+${p.ballot ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員${cand ? '候選人' : '候選人・爭取連任'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
+${cand ? `<p class="bio">${esc(d.bio)}</p>` : ''}
 <h2 id="pitch">怎麼跟朋友推薦${esc(p.pron)}</h2>
 <ul>${d.pitch.map((t) => `<li><span class="bul" aria-hidden="true"></span><span>${esc(t)}</span></li>`).join('')}</ul>
 </div>
@@ -231,7 +240,7 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${d.person.ballot ? `<span class="pc-tag">${esc(ballotTag(d))}</span>` : ''}</span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${d.person.ballot ? `${ballotNo(d, 's')}<span class="pc-tag">爭取連任</span>` : ''}</span>
 <span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>
@@ -245,9 +254,9 @@ ${cands.length ? `<section class="sec">
 ${CITIES.filter((c) => cands.some((d) => d.person.city === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
 <div class="people cmp">
 ${cands.filter((d) => d.person.city === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}><span class="pc-tag">${esc(d.person.ballot)} 號</span></span>
-<span class="pc-o">${esc(d.person.office.replace(/.*（|）/g, ''))}</span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
+${distBox(d)}
 <span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
 </a>`).join('\n')}
 </div>`).join('\n')}

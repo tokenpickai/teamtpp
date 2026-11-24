@@ -11,7 +11,11 @@
   "local": "湖口人",
   "pron": "她",
   "council": "",
-  "city": "新竹縣"
+  "city": "新竹縣",
+  "electCity": "新竹縣",
+  "areas": [
+   "湖口"
+  ]
  },
  "bio": "新竹縣政府顧問，前湖口反生命園區自救會長。",
  "personas": [

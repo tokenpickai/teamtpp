@@ -11,7 +11,11 @@
   "local": "八德人",
   "pron": "他",
   "council": "",
-  "city": "桃園"
+  "city": "桃園",
+  "electCity": "桃園",
+  "areas": [
+   "八德"
+  ]
  },
  "bio": "民眾黨桃園市黨部發言人，善美生活公益協會理事長。",
  "personas": [

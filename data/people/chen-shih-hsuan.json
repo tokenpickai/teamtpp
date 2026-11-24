@@ -9,7 +9,12 @@
   "council": "189",
   "city": "新北",
   "ballot": "8",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 3,
+  "electCity": "新北",
+  "areas": [
+   "新莊"
+  ]
  },
  "personas": [
   {

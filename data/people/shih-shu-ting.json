@@ -11,7 +11,11 @@
   "local": "西區人",
   "pron": "她",
   "council": "",
-  "city": "新竹市"
+  "city": "新竹市",
+  "electCity": "新竹市",
+  "areas": [
+   "西區"
+  ]
  },
  "bio": "前新竹市政府發言人、民政處處長。",
  "personas": [

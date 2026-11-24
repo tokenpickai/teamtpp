@@ -3,7 +3,7 @@
  "kind": "candidate",
  "person": {
   "name": "尚文凱",
-  "office": "金門縣議員參選人（金城金湖金寧烈嶼烏坵）",
+  "office": "金門縣議員參選人（金城金寧烏坵）",
   "ballot": "5",
   "election": "11/28",
   "district": 1,
@@ -11,7 +11,13 @@
   "local": "金門人",
   "pron": "她",
   "council": "",
-  "city": "金門"
+  "city": "金門",
+  "electCity": "金門",
+  "areas": [
+   "金城",
+   "金寧",
+   "烏坵"
+  ]
  },
  "bio": "前金門縣議會副議長辦公室主任，前台灣新光銀行經理。",
  "personas": [

@@ -9,7 +9,13 @@
   "council": "409",
   "city": "台北",
   "ballot": "8",
-  "election": "11/28"
+  "election": "11/28",
+  "district": 4,
+  "electCity": "台北",
+  "areas": [
+   "中山",
+   "大同"
+  ]
  },
  "personas": [
   {

@@ -11,7 +11,11 @@
   "local": "中和人",
   "pron": "她",
   "council": "",
-  "city": "新北"
+  "city": "新北",
+  "electCity": "新北",
+  "areas": [
+   "中和"
+  ]
  },
  "bio": "立委黃國昌、議員陳世軒服務處出身，民眾黨黨代表。",
  "personas": [
