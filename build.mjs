@@ -78,7 +78,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${p.ballot ? `<span class="badge">${esc(p.election)} 投票</span>` : ''}
+${cand ? `<span class="badge">${esc(p.election)} 投票</span>` : ''}
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
@@ -90,7 +90,7 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 </nav>
 </div>
 <div class="pitch-txt">
-${p.ballot ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員候選人${cand ? '' : ' <span class="tag-r">爭取連任</span>'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
+${cand ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員候選人${cand ? '' : ' <span class="tag-r">爭取連任</span>'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
 ${cand ? `<p class="bio">${esc(d.bio)}</p>` : ''}
 <h2 id="pitch">怎麼跟朋友推薦${esc(p.pron)}</h2>
 <ul>${d.pitch.map((t) => `<li><span class="bul" aria-hidden="true"></span><span>${esc(t)}</span></li>`).join('')}</ul>
@@ -158,10 +158,6 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 </div>
 </section>` : ''}
 
-${!cand && d.platform?.length ? `<section aria-labelledby="plan" class="sec">
-<h2 id="plan" class="h2">連任政見</h2>
-${d.platform.map((it, i) => planCard(it, `class="plc" id="p-${i}"`, p.pron)).join('\n')}
-</section>` : ''}
 </main>
 <footer class="ft"><div class="wrap"><a href="/">${SITE.name}</a>・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</div></footer>
 <script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
@@ -213,9 +209,9 @@ function indexPage(everyone) {
 <section class="ih"><div class="wrap ih-in">
 <div class="ih-l">
 <h1 class="ih-h">看得見的改變</h1>
-<p class="ih-s">從路口、公園到治安、反毒、校園和孩子的鮮奶，民眾黨議員做成的每一件事，都有照片、日期和出處。</p>
+<p class="ih-s">從路口、公園到治安、反毒、校園和孩子的鮮奶，民眾黨議員做成的每一件事，都是看得見的改變。</p>
 <div class="stats">
-<div class="stat"><span class="sn">${people.length}</span><span class="sl">位議員</span></div>
+<div class="stat"><span class="sn">${people.length}</span><span class="sl">位現任議員</span></div>
 <div class="stat"><span class="sn">${total}</span><span class="sl">件看得見的改變</span></div>
 <div class="stat"><span class="sn">${council}</span><span class="sl">件議員提案</span></div>
 </div>
@@ -240,10 +236,10 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${d.person.ballot ? `${ballotNo(d, 's')}<span class="pc-tag">爭取連任</span>` : ''}</span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}></span>
+<span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
-${d.person.ballot ? distBox(d) : `<span class="pc-o">${esc(d.person.office)}</span>`}
-<span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</span>
+<span class="pc-p">${esc(d.pitch[0])}</span>
 <span class="pc-th">${th.map((x) => `<img src="${esc(x.thumb)}" alt="" loading="lazy">`).join('')}</span>
 </a>`;
   }).join('\n')}

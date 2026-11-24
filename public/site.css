@@ -219,3 +219,7 @@ a.hdt:hover{color:var(--teal-d)}
 @media (max-width:600px){.people.cmp{grid-template-columns:repeat(2,minmax(0,1fr))}}.cmp .pc{min-width:0}.pc-chips .chip{overflow-wrap:anywhere}
 .pc-tag{left:auto;right:12px;top:14px}
 .tag-r{display:inline-block;margin-left:6px;font-size:12px;font-weight:900;color:#fff;background:var(--teal-d);padding:2px 8px;border-radius:999px;vertical-align:2px}
+.dl b{font-size:20px}.dl span{font-size:16px}.da{font-size:20px;padding:8px 16px}
+.pc .dl b{font-size:16px}.pc .dl span{font-size:14px}.pc .da{font-size:16px;padding:5px 10px}
+@media (max-width:600px){.dl b{font-size:18px}.dl span{font-size:14px}.da{font-size:17px;padding:6px 12px}.pc .dl b{font-size:14px}.pc .dl span{font-size:12.5px}.pc .da{font-size:14px}}
+.pc-tag{top:auto;bottom:10px;right:auto;left:10px}
