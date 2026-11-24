@@ -84,42 +84,64 @@
     const img = new Image();
     img.src = d.thumb;
     await img.decode();
-    const W = 1080, H = 1920, c = document.createElement('canvas');
-    c.width = W; c.height = H;
+    const W = 1080, c = document.createElement('canvas');
+    c.width = W; c.height = 2600;
     const x = c.getContext('2d');
-    x.fillStyle = '#F4F1EA'; x.fillRect(0, 0, W, H);
-    const tw = 405, tx = 80, ty = 120, th = Math.min(720, Math.round(tw * img.naturalHeight / img.naturalWidth));
-    x.save(); x.beginPath(); x.roundRect(tx, ty, tw, th, 32); x.clip(); x.drawImage(img, tx, ty, tw, th); x.restore();
-    x.fillStyle = '#28C8C8'; x.beginPath(); x.roundRect(545, ty, 455, 84, 42); x.fill();
-    x.fillStyle = '#141414'; x.font = "900 36px 'Noto Sans TC'"; x.textBaseline = 'middle';
-    x.fillText(d.status.length > 10 ? d.when : d.status + '・' + d.when, 575, ty + 43);
+    x.fillStyle = '#F4F1EA'; x.fillRect(0, 0, W, c.height);
+    // who: top line
+    x.fillStyle = '#28C8C8'; x.beginPath(); x.arc(92, 96, 12, 0, Math.PI * 2); x.fill();
+    x.fillStyle = '#141414'; x.font = "900 44px 'Noto Serif TC'"; x.textBaseline = 'middle';
+    x.fillText(D.office + ' ' + D.name, 124, 98);
     x.textBaseline = 'alphabetic';
+    // photo + place/title
+    const tw = 405, tx = 80, ty = 170, th = Math.min(600, Math.round(tw * img.naturalHeight / img.naturalWidth));
+    x.save(); x.beginPath(); x.roundRect(tx, ty, tw, th, 32); x.clip(); x.drawImage(img, tx, ty, tw, th); x.restore();
     x.fillStyle = '#3E5A5C'; x.font = "700 34px 'Noto Sans TC'";
-    let yy = ty + 170;
+    let yy = ty + 34;
     wrap(x, d.place, 455).forEach((l) => { x.fillText(l, 545, yy); yy += 48; });
     x.fillStyle = '#141414'; x.font = "900 64px 'Noto Serif TC'";
-    yy += 30;
+    yy += 40;
     wrap(x, d.title, 455).forEach((l) => { x.fillText(l, 545, yy); yy += 84; });
-    let y = Math.max(ty + th + 110, yy + 40);
-    x.fillStyle = '#5F7577'; x.font = "900 32px 'Noto Sans TC'"; x.fillText('以前', 80, y); y += 58;
-    x.fillStyle = '#4A6163'; x.font = "500 40px 'Noto Sans TC'";
-    wrap(x, d.before, 920).forEach((l) => { x.fillText(l, 80, y); y += 60; });
-    y += 40;
+    let y = Math.max(ty + th, yy - 40) + 80;
+    // 以前
+    x.fillStyle = '#E2DED5';
+    x.font = "500 40px 'Noto Sans TC'";
+    const beforeLines = wrap(x, d.before, 860);
+    const bH = 100 + beforeLines.length * 60;
+    x.beginPath(); x.roundRect(80, y, 920, bH, 28); x.fill();
+    x.fillStyle = '#5A5A5A'; x.font = "900 32px 'Noto Sans TC'"; x.fillText('以前', 110, y + 62);
+    x.fillStyle = '#4A4A4A'; x.font = "500 40px 'Noto Sans TC'";
+    let by = y + 122; beforeLines.forEach((l) => { x.fillText(l, 110, by); by += 60; });
+    y += bH + 30;
+    // down arrow + when/status (mirrors the page's arrow)
+    x.strokeStyle = '#141414'; x.lineWidth = 7; x.lineCap = 'round'; x.lineJoin = 'round';
+    x.beginPath(); x.moveTo(140, y); x.lineTo(140, y + 90); x.moveTo(112, y + 62); x.lineTo(140, y + 92); x.lineTo(168, y + 62); x.stroke();
+    x.fillStyle = '#141414'; x.font = "900 44px 'Noto Serif TC'"; x.textBaseline = 'middle';
+    x.fillText(d.when, 200, y + 46);
+    const ww = x.measureText(d.when).width;
+    if (d.status && d.status.length <= 10) { x.fillStyle = '#0A6E70'; x.font = "700 34px 'Noto Sans TC'"; x.fillText(d.status, 200 + ww + 28, y + 48); }
+    x.textBaseline = 'alphabetic';
+    y += 130;
+    // 現在
     x.font = "700 40px 'Noto Sans TC'";
     const nowLines = wrap(x, d.after, 860);
-    const boxH = 100 + nowLines.length * 60;
-    x.fillStyle = '#FFFFFF'; x.fillRect(80, y, 920, boxH);
-    x.fillStyle = '#28C8C8'; x.fillRect(80, y, 920, 12);
-    x.fillStyle = '#0A6E70'; x.font = "900 32px 'Noto Sans TC'"; x.fillText('現在', 110, y + 70);
-    x.fillStyle = '#141414'; x.font = "700 40px 'Noto Sans TC'";
-    let ny = y + 130;
-    nowLines.forEach((l) => { x.fillText(l, 110, ny); ny += 60; });
-    x.fillStyle = '#141414'; x.fillRect(80, H - 170, 920, 3);
-    x.font = "900 44px 'Noto Serif TC'"; x.fillText('民眾隊', 80, H - 90);
+    const nH = 100 + nowLines.length * 60;
+    x.fillStyle = '#28C8C8'; x.beginPath(); x.roundRect(80, y, 920, nH, 28); x.fill();
+    x.fillStyle = '#0B2F33'; x.font = "900 32px 'Noto Sans TC'"; x.fillText('現在', 110, y + 62);
+    x.fillStyle = '#10282B'; x.font = "700 40px 'Noto Sans TC'";
+    let ny = y + 122; nowLines.forEach((l) => { x.fillText(l, 110, ny); ny += 60; });
+    y += nH + 70;
+    // footer
+    x.fillStyle = '#141414'; x.fillRect(80, y, 920, 3);
+    y += 80;
+    x.font = "900 40px 'Noto Serif TC'"; x.fillText('民眾隊', 80, y);
     const bw = x.measureText('民眾隊').width;
-    x.fillStyle = '#28C8C8'; x.beginPath(); x.arc(80 + bw + 28, H - 105, 9, 0, Math.PI * 2); x.fill();
-    x.fillStyle = '#141414'; x.font = "900 40px 'Noto Serif TC'"; x.fillText(D.office + D.name, 80 + bw + 56, H - 90);
-    return new Promise((r) => c.toBlob(r, 'image/png'));
+    x.fillStyle = '#28C8C8'; x.beginPath(); x.arc(80 + bw + 26, y - 14, 8, 0, Math.PI * 2); x.fill();
+    x.fillStyle = '#141414'; x.font = "700 36px 'Noto Sans TC'"; x.fillText('teamtpp.com', 80 + bw + 52, y);
+    y += 70;
+    const out = document.createElement('canvas'); out.width = W; out.height = y;
+    out.getContext('2d').drawImage(c, 0, 0);
+    return new Promise((r) => out.toBlob(r, 'image/png'));
   }
 
   document.querySelectorAll('.sb').forEach((b) => b.addEventListener('click', async () => {
