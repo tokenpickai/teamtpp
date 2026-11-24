@@ -223,3 +223,4 @@ a.hdt:hover{color:var(--teal-d)}
 .pc .dl b{font-size:16px}.pc .dl span{font-size:14px}.pc .da{font-size:16px;padding:5px 10px}
 @media (max-width:600px){.dl b{font-size:18px}.dl span{font-size:14px}.da{font-size:17px;padding:6px 12px}.pc .dl b{font-size:14px}.pc .dl span{font-size:12.5px}.pc .da{font-size:14px}}
 .pc-tag{top:auto;bottom:10px;right:auto;left:10px}
+.ix-feed{margin-top:40px}

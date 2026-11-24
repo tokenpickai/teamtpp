@@ -36,6 +36,9 @@ ${image ? `<meta property="og:image" content="${esc(SITE.url + image)}">` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/site.css">
 </head>`;
 
@@ -231,7 +234,16 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 </div></section>
 
 <main class="wrap mn">
-<h2 class="h2 ix-h">找你家的議員</h2>
+<section class="sec ix-feed">
+<h2 class="h2">最近完成</h2>
+<div class="feed">
+${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
+<span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
+<span class="fd-t">${esc(it.title)}</span>
+<span class="fd-a">${esc(it.aShort)}</span></a>`).join('\n')}
+</div>
+</section>
+<h2 class="h2 ix-h">現任議員</h2>
 <div class="people">
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
@@ -258,15 +270,6 @@ ${distBox(d)}
 </div>`).join('\n')}
 </section>` : ''}
 
-<section class="sec">
-<h2 class="h2">最近完成</h2>
-<div class="feed">
-${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
-<span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
-<span class="fd-t">${esc(it.title)}</span>
-<span class="fd-a">${esc(it.aShort)}</span></a>`).join('\n')}
-</div>
-</section>
 </main>
 <footer class="ft"><div class="wrap">${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</div></footer>
 <script src="/app.js" defer></script>
