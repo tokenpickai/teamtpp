@@ -110,7 +110,12 @@
   "每里、超商 24 小時 AED",
   "前沙鹿六路里長"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=100034584800457"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

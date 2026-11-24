@@ -111,7 +111,12 @@
   "青年租屋、社宅，讓青年留在宜蘭",
   "音樂老師、藝術協會理事長"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=61578062935454"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

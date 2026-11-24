@@ -142,7 +142,12 @@
   "停車場前 30 分鐘免費，推大新竹輕軌",
   "竹北市民代表"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/zhubeibetter"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

@@ -105,7 +105,12 @@
   "照顧長輩，支持家庭",
   "前縣長地方秘書"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=100083283673672"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

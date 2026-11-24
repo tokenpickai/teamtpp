@@ -74,7 +74,12 @@
   "長輩生活服務專線、社區接駁",
   "前台視、華視基隆記者"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/profile.php?id=61559602538011"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

@@ -95,7 +95,12 @@
   "彰化縣專屬原民卡，一卡多用",
   "民眾黨原民會執行長"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/lubibawan"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],

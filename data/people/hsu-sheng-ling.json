@@ -126,7 +126,12 @@
   "購置快篩試劑，杜絕毒駕酒駕",
   "立委洪毓祥新豐特助"
  ],
- "links": [],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/XinFengWillBeBetter"
+  }
+ ],
  "items": [],
  "promises": [],
  "citywide": [],
