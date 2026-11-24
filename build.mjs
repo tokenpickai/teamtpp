@@ -262,7 +262,7 @@ ${cands.length ? `<section class="sec">
 ${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
 <div class="people cmp">
 ${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}${d.kind === 'candidate' ? '' : '<span class="pc-tag">爭取連任</span>'}</span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.ballotPortrait || d.portrait)}" alt="" loading="lazy"${!d.ballotPortrait && d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}${d.kind === 'candidate' ? '' : '<span class="pc-tag">爭取連任</span>'}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 ${distBox(d)}
 <span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => t).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>
