@@ -1,0 +1,172 @@
+{
+ "slug": "hsu-fu",
+ "kind": "candidate",
+ "person": {
+  "name": "許甫",
+  "office": "台北市議員參選人（松山信義）",
+  "ballot": "6",
+  "election": "11/28",
+  "updated": "2026.11.24",
+  "local": "松信人",
+  "pron": "他",
+  "council": "",
+  "city": "台北"
+ },
+ "bio": "前電視主播，民眾黨副秘書長，第一次參選。",
+ "personas": [
+  {
+   "id": "young",
+   "label": "租屋、想買房的",
+   "sub": "社宅",
+   "lead": "想在台北住下來的你"
+  },
+  {
+   "id": "family",
+   "label": "想生、在養小孩的",
+   "sub": "凍卵、臨托、英語",
+   "lead": "有孩子或想有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "老屋、捷運、敬老卡",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "pet",
+   "label": "養毛孩、愛運動的",
+   "sub": "寵物補助、運動公園",
+   "lead": "養毛孩、愛運動的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "young",
+    "family"
+   ],
+   "cat": "居住正義",
+   "title": "社宅不能停，再蓋完一萬戶",
+   "now": "在台北不吃不喝 14.7 年才買得起房，房貸負擔率 64.41%，六都最高。",
+   "plan": "延續柯文哲任內的社宅基礎，督促市府接續興建、完工至少一萬戶社宅。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "全齡友善",
+   "title": "長輩住老屋，管線、耐震、無障礙一起補",
+   "now": "台北每 1.76 間房子就有一間屋齡超過 40 年，長輩住在裂縫、陡梯、老管線的家裡。",
+   "plan": "增加老宅公共管線更新、耐震補強與室內無障礙設施補助，解決「雙老危機」。",
+   "url": "https://www.facebook.com/reel/1445731497096347/"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒友善",
+   "title": "40 歲以下女性都能申請凍卵補助",
+   "now": "台北凍卵補助只給罹癌女性，去年全市只核定 25 件；桃園、新竹早已開放 25 到 40 歲女性。",
+   "plan": "40 歲以下一般女性也能申請，最高補助 4 萬元；松山、信義的臨托服務量能大幅增加。",
+   "url": "https://www.facebook.com/reel/39985823797730351/"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "出行無礙",
+   "title": "高齡捷運站，加電梯、電扶梯",
+   "plan": "長輩多的捷運站優先做出入口無障礙微創改造，克服工程限制增設電梯、電扶梯。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "敬老悠遊",
+   "title": "敬老卡能用的地方變多",
+   "plan": "敬老卡點數擴大到更多運動、藝文與多元消費場域。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "雙語城市",
+   "title": "國中生每週都有真人英語對話",
+   "now": "全國將近三成國中生，會考英文落在「待加強」。",
+   "plan": "打造線上英語對話平台，北市中學生每週都有真人對話機會。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "pet"
+   ],
+   "cat": "毛孩友善",
+   "title": "養毛孩做好責任飼養，最高補助 5 千",
+   "plan": "完成寵物登記、絕育、狂犬病疫苗並投保指定寵物險，每隻最高補助 5 千元。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "pet",
+    "elder"
+   ],
+   "cat": "健康城市",
+   "title": "閒置市有地，變籃球、匹克球公園",
+   "plan": "活化市有閒置空間興建籃球與匹克球主題運動公園；社區據點導入銀髮電競設備，延緩老化。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "停車友善",
+   "title": "用 AI 媒合閒置車格",
+   "plan": "導入科技與 AI 智慧媒合閒置車格，提升市有停車格的營運與調配效率。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  },
+  {
+   "who": [
+    "young",
+    "family",
+    "elder",
+    "pet"
+   ],
+   "cat": "數據城市",
+   "title": "公共工程預算、進度全公開",
+   "plan": "建置智慧城市感測網絡，建立「公共工程計畫儀表板」，預算與工程進度公開，全民一起監督。",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  }
+ ],
+ "doing": [
+  {
+   "status": "爭取中",
+   "title": "健康社宅復康巴士專用停車格",
+   "text": "健康社宅無障礙坡道的設計，讓復康巴士接送身障住戶時常被開違停；他透過民眾黨議會黨團爭取專用停車格。",
+   "url": "https://www.facebook.com/reel/1746680124134887/"
+  }
+ ],
+ "pitch": [
+  "社宅不能停，督促市府再蓋完一萬戶",
+  "40 歲以下女性也能申請凍卵補助，最高 4 萬元",
+  "長輩住老屋，管線、耐震、無障礙補助加碼",
+  "長輩多的捷運站加電梯，敬老卡能用的地方更多",
+  "前電視主播、民眾黨副秘書長，松山信義 6 號"
+ ],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/osmar1129hsu"
+  }
+ ],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hsu-fu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

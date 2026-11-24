@@ -191,3 +191,9 @@ a.hdt:hover{color:var(--teal-d)}
 .ar{scroll-margin-top:16px}
 .ar.hit{animation:hit 1.6s ease-out}
 @keyframes hit{0%{background:var(--teal-t);box-shadow:0 0 0 3px var(--teal-d)}100%{background:transparent;box-shadow:0 0 0 3px transparent}}
+.badge{font-size:14px;font-weight:900;color:#fff;background:var(--teal-d);padding:4px 12px;border-radius:999px;white-space:nowrap}
+.cn{font-family:var(--serif);font-weight:900;font-size:clamp(40px,6vw,64px);line-height:1.1}
+.bio{margin:8px 0 28px;font-size:18px;font-weight:700;color:var(--mute)}
+.src{margin-top:12px;font-size:14px}.src a,.pn a{color:var(--teal-d);font-weight:700}
+.chip{display:inline-block;font-size:13px;font-weight:900;color:#0A6E70;background:var(--teal-t);padding:3px 10px;border-radius:999px;margin-right:10px;vertical-align:middle}
+.pc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;padding:0 4px}.pc-chips .chip{margin:0;font-size:14px;line-height:1.5}

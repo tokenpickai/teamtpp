@@ -41,8 +41,9 @@ ${image ? `<meta property="og:image" content="${esc(SITE.url + image)}">` : ''}
 function personPage(d) {
   const p = d.person;
   const items = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
+  const cand = d.kind === 'candidate';
   const first = d.personas[0];
-  const firstItems = items.filter((it) => it.who.includes(first.id));
+  const firstItems = (cand ? d.platform : items).filter((it) => it.who.includes(first.id));
   const url = `${SITE.url}/${d.slug}/`;
   const title = `${p.name}｜${p.office}｜${SITE.name}`;
   const desc = d.pitch.slice(0, 3).join('；');
@@ -54,6 +55,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
+${cand ? `<span class="badge">${esc(p.ballot)} 號・${esc(p.election)} 投票</span>` : ''}
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
@@ -65,6 +67,7 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 </nav>
 </div>
 <div class="pitch-txt">
+${cand ? `<p class="cn">${esc(p.name)}</p><p class="bio">${esc(d.bio)}</p>` : ''}
 <h2 id="pitch">怎麼跟朋友推薦${esc(p.pron)}</h2>
 <ul>${d.pitch.map((t) => `<li><span class="bul" aria-hidden="true"></span><span>${esc(t)}</span></li>`).join('')}</ul>
 </div>
@@ -76,16 +79,26 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 <div role="group" aria-label="選擇你的身分" class="personas">
 ${d.personas.map((x, i) => `<button type="button" class="pp" data-id="${esc(x.id)}" aria-pressed="${i === 0}"><span class="pl">${esc(x.label)}</span><span class="ps">${esc(x.sub)}</span></button>`).join('\n')}
 </div>
-<div class="answer"><span class="lead" id="lead">${esc(first.lead)}</span><span class="cnt" id="cnt">${firstItems.length}</span><span class="lead">個${esc(p.pron)}改過的地方</span></div>
+<div class="answer"><span class="lead" id="lead">${esc(first.lead)}</span><span class="cnt" id="cnt">${firstItems.length}</span><span class="lead">${cand ? `項${esc(p.pron)}的政見` : `個${esc(p.pron)}改過的地方`}</span></div>
 </div>
-<div class="fan" aria-hidden="true">
+${cand ? '' : `<div class="fan" aria-hidden="true">
 ${[0, 1, 2].map((i) => `<img class="f f${i}" src="${esc(firstItems[i]?.thumb || '')}" alt=""${firstItems[i] ? '' : ' hidden'}>`).join('')}
-</div>
+</div>`}
 </div></section>
 
 <main class="wrap mn">
 <div id="items">
-${items.map((it, i) => `<article class="ar" id="i-${d.items.indexOf(it)}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
+${cand ? d.platform.map((it, i) => `<article class="ar" id="i-${i}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
+<div class="ar-body">
+<p class="place">${esc(it.cat)}</p>
+<h2 class="ttl">${esc(it.title)}</h2>
+<div class="ba">
+${it.now ? `<div class="b"><div class="tag">現在</div><p class="long">${esc(it.now)}</p></div>` : ''}
+<div class="a"><div class="tag">${esc(p.pron)}要做</div><p class="long">${esc(it.plan)}</p></div>
+</div>
+<p class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">出處</a></p>
+</div>
+</article>`).join('\n') : items.map((it, i) => `<article class="ar" id="i-${d.items.indexOf(it)}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
 <a class="th" href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${isVid(it.url) ? '觀看影片' : '看貼文'}：${esc(it.title)}"><img src="${esc(it.thumb)}" alt="" loading="lazy">${isVid(it.url) ? `<span class="play">${PLAY}</span>` : ''}</a>
 <div class="ar-body">
 <p class="place">${esc(it.place)}</p>
@@ -117,15 +130,22 @@ ${d.citywide.map((x) => `<div class="cwc"><p class="k">${esc(x.when)}</p><p clas
 </div>` : ''}
 </section>` : ''}
 
-<section aria-labelledby="pending" class="sec">
+${cand && d.doing.length ? `<section aria-labelledby="doing" class="sec">
+<h2 id="doing" class="h2">已經在做的</h2>
+<div class="pend">
+${d.doing.map((x) => `<div class="pd"><div class="pt"><span class="chip">${esc(x.status)}</span>${esc(x.title)}</div><div class="pn">${esc(x.text)} <a href="${esc(x.url)}" target="_blank" rel="noopener">出處</a></div></div>`).join('\n')}
+</div>
+</section>` : ''}
+
+${d.pending.length ? `<section aria-labelledby="pending" class="sec">
 <h2 id="pending" class="h2">${esc(p.pron)}還在追的</h2>
 <div class="pend">
 ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><div class="pn">${esc(x.note)}</div></div>`).join('\n')}
 </div>
-</section>
+</section>` : ''}
 </main>
 <footer class="ft"><div class="wrap"><a href="/">${SITE.name}</a>・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</div></footer>
-<script type="application/json" id="page-data">${JSON.stringify({ ...page, items: items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
+<script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
 <script src="/app.js" defer></script>
 </body>
 </html>
@@ -150,7 +170,9 @@ function countChanges(people) {
   return n;
 }
 
-function indexPage(people) {
+function indexPage(everyone) {
+  const people = everyone.filter((d) => d.kind !== 'candidate');
+  const cands = everyone.filter((d) => d.kind === 'candidate');
   const all = people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })));
   all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
   const total = countChanges(people);
@@ -207,6 +229,18 @@ ${people.map((d) => {
 </a>`;
   }).join('\n')}
 </div>
+
+${cands.length ? `<section class="sec">
+<h2 class="h2">${esc(cands[0].person.election)} 參選人</h2>
+<div class="people">
+${cands.map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}></span>
+<span class="pc-o">${esc(d.person.office)}・${esc(d.person.ballot)} 號</span>
+<span class="pc-n">${esc(d.person.name)}</span>
+<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
+</a>`).join('\n')}
+</div>
+</section>` : ''}
 
 <section class="sec">
 <h2 class="h2">最近完成</h2>
