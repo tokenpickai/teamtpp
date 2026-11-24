@@ -232,3 +232,4 @@ a.hdt:hover{color:var(--teal-d)}
 .ft a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .hdt.brand{font-size:26px}@media (max-width:600px){.hdt.brand{font-size:16.5px}}
 .ft-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;text-align:left}
+.ballot .dist{margin-left:3px;max-width:calc(100% - 3px)}@media (max-width:600px){.ballot .dist{margin-left:2px;max-width:calc(100% - 2px)}}
