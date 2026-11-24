@@ -265,7 +265,7 @@ fs.cpSync(path.join(ROOT, 'public'), DIST, { recursive: true });
 const dir = path.join(ROOT, 'data', 'people');
 const people = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 // landing order: most popular first, then north → central → south. Unlisted slugs go last.
-const ORDER = ['chen-shih-hsuan', 'huang-ching-ying', 'lin-chen-yu', 'chen-yu-cheng', 'chang-chih-hao', 'sung-pin-ying', 'li-kuo-chang', 'lin-shuo-yen', 'chiang-ho-shu', 'chang-hsueh-ju', 'wu-wei-ta', 'chen-yi-chen'];
+const ORDER = ['huang-ching-ying', 'chen-shih-hsuan', 'lin-chen-yu', 'chen-yu-cheng', 'chang-chih-hao', 'sung-pin-ying', 'li-kuo-chang', 'lin-shuo-yen', 'chiang-ho-shu', 'chang-hsueh-ju', 'wu-wei-ta', 'chen-yi-chen'];
 const rank = (d) => (ORDER.indexOf(d.slug) + 1) || 999;
 people.sort((a, b) => rank(a) - rank(b));
 for (const d of people) {
