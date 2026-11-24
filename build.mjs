@@ -47,8 +47,8 @@ const planCard = (it, attrs, pron) => `<article ${attrs}>
 <p class="place">${esc(it.cat)}</p>
 <h2 class="ttl">${esc(it.title)}</h2>
 <div class="ba">
-${it.now ? `<div class="b"><div class="tag">現在</div><p class="long">${esc(it.now)}</p></div>` : ''}
-<div class="a"><div class="tag">${esc(pron)}要做</div><p class="long">${esc(it.plan)}</p></div>
+${it.now ? `<div class="b"><div class="tag">現在</div><p class="long plan">${esc(it.now)}</p></div>` : ''}
+<div class="a"><div class="tag">${esc(pron)}要做</div><p class="long plan">${esc(it.plan)}</p></div>
 </div>
 <p class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">出處</a></p>
 </div>
