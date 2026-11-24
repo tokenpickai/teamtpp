@@ -1,0 +1,116 @@
+{
+ "slug": "chen-yung-hsiang",
+ "kind": "candidate",
+ "person": {
+  "name": "陳永祥",
+  "office": "台中市議員參選人（清水梧棲沙鹿）",
+  "ballot": "5",
+  "election": "11/28",
+  "district": 2,
+  "updated": "2026.11.24",
+  "local": "海線人",
+  "pron": "他",
+  "council": "",
+  "city": "台中"
+ },
+ "bio": "前沙鹿六路里長，東海大學法律系。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "公托延托",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "假牙、助聽器、敬老卡",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕人",
+   "sub": "社宅、就業、外送",
+   "lead": "年輕的你"
+  },
+  {
+   "id": "local",
+   "label": "住海線的",
+   "sub": "藍線、AED、空汙",
+   "lead": "住海線的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "顧孩童",
+   "title": "海線公托延托到晚上 7 點",
+   "plan": "擴大海線公托，保障公托數、延托到晚間七點；托育加碼補助並取消排富。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "顧長輩",
+   "title": "假牙、助聽器補助放寬",
+   "plan": "放寬假牙、助聽器補助的排富門檻與限制；增加敬老卡點數並擴大使用項目；強化外傭管理辦法，保障雇主權利。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "顧青年",
+   "title": "社宅保障名額、租補窗口",
+   "plan": "增設社宅保障名額、設立租補引導窗口；補助中科港區在地就業媒合與青創減租；降低外送平台抽成費用。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "顧平安",
+   "title": "每里、超商 24 小時 AED",
+   "plan": "每里與超商設置 24 小時 AED；增加毒駕不定期攔檢點；增設抽水裝置，號誌與抽水站不斷電。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "顧海線",
+   "title": "藍線到清水、鐵路高架化",
+   "plan": "加速藍線，爭取橋線到清水、鐵路雙軌高架化，國道四號到港區整合雙鐵，就學就醫通勤更省時。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "顧海線",
+   "title": "改善 PM2.5、古厝觀光公車",
+   "plan": "加強台中淨零碳排法規、改善 PM2.5；增設古厝觀光公車路線，擴大藝文補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "海線公托延托到晚上 7 點，托育補助取消排富",
+  "假牙、助聽器補助放寬排富門檻",
+  "藍線到清水、鐵路雙軌高架化",
+  "每里、超商 24 小時 AED",
+  "前沙鹿六路里長，海線 5 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chen-yung-hsiang/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

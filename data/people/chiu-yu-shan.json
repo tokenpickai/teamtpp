@@ -1,0 +1,145 @@
+{
+ "slug": "chiu-yu-shan",
+ "kind": "candidate",
+ "person": {
+  "name": "邱于珊",
+  "office": "台中市議員參選人（北屯）",
+  "ballot": "12",
+  "election": "11/28",
+  "district": 8,
+  "updated": "2026.11.24",
+  "local": "北屯人",
+  "pron": "她",
+  "council": "",
+  "city": "台中"
+ },
+ "bio": "台中市議員江和樹市議會主任，大坑風景區觀光協會理事長。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "74 號匝道、綠線",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "公托、課托、食安",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "敬老卡、外籍看護",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住北屯的",
+   "sub": "勞工諮詢、警消",
+   "lead": "住北屯的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通",
+   "title": "增設北屯 74 號匝道",
+   "plan": "增設北屯 74 號匝道，AI 智慧交通減少塞車、增加停車位，親子停車 4 小時免費。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute",
+    "local"
+   ],
+   "cat": "交通",
+   "title": "綠線捷運延伸大坑",
+   "plan": "綠線捷運延伸大坑，並爭取大坑遊客服務中心。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒",
+   "title": "公托、課托再增加",
+   "plan": "增加公托、課托，減輕家長費用與照顧負擔；不定期稽查檢驗食品工廠。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長照",
+   "title": "敬老卡不歸零、外籍看護不空窗",
+   "plan": "敬老卡點數不歸零、擴大使用範圍；爭取外籍看護免空窗，照顧不中斷。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "勞動",
+   "title": "勞工、公務人員、新住民諮詢站",
+   "plan": "成立「勞工、公務人員、新住民諮詢服務站」，解決工資、工時、職災問題。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "警消",
+   "title": "警勤加給比照雙北",
+   "plan": "警勤加給比照雙北，深夜津貼雙倍給。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市政",
+   "title": "反對惡意檢舉",
+   "plan": "違規要改善，但反對惡意檢舉。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [
+  {
+   "status": "已爭取",
+   "title": "大坑 9 號步道公廁 20 間",
+   "text": "大坑 9 號步道公廁 20 間，預計 116 年開工。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "status": "推動中",
+   "title": "南京東路－東山路口開通",
+   "text": "30 年未開通的南京東路－東山路口道路，預計 116 年編列預算開通。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "status": "已完成",
+   "title": "大坑九號步道垃圾清除",
+   "text": "清除大坑九號步道長期堆積的垃圾。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "pitch": [
+  "增設北屯 74 號匝道，親子停車 4 小時免費",
+  "綠線捷運延伸大坑",
+  "敬老卡點數不歸零，外籍看護不空窗",
+  "警勤加給比照雙北",
+  "江和樹議員團隊主任，北屯 12 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chiu-yu-shan/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

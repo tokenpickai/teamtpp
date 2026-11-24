@@ -1,0 +1,130 @@
+{
+ "slug": "hung-ya-ting",
+ "kind": "candidate",
+ "person": {
+  "name": "洪雅婷",
+  "office": "彰化縣議員參選人（二林芳苑大城竹塘）",
+  "ballot": "5",
+  "election": "11/28",
+  "district": 8,
+  "updated": "2026.11.24",
+  "local": "西南角人",
+  "pron": "她",
+  "council": "",
+  "city": "彰化"
+ },
+ "bio": "高考物理治療師、長照師，立委王安祥特助。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "課後照顧、兒童公園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "長青卡、接駁",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住二林四鄉鎮的",
+   "sub": "環境、治水、產業",
+   "lead": "住西南角的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育安心",
+   "title": "課後照顧、就學接送",
+   "plan": "爭取教育經費、優質師資與課後照顧資源；強化課業輔導與多元學習；完善就學交通接送服務。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "智慧環境",
+   "title": "AI 環境監測、改善畜牧異味",
+   "plan": "推動智慧除臭與 AI 環境監測，協助畜牧業升級改善異味與排放；守護空氣、水質、農地、河川、海岸與濕地。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder",
+    "family"
+   ],
+   "cat": "交通便利",
+   "title": "就醫就學接駁、道路照明",
+   "plan": "爭取就醫、就學及生活接駁服務；盤點道路不平、危險路段與照明，持續爭取改善。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "全齡福利",
+   "title": "長青卡在地化",
+   "plan": "推動長青卡在地化，擴大交通、就醫及生活服務；建立家長喘息支持與急難家庭緊急安置。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "產業加值",
+   "title": "農漁產品通路、西南角觀光",
+   "plan": "建立農漁及在地產品通路平台，運用影音與數位行銷拓展市場；串聯農漁村、生態、廟宇、美食與地方文化，打造西南角觀光生活圈。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "智慧治水",
+   "title": "水位監測、低窪地區清淤",
+   "plan": "推動智慧水位監測與豪雨預警，汛期前清淤巡檢，逐步改善低窪地區積淹水。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "elder"
+   ],
+   "cat": "服務到村",
+   "title": "各鄉鎮設聯合服務據點",
+   "plan": "二林、芳苑、大城、竹塘各設 3 到 5 個聯合服務據點，定期駐點處理陳情；舉辦定期民意座談會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "兒童公園",
+   "title": "竹塘爭取兒童公園",
+   "plan": "積極爭取竹塘鄉設置兒童公園與親子休憩空間，打造安全、友善、全齡共享的生活環境。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "AI 環境監測，改善畜牧異味",
+  "就醫就學接駁，長青卡在地化",
+  "智慧水位監測，低窪地區清淤",
+  "竹塘爭取兒童公園",
+  "物理治療師、長照師，西南角 5 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hung-ya-ting/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

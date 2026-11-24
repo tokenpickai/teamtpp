@@ -1,0 +1,108 @@
+{
+ "slug": "hsu-shu-hao",
+ "kind": "candidate",
+ "person": {
+  "name": "許書豪",
+  "office": "台中市議員參選人（太平）",
+  "ballot": "3",
+  "election": "11/28",
+  "district": 12,
+  "updated": "2026.11.24",
+  "local": "太平人",
+  "pron": "他",
+  "council": "",
+  "city": "台中"
+ },
+ "bio": "台中市議員江和樹市議會執行長，三光國中家長會長。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "遊樂空間",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住太平的",
+   "sub": "捷運、商圈",
+   "lead": "住太平的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "敬老卡",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "pet",
+   "label": "養毛孩的",
+   "sub": "動保、結紮",
+   "lead": "養毛孩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "local",
+    "elder"
+   ],
+   "cat": "捷運進屯區",
+   "title": "捷運藍線串連屯區",
+   "plan": "爭取捷運藍線串連屯區太平、大里、霧峰。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "商圈再進化",
+   "title": "樹孝商圈人行道、停車",
+   "plan": "改善樹孝商圈人行步道，優化停車空間。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒好環境",
+   "title": "增設遊樂空間、親子活動",
+   "plan": "增設遊樂空間，辦理親子活動。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "敬老卡",
+   "title": "敬老卡更好用",
+   "plan": "擴大敬老卡使用範圍，簡化使用方式。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "pet"
+   ],
+   "cat": "毛孩友善",
+   "title": "流浪動物結紮、完善動保",
+   "plan": "完善動保政策，推動流浪動物結紮。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "爭取捷運藍線串連太平、大里、霧峰",
+  "樹孝商圈人行道、停車優化",
+  "敬老卡擴大範圍、更好用",
+  "流浪動物結紮、完善動保",
+  "江和樹議員團隊執行長，太平 3 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hsu-shu-hao/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

@@ -1,0 +1,125 @@
+{
+ "slug": "liu-chin-yu",
+ "kind": "candidate",
+ "person": {
+  "name": "劉芩妤",
+  "office": "台中市議員參選人（西屯）",
+  "ballot": "6",
+  "election": "11/28",
+  "district": 6,
+  "updated": "2026.11.24",
+  "local": "西屯人",
+  "pron": "她",
+  "council": "",
+  "city": "台中"
+ },
+ "bio": "民眾黨台中黨部發言人，前廣告公司客戶經理。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "開車、搭車的",
+   "sub": "停車、公車、路口",
+   "lead": "在西屯通勤的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "兒童樂園、托育",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "皮蛇疫苗、樂齡",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住西屯的",
+   "sub": "水岸、商圈、市政",
+   "lead": "住西屯的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "暢行西屯",
+   "title": "路邊停車 15 分鐘優惠",
+   "plan": "推動私有停車場單日收費上限、路邊停車 15 分鐘優惠；整合車位資料與滿位熱點，依需求增建立體停車空間。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "暢行西屯",
+   "title": "窄巷小巴、YouBike 2.0E",
+   "plan": "加強公車脫班、誤點稽查，導入窄巷小巴並增加 YouBike 2.0E；盤點危險路口，推動人行道整平與安全通學步道。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "共育西屯",
+   "title": "首座市立兒童樂園",
+   "plan": "啟動需求評估與選址，打造城市級兒童空間；溪西增設親子館，推動一里一特色遮蔭公園。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "共育西屯",
+   "title": "夜間、假日托育，幼兒園影像",
+   "plan": "擴充臨時、夜間及假日托育；幼兒園安心影像明定保存、調閱及保密規範；推動 SEL 情緒教育、育兒彈性工時及女性凍卵補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "樂齡西屯",
+   "title": "65 歲以上皮蛇疫苗補助",
+   "plan": "補助 65 歲以上長者接種皮蛇疫苗；敬老卡營養點數結合市場與超商；推動 15 分鐘樂齡生活圈、全齡心理健康年檢與 3 分鐘 AED 急救圈。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "升級西屯",
+   "title": "筏子溪、港尾子溪水岸廊道",
+   "plan": "活化筏子溪、港尾子溪，增加親水與生態觀光空間；商圈改善步行、公廁及夜間安全；串聯中科、工業區與大學協助青年在地就業。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "智慧西屯",
+   "title": "一站式市政服務、AI 助手",
+   "plan": "整合查詢、申辦與追蹤的一站式市政服務，資料不用重填、進度隨時可查；24 小時線上問答的 AI 市政助手。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "路邊停車 15 分鐘優惠，私有停車場收費上限",
+  "首座市立兒童樂園，夜間假日托育",
+  "65 歲以上皮蛇疫苗補助",
+  "筏子溪、港尾子溪水岸廊道",
+  "民眾黨台中黨部發言人，西屯 6 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/liu-chin-yu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

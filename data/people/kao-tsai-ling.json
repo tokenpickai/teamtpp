@@ -1,0 +1,104 @@
+{
+ "slug": "kao-tsai-ling",
+ "kind": "candidate",
+ "person": {
+  "name": "高采翎",
+  "office": "彰化縣議員參選人（山地原住民）",
+  "ballot": "3",
+  "election": "11/28",
+  "district": 10,
+  "updated": "2026.11.24",
+  "local": "彰化原住民",
+  "pron": "她",
+  "council": "",
+  "city": "彰化"
+ },
+ "bio": "立委王安祥彰化服務處主任，民眾黨原住民族委員會執行長。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "教育津貼、生育",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "women",
+   "label": "女性、想生的",
+   "sub": "AMH、凍卵",
+   "lead": "想生小孩的你"
+  },
+  {
+   "id": "life",
+   "label": "在彰化生活的族人",
+   "sub": "原民卡、族語",
+   "lead": "在彰化生活的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "原民子女養育",
+   "title": "每月加碼 1 萬元教育生活津貼",
+   "plan": "代收代辦費加碼補助（書籍費、團保費、材料費等），每月加碼 1 萬元教育生活津貼。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "生育照顧",
+   "title": "生育鼓勵金每胎加碼 1 萬",
+   "plan": "生育鼓勵金每胎加碼 1 萬元；坐月子／營養補貼、祖孫照顧津貼每月加碼 3,000 元；培育「文化托育助手」導入公托。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "women"
+   ],
+   "cat": "女性健康",
+   "title": "22–40 歲每年免費 AMH",
+   "plan": "22 到 40 歲女性每年免費 AMH 檢測；原民專屬凍卵津貼最高 3 萬元及保存費補助；產前後心理諮商與女性肺癌篩檢。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "life",
+    "family",
+    "women"
+   ],
+   "cat": "彰化原民卡",
+   "title": "彰化縣專屬「原民卡」",
+   "plan": "擴大跨縣市返鄉車資補助；醫療、文化場域、運動場館點數抵用；整合健康檢查、津貼發放，一卡多用。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "life",
+    "family"
+   ],
+   "cat": "語言傳承",
+   "title": "族語幼托、多語通譯志工",
+   "plan": "設置族語環境幼托機構；建立多語通譯志工制度，保障原民公共服務與法律權益；整合資源協助就業與社會適應。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "原民子女每月加碼 1 萬元教育生活津貼",
+  "生育鼓勵金每胎加碼 1 萬元",
+  "22–40 歲女性每年免費 AMH，凍卵津貼最高 3 萬",
+  "彰化縣專屬原民卡，一卡多用",
+  "民眾黨原民會執行長，山地原住民 3 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/kao-tsai-ling/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
