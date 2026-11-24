@@ -169,7 +169,7 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 </section>` : ''}
 
 </main>
-<footer class="ft"><div class="wrap">${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</div></footer>
+<footer class="ft"><div class="wrap">${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄・<a href="mailto:hi@teamtpp.com">與我聯繫</a></div></footer>
 <script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
 <script src="/app.js" defer></script>
 </body>
@@ -278,7 +278,7 @@ ${distBox(d)}
 </section>` : ''}
 
 </main>
-<footer class="ft"><div class="wrap">${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</div></footer>
+<footer class="ft"><div class="wrap">${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄・<a href="mailto:hi@teamtpp.com">與我聯繫</a></div></footer>
 <script src="/app.js" defer></script>
 </body>
 </html>

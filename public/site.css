@@ -229,3 +229,4 @@ a.hdt:hover{color:var(--teal-d)}
 .rs-img img{position:relative;object-fit:contain}
 .sec.ix-feed{margin-top:8px}
 .long.plan{margin-top:10px;font-size:22px;line-height:1.5;font-weight:900}.b .long.plan{color:#4A4A4A}.a .long.plan{color:#141414}
+.ft a{color:inherit;text-decoration:underline;text-underline-offset:3px}
