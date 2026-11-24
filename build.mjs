@@ -4,6 +4,7 @@ import path from 'node:path';
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const DIST = path.join(ROOT, 'dist');
+const CITIES = ['台北', '新北', '基隆', '桃園', '新竹縣', '新竹市', '苗栗', '台中', '彰化', '南投', '雲林', '嘉義縣', '嘉義市', '台南', '高雄', '屏東', '宜蘭', '花蓮', '台東', '澎湖', '金門', '連江'];
 const SITE = { name: '民眾隊', url: 'https://teamtpp.com' };
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -38,6 +39,20 @@ ${image ? `<meta property="og:image" content="${esc(SITE.url + image)}">` : ''}
 <link rel="stylesheet" href="/site.css">
 </head>`;
 
+const planCard = (it, attrs, pron) => `<article ${attrs}>
+<div class="ar-body">
+<p class="place">${esc(it.cat)}</p>
+<h2 class="ttl">${esc(it.title)}</h2>
+<div class="ba">
+${it.now ? `<div class="b"><div class="tag">現在</div><p class="long">${esc(it.now)}</p></div>` : ''}
+<div class="a"><div class="tag">${esc(pron)}要做</div><p class="long">${esc(it.plan)}</p></div>
+</div>
+<p class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">出處</a></p>
+</div>
+</article>`;
+// ballot tag: candidates 「6 號・11/28 投票」, incumbents running again 「…爭取連任」
+const ballotTag = (d) => d.person.ballot ? `${d.person.ballot} 號・${d.person.election} ${d.kind === 'candidate' ? '投票' : '爭取連任'}` : '';
+
 function personPage(d) {
   const p = d.person;
   const items = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
@@ -55,7 +70,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${cand ? `<span class="badge">${esc(p.ballot)} 號・${esc(p.election)} 投票</span>` : ''}
+${p.ballot ? `<span class="badge">${esc(ballotTag(d))}</span>` : ''}
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
@@ -88,17 +103,7 @@ ${[0, 1, 2].map((i) => `<img class="f f${i}" src="${esc(firstItems[i]?.thumb || 
 
 <main class="wrap mn">
 <div id="items">
-${cand ? d.platform.map((it, i) => `<article class="ar" id="i-${i}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
-<div class="ar-body">
-<p class="place">${esc(it.cat)}</p>
-<h2 class="ttl">${esc(it.title)}</h2>
-<div class="ba">
-${it.now ? `<div class="b"><div class="tag">現在</div><p class="long">${esc(it.now)}</p></div>` : ''}
-<div class="a"><div class="tag">${esc(p.pron)}要做</div><p class="long">${esc(it.plan)}</p></div>
-</div>
-<p class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">出處</a></p>
-</div>
-</article>`).join('\n') : items.map((it, i) => `<article class="ar" id="i-${d.items.indexOf(it)}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
+${cand ? d.platform.map((it, i) => planCard(it, `class="ar" id="i-${i}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}`, p.pron)).join('\n') : items.map((it, i) => `<article class="ar" id="i-${d.items.indexOf(it)}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
 <a class="th" href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${isVid(it.url) ? '觀看影片' : '看貼文'}：${esc(it.title)}"><img src="${esc(it.thumb)}" alt="" loading="lazy">${isVid(it.url) ? `<span class="play">${PLAY}</span>` : ''}</a>
 <div class="ar-body">
 <p class="place">${esc(it.place)}</p>
@@ -142,6 +147,11 @@ ${d.pending.length ? `<section aria-labelledby="pending" class="sec">
 <div class="pend">
 ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><div class="pn">${esc(x.note)}</div></div>`).join('\n')}
 </div>
+</section>` : ''}
+
+${!cand && d.platform?.length ? `<section aria-labelledby="plan" class="sec">
+<h2 id="plan" class="h2">連任政見</h2>
+${d.platform.map((it, i) => planCard(it, `class="plc" id="p-${i}"`, p.pron)).join('\n')}
 </section>` : ''}
 </main>
 <footer class="ft"><div class="wrap"><a href="/">${SITE.name}</a>・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</div></footer>
@@ -221,7 +231,7 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}></span>
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${d.person.ballot ? `<span class="pc-tag">${esc(ballotTag(d))}</span>` : ''}</span>
 <span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>
@@ -232,14 +242,15 @@ ${people.map((d) => {
 
 ${cands.length ? `<section class="sec">
 <h2 class="h2">${esc(cands[0].person.election)} 參選人</h2>
-<div class="people">
-${cands.map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}></span>
-<span class="pc-o">${esc(d.person.office)}・${esc(d.person.ballot)} 號</span>
+${CITIES.filter((c) => cands.some((d) => d.person.city === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
+<div class="people cmp">
+${cands.filter((d) => d.person.city === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}><span class="pc-tag">${esc(d.person.ballot)} 號</span></span>
+<span class="pc-o">${esc(d.person.office.replace(/.*（|）/g, ''))}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
 </a>`).join('\n')}
-</div>
+</div>`).join('\n')}
 </section>` : ''}
 
 <section class="sec">

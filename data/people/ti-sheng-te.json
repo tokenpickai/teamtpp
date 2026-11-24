@@ -1,0 +1,92 @@
+{
+ "slug": "ti-sheng-te",
+ "kind": "candidate",
+ "person": {
+  "name": "邸聖德",
+  "office": "新北市議員參選人（新店深坑石碇坪林烏來）",
+  "ballot": "9",
+  "election": "11/28",
+  "district": 9,
+  "updated": "2026.11.24",
+  "local": "大新店人",
+  "pron": "他",
+  "council": "",
+  "city": "新北"
+ },
+ "bio": "賴士葆立委國會辦公室總顧問，北科大資訊與財金管理博士班。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "健保費",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "work",
+   "label": "上班、做生意的",
+   "sub": "經濟、便民 AI",
+   "lead": "在新北打拚的你"
+  },
+  {
+   "id": "care",
+   "label": "關心身邊人的",
+   "sub": "自殺防治",
+   "lead": "關心身邊人的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "保安康",
+   "title": "長輩免健保費，增加補助",
+   "plan": "增加補助，讓長輩免繳健保費。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "care"
+   ],
+   "cat": "顧生養",
+   "title": "自殺防治補破網",
+   "plan": "全力補強自殺防治網。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "work"
+   ],
+   "cat": "便民",
+   "title": "市政系統導入 AI",
+   "plan": "市政系統導入便民 AI。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "work"
+   ],
+   "cat": "壯產業",
+   "title": "兩岸交流，新北拚經濟",
+   "plan": "推動兩岸交流，為新北拚經濟。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/02%E6%96%B0%E5%8C%97%E5%B8%82/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "長輩免健保費，增加補助",
+  "自殺防治全力補破網",
+  "市政系統導入便民 AI",
+  "兩岸交流，新北拚經濟",
+  "立委國會辦公室總顧問，大新店 9 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/ti-sheng-te/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
