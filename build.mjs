@@ -54,7 +54,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-<span class="upd">更新至 ${esc(p.updated)}</span>
+<span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
 <section class="pitch"><div class="wrap pitch-in">
@@ -85,7 +85,7 @@ ${[0, 1, 2].map((i) => `<img class="f f${i}" src="${esc(firstItems[i]?.thumb || 
 
 <main class="wrap mn">
 <div id="items">
-${items.map((it, i) => `<article class="ar" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
+${items.map((it, i) => `<article class="ar" id="i-${d.items.indexOf(it)}" data-who="${esc(it.who.join(' '))}" data-i="${i}"${it.who.includes(first.id) ? '' : ' hidden'}>
 <a class="th" href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${isVid(it.url) ? '觀看影片' : '看貼文'}：${esc(it.title)}"><img src="${esc(it.thumb)}" alt="" loading="lazy">${isVid(it.url) ? `<span class="play">${PLAY}</span>` : ''}</a>
 <div class="ar-body">
 <p class="place">${esc(it.place)}</p>
@@ -132,10 +132,28 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 `;
 }
 
+// 看得見的改變: items + done promises + citywide, minus ones that repeat something already counted for that person.
+// ponytail: CJK-bigram overlap heuristic; add an explicit "same" field in the data if it ever misjudges.
+const bigrams = (s) => { const c = (s.match(/[\u4e00-\u9fff]/g) || []).join(''); const o = new Set(); for (let i = 0; i < c.length - 1; i++) o.add(c.slice(i, i + 2)); return o; };
+function countChanges(people) {
+  let n = 0;
+  for (const d of people) {
+    const seen = d.items.map((it) => bigrams(it.title + it.place + it.aShort + it.after));
+    n += d.items.length;
+    const extra = [...d.promises.filter((x) => x.done).map((x) => [x.ask, x.result]), ...d.citywide.map((x) => [x.title])];
+    for (const texts of extra) {
+      const dup = texts.some((t) => { const b = bigrams(t); return seen.some((s) => [...b].filter((x) => s.has(x)).length >= Math.max(2, b.size * 0.4)); });
+      if (!dup) n++;
+      seen.push(bigrams(texts.join('')));
+    }
+  }
+  return n;
+}
+
 function indexPage(people) {
-  const all = people.flatMap((d) => d.items.map((it) => ({ ...it, d })));
+  const all = people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })));
   all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
-  const total = all.length;
+  const total = countChanges(people);
   const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
   const updated = people.map((d) => d.person.updated).sort().pop();
   // carousel: newest first, but rotate through people so every councillor shows up
@@ -148,13 +166,13 @@ function indexPage(people) {
 <body class="idx">
 <header class="hd"><div class="wrap hdr">
 <span class="hdt brand"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</span>
-<span class="upd">更新至 ${esc(updated)}</span>
+<span class="upd">最近更新 ${esc(updated)}</span>
 </div></header>
 
 <section class="ih"><div class="wrap ih-in">
 <div class="ih-l">
 <h1 class="ih-h">看得見的改變</h1>
-<p class="ih-s">民眾黨議員改過的路口、公園和制度，每一件都有照片、日期和出處。</p>
+<p class="ih-s">從路口、公園到治安、反毒、校園和孩子的鮮奶，民眾黨議員做成的每一件事，都有照片、日期和出處。</p>
 <div class="stats">
 <div class="stat"><span class="sn">${people.length}</span><span class="sl">位議員</span></div>
 <div class="stat"><span class="sn">${total}</span><span class="sl">件看得見的改變</span></div>
@@ -162,7 +180,7 @@ function indexPage(people) {
 </div>
 </div>
 <div class="rot" aria-roledescription="carousel" aria-label="最新完成">
-${slides.map((it, i) => `<a class="rs" href="/${esc(it.d.slug)}/" data-n="${i}"${i ? ' hidden' : ''}>
+${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ? ' hidden' : ''}>
 <span class="rs-img"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
 <span class="rs-body">
 <span class="rs-who"><img src="${esc(it.d.portrait)}" alt=""><span>${nm(it.d)}</span></span>
@@ -186,7 +204,6 @@ ${people.map((d) => {
 <span class="pc-n">${esc(d.person.name)}</span>
 <span class="pc-p">${esc(d.pitch[0])}</span>
 <span class="pc-th">${th.map((x) => `<img src="${esc(x.thumb)}" alt="" loading="lazy">`).join('')}</span>
-<span class="pc-go">看完整紀錄</span>
 </a>`;
   }).join('\n')}
 </div>
@@ -194,7 +211,7 @@ ${people.map((d) => {
 <section class="sec">
 <h2 class="h2">最近完成</h2>
 <div class="feed">
-${feed.map((it) => `<a class="fd" href="/${esc(it.d.slug)}/"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
+${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
 <span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
 <span class="fd-t">${esc(it.title)}</span>
 <span class="fd-a">${esc(it.aShort)}</span></a>`).join('\n')}

@@ -47,6 +47,17 @@
   }
 
   btns.forEach((b) => b.addEventListener('click', () => { auto = false; show(b.dataset.id); }));
+  // deep link from 最近完成: switch to a persona that shows the item, then scroll + flash it
+  function reveal() {
+    const el = location.hash && document.getElementById(location.hash.slice(1));
+    if (!el || !el.classList.contains('ar')) return;
+    auto = false;
+    if (el.hidden) show(el.dataset.who.split(' ')[0]);
+    el.scrollIntoView({ block: 'start' });
+    el.classList.remove('hit'); void el.offsetWidth; el.classList.add('hit');
+  }
+  reveal();
+  window.addEventListener('hashchange', reveal);
   const stop = () => { auto = false; };
   ['wheel', 'touchmove', 'keydown', 'pointerdown'].forEach((t) => window.addEventListener(t, stop, { passive: true }));
   document.addEventListener('scroll', stop, { passive: true, capture: true });
