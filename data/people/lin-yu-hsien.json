@@ -1,0 +1,117 @@
+{
+ "slug": "lin-yu-hsien",
+ "kind": "candidate",
+ "person": {
+  "name": "林育先",
+  "office": "屏東縣議員參選人（屏東市）",
+  "ballot": "20",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "屏東市人",
+  "pron": "他",
+  "council": "",
+  "city": "屏東"
+ },
+ "bio": "民眾黨屏東縣黨部主委，義守大學兼任助理教授。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "校園、AI 教育、公園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕、在地開店的",
+   "sub": "數位轉型、園區就業",
+   "lead": "在屏東打拚的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "公衛、福利",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "號誌、通學步道",
+   "lead": "每天通勤的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "智慧校園",
+   "title": "把時間還給老師",
+   "plan": "檢討校事會議機制，建立縣級「親師衝突專業調解」與教師法律、心理支援防護網；推動 AI 智慧行政減負、簡化評鑑公文。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "科技教育",
+   "title": "國中小導入 AI、數位邏輯課",
+   "plan": "國中小全面導入平易近人的 AI 與數位邏輯課程，縮短城鄉教育落差。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "在地創生",
+   "title": "小店導入數位工具、AI",
+   "plan": "推動在地餐飲、青創與傳統產業導入數位工具與 AI 應用；監督屏東科學園區進度，與在地產學媒合。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "安心通學",
+   "title": "AI 號誌解塞車",
+   "plan": "以數據分析優化市區易壅塞要道與號誌秒數，全面改善視覺死角與不合理標線；串連校園周邊實體人行步道。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "福利升級",
+   "title": "社福標準比照六都",
+   "plan": "精準公衛導入智慧基層醫療，強化社區照護與全年齡心理諮商；爭取比照六都社福標準，放寬單親與中低收入戶補助門檻。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "elder"
+   ],
+   "cat": "全齡公園",
+   "title": "公園增設遮蔭降溫設施",
+   "plan": "依屏東豔陽氣候，逐年增設遮蔭降溫設施與水霧涼感空間；打造兼顧幼兒、兒童與長者的全齡運動遊戲場。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "把時間還給老師，建立親師衝突調解",
+  "國中小導入 AI 與數位邏輯課",
+  "社福標準比照六都",
+  "公園增設遮蔭降溫、水霧空間",
+  "民眾黨屏東縣黨部主委，屏東市 20 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-yu-hsien/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

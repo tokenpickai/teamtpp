@@ -1,0 +1,51 @@
+{
+ "slug": "chen-shih-wei",
+ "kind": "candidate",
+ "person": {
+  "name": "陳詩薇",
+  "office": "台南市議員參選人（後壁白河東山鹽水新營柳營）",
+  "ballot": "1",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "溪北人",
+  "pron": "她",
+  "council": "",
+  "city": "台南"
+ },
+ "bio": "民眾黨台南市執行長，前台南市議員陳進義特助。",
+ "personas": [
+  {
+   "id": "women",
+   "label": "支持女性參政的",
+   "sub": "婦女保障名額",
+   "lead": "支持女性參政的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "women"
+   ],
+   "cat": "婦女保障",
+   "title": "婦女保障名額，給新人一個機會",
+   "plan": "她在公報中訴求婦女保障名額，請選民給新人一個機會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "婦女保障名額，給新人一個機會",
+  "民眾黨台南市執行長",
+  "前議員陳進義特助，溪北 1 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chen-shih-wei/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

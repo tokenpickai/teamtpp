@@ -1,0 +1,128 @@
+{
+ "slug": "lin-yi-li",
+ "kind": "candidate",
+ "person": {
+  "name": "林宜豊",
+  "office": "雲林縣議員參選人（麥寮東勢台西四湖）",
+  "ballot": "9",
+  "election": "11/28",
+  "district": 5,
+  "updated": "2026.11.24",
+  "local": "海線人",
+  "pron": "他",
+  "council": "",
+  "city": "雲林"
+ },
+ "bio": "民眾黨雲林縣黨部副主委，北醫細胞分子生物所。",
+ "personas": [
+  {
+   "id": "young",
+   "label": "想在海線工作的",
+   "sub": "麥寮港、漁港",
+   "lead": "想在海線打拚的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "托育、疫苗",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "醫療專車、長照",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住海線的",
+   "sub": "停電、治水、運動中心",
+   "lead": "住海線的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "產業再生",
+   "title": "麥寮工商綜合港 2027 如期啟動",
+   "plan": "強力監督縣府，確保 2027 年麥寮工商綜合港如期啟動，帶動青年就業與產業升級。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young",
+    "local"
+   ],
+   "cat": "產業再生",
+   "title": "萡子寮漁港、台西老街再生",
+   "plan": "推動萡子寮漁港再生與重建，促成台西老街再生，串聯海線觀光廊道；推廣文蛤、蚵仔在地品牌。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "基礎建設",
+   "title": "雙饋線系統，減少停電",
+   "plan": "建立雙饋線系統，減少海線地區停電頻率；落實基礎治水，全面爭取監視器設置。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "elder"
+   ],
+   "cat": "基礎建設",
+   "title": "四湖鄉室內運動中心",
+   "plan": "爭取新建四湖鄉室內活動與運動中心，並結合長輩照護空間。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒安心",
+   "title": "廣設公私立托育中心",
+   "plan": "積極爭取設置公私立托育中心，提升校園軟硬體資源。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "elder"
+   ],
+   "cat": "醫療升級",
+   "title": "腸病毒 A71、皮蛇疫苗免費",
+   "plan": "爭取 0 到 6 歲孩童免費接種腸病毒 A71 型疫苗、長輩免費接種帶狀疱疹疫苗；推動 0 到 6 歲門診及住院部分負擔補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "醫療升級",
+   "title": "多點長輩醫療專車",
+   "plan": "設置多點長輩醫療專車接送，全面提升海線醫療量能與長照資源。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "監督麥寮工商綜合港 2027 如期啟動",
+  "雙饋線系統，海線少停電",
+  "0–6 歲腸病毒 A71、長輩皮蛇疫苗免費",
+  "多點長輩醫療專車",
+  "民眾黨雲林縣黨部副主委，海線 9 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-yi-li/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

@@ -1,0 +1,118 @@
+{
+ "slug": "lin-nai-li",
+ "kind": "candidate",
+ "person": {
+  "name": "林乃立",
+  "office": "台南市議員參選人（永康）",
+  "ballot": "6",
+  "election": "11/28",
+  "district": 7,
+  "updated": "2026.11.24",
+  "local": "永康人",
+  "pron": "她",
+  "council": "",
+  "city": "台南"
+ },
+ "bio": "民眾黨台南市黨部榮譽主委，美國阿德勒研究所心理諮商碩士。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "坐月子金、童萌卡",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "AI 交通、鐵路地下化",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕、想創業的",
+   "sub": "創業津貼",
+   "lead": "年輕的你"
+  },
+  {
+   "id": "health",
+   "label": "在意身心健康的",
+   "sub": "肺癌篩檢、心理諮商",
+   "lead": "在意健康的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "穩社會",
+   "title": "交通 AI 化，鐵路地下化",
+   "plan": "推動交通 AI 化，縮減行車與路口延滯；擴大幸福小黃服務範圍，推動鐵路地下化；試辦大型重機停放路邊機車格。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "顧生養",
+   "title": "爭取坐月子營養金",
+   "plan": "全力爭取坐月子營養金，爭取童萌卡福利；提供新手父母免費課程。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "health"
+   ],
+   "cat": "顧生養",
+   "title": "樂齡教育、敬老卡升級",
+   "plan": "推動樂齡教育及職能提升，敬老卡補助升級。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "壯產業",
+   "title": "青年返鄉創業津貼",
+   "plan": "成立地方創生顧問團，爭取青年返鄉創業津貼；深化國際教育與城市交流。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "health"
+   ],
+   "cat": "保安康",
+   "title": "女性免費肺癌篩檢",
+   "plan": "女性享免費肺癌篩檢，提升孕期心理健康支持；爭取提升全民每年免費諮商次數。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "health"
+   ],
+   "cat": "保安康",
+   "title": "永康親子館、動保教育生態館",
+   "plan": "爭取建設永康親子館、特色公園，保護綠地生態；推動設置多功能動保教育生態館。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "爭取坐月子營養金、童萌卡福利",
+  "女性免費肺癌篩檢，免費心理諮商加次",
+  "交通 AI 化，推動鐵路地下化",
+  "爭取永康親子館",
+  "心理諮商師、民眾黨台南榮譽主委，永康 6 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-nai-li/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

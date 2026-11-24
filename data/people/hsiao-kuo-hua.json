@@ -1,0 +1,116 @@
+{
+ "slug": "hsiao-kuo-hua",
+ "kind": "candidate",
+ "person": {
+  "name": "蕭漍華",
+  "office": "台南市議員參選人（南區安平）",
+  "ballot": "4",
+  "election": "11/28",
+  "district": 9,
+  "updated": "2026.11.24",
+  "local": "南區安平人",
+  "pron": "他",
+  "council": "",
+  "city": "台南"
+ },
+ "bio": "民眾黨台南市黨部副執行長，立委許忠信特助。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "大型醫院、長照",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "綠線、北外環",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "親子公園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕人",
+   "sub": "商場、就業",
+   "lead": "年輕的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "醫療",
+   "title": "爭取大型醫院進駐南區安平",
+   "plan": "爭取大型醫院進駐，提升急重症、癌症、洗腎、長照等醫療量能，縮短就醫距離。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通",
+   "title": "捷運綠線加速",
+   "plan": "持續監督捷運綠線建設進度，爭取加速期程、早日完工。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通",
+   "title": "北外環延伸安平",
+   "plan": "推動北外環延伸安平可行性，分散市區車流、紓解交通壓力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "親子",
+   "title": "親子公園、共融遊戲場",
+   "plan": "增加親子公園、共融遊戲場，優化運動設施與休閒空間。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "商業",
+   "title": "大型商場、影城進駐",
+   "plan": "爭取大型商場、影城等進駐，提升生活機能與就業機會，留住年輕人口。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長照",
+   "title": "長照據點、日照中心升級",
+   "plan": "強化長照據點與日照中心，推動高齡友善交通與環境。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "爭取大型醫院進駐南區安平",
+  "捷運綠線加速，北外環延伸安平",
+  "爭取大型商場、影城進駐",
+  "親子公園、共融遊戲場",
+  "立委許忠信特助，南區安平 4 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hsiao-kuo-hua/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

@@ -1,0 +1,92 @@
+{
+ "slug": "wan-chia-fu",
+ "kind": "candidate",
+ "person": {
+  "name": "萬家甫",
+  "office": "嘉義縣議員參選人（朴子六腳東石）",
+  "ballot": "7",
+  "election": "11/28",
+  "district": 4,
+  "updated": "2026.11.24",
+  "local": "朴子六腳東石人",
+  "pron": "他",
+  "council": "",
+  "city": "嘉義縣"
+ },
+ "bio": "高苑科大經營管理碩士，高雄市活力草根發展協會理事長。",
+ "personas": [
+  {
+   "id": "young",
+   "label": "年輕、想留鄉的",
+   "sub": "高薪工作、社宅",
+   "lead": "想回家鄉的你"
+  },
+  {
+   "id": "farm",
+   "label": "務農、討海的",
+   "sub": "冷鏈、透明拍賣",
+   "lead": "務農討海的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "公托臨托",
+   "lead": "有孩子的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "高薪就業",
+   "title": "馬稠後、半導體園區高薪工作",
+   "plan": "爭取馬稠後與半導體園區的在地高薪工作機會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young",
+    "family"
+   ],
+   "cat": "青年留鄉",
+   "title": "青年社宅、公托臨托",
+   "plan": "結合青年社宅，增加公托、臨托，讓青年留鄉成家。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "farm"
+   ],
+   "cat": "產業升級",
+   "title": "東石智慧冷鏈、六腳透明拍賣",
+   "plan": "推動東石智慧冷鏈、六腳農產透明拍賣，打破壟斷壓價，打造高單價農漁品牌。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "人才",
+   "title": "產學合作、職訓、青創",
+   "plan": "促成產學合作、專業職訓與青創行銷，串聯朴子文教與海線文旅。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "爭取馬稠後、半導體園區高薪工作",
+  "東石智慧冷鏈、六腳農產透明拍賣",
+  "青年社宅、增加公托臨托",
+  "高苑科大經管碩士，朴子六腳東石 7 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/wan-chia-fu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

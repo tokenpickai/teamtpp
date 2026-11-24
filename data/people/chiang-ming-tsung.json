@@ -1,0 +1,82 @@
+{
+ "slug": "chiang-ming-tsung",
+ "kind": "candidate",
+ "person": {
+  "name": "江明宗",
+  "office": "台南市議員參選人（北區中西區）",
+  "ballot": "2",
+  "election": "11/28",
+  "district": 8,
+  "updated": "2026.11.24",
+  "local": "北區中西區人",
+  "pron": "他",
+  "council": "",
+  "city": "台南"
+ },
+ "bio": "前台南市政府智慧城市辦公室執行秘書、市長室秘書，國家資通安全研究院總顧問。",
+ "personas": [
+  {
+   "id": "commute",
+   "label": "走路、騎車、搭公車的",
+   "sub": "步行城市",
+   "lead": "在府城通勤的你"
+  },
+  {
+   "id": "local",
+   "label": "關心市政的",
+   "sub": "資料治理",
+   "lead": "關心市政的你"
+  },
+  {
+   "id": "culture",
+   "label": "愛府城文化的",
+   "sub": "信仰、文化",
+   "lead": "愛府城的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "BBW 步行城市",
+   "title": "Bus、Bike、Walk 三位一體",
+   "plan": "Bus・Bike・Walk 三位一體的交通願景。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "科技治理",
+   "title": "以資料為基礎，政策更透明",
+   "plan": "以資料為基礎，讓政策更透明有效。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "culture"
+   ],
+   "cat": "文化傳承",
+   "title": "信仰與文化融入現代生活",
+   "plan": "讓信仰與文化融入現代生活。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "公車、自行車、步行三位一體交通",
+  "用資料治理，政策更透明",
+  "信仰與文化融入現代生活",
+  "前市府智慧城市辦公室執秘，北區中西區 2 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chiang-ming-tsung/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

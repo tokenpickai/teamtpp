@@ -1,0 +1,111 @@
+{
+ "slug": "chang-chia-hung",
+ "kind": "candidate",
+ "person": {
+  "name": "張家閎",
+  "office": "雲林縣議員參選人（西螺二崙崙背）",
+  "ballot": "8",
+  "election": "11/28",
+  "district": 4,
+  "updated": "2026.11.24",
+  "local": "西螺二崙崙背人",
+  "pron": "他",
+  "council": "",
+  "city": "雲林"
+ },
+ "bio": "前雲林縣長地方秘書，立委麥寮地方助理，崙背在地店長。",
+ "personas": [
+  {
+   "id": "farm",
+   "label": "務農的",
+   "sub": "農業",
+   "lead": "務農的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩、照顧長輩的",
+   "sub": "家庭、教育",
+   "lead": "照顧一家老小的你"
+  },
+  {
+   "id": "local",
+   "label": "住西螺二崙崙背的",
+   "sub": "建設、文化",
+   "lead": "住這裡的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "farm"
+   ],
+   "cat": "農業",
+   "title": "守護農業，力挺農民",
+   "plan": "守護農業，力挺農民。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "建設",
+   "title": "基礎建設要到位",
+   "plan": "基礎建設要到位。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "家庭",
+   "title": "照顧長輩，支持家庭",
+   "plan": "照顧長輩，支持家庭。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育",
+   "title": "重視教育與孩子的未來",
+   "plan": "重視教育與孩子的未來。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "地方",
+   "title": "文化傳承與地方活化",
+   "plan": "推動文化傳承與地方活化。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "farm",
+    "family"
+   ],
+   "cat": "監督",
+   "title": "為人民發聲",
+   "plan": "在議會為人民發聲。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "守護農業，力挺農民",
+  "基礎建設要到位",
+  "照顧長輩，支持家庭",
+  "前縣長地方秘書，西螺二崙崙背 8 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chang-chia-hung/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

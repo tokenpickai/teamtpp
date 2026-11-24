@@ -1,0 +1,121 @@
+{
+ "slug": "lin-yu-tzu",
+ "kind": "candidate",
+ "person": {
+  "name": "林昱孜",
+  "office": "嘉義市議員參選人（東區）",
+  "ballot": "16",
+  "election": "11/28",
+  "district": 1,
+  "updated": "2026.11.24",
+  "local": "東區人",
+  "pron": "她",
+  "council": "",
+  "city": "嘉義市"
+ },
+ "bio": "前北醫、雙和醫院護理師，立委王安祥、張啓楷團隊副主任。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "健保費、疫苗",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "育兒津貼、校園反毒",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "local",
+   "label": "住東區的",
+   "sub": "交通、市容、警察",
+   "lead": "住東區的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "昱孜目標",
+   "title": "65 歲以上健保費免費",
+   "plan": "極力爭取 65 歲以上市民健保費免費。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "校園安全",
+   "title": "喪屍煙彈退散",
+   "plan": "對 2026 氾濫的喪屍煙彈，校園安全不退讓。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "顧囡仔",
+   "title": "提高育兒津貼、妊娠補助",
+   "plan": "推動弱勢孩童燈塔計畫，提高育兒補助津貼，提供婦女妊娠補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "挺醫護",
+   "title": "醫護進修補助、留任獎勵",
+   "plan": "爭取醫護進修補助，提高留任獎勵，提供心理支持。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "挺警察",
+   "title": "派出所休息空間、女警設施",
+   "plan": "提升派出所休息與備勤空間，增設女性員警友善設施，強化心理支持與創傷照護，汰換老舊裝備。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "elder"
+   ],
+   "cat": "安全行",
+   "title": "無障礙道路、號誌維護",
+   "plan": "交通號誌定期維護，落實無障礙道路設計。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder",
+    "local"
+   ],
+   "cat": "愛家鄉",
+   "title": "每年補助疫苗注射",
+   "plan": "環境維護整潔市容，每年補助疫苗注射。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/20%E5%98%89%E7%BE%A9%E5%B8%82/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "65 歲以上健保費免費",
+  "喪屍煙彈退散，校園安全不退讓",
+  "提高育兒津貼、婦女妊娠補助",
+  "醫護出身，挺醫護、挺警察",
+  "前急診、開刀房護理師，東區 16 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-yu-tzu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
