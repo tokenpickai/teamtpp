@@ -4,6 +4,7 @@ import path from 'node:path';
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const DIST = path.join(ROOT, 'dist');
+const MAJOR = [['huang-ching-ying', 0], ['chen-shih-hsuan', 8], ['lin-chen-yu', 2], ['chen-yu-cheng', 6], ['chang-chih-hao', 1], ['sung-pin-ying', 3], ['chiang-ho-shu', 1], ['lin-shuo-yen', 1], ['wu-wei-ta', 0], ['li-kuo-chang', 2]];
 const CITIES = ['台北', '新北', '基隆', '桃園', '新竹縣', '新竹市', '苗栗', '台中', '彰化', '南投', '雲林', '嘉義縣', '嘉義市', '台南', '高雄', '屏東', '宜蘭', '花蓮', '台東', '澎湖', '金門', '連江'];
 const SITE = { name: '民眾隊', url: 'https://teamtpp.com' };
 
@@ -204,10 +205,9 @@ function indexPage(everyone) {
   const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
   const updated = people.map((d) => d.person.updated).sort().pop();
   // carousel: newest first, but rotate through people so every councillor shows up
-  const queues = people.map((d) => all.filter((x) => x.d === d));
-  const slides = [];
-  for (let r = 0; slides.length < 9 && r < 9; r++) queues.forEach((q) => { if (q[r] && slides.length < 9) slides.push(q[r]); });
   const feed = all.slice(0, 8);
+  // carousel = hand-picked 重大政績 (one per councillor, broad impact); never repeats an item shown in 最新完成
+  const slides = MAJOR.map(([slug, i]) => all.find((x) => x.d.slug === slug && x.href.endsWith(`#i-${i}`))).filter((x) => x && !feed.includes(x));
   const nm = (d) => `${esc(d.person.name)}<span class="nm-o">${esc(d.person.office)}</span>`;
   return `${head({ title: `${SITE.name} teamtpp.com｜看得見的改變`, desc: `從路口、公園到治安、反毒、校園和孩子的鮮奶，民眾黨議員 ${total} 件看得見的改變，以及 11/28 參選人的政見。`, image: slides[0]?.thumb, url: SITE.url + '/' })}
 <body class="idx">
@@ -226,10 +226,10 @@ function indexPage(everyone) {
 <div class="stat"><span class="sn">${council}</span><span class="sl">件議員提案</span></div>
 </div>
 </div>
-<div class="rot" aria-roledescription="carousel" aria-label="最新完成">
+<div class="rot" aria-roledescription="carousel" aria-label="重大政績">
 ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ? ' hidden' : ''}>
 <span class="rs-img" style="--bg:url('${esc(it.thumb)}')"><img src="${esc(it.thumb)}" alt="" ${i ? 'loading="lazy"' : ''}></span>
-<span class="rs-body">
+<span class="rs-body"><span class="rs-tag">重大政績</span>
 <span class="rs-who"><img src="${esc(it.d.portrait)}" alt=""><span>${nm(it.d)}</span></span>
 <span class="rs-t">${esc(it.title)}</span>
 <span class="rs-ba"><span class="rs-b"><b>以前</b>${esc(it.bShort)}</span><span class="rs-a"><b>現在</b>${esc(it.aShort)}</span></span>
