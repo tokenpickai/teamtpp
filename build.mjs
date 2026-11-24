@@ -241,9 +241,9 @@ ${people.map((d) => {
     const th = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : -1)).slice(0, 3);
     return `<a class="pc" href="/${d.slug}/">
 <span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${d.person.ballot ? `${ballotNo(d, 's')}<span class="pc-tag">爭取連任</span>` : ''}</span>
-<span class="pc-o">${esc(d.person.office)}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
-<span class="pc-p">${esc(d.pitch[0])}</span>
+${d.person.ballot ? distBox(d) : `<span class="pc-o">${esc(d.person.office)}</span>`}
+<span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</span>
 <span class="pc-th">${th.map((x) => `<img src="${esc(x.thumb)}" alt="" loading="lazy">`).join('')}</span>
 </a>`;
   }).join('\n')}

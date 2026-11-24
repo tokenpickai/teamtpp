@@ -217,3 +217,4 @@ a.hdt:hover{color:var(--teal-d)}
 @media (max-width:600px){.bn-l{width:76px;height:76px;font-size:44px;border-width:5px;box-shadow:0 0 0 3px #fff,0 0 0 8px var(--r)}.ballot{gap:16px}.ballot .bn-l{margin:8px}.bl{font-size:15px}.da{font-size:14px;padding:5px 10px}}
 .pc .dist{flex-direction:column;align-self:stretch}.pc .dl{flex-direction:row;justify-content:center;gap:8px;align-items:baseline;padding:3px 8px}.pc .da{justify-content:center;text-align:center;border-radius:0 0 8px 8px}
 @media (max-width:600px){.people.cmp{grid-template-columns:repeat(2,minmax(0,1fr))}}.cmp .pc{min-width:0}.pc-chips .chip{overflow-wrap:anywhere}
+.pc-tag{left:auto;right:12px;top:14px}
