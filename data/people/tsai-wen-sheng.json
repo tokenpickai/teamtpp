@@ -1,0 +1,106 @@
+{
+ "slug": "tsai-wen-sheng",
+ "kind": "candidate",
+ "person": {
+  "name": "蔡文盛",
+  "office": "新竹市議員參選人（北區）",
+  "ballot": "12",
+  "election": "11/28",
+  "district": 4,
+  "updated": "2026.11.24",
+  "local": "北區人",
+  "pron": "他",
+  "council": "",
+  "city": "新竹市"
+ },
+ "bio": "前新竹果菜公司總經理，曾任金竹里長。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "育兒城市",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕人",
+   "sub": "創業、就業、居住",
+   "lead": "年輕的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "健康、照顧",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住北區的",
+   "sub": "市場、預算",
+   "lead": "住北區的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "孩子有希望",
+   "title": "最友善的育兒城市",
+   "plan": "安心生、放心養，建立最友善的育兒城市；少子化不是家庭的問題，而是城市的責任。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "青年有機會",
+   "title": "青年三安心",
+   "plan": "創業安心、就業安心、居住安心。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長輩有尊嚴",
+   "title": "讓長輩健康十年",
+   "plan": "健康、照顧、陪伴，建立高齡幸福城市；讓長輩健康十年，比增加一次性補助更重要。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市場有活力",
+   "title": "用市場提升城市競爭力",
+   "plan": "從商業、觀光、食安到物流，用市場經營的經驗提升城市競爭力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "政府有效率",
+   "title": "每一分稅金花在刀口上",
+   "plan": "專業管理、公開透明、財政紀律；不是反對建設，而是反對沒有品質、沒有效益的建設。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "少子化是城市的責任，打造最友善育兒城市",
+  "青年創業、就業、居住三安心",
+  "讓長輩健康十年，比一次性補助更重要",
+  "前新竹果菜公司總經理、前里長，北區 12 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/tsai-wen-sheng/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

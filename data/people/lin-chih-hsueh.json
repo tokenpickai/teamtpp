@@ -1,0 +1,128 @@
+{
+ "slug": "lin-chih-hsueh",
+ "kind": "candidate",
+ "person": {
+  "name": "林志學",
+  "office": "苗栗縣議員參選人（頭份三灣南庄）",
+  "ballot": "8",
+  "election": "11/28",
+  "district": 5,
+  "updated": "2026.11.24",
+  "local": "頭份三灣南庄人",
+  "pron": "他",
+  "council": "",
+  "city": "苗栗"
+ },
+ "bio": "苗栗縣工商協進會總幹事，民眾黨社會發展部副主任。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩、照顧長輩的",
+   "sub": "長照幼托、實驗學校",
+   "lead": "照顧一家老小的你"
+  },
+  {
+   "id": "young",
+   "label": "年輕、想創業的",
+   "sub": "青創基地、產業升級",
+   "lead": "想在苗北打拚的你"
+  },
+  {
+   "id": "local",
+   "label": "住頭份的",
+   "sub": "路燈、停車、市場",
+   "lead": "住這裡的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "智慧城市",
+   "title": "AI 智慧路燈監測",
+   "plan": "推動 AI 智慧路燈監測。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "照顧",
+   "title": "優質長照與幼托",
+   "plan": "推動優質長照與幼托。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "興建立體停車場",
+   "plan": "興建立體停車場。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "青年",
+   "title": "苗北青年創業基地",
+   "plan": "打造苗北青年創業基地。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育",
+   "title": "推動實驗學校",
+   "plan": "推動實驗學校。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市場",
+   "title": "中山市場改建",
+   "plan": "推動中山市場改建。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "young"
+   ],
+   "cat": "產業",
+   "title": "加速產業升級",
+   "plan": "加速在地產業升級。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "南庄",
+   "title": "點亮南庄心故鄉",
+   "plan": "點亮南庄心故鄉。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "AI 智慧路燈監測",
+  "中山市場改建、興建立體停車場",
+  "打造苗北青年創業基地",
+  "優質長照幼托，推動實驗學校",
+  "工商協進會總幹事，頭份三灣南庄 8 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/lin-chih-hsueh/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

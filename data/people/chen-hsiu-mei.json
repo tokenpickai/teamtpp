@@ -1,0 +1,143 @@
+{
+ "slug": "chen-hsiu-mei",
+ "kind": "candidate",
+ "person": {
+  "name": "陳岫玫",
+  "office": "新竹縣議員參選人（湖口）",
+  "ballot": "8",
+  "election": "11/28",
+  "district": 3,
+  "updated": "2026.11.24",
+  "local": "湖口人",
+  "pron": "她",
+  "council": "",
+  "city": "新竹縣"
+ },
+ "bio": "新竹縣政府顧問，前湖口反生命園區自救會長。",
+ "personas": [
+  {
+   "id": "home",
+   "label": "住湖口的",
+   "sub": "開發容受力、環境、農地",
+   "lead": "住湖口的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "社福用地、學區",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "交通瓶頸",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "日照、無障礙",
+   "lead": "家裡有長輩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "home"
+   ],
+   "cat": "居住正義",
+   "title": "開發前先審容受力",
+   "plan": "推動土地總量管制與容受力審查，建立環境與基建容受力動態資料庫，落實「公共設施先行」SOP。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "home"
+   ],
+   "cat": "理性監督",
+   "title": "重大設施事前預警、預算 KPI 化",
+   "plan": "以數據說話、資訊公開：重大設施建立事前預警與陽光化機制，預算審查 KPI 化。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "生養無畏",
+   "title": "強制預留社福用地",
+   "plan": "落實國土空間規劃，強制預留社福用地，監督育兒資源合理分配。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育優化",
+   "title": "學區飽和度提前預判",
+   "plan": "建立學區動態預警系統，提前預判學區飽和度；提升非核心區學校軟硬體。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "人本交通",
+   "title": "打通湖口交通瓶頸",
+   "plan": "以大數據優化通勤動線，爭取實質替代道路與大眾運輸。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "身心健康",
+   "title": "廣設日照、長幼共學空間",
+   "plan": "廣設日照中心與長幼共學空間，打造無障礙人本生活圈。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "home"
+   ],
+   "cat": "低碳家園",
+   "title": "工業區周邊空水污嚴格監測",
+   "plan": "落實工業區周邊環境總量管制，嚴格把關環境敏感區，落實空水污監測與綠美化。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "home"
+   ],
+   "cat": "產業升級",
+   "title": "結合工業區，創造在地就業",
+   "plan": "結合新竹工業區優勢，推動產官學合作與人才培育，留住青年人才。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "home"
+   ],
+   "cat": "農民權益",
+   "title": "國土功能分區地方監督小組",
+   "plan": "成立「國土功能分區與農民權益保障」地方監督小組，要求縣府建立土地分區爭議在地協調窗口，爭取「農業配套與實質補償」法制化。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "開發前先審容受力，公共設施先行",
+  "強制預留社福用地，提前預判學區飽和",
+  "大數據優化通勤，打通湖口交通瓶頸",
+  "工業區周邊空水污嚴格監測",
+  "前湖口反生命園區自救會長，湖口 8 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chen-hsiu-mei/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

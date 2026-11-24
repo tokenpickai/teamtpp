@@ -1,0 +1,126 @@
+{
+ "slug": "chung-hsin-yu",
+ "kind": "candidate",
+ "person": {
+  "name": "鍾心渝",
+  "office": "新竹縣議員參選人（竹東五峰）",
+  "ballot": "1",
+  "election": "11/28",
+  "district": 9,
+  "updated": "2026.11.24",
+  "local": "竹東人",
+  "pron": "她",
+  "council": "",
+  "city": "新竹縣"
+ },
+ "bio": "前新竹市高虹安市長辦公室祕書，半導體製程 AE，清大碩士。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "公托、平板、壯壯卡",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "站牌、地下道、步道",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "健保費、敬老卡",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住竹東的",
+   "sub": "交流道、竹科三期、球場",
+   "lead": "住竹東的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育優化",
+   "title": "公托公幼加名額、老校舍翻新",
+   "plan": "增加公托及公幼名額，盤點老舊校舍修建翻新。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育優化",
+   "title": "10 歲以上生生有平板",
+   "plan": "融入 AI 課程，10 歲以上生生有平板；壯壯卡擴大到 2 歲到國中生。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通升級",
+   "title": "智慧站牌、校園 500 公尺步道",
+   "plan": "建立智慧站牌與查詢系統減少候車；盤點校園周邊 500 公尺人行步道，維護學童安全。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "交通升級",
+   "title": "東科路地下道積水自動警示",
+   "plan": "建置東科路地下道積水自動化感應系統，即時預警、守護用路人安全。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "理性監督",
+   "title": "追蹤二重交流道、竹科三期",
+   "plan": "追蹤竹東二重交流道、竹科三期規劃進度，保障地主徵收及補償權益。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "family"
+   ],
+   "cat": "休閒場域",
+   "title": "風雨綜合球場、河濱棒球場",
+   "plan": "盤點公有閒置空間，爭取多元化運動公園風雨綜合球場、河濱棒球場優化與運動場館。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "全齡友善",
+   "title": "65 歲以上健保費不排富全額補助",
+   "plan": "65 歲以上健保費不排富全額補助；敬老愛心卡擴大到交通、醫療院所、休閒與農會。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "65 歲以上健保費不排富全額補助",
+  "壯壯卡擴大到 2 歲至國中",
+  "東科路地下道積水自動警示",
+  "追蹤竹東二重交流道、竹科三期進度",
+  "前高虹安市長辦公室祕書，竹東五峰 1 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chung-hsin-yu/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

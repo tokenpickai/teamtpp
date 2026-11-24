@@ -1,0 +1,135 @@
+{
+ "slug": "shih-shu-ting",
+ "kind": "candidate",
+ "person": {
+  "name": "施淑婷",
+  "office": "新竹市議員參選人（西區）",
+  "ballot": "3",
+  "election": "11/28",
+  "district": 3,
+  "updated": "2026.11.24",
+  "local": "西區人",
+  "pron": "她",
+  "council": "",
+  "city": "新竹市"
+ },
+ "bio": "前新竹市政府發言人、民政處處長。",
+ "personas": [
+  {
+   "id": "local",
+   "label": "住西區的",
+   "sub": "監獄遷建、老街、神社公園",
+   "lead": "住西區的你"
+  },
+  {
+   "id": "commute",
+   "label": "每天通勤的",
+   "sub": "公車、停車",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "共餐、無障礙",
+   "lead": "家裡有長輩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "西區發展",
+   "title": "新竹監獄遷建",
+   "plan": "爭取新竹監獄遷移改建，釋出城市核心空間，活化西區發展機能。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "西區發展",
+   "title": "活化新竹神社公園",
+   "plan": "整合歷史遺址與綠地空間，打造兼具文史走讀與休憩功能的城市新亮點。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "商圈經濟",
+   "title": "老街商圈、米粉文化園區",
+   "plan": "活化老街商圈商機，推動米粉文化園區，串聯地方特色產業升級。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "商圈經濟",
+   "title": "中山信仰大道",
+   "plan": "串聯城隍廟、天公壇與歷史場域，打造祈福漫步街區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "西區交通",
+   "title": "公車路網、智慧停車",
+   "plan": "優化公車路網營運，增設智慧停車設施，改善尖峰時段壅塞。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "全齡友善",
+   "title": "老幼皆宜的友善社區",
+   "plan": "增設特色共榮空間，完善無障礙空間，建構老幼皆宜的社區。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長照醫療",
+   "title": "廣設長輩共餐據點",
+   "plan": "廣設長輩共餐據點，充實基層醫護人力。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local",
+    "commute",
+    "elder"
+   ],
+   "cat": "市政透明",
+   "title": "預算全數公開",
+   "plan": "預算全數公開透明，杜絕黑箱作業，接受市民監督。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "新竹監獄遷建，釋出西區核心空間",
+  "活化新竹神社公園、米粉文化園區",
+  "公車路網優化、增設智慧停車",
+  "廣設長輩共餐據點",
+  "前新竹市府發言人、民政處長，西區 3 號"
+ ],
+ "links": [
+  {
+   "label": "Facebook",
+   "url": "https://www.facebook.com/SweetyHsinchu"
+  }
+ ],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/shih-shu-ting/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

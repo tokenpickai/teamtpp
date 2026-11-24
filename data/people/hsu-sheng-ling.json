@@ -1,0 +1,134 @@
+{
+ "slug": "hsu-sheng-ling",
+ "kind": "candidate",
+ "person": {
+  "name": "徐勝凌",
+  "office": "新竹縣議員參選人（新豐）",
+  "ballot": "1",
+  "election": "11/28",
+  "district": 4,
+  "updated": "2026.11.24",
+  "local": "新豐人",
+  "pron": "他",
+  "council": "",
+  "city": "新竹縣"
+ },
+ "bio": "立委洪毓祥辦公室新豐區特助，東華大學企管碩士。",
+ "personas": [
+  {
+   "id": "local",
+   "label": "住新豐的",
+   "sub": "交流道、海岸、治安",
+   "lead": "住新豐的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "幼兒園、婦幼館、特教",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "worker",
+   "label": "上班打拚的",
+   "sub": "解僱保障、勞工健檢",
+   "lead": "上班打拚的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "預立醫療、在地安老",
+   "lead": "家裡有長輩的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "宜居新豐",
+   "title": "國 1 湖口第二交流道加速",
+   "plan": "加速國 1 湖口第二交流道時效與聯絡道優化；智慧整合路網，微型／幸福巴士深入各鄰里。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "宜居新豐",
+   "title": "濱海廊帶、新豐品牌",
+   "plan": "推動濱海廊帶整體規劃，保存客家文化，打造新豐品牌；環境清潔科技輔助執法、提高檢舉獎金。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "安心育兒",
+   "title": "幼兒園影像雲端保存",
+   "plan": "推動幼兒園影像雲端保存、發放久任津貼、實質降低師生比。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "安心育兒",
+   "title": "大山崎爭取婦幼館",
+   "plan": "大山崎地區爭取婦幼館與室內遊戲場；興建都市計畫公園，通學步道人車分流、加強校園食安。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "安心育兒",
+   "title": "補足特教助理、輔導人力",
+   "plan": "補足特教助理與輔導人力，建立法律與心理支持機制。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "worker"
+   ],
+   "cat": "勞工權益",
+   "title": "大規模解僱有轉職保障",
+   "plan": "強化大規模解僱的行政監督與轉職加速器，優先聘僱在地勞動力；高風險產業實質健檢，推動有薪家庭照顧假。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "社會安全",
+   "title": "快篩試劑杜絕毒駕酒駕",
+   "plan": "購置快篩試劑，加強稽查治安場所與勒令停業措施，杜絕毒駕與酒駕。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "醫療保障",
+   "title": "預立醫療諮詢、在地安老",
+   "plan": "推廣預立醫療諮詢（ACP）與在地安老機制，完善在地醫療需求。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "加速國 1 湖口第二交流道",
+  "幼兒園影像雲端保存，降低師生比",
+  "大山崎爭取婦幼館、室內遊戲場",
+  "購置快篩試劑，杜絕毒駕酒駕",
+  "立委洪毓祥新豐特助，新豐 1 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/hsu-sheng-ling/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

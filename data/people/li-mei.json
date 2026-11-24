@@ -1,0 +1,125 @@
+{
+ "slug": "li-mei",
+ "kind": "candidate",
+ "person": {
+  "name": "李玫",
+  "office": "新竹市議員參選人（南區）",
+  "ballot": "3",
+  "election": "11/28",
+  "district": 2,
+  "updated": "2026.11.24",
+  "local": "南區人",
+  "pron": "她",
+  "council": "",
+  "city": "新竹市"
+ },
+ "bio": "前新竹市長秘書，中央大學土木系、雲科大視覺傳達設計碩士。",
+ "personas": [
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "公托、臨托、校園",
+   "lead": "有孩子的你"
+  },
+  {
+   "id": "commute",
+   "label": "通勤、接送上學的",
+   "sub": "通學專車、YouBike",
+   "lead": "每天通勤的你"
+  },
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "敬老卡、防跌",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "local",
+   "label": "住南區的",
+   "sub": "南門溪、球場、寵物",
+   "lead": "住南區的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育願景",
+   "title": "南區公托、臨托，小時制育嬰假",
+   "plan": "爭取南區公托、臨托；試辦「小時制彈性育嬰假」並獎勵友善企業響應；爭取特教資源與照顧者福利。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "教育願景",
+   "title": "老師專心教學、SEL 情緒教育",
+   "plan": "推動校園行政減量，讓老師專心教學；全面導入 SEL 社會情緒學習、校園心理安全網與適性教育。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "commute"
+   ],
+   "cat": "便捷交通",
+   "title": "通學專車加路線、YouBike 翻倍",
+   "plan": "擴大安心通學專車路線，改善易壅塞交通節點，升級通學步道；南區 YouBike 站點翻倍，爭取愛心巴士早晚各一班。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "宜居友善",
+   "title": "便民服務站、風雨球場",
+   "plan": "增設南區便民服務站與多功能室內空間，爭取風雨球場；盤點並補強社區治安死角監視系統。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "美學城市",
+   "title": "南門溪溯源整治",
+   "plan": "推動南門溪上游溯源整治，導入智慧水質監控，根絕異味與汙染；整合南門溪親水空間，打造親子環境教育自然廊道。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "樂齡升級",
+   "title": "敬老卡點數彈性用、防跌輔具補助",
+   "plan": "擴大敬老愛心卡使用範圍、點數使用彈性化；爭取居家防跌輔具購置補助；推動銀髮俱樂部肌耐力訓練。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "多元平權",
+   "title": "身障者培訓 AI 講師、寵物奔跑區",
+   "plan": "編列預算培訓身心障礙者成為 AI 講師，協助轉型就業；活化社區閒置空地增設微型寵物奔跑區，試辦假日寵物友善公車專線。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "南區爭取公托、臨托，試辦小時制育嬰假",
+  "通學專車加路線，南區 YouBike 翻倍",
+  "南門溪溯源整治，根絕異味",
+  "敬老卡點數彈性化，防跌輔具有補助",
+  "前新竹市長秘書，南區 3 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/li-mei/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

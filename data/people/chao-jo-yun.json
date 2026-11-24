@@ -1,0 +1,82 @@
+{
+ "slug": "chao-jo-yun",
+ "kind": "candidate",
+ "person": {
+  "name": "趙若芸",
+  "office": "新竹市議員參選人（山地原住民）",
+  "ballot": "4",
+  "election": "11/28",
+  "district": 7,
+  "updated": "2026.11.24",
+  "local": "新竹原住民",
+  "pron": "她",
+  "council": "",
+  "city": "新竹市"
+ },
+ "bio": "民眾黨原住民族委員會副執行長，議員李國璋服務團隊特助。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家裡有長輩的",
+   "sub": "巡迴健檢、文健站",
+   "lead": "家裡有長輩的你"
+  },
+  {
+   "id": "renter",
+   "label": "在都市租屋的",
+   "sub": "租屋補貼、社宅",
+   "lead": "在都市生活的你"
+  },
+  {
+   "id": "culture",
+   "label": "想傳承文化的",
+   "sub": "文化館、體驗課程",
+   "lead": "想傳承文化的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "長輩健康",
+   "title": "定點巡迴健檢站",
+   "plan": "爭取定點巡迴健康檢查站，設立長輩健康狀況資料庫即時關注，新增文化健康站。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "renter"
+   ],
+   "cat": "原民補助",
+   "title": "原住民租屋補貼加碼",
+   "plan": "爭取原住民租屋補貼加碼，社會住宅新增原住民相關福利條件。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  },
+  {
+   "who": [
+    "culture"
+   ],
+   "cat": "文化傳承",
+   "title": "爭取原住民文化館",
+   "plan": "爭取建立原住民文化館，推動原住民文化體驗課程；在科技教育館設立原民專區，結合 AI 科技打破刻板印象。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "定點巡迴健檢站、長輩健康資料庫",
+  "原住民租屋補貼加碼，社宅納入原民福利",
+  "爭取原住民文化館、科教館原民專區",
+  "民眾黨原民會副執行長，山地原住民 4 號"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chao-jo-yun/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
