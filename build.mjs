@@ -81,7 +81,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${cand ? `<span class="badge">${esc(p.election)} 投票</span>` : ''}
+
 <span class="upd">最近更新 ${esc(p.updated)}</span>
 </div></header>
 
