@@ -270,9 +270,9 @@ ${mayors.length ? `<section class="sec">
 <div class="people">
 ${mayors.map((d) => `<a class="pc" href="/${d.slug}/">
 <span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 's')}</span>
-<span class="pc-o">${esc(d.person.office.replace('參選人', ''))}</span>
 <span class="pc-n">${esc(d.person.name)}</span>
-<span class="pc-p">${esc(d.pitch[0])}</span>
+<span class="dist"><span class="dl"><b>${esc(CITYFULL[d.person.electCity] || d.person.electCity)}</b><span>${esc(d.person.office.replace(/參選人|候選人/, ''))}</span></span><span class="da">全市</span></span>
+<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
 </a>`).join('\n')}
 </div>
 </section>` : ''}
