@@ -70,12 +70,13 @@ const distBox = (d) => {
   const p = d.person; const city = CITYFULL[p.electCity] || p.electCity;
   return `<span class="dist"><span class="dl"><b>${esc(city)}</b><span>${p.indig ? `${esc(p.indig)}選區` : `第${zhNum(p.district)}選區`}</span></span><span class="da">${p.indig ? (city.endsWith('縣') ? '全縣' : '全市') : esc(p.areas.join('、'))}</span></span>`;
 };
-const ballotTag = (d) => d.person.ballot ? `${d.person.ballot} 號・${d.person.election} ${d.kind === 'candidate' ? '投票' : '爭取連任'}` : '';
+const ballotTag = (d) => d.person.ballot ? `${d.person.ballot} 號・${d.person.election} ${d.kind === 'candidate' || d.kind === 'mayor-candidate' ? '投票' : '爭取連任'}` : '';
 
 function personPage(d) {
   const p = d.person;
   const items = [...d.items].sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
-  const cand = d.kind === 'candidate';
+  const mayor = d.kind === 'mayor-candidate';
+  const cand = d.kind === 'candidate' || mayor;
   const first = d.personas[0];
   const firstItems = (cand ? d.platform : items).filter((it) => it.who.includes(first.id));
   const url = `${SITE.url}/${d.slug}/`;
@@ -100,7 +101,7 @@ ${d.links.map((l) => `<a class="lk" href="${esc(l.url)}" aria-label="${esc(l.lab
 </nav>
 </div>
 <div class="pitch-txt">
-${cand ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${esc(CITYFULL[p.electCity] || p.electCity)}議員候選人${cand ? '' : ' <span class="tag-r">爭取連任</span>'}</p><p class="cn">${esc(p.name)}</p>${distBox(d)}</div></div>` : ''}
+${cand ? `<div class="ballot">${ballotNo(d, 'l')}<div class="ballot-r"><p class="bl">${mayor ? esc(p.office.replace('參選人', '')) : esc(CITYFULL[p.electCity] || p.electCity) + '議員'}候選人</p><p class="cn">${esc(p.name)}</p>${mayor ? '' : distBox(d)}</div></div>` : ''}
 ${cand ? `<p class="bio">${esc(d.bio)}</p>` : ''}
 <h2 id="pitch">怎麼跟朋友推薦${esc(p.pron)}</h2>
 <ul>${d.pitch.map((t) => `<li><span class="bul" aria-hidden="true"></span><span>${esc(t)}</span></li>`).join('')}</ul>
@@ -196,8 +197,9 @@ function countChanges(people) {
 }
 
 function indexPage(everyone) {
-  const people = everyone.filter((d) => d.kind !== 'candidate');
-  const cands = everyone.filter((d) => d.person.ballot); // newcomers + incumbents running again
+  const people = everyone.filter((d) => !d.kind);
+  const cands = everyone.filter((d) => d.person.ballot && d.kind !== 'mayor-candidate'); // newcomers + incumbents running again
+  const mayors = everyone.filter((d) => d.kind === 'mayor-candidate');
   const all = people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })));
   all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
   const total = countChanges(people);
@@ -263,8 +265,17 @@ ${people.map((d) => {
   }).join('\n')}
 </div>
 
+${mayors.length ? `<div class="mys">
+${mayors.map((d) => `<a class="my" href="/${d.slug}/">
+<span class="my-k">${esc(d.person.election)} 市長參選人</span>
+<span class="my-top"><img class="my-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 'm')}</span>
+<span class="my-o">${esc(d.person.office.replace('參選人', ''))}</span>
+<span class="my-n">${esc(d.person.name)}</span>
+<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
+</a>`).join('\n')}
+</div>` : ''}
 ${cands.length ? `<section class="sec">
-<h2 class="h2">${esc(cands[0].person.election)} 參選人</h2>
+<h2 class="h2">${esc(cands[0].person.election)} 議員參選人</h2>
 ${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
 <div class="people cmp">
 ${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">

@@ -1,0 +1,182 @@
+{
+ "slug": "chiu-chen-yuan",
+ "kind": "mayor-candidate",
+ "person": {
+  "election": "11/28",
+  "updated": "2026.11.24",
+  "pron": "他",
+  "council": "",
+  "name": "邱臣遠",
+  "office": "竹北市長參選人",
+  "ballot": "3",
+  "local": "竹北人",
+  "city": "新竹縣",
+  "electCity": "新竹縣"
+ },
+ "bio": "新竹市政府副市長、代理市長，第十屆立法委員、民眾黨立院總召，世界台灣商會聯合總會秘書長、青商會長。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家有長輩的",
+   "sub": "健康",
+   "lead": "家有長輩的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "親子教育",
+   "lead": "在養小孩的你"
+  },
+  {
+   "id": "local",
+   "label": "住竹北的",
+   "sub": "交通、建設、產業",
+   "lead": "住竹北的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "健康",
+   "title": "假牙最高補助六萬",
+   "plan": "補助長者裝活動假牙最高六萬，建構一站式固齒照護機制。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "健康",
+   "title": "帶狀疱疹疫苗兩劑全額免費",
+   "plan": "加碼五十歲以上帶狀疱疹疫苗，低收長輩兩劑全額免費。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "健康",
+   "title": "65 歲以上健保費全額補助",
+   "plan": "65 歲以上市民、55 歲以上原住民健保費全額補助。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "親子",
+   "title": "生育津貼每胎四萬",
+   "plan": "加碼生育津貼至每胎四萬元，達到直轄市級支持水準。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "親子",
+   "title": "二歲幼兒專班延托至七點",
+   "plan": "增設市立二歲幼兒專班，提供公費延托陪伴至晚間七點。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "親子",
+   "title": "2 至 15 歲週週有鮮奶",
+   "plan": "2 至 15 歲「週週有鮮奶」，守護學童營養健康。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "健康",
+   "title": "青壯年每年三次心理諮商",
+   "plan": "全額補助青壯年每年三次心理諮商，增設夜間週末診次。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "AI 智慧號誌",
+   "plan": "導入 AI 智慧號誌動態調控，優化瓶頸路口改善尖峰塞車。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "支持大新竹輕軌",
+   "plan": "支持大新竹輕軌，爭取新建跨頭前溪大橋與經國大橋拓寬。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "local"
+   ],
+   "cat": "交通",
+   "title": "校園周邊接送動線",
+   "plan": "系統化改善校園周邊接送動線，保障學童通學步道安全。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "建設",
+   "title": "整治鳳山溪、豆子埔溪",
+   "plan": "整治鳳山溪、豆子埔溪，系統化改善市區易積淹水點。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "監督",
+   "title": "數位儀表板監督工程",
+   "plan": "兩億以上工程市長親自列管；建置數位儀表板，全民監督工程進度。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "產業",
+   "title": "竹北商圈消費節",
+   "plan": "推動竹北商圈消費節，創造百億商機。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "產業",
+   "title": "夜市升級",
+   "plan": "竹北夜市升級，導入油水分離、友善公廁與行動支付。",
+   "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E5%85%AC%E5%A0%B1.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "假牙最高補助六萬",
+  "生育津貼每胎四萬",
+  "AI 智慧號誌",
+  "前新竹市副市長、代理市長"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chiu-chen-yuan/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}

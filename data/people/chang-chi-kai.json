@@ -1,0 +1,191 @@
+{
+ "slug": "chang-chi-kai",
+ "kind": "mayor-candidate",
+ "person": {
+  "election": "11/28",
+  "updated": "2026.11.24",
+  "pron": "他",
+  "council": "",
+  "name": "張啓楷",
+  "office": "嘉義市長參選人",
+  "ballot": "3",
+  "local": "嘉義人",
+  "city": "嘉義市",
+  "electCity": "嘉義市"
+ },
+ "bio": "第十一屆立法委員，曾任 TVBS、年代電視台政論節目主持人、年代新聞部副總編輯、中國時報國會記者。",
+ "personas": [
+  {
+   "id": "elder",
+   "label": "家有長輩的",
+   "sub": "敬老、健保",
+   "lead": "家有長輩的你"
+  },
+  {
+   "id": "family",
+   "label": "在養小孩的",
+   "sub": "育兒、居住、校園",
+   "lead": "在養小孩的你"
+  },
+  {
+   "id": "local",
+   "label": "住嘉義市的",
+   "sub": "交通、產業、觀光",
+   "lead": "住嘉義的你"
+  }
+ ],
+ "platform": [
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "敬老",
+   "title": "65 歲以上健保費全額補助",
+   "plan": "65 歲以上長輩健保費全額補助。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "elder"
+   ],
+   "cat": "敬老",
+   "title": "每月 1200 點敬老卡",
+   "plan": "每月 1200 點敬老卡，放寬使用，可搭計程車、抵掛號費、可於特約超商、超市及農會消費。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "育兒",
+   "title": "生育獎勵第三胎 20 萬",
+   "plan": "生育獎勵金：第一胎 5 萬，第二胎 10 萬，第三胎 20 萬。0-6 歲每年 2 萬生日禮金，合計 14 萬。幼兒免費下課托育 2 小時，方便家長接送。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "高鐵聯外軌道即刻動工",
+   "plan": "爭取高鐵聯外軌道工程，即刻動工。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "文化公園地下停車場",
+   "plan": "闢建文化公園地下停車場，推展夜市觀光文化，方便民眾停車。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "交通",
+   "title": "增設國道 3 大雅路交流道",
+   "plan": "增設國道 3 大雅路交流道、加速牛稠溪環快完工。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "觀光",
+   "title": "水上機場恢復國際線",
+   "plan": "水上機場恢復國際線航班，拓展國際觀光。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "產業",
+   "title": "商圈 2+4",
+   "plan": "擴大文化路、二通商圈。增設四商圈，重振火車站站前商圈，延伸至後火車站，帶動區域經濟發展。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "產業",
+   "title": "北港路產業廊帶",
+   "plan": "加速推動北港路產業廊帶計畫，規劃高新產業園區，帶動產業轉型與城市繁榮發展。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "居住",
+   "title": "社會住宅新婚優先",
+   "plan": "增加社會住宅戶數及可負擔宅，新婚優先，減少青年租屋、購屋成本，推動三代同堂。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "family",
+    "local"
+   ],
+   "cat": "交通",
+   "title": "紅單減半、死傷減半",
+   "plan": "四年內科技執法紅單減半，車禍死傷減半；保護通學安全，倡議人本交通。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "family"
+   ],
+   "cat": "校園",
+   "title": "拒毒油、毒品進校園",
+   "plan": "拒絕毒油、黑心食品，嚴拒毒品進入校園，捍衛校園安全，守護食品安全。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "建設",
+   "title": "興建大巨蛋",
+   "plan": "興建大巨蛋，打造城市新地標，導入演唱會、運動賽事與工商展覽，增加就業與稅收。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "市政",
+   "title": "承續十大旗艦計畫",
+   "plan": "承續完成黃敏惠市長十大旗艦計畫、穩定市府人事。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  },
+  {
+   "who": [
+    "local"
+   ],
+   "cat": "環境",
+   "title": "嚴禁蘭潭設置光電板",
+   "plan": "嚴禁蘭潭設置光電板。",
+   "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+  }
+ ],
+ "doing": [],
+ "pitch": [
+  "65 歲以上健保費全額補助",
+  "生育獎勵第三胎 20 萬",
+  "高鐵聯外軌道即刻動工",
+  "第十一屆立法委員"
+ ],
+ "links": [],
+ "items": [],
+ "promises": [],
+ "citywide": [],
+ "pending": [],
+ "council": "",
+ "portrait": "/img/chang-chi-kai/portrait.jpg",
+ "duo": [],
+ "artifact": ""
+}
