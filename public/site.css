@@ -238,13 +238,3 @@ a.hdt:hover{color:var(--teal-d)}
 .pc-top{overflow:hidden;border-radius:14px}.pc-img{transition:transform .3s ease}.pc:hover .pc-img{transform:scale(1.04)}
 .pc:active,.fd:active{transform:scale(.98)}
 .pc:hover .pc-n,.fd:hover .fd-t{color:var(--teal-d)}.pc,.fd{cursor:pointer}
-/* 11/28 市長參選人 cards: 3 across, larger, red frame */
-.mys{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:48px 0 8px}
-.my{position:relative;display:flex;flex-direction:column;color:var(--ink);text-decoration:none;background:#fff;border:3px solid #E50012;border-radius:26px;padding:14px 14px 20px;box-shadow:0 6px 0 #E50012;transition:transform .15s ease,box-shadow .15s ease}
-.my:hover{transform:translateY(-3px);box-shadow:0 9px 0 #E50012}
-.my-k{align-self:flex-start;background:#E50012;color:#fff;font-weight:900;font-size:15px;padding:5px 12px;border-radius:999px;margin-bottom:12px}
-.my-top{position:relative;display:block}.my-img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:16px;background:#eee}
-.bn-m{position:absolute;right:14px;bottom:-26px;width:64px;height:64px;font-size:36px;border:5px solid var(--r);box-shadow:0 0 0 3px #fff,0 0 0 8px var(--r)}
-.my-o{margin-top:16px;font-size:18px;font-weight:900;color:#E50012}.my-n{font-size:38px;font-weight:900;line-height:1.15}
-.my .pc-chips{margin-top:10px}
-@media (max-width:760px){.mys{grid-template-columns:1fr;gap:22px}.my-n{font-size:32px}}

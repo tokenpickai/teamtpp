@@ -265,15 +265,17 @@ ${people.map((d) => {
   }).join('\n')}
 </div>
 
-${mayors.length ? `<div class="mys">
-${mayors.map((d) => `<a class="my" href="/${d.slug}/">
-<span class="my-k">${esc(d.person.election)} 市長參選人</span>
-<span class="my-top"><img class="my-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 'm')}</span>
-<span class="my-o">${esc(d.person.office.replace('參選人', ''))}</span>
-<span class="my-n">${esc(d.person.name)}</span>
-<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
+${mayors.length ? `<section class="sec">
+<h2 class="h2">${esc(mayors[0].person.election)} 市長參選人</h2>
+<div class="people">
+${mayors.map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 's')}</span>
+<span class="pc-o">${esc(d.person.office.replace('參選人', ''))}</span>
+<span class="pc-n">${esc(d.person.name)}</span>
+<span class="pc-p">${esc(d.pitch[0])}</span>
 </a>`).join('\n')}
-</div>` : ''}
+</div>
+</section>` : ''}
 ${cands.length ? `<section class="sec">
 <h2 class="h2">${esc(cands[0].person.election)} 議員參選人</h2>
 ${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
