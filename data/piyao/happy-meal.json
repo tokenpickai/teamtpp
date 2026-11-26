@@ -1,0 +1,39 @@
+{
+  "slug": "happy-meal",
+  "date": "2025-01-09",
+  "who": "民眾黨",
+  "title": "藍白砍預算，害 60 元幸福餐盒停賣？",
+  "summary": "農業部 60 元幸福餐盒停賣，網傳是藍白強推財劃法、杯葛預算害的。事實查核中心：餐盒本來就只規劃賣兩年。",
+  "rumor": {
+    "text": "藍白強推財劃法，杯葛年度總預算，全部要重編，沒經費執行的，新年度就是把全部民生福利都卡住，還不明白嗎？",
+    "img": "/img/piyao/happy-meal/rumor.jpg",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/agriculture-ministry-60nt-happy-meal-budget-cut-false/",
+    "reach": "農業部宣布餐盒 1 月底停賣後，臉書粉專隨即這樣說，另有貼文說是藍白「砍預算」"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "幸福餐盒停賣是原定規劃，[[與網傳修法、砍預算無關]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/agriculture-ministry-60nt-happy-meal-budget-cut-false/"
+  },
+  "facts": [
+    {
+      "b": "錢本來就只編兩年。",
+      "t": "幸福餐盒經費來自 2023 年的「疫後特別預算」，執行期間是 2023、2024 年，到期停賣是照原定規劃。"
+    },
+    {
+      "b": "跟財劃法沒關係。",
+      "t": "疫後特別預算 2023 年就三讀、財源確定；財劃法影響的是未來的總預算，不會動到已通過的特別預算。"
+    },
+    {
+      "b": "沒有預算可以砍。",
+      "t": "2025 年農業部總預算本來就沒編幸福餐盒經費，「預算遭刪」根本不成立。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/agriculture-ministry-60nt-happy-meal-budget-cut-false/"
+    ]
+  ]
+}

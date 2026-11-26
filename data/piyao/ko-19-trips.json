@@ -1,0 +1,39 @@
+{
+  "slug": "ko-19-trips",
+  "date": "2023-10-25",
+  "who": "柯文哲",
+  "title": "柯文哲「去中國 19 趟」的甜點照？",
+  "summary": "臉書流傳柯文哲和兩名女子的合照，壓上「去中國19趟 晚餐後甜點 任柯挑」。事實查核中心：照片是台北電音活動拍的。",
+  "rumor": {
+    "text": "去中國19趟 晚餐後甜點 任柯挑……",
+    "img": "/img/piyao/ko-19-trips/rumor.jpg",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/migration-9810/",
+    "reach": "臉書熱傳，配上「把柄落在人家手裡？！不能被揭穿的秘密」"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "網傳訊息[[挪用柯文哲與電音活動參與者合照]]，卻壓上「去中國19趟」等文字",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/migration-9810/"
+  },
+  "facts": [
+    {
+      "b": "照片在台北拍的。",
+      "t": "2018 年 7 月，時任市長柯文哲到大佳河濱公園參加電音活動，和現場民眾合照。"
+    },
+    {
+      "b": "合照的人自己貼過。",
+      "t": "其中一位參與者 2018 年 7 月 28 日就在臉書貼出這張合照，媒體當時也有報導。"
+    },
+    {
+      "b": "原圖沒有那些字。",
+      "t": "「去中國19趟」「晚餐後甜點」都是後來壓上去的。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/migration-9810/"
+    ]
+  ]
+}

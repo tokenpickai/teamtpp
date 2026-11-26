@@ -1,0 +1,39 @@
+{
+  "slug": "ko-army-photo",
+  "date": "2023-12-19",
+  "who": "柯文哲",
+  "title": "柯文哲當兵照「高腰褲、胯下有水漬」？",
+  "summary": "網傳柯文哲年輕當兵的照片，褲頭拉高、胯下有水漬，壓字「這副德性選總統？」。事實查核中心：照片是修過的。",
+  "rumor": {
+    "text": "這副德性選總統？",
+    "img": "/img/piyao/ko-army-photo/rumor.jpg",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/migration-10010/",
+    "reach": "12 月 7 日起在社群和通訊群組流傳"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "網傳照片刻意修圖提高褲頭，並加上水漬。[[網傳照片經過變造]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/migration-10010/"
+  },
+  "facts": [
+    {
+      "b": "原圖是柯文哲自己貼的入伍照。",
+      "t": "柯文哲 2014 年軍人節在臉書貼出 1986 年入伍當兵的舊照，媒體當時也報導過。"
+    },
+    {
+      "b": "原圖沒有水漬。",
+      "t": "原照片胸口有名牌，腰線正常，胯下沒有水漬。"
+    },
+    {
+      "b": "修圖痕跡很明顯。",
+      "t": "手肘有不自然的模糊、腰線不自然，褲檔還有好幾條一模一樣的皺褶。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/migration-10010/"
+    ]
+  ]
+}

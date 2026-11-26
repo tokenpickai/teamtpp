@@ -1,0 +1,39 @@
+{
+  "slug": "ko-cn-treat",
+  "date": "2023-11-02",
+  "who": "柯文哲",
+  "title": "柯文哲在中國被「招待」的照片？",
+  "summary": "網傳兩張柯文哲和女性的合照，說是中共放出的、在中國拍的。事實查核中心：兩張都在台北拍的。",
+  "rumor": {
+    "text": "中共中央放出的照片……，柯P我們也有招待ㄚ！",
+    "img": "/img/piyao/ko-cn-treat/rumor.jpg",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/migration-9842/",
+    "reach": "在通訊軟體和社群流傳，照片壓上「甜點」「兩岸一家親」"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "傳言挪用不相關的照片，並[[錯誤聲稱網傳圖片為「中共招待柯P」、「拍攝於中國」]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/migration-9842/"
+  },
+  "facts": [
+    {
+      "b": "「兩岸一家親」那張在台北東區。",
+      "t": "2019 年柯文哲參加東區商圈周年慶，在精品服飾店和店員合照，照片出自北市商業處粉專。"
+    },
+    {
+      "b": "「甜點」那張在松山機場。",
+      "t": "2015 年柯文哲在松山機場候機室，準備出發去上海參加雙城論壇。"
+    },
+    {
+      "b": "兩張都不是在中國拍的。",
+      "t": "照片被拿掉原本的脈絡，再壓上字當成「中共招待」的證據。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/migration-9842/"
+    ]
+  ]
+}

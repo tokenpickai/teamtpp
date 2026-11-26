@@ -1,0 +1,39 @@
+{
+  "slug": "ko-xi-dinner",
+  "date": "2023-11-28",
+  "who": "柯文哲",
+  "title": "習近平親自幫柯文哲夾菜？",
+  "summary": "網傳一張習近平幫柯文哲夾菜、旁邊坐著解放軍軍官的照片。MyGoPen：兩張不相干的照片合成的。",
+  "rumor": {
+    "text": "習近平宴請柯文哲，還親自替他夾菜，柯p受寵若驚，差點連飯碗都掉在地上。",
+    "img": "/img/piyao/ko-xi-dinner/rumor.jpg",
+    "url": "https://www.mygopen.com/2023/11/kp-xi.html",
+    "reach": "總統大選前在社群和通訊軟體流傳，還加上「醒醒吧！愚蠢的台灣人！」"
+  },
+  "rebuttal": {
+    "label": "MyGoPen 的結論",
+    "quote": "網傳照片是[[經過合成編修，並非真實畫面]]",
+    "cite": "MyGoPen",
+    "citeUrl": "https://www.mygopen.com/2023/11/kp-xi.html"
+  },
+  "facts": [
+    {
+      "b": "習近平那半是 2014 年的照片。",
+      "t": "出自人民網 2014 年報導，習近平在福建吃「紅軍飯」，夾菜給一名解放軍軍官。"
+    },
+    {
+      "b": "柯文哲那半是在台灣吃牛肉麵。",
+      "t": "取自中時記者 2020 年拍的柯文哲吃牛肉麵照片，被剪貼到軍官的位置。"
+    },
+    {
+      "b": "放大就看得出破綻。",
+      "t": "被 P 掉的軍官背後，木牆邊緣不平整、出現扭曲。"
+    }
+  ],
+  "sources": [
+    [
+      "MyGoPen",
+      "https://www.mygopen.com/2023/11/kp-xi.html"
+    ]
+  ]
+}

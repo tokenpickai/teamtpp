@@ -1,0 +1,39 @@
+{
+  "slug": "songshan-hangar",
+  "date": "2025-04-15",
+  "who": "民眾黨",
+  "title": "藍白擋預算，害松山機場蓋不了直升機棚？",
+  "summary": "陽明山大火後，民進黨議員林亮君說藍白擋 3.8 億預算，黑鷹只能從台中飛來救火。事實查核中心：建棚預算根本沒被凍結。",
+  "rumor": {
+    "text": "藍白擋3.8億預算，台北松機建棚受阻！陽明山大火，空勤總隊要從台中飛台北救火！",
+    "img": "/img/piyao/songshan-hangar/rumor.jpg",
+    "url": "https://www.facebook.com/sabrinalim.tw/posts/pfbid0PTfMjrqJ6habFDFC9E8mWKNotetcVHpA1YJ5gWCuBiHoCVh89EYLw3RE6aLcbVdSl",
+    "reach": "4.2K 人按讚，民進黨台北市議員林亮君在臉書和 Threads 發文，媒體跟著報導"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "這是錯誤訊息，[[松機機棚預算沒有被凍結]]。",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/songshan-airport-shelter-budget-not-frozen/"
+  },
+  "facts": [
+    {
+      "b": "凍結的是業務費，不是建棚經費。",
+      "t": "立法院凍結的是空勤總隊 30% 業務費（水電、通訊、清潔等），建棚經費編在「設備及投資」，不在凍結範圍。"
+    },
+    {
+      "b": "工程早就在蓋了。",
+      "t": "松機機棚 109 年就獲行政院核定，112 年決標開工，預計 117 年完工，今年工程預算不受預算審查影響。"
+    },
+    {
+      "b": "黑鷹從台中來，跟預算無關。",
+      "t": "松機現有機棚太小停不下 UH-60M 黑鷹，所以由最近的台中駐地派機。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/songshan-airport-shelter-budget-not-frozen/"
+    ]
+  ]
+}

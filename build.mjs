@@ -203,12 +203,31 @@ function countChanges(people) {
   return n;
 }
 
+const doneItems = (people) => people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })))
+  .sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
+const doneCard = (it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
+<span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
+<span class="fd-t">${esc(it.title)}</span>
+<span class="fd-a">${esc(it.aShort)}</span></a>`;
+function doneIndex(people) {
+  const all = doneItems(people);
+  return `${head({ title: `最新完成｜${SITE.name}`, desc: `民眾黨議員做成的 ${all.length} 件事，由新到舊。`, image: all[0]?.thumb, url: SITE.url + '/done/' })}
+<body class="py">
+${pyHeader('最新完成', '/done/')}
+<main class="wrap mn"><section class="sec ix-feed"><h1 class="h2">最新完成</h1>
+<div class="feed">${all.map(doneCard).join('\n')}</div>
+</section></main>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+</body>
+</html>
+`;
+}
+
 function indexPage(everyone) {
   const people = everyone.filter((d) => !d.kind);
   const cands = everyone.filter((d) => d.person.ballot && d.kind !== 'mayor-candidate'); // newcomers + incumbents running again
   const mayors = everyone.filter((d) => d.kind === 'mayor-candidate');
-  const all = people.flatMap((d) => d.items.map((it, i) => ({ ...it, d, href: `/${d.slug}/#i-${i}` })));
-  all.sort((a, b) => (sortKey(a) < sortKey(b) ? 1 : sortKey(a) > sortKey(b) ? -1 : 0));
+  const all = doneItems(people);
   const total = countChanges(people);
   const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
   const updated = people.map((d) => d.person.updated).sort().pop();
@@ -250,16 +269,13 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 
 <main class="wrap mn">
 ${piyao.length ? `<section class="sec ix-feed">
-<div class="py-hh"><h2 class="h2">闢謠跑斷腿</h2><a class="py-all" href="/piyao/">看全部</a></div>
+<div class="py-hh"><h2 class="h2">闢謠跑斷腿</h2><a class="py-all" href="/lies/">看全部</a></div>
 <div class="feed">${piyao.slice(0, 4).map(pyCard).join('\n')}</div>
 </section>` : ''}
 <section class="sec${piyao.length ? '' : ' ix-feed'}">
-<h2 class="h2">最新完成</h2>
+<div class="py-hh"><h2 class="h2">最新完成</h2><a class="py-all" href="/done/">看全部</a></div>
 <div class="feed">
-${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
-<span class="fd-m">${esc(it.when)}・${esc(it.d.person.name)}</span>
-<span class="fd-t">${esc(it.title)}</span>
-<span class="fd-a">${esc(it.aShort)}</span></a>`).join('\n')}
+${feed.map(doneCard).join('\n')}
 </div>
 </section>
 <h2 class="h2 ix-h">現任議員</h2>
@@ -312,17 +328,17 @@ ${distBox(d)}
 // 闢謠跑斷腿
 const pyDate = (s) => { const [y, m, d] = s.split('-').map(Number); return `${y} 年 ${m} 月 ${d} 日`; };
 const pyQuote = (s) => esc(s).replace(/\[\[(.+?)\]\]/g, '<mark>$1</mark>');
-const pyHeader = () => `<header class="hd"><div class="wrap hdr">
+const pyHeader = (t = '闢謠跑斷腿', href = '/lies/') => `<header class="hd"><div class="wrap hdr">
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
-<a class="hdt" href="/piyao/">闢謠跑斷腿</a>
+<a class="hdt" href="${href}">${t}</a>
 </div></header>`;
 const pyFooter = `<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・闢謠跑斷腿</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>`;
-const pyCard = (r) => `<a class="fd" href="/piyao/${esc(r.slug)}/"><span class="fd-img py-img"><img src="${esc(r.rumor.img || '/img/logo.png')}" alt="" loading="lazy"></span>
+const pyCard = (r) => `<a class="fd" href="/lies/${esc(r.slug)}/"><span class="fd-img py-img"><img src="${esc(r.rumor.img || '/img/logo.png')}" alt="" loading="lazy"></span>
 <span class="fd-m">${esc(r.date.replace(/-/g, '.'))}・${esc(r.who)}</span>
 <span class="fd-t">${esc(r.title)}</span>
 <span class="fd-a">${esc(r.summary)}</span></a>`;
 function piyaoPage(r) {
-  const url = `${SITE.url}/piyao/${r.slug}/`;
+  const url = `${SITE.url}/lies/${r.slug}/`;
   return `${head({ title: `${r.title}｜闢謠跑斷腿｜${SITE.name}`, desc: r.summary, image: r.rumor.img || '/img/logo.png', url })}
 <body class="py">
 ${pyHeader()}
@@ -350,7 +366,7 @@ ${pyFooter}
 `;
 }
 function piyaoIndex(list) {
-  return `${head({ title: `闢謠跑斷腿｜${SITE.name}`, desc: '針對民眾黨的謠言，一則一則查清楚。', image: list[0]?.rumor.img, url: SITE.url + '/piyao/' })}
+  return `${head({ title: `闢謠跑斷腿｜${SITE.name}`, desc: '針對民眾黨的謠言，一則一則查清楚。', image: list[0]?.rumor.img, url: SITE.url + '/lies/' })}
 <body class="py">
 ${pyHeader()}
 <main class="wrap mn"><section class="sec ix-feed"><h1 class="h2">闢謠跑斷腿</h1>
@@ -377,13 +393,15 @@ for (const d of people) {
   fs.mkdirSync(path.join(DIST, d.slug), { recursive: true });
   fs.writeFileSync(path.join(DIST, d.slug, 'index.html'), personPage(d));
 }
-fs.mkdirSync(path.join(DIST, 'piyao'), { recursive: true });
+fs.mkdirSync(path.join(DIST, 'lies'), { recursive: true });
 for (const r of piyao) {
-  fs.mkdirSync(path.join(DIST, 'piyao', r.slug), { recursive: true });
-  fs.writeFileSync(path.join(DIST, 'piyao', r.slug, 'index.html'), piyaoPage(r));
+  fs.mkdirSync(path.join(DIST, 'lies', r.slug), { recursive: true });
+  fs.writeFileSync(path.join(DIST, 'lies', r.slug, 'index.html'), piyaoPage(r));
 }
-fs.writeFileSync(path.join(DIST, 'piyao', 'index.html'), piyaoIndex(piyao));
+fs.writeFileSync(path.join(DIST, 'lies', 'index.html'), piyaoIndex(piyao));
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'piyao/', ...piyao.map((r) => 'piyao/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.mkdirSync(path.join(DIST, 'done'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'done', 'index.html'), doneIndex(people.filter((d) => !d.kind)));
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', ...piyao.map((r) => 'lies/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
