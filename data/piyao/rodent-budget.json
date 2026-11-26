@@ -1,0 +1,39 @@
+{
+  "slug": "rodent-budget",
+  "date": "2026-02-13",
+  "title": "柯文哲任內刪了滅鼠預算？",
+  "who": "柯文哲",
+  "summary": "漢他病毒死亡案後，網傳柯文哲刪滅鼠預算、蔣萬安沒恢復。事實查核中心：兩任市長都增加了滅鼠預算。",
+  "rumor": {
+    "text": "原來柯文哲任內刪掉了滅鼠消毒預算，蔣萬安上任都快一屆了，沒有恢復預算。",
+    "url": "https://www.threads.com/@davidleecity22/post/DUPTeEMElmI",
+    "reach": "北市出現漢他病毒死亡個案後，社群流傳多則貼文這樣說",
+    "img": "/img/piyao/rodent-budget/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "經查證，[[柯、蔣兩任市長都有增加滅鼠預算]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/taipei-mayors-increased-rodent-control-budget-claims/"
+  },
+  "facts": [
+    {
+      "b": "預算是一路往上加。",
+      "t": "郝龍斌第二任約 250–290 萬元；柯文哲任內提高到 430–490 萬元，最後一年約 650 萬元；蔣萬安近 3 年都超過 700 萬元。"
+    },
+    {
+      "b": "停辦的是「滅鼠週」，不是預算。",
+      "t": "農委會 2015 年取消全國滅鼠週，改由地方自辦；北市的滅鼠餌劑預算沒有刪。"
+    },
+    {
+      "b": "柯任內還擴大市場防鼠。",
+      "t": "市場防治鼠患預算從 26 萬元擴增到 200 萬元。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/taipei-mayors-increased-rodent-control-budget-claims/"
+    ]
+  ]
+}

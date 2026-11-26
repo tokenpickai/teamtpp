@@ -1,0 +1,39 @@
+{
+  "slug": "china-id",
+  "date": "2025-03-06",
+  "title": "民眾黨 1.9 萬人領了中國身分證？",
+  "who": "民眾黨",
+  "summary": "網傳圖卡稱「賴總統下令徹查，民眾黨 19320 人已領中國身分證」。事實查核中心：數字是捏造的。",
+  "rumor": {
+    "text": "賴總統下令徹查台灣已領中共國身分證！民進黨:0人，國民黨:368990人，民眾黨:19320人",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/fake-data-parties-china-id-numbers/",
+    "reach": "373 人按讚，圖卡配上「中國國眾黨」等字眼在社群大量轉傳",
+    "img": "/img/piyao/china-id/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "傳言[[挪用無關數據捏造]]各黨領取中國身分證人數",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/fake-data-parties-china-id-numbers/"
+  },
+  "facts": [
+    {
+      "b": "那個數字是黨員投票人數。",
+      "t": "圖卡上的民眾黨數字，其實是民眾黨第 2 屆黨主席補選的可投票黨員人數。"
+    },
+    {
+      "b": "政府根本沒有黨籍資料。",
+      "t": "移民署只查個案、不問黨派；內政部也沒有各政黨的黨員名冊。"
+    },
+    {
+      "b": "官方案例只有 10 人。",
+      "t": "當時移民署調查 30 多案，10 人被廢止台灣戶籍，黨籍都不明。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/fake-data-parties-china-id-numbers/"
+    ]
+  ]
+}

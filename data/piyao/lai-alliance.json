@@ -1,0 +1,36 @@
+{
+  "slug": "lai-alliance",
+  "date": "2026-05-31",
+  "title": "黃國昌曾傳簡訊想跟賴清德結盟？",
+  "who": "黃國昌",
+  "summary": "黃光芹在臉書說黃國昌曾傳簡訊給賴清德想結盟，黃國昌回應：與客觀事實不符。",
+  "rumor": {
+    "text": "黃國昌與蔡英文不合，在賴清德與蔡角逐總統黨內初選兩次民調中間，賴第一次民調壓過蔡，黃曾去簡訊給賴，欲與之結盟。",
+    "img": "/img/piyao/lai-alliance/rumor.jpg",
+    "url": "https://www.facebook.com/huang.guang.qin/posts/pfbid028kBdengRTXMU9ye7QV1zPHbMFqMsMDkiJ6ZoSXceS2UvY6doRCY33aPRy6b7h6o1l",
+    "reach": "1.5K 人按讚，黃光芹臉書發文，稱黨內初選兩次民調之間，黃國昌曾傳簡訊給賴清德"
+  },
+  "rebuttal": {
+    "label": "國昌老師的回應",
+    "quote": "個人的情緒都給予最大的包容，[[有些跟客觀事實不符的事情，根本沒有必要一一回應。]]",
+    "cite": "TVBS",
+    "citeUrl": "https://news.tvbs.com.tw/politics/3217853"
+  },
+  "facts": [
+    {
+      "b": "只有一句「曾去簡訊」，簡訊在哪？",
+      "t": "沒有截圖、沒有日期、沒有內容，整則爆料只有她的一面之詞。",
+      "tone": "teal"
+    },
+    {
+      "b": "國昌老師直接否認。",
+      "t": "在民眾黨共識營會前受訪時表示，這和客觀事實不符。"
+    }
+  ],
+  "sources": [
+    [
+      "TVBS",
+      "https://news.tvbs.com.tw/politics/3217853"
+    ]
+  ]
+}

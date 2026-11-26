@@ -1,0 +1,43 @@
+{
+  "slug": "ko-fake-audio",
+  "date": "2023-08-17",
+  "title": "柯文哲在內部會議批賴清德訪美？",
+  "who": "柯文哲",
+  "summary": "多家媒體收到「柯P揭賴副總統訪美內幕」黑函，附上 56 秒錄音。柯文哲：偽造得太爛。民眾黨已向調查局檢舉。",
+  "rumor": {
+    "text": "賴清德這次去美國面試，他是想選舉",
+    "url": "https://news.tvbs.com.tw/politics/2211471",
+    "reach": "8月16日晚間，多家媒體收到同一封電子郵件黑函，附 56 秒錄音檔",
+    "img": "/img/piyao/ko-fake-audio/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "柯文哲的回應",
+    "quote": "[[這實在是偽造的太爛了。]]",
+    "cite": "TVBS",
+    "citeUrl": "https://news.tvbs.com.tw/politics/2211471"
+  },
+  "facts": [
+    {
+      "b": "聲音是仿的。",
+      "t": "錄音連柯文哲的慣用語都學，但越聽越不像本人。"
+    },
+    {
+      "b": "民眾黨正式檢舉。",
+      "t": "民眾黨帶著原始信件到調查局台北市調處做筆錄，檢舉偽造文書。"
+    },
+    {
+      "b": "還有人說是「自導自演」。",
+      "t": "民眾黨發言人李頂立澄清，這種說法完全是不實指控、子虛烏有。"
+    }
+  ],
+  "sources": [
+    [
+      "TVBS",
+      "https://news.tvbs.com.tw/politics/2211471"
+    ],
+    [
+      "自由時報",
+      "https://news.ltn.com.tw/news/politics/breakingnews/4399518"
+    ]
+  ]
+}

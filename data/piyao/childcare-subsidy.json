@@ -1,0 +1,39 @@
+{
+  "slug": "childcare-subsidy",
+  "date": "2025-08-05",
+  "title": "藍白聯手，8 月起育兒補助停發？",
+  "who": "民眾黨",
+  "summary": "社群瘋傳「藍白立委聯手刪除育兒補助、8 月開始停發」。事實查核中心：照常發放，立法院也沒通過任何相關法案。",
+  "rumor": {
+    "text": "下個月開始（育兒補助停發）藍白聯手通過！網路一片哀嚎：說好的民生法案呢？",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/childcare-subsidy-not-ending-august-false-info/",
+    "reach": "505 人按讚，7 月底在臉書流傳",
+    "img": "/img/piyao/childcare-subsidy/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "[[目前育兒津貼仍正常發放]]，近期立院也沒有通過相關法案",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/childcare-subsidy-not-ending-august-false-info/"
+  },
+  "facts": [
+    {
+      "b": "主管機關都說照發。",
+      "t": "衛福部社家署、教育部國教署、勞動部勞保局都表示正常發放，也沒接到停發通知。"
+    },
+    {
+      "b": "地方政府也照發。",
+      "t": "台北市、台南市政府都說各項育兒補助發放正常。"
+    },
+    {
+      "b": "根本沒有這個法案。",
+      "t": "立法院議事系統查不到任何「停發育兒津貼」的法案。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/childcare-subsidy-not-ending-august-false-info/"
+    ]
+  ]
+}

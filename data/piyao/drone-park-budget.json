@@ -1,0 +1,39 @@
+{
+  "slug": "drone-park-budget",
+  "date": "2025-06-11",
+  "title": "藍白把無人機預算全刪了？",
+  "who": "民眾黨",
+  "summary": "網傳「無人機預算 7625 萬，藍白刪減 7625 萬，全刪」。事實查核中心：是凍結 50%，沒有刪除。",
+  "rumor": {
+    "text": "無人機預算7625萬，藍白刪減7625萬，全刪",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/half-of-drone-park-budget-frozen-not-deleted/",
+    "reach": "烏克蘭無人機奇襲俄軍後在社群流傳，還附上國民黨團的舊提案單",
+    "img": "/img/piyao/drone-park-budget/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "實際上該項目預算是[[「凍結50%」，沒有刪除]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/half-of-drone-park-budget-frozen-not-deleted/"
+  },
+  "facts": [
+    {
+      "b": "拿舊提案單當證據。",
+      "t": "網傳的全刪提案單是國民黨團 1 月的舊提案，後來已改為凍結。"
+    },
+    {
+      "b": "最後結果是凍結，不是刪除。",
+      "t": "委員會凍結 20%、院會凍結 30%，合計凍結 50%，提專案報告後就能解凍。"
+    },
+    {
+      "b": "解凍程序已經在走。",
+      "t": "中科院表示，解凍報告 4 月就已送進立法院。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/half-of-drone-park-budget-frozen-not-deleted/"
+    ]
+  ]
+}

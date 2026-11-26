@@ -1,0 +1,39 @@
+{
+  "slug": "macau-photo",
+  "date": "2024-09-09",
+  "title": "柯文哲、黃珊珊同機去澳門洗錢？",
+  "who": "柯文哲",
+  "summary": "網傳柯文哲、黃珊珊、應曉薇、沈慶京四人同班機的照片，說是去澳門開戶洗錢。事實查核中心：照片是 P 的。",
+  "rumor": {
+    "text": "四人同機由澳門回臺，澳門銀行開戶洗錢….",
+    "url": "https://www.facebook.com/kamiuro/posts/pfbid0KzNQvqhcqXgFLbGjYXDaqvTtjBfo8LZb6whNJfxVSeggsKYo2Ryw856SntLwHbbEl",
+    "reach": "源頭是圖文作家蕭瑩燈的諷刺 P 圖（1 萬人按讚），被轉傳時拿掉了脈絡",
+    "img": "/img/piyao/macau-photo/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "網傳四人同班機照片是[[圖文創作者的P圖創作]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/migration-10993/"
+  },
+  "facts": [
+    {
+      "b": "原作者自己說是合成。",
+      "t": "照片出自圖文作家 8 月 29 日的諷刺貼文，他在留言就說是 P 圖。"
+    },
+    {
+      "b": "前排是 9 年前的舊照。",
+      "t": "應曉薇、沈慶京同機的畫面是 2015 年的新聞照片。"
+    },
+    {
+      "b": "黃珊珊的臉是剪貼上去的。",
+      "t": "取自 2022 年她確診隔離出關受訪的新聞畫面，柯文哲也是合成。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/migration-10993/"
+    ]
+  ]
+}

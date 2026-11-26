@@ -143,6 +143,13 @@ ${d.duo.map((x) => `<article><a class="duo-a" href="${esc(x.url)}" target="_blan
 <p class="duo-l">${esc(x.label)}</p><h3>${esc(x.title)}</h3></article>`).join('\n')}
 </div>` : ''}
 
+${d.voices && d.voices.length ? `<section aria-labelledby="voices" class="sec">
+<h2 id="voices" class="h2">鄉親怎麼說</h2>
+<div class="voices">
+${d.voices.map((x) => `<figure class="vc"><div class="vc-f"><iframe src="https://www.youtube-nocookie.com/embed/${esc(x.yt)}" title="${esc(x.title)}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>${esc(x.title)}</figcaption></figure>`).join('\n')}
+</div>
+</section>` : ''}
+
 ${(d.council || d.promises.length || d.citywide.length) ? `<section aria-labelledby="council" class="sec">
 <h2 id="council" class="h2">在議會</h2>
 ${d.council ? `<div class="big-row"><span class="big">${esc(d.council)}</span><span class="lead">件議員提案，然後兌現</span></div>` : ''}
@@ -242,7 +249,11 @@ ${slides.map((it, i) => `<a class="rs" href="${esc(it.href)}" data-n="${i}"${i ?
 </div></section>
 
 <main class="wrap mn">
-<section class="sec ix-feed">
+${piyao.length ? `<section class="sec ix-feed">
+<div class="py-hh"><h2 class="h2">闢謠跑斷腿</h2><a class="py-all" href="/piyao/">看全部</a></div>
+<div class="feed">${piyao.slice(0, 4).map(pyCard).join('\n')}</div>
+</section>` : ''}
+<section class="sec${piyao.length ? '' : ' ix-feed'}">
 <h2 class="h2">最新完成</h2>
 <div class="feed">
 ${feed.map((it) => `<a class="fd" href="${esc(it.href)}"><span class="fd-img"><img src="${esc(it.thumb)}" alt="" loading="lazy"></span>
@@ -297,6 +308,60 @@ ${distBox(d)}
 `;
 }
 
+
+// 闢謠跑斷腿
+const pyDate = (s) => { const [y, m, d] = s.split('-').map(Number); return `${y} 年 ${m} 月 ${d} 日`; };
+const pyQuote = (s) => esc(s).replace(/\[\[(.+?)\]\]/g, '<mark>$1</mark>');
+const pyHeader = () => `<header class="hd"><div class="wrap hdr">
+<a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
+<a class="hdt" href="/piyao/">闢謠跑斷腿</a>
+</div></header>`;
+const pyFooter = `<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・闢謠跑斷腿</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>`;
+const pyCard = (r) => `<a class="fd" href="/piyao/${esc(r.slug)}/"><span class="fd-img py-img"><img src="${esc(r.rumor.img || '/img/logo.png')}" alt="" loading="lazy"></span>
+<span class="fd-m">${esc(r.date.replace(/-/g, '.'))}・${esc(r.who)}</span>
+<span class="fd-t">${esc(r.title)}</span>
+<span class="fd-a">${esc(r.summary)}</span></a>`;
+function piyaoPage(r) {
+  const url = `${SITE.url}/piyao/${r.slug}/`;
+  return `${head({ title: `${r.title}｜闢謠跑斷腿｜${SITE.name}`, desc: r.summary, image: r.rumor.img || '/img/logo.png', url })}
+<body class="py">
+${pyHeader()}
+<main class="wrap py-w">
+<header class="py-h"><span class="py-tag">闢謠跑斷腿</span><h1>${esc(r.title)}</h1><p class="py-d">${esc(pyDate(r.date))}</p></header>
+<section class="py-s">
+${r.rumor.text ? `<blockquote class="py-r">「${esc(r.rumor.text)}」</blockquote>` : ''}
+<p class="py-n">${esc(r.rumor.reach)}</p>
+${r.rumor.img ? `<a href="${esc(r.rumor.url)}" target="_blank" rel="noopener"><img class="py-shot" src="${esc(r.rumor.img)}" alt="謠言原貼文截圖"></a>` : ''}
+${r.more ? `<p class="py-n">${esc(r.more.text)}</p>
+<a class="py-pair" href="${esc(r.more.url)}" target="_blank" rel="noopener">${r.more.imgs.map((s) => `<img src="${esc(s)}" alt="" loading="lazy">`).join('')}</a>` : ''}
+</section>
+<section class="py-s"><span class="py-tag py-tag-t">${esc(r.rebuttal.label)}</span>
+<p class="py-q">「${pyQuote(r.rebuttal.quote)}」<cite><a href="${esc(r.rebuttal.citeUrl)}" target="_blank" rel="noopener">${esc(r.rebuttal.cite)}</a></cite></p>
+${r.rebuttal.yt ? `<div class="py-v"><iframe src="https://www.youtube-nocookie.com/embed/${esc(r.rebuttal.yt)}" title="${esc(r.rebuttal.label)}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` : ''}
+</section>
+<section class="py-s"><span class="py-tag py-tag-k">打臉事實</span>
+<ul class="py-f">${r.facts.map((f) => `<li><b>${esc(f.b)}</b><span>${esc(f.t)}</span></li>`).join('\n')}</ul>
+</section>
+<p class="py-src">來源：${r.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join('、')}</p>
+</main>
+${pyFooter}
+</body>
+</html>
+`;
+}
+function piyaoIndex(list) {
+  return `${head({ title: `闢謠跑斷腿｜${SITE.name}`, desc: '針對民眾黨的謠言，一則一則查清楚。', image: list[0]?.rumor.img, url: SITE.url + '/piyao/' })}
+<body class="py">
+${pyHeader()}
+<main class="wrap mn"><section class="sec ix-feed"><h1 class="h2">闢謠跑斷腿</h1>
+<div class="feed">${list.map(pyCard).join('\n')}</div>
+</section></main>
+${pyFooter}
+</body>
+</html>
+`;
+}
+
 // build
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.cpSync(path.join(ROOT, 'public'), DIST, { recursive: true });
@@ -304,13 +369,21 @@ const dir = path.join(ROOT, 'data', 'people');
 const people = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 // landing order: most popular first, then north → central → south. Unlisted slugs go last.
 const ORDER = ['huang-ching-ying', 'chen-shih-hsuan', 'lin-chen-yu', 'chen-yu-cheng', 'chang-chih-hao', 'sung-pin-ying', 'li-kuo-chang', 'lin-shuo-yen', 'chiang-ho-shu', 'chang-hsueh-ju', 'wu-wei-ta', 'chen-yi-chen'];
+const pdir = path.join(ROOT, 'data', 'piyao');
+const piyao = fs.existsSync(pdir) ? fs.readdirSync(pdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(pdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
 const rank = (d) => (ORDER.indexOf(d.slug) + 1) || 999;
 people.sort((a, b) => rank(a) - rank(b));
 for (const d of people) {
   fs.mkdirSync(path.join(DIST, d.slug), { recursive: true });
   fs.writeFileSync(path.join(DIST, d.slug, 'index.html'), personPage(d));
 }
+fs.mkdirSync(path.join(DIST, 'piyao'), { recursive: true });
+for (const r of piyao) {
+  fs.mkdirSync(path.join(DIST, 'piyao', r.slug), { recursive: true });
+  fs.writeFileSync(path.join(DIST, 'piyao', r.slug, 'index.html'), piyaoPage(r));
+}
+fs.writeFileSync(path.join(DIST, 'piyao', 'index.html'), piyaoIndex(piyao));
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'piyao/', ...piyao.map((r) => 'piyao/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);

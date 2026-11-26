@@ -1,0 +1,47 @@
+{
+  "slug": "tsai-chun-chou-ocac",
+  "date": "2026-10-30",
+  "title": "蔡春綢「主動要求」參加僑委會活動？",
+  "who": "蔡春綢",
+  "summary": "僑委會代理委員長在立法院說蔡春綢是自己要求出席，結果蔡春綢拿出邀請函，僑委會隔天在臉書更正道歉。",
+  "rumor": {
+    "text": "蔡春綢是主動要求參加僑務委員會議相關活動",
+    "url": "https://www.chinatimes.com/realtimenews/20261030002133-260407",
+    "reach": "僑委會代理委員長李妍慧10月29日在立法院外交及國防委員會備詢時，當眾這樣說",
+    "img": "/img/piyao/tsai-chun-chou-ocac/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "民眾黨團的反擊",
+    "quote": "僑委會[[大街造謠、小巷道歉]]",
+    "cite": "中時新聞網",
+    "citeUrl": "https://www.chinatimes.com/realtimenews/20261030002133-260407"
+  },
+  "facts": [
+    {
+      "b": "有邀請函為證。",
+      "t": "蔡春綢出示僑委會寄來的紙本邀請函，她不是自己要求出席的。"
+    },
+    {
+      "b": "僑委會自己認錯了。",
+      "t": "僑委會10月30日在臉書更正：是以「立法院世界台商之友會副會長」身分邀請蔡春綢，並向她道歉。"
+    },
+    {
+      "b": "造謠在國會殿堂，道歉只在臉書。",
+      "t": "民眾黨團要求僑委會開記者會正式道歉、在官網刊登澄清，還蔡春綢公道。"
+    }
+  ],
+  "sources": [
+    [
+      "中時新聞網",
+      "https://www.chinatimes.com/realtimenews/20261030002133-260407"
+    ],
+    [
+      "中華日報",
+      "https://www.cdns.com.tw/articles/1482847"
+    ],
+    [
+      "世界日報",
+      "https://www.worldjournal.com/wj/story/121218/9848560"
+    ]
+  ]
+}

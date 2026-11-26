@@ -1,0 +1,39 @@
+{
+  "slug": "fiscal-8552",
+  "date": "2024-06-28",
+  "title": "藍白財劃法要從中央挖走 8552 億？",
+  "who": "民眾黨",
+  "summary": "網傳藍白版財劃法過關，中央會被挖走 8552 億。事實查核中心：這是把兩個不同版本的數字硬加起來。",
+  "rumor": {
+    "text": "藍白提的修《財劃法》通過後，就可以每年從中央挖走8552億！重大建設、各類補助，拜拜",
+    "url": "https://tfc-taiwan.org.tw/fact-check-reports/migration-10758/",
+    "reach": "6月中旬起在社群流傳，源頭是一篇網路媒體報導",
+    "img": "/img/piyao/fiscal-8552/rumor.jpg"
+  },
+  "rebuttal": {
+    "label": "事實查核中心的結論",
+    "quote": "[[傳言將國眾版本金額相加並不合理]]",
+    "cite": "台灣事實查核中心",
+    "citeUrl": "https://tfc-taiwan.org.tw/fact-check-reports/migration-10758/"
+  },
+  "facts": [
+    {
+      "b": "8552 億是兩版相加。",
+      "t": "財政部試算國民黨版釋出 5777 億、民眾黨版 2775 億，加起來就是 8552 億。"
+    },
+    {
+      "b": "兩個版本不可能同時通過。",
+      "t": "學者指出，兩版的稅收分配設計不同，是互相獨立的版本。"
+    },
+    {
+      "b": "相加還重複計算。",
+      "t": "兩版有相同的部分，直接加總會把同一筆錢算兩次。"
+    }
+  ],
+  "sources": [
+    [
+      "台灣事實查核中心",
+      "https://tfc-taiwan.org.tw/fact-check-reports/migration-10758/"
+    ]
+  ]
+}

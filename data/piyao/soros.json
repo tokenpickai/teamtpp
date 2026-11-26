@@ -1,0 +1,65 @@
+{
+  "slug": "soros",
+  "date": "2026-11-25",
+  "title": "黃國昌拿過索羅斯的錢？",
+  "who": "黃國昌",
+  "rumor": {
+    "text": "黃國昌拿過索羅斯的資金。",
+    "img": "/img/piyao/soros/rumor.jpg",
+    "url": "https://www.threads.com/search?q=%E9%BB%83%E5%9C%8B%E6%98%8C%E6%8B%BF%E9%81%8E%E7%B4%A2%E7%BE%85%E6%96%AF%E7%9A%84%E8%B3%87%E9%87%91",
+    "reach": "3,768 人按讚，選前 4 天開始瘋傳"
+  },
+  "more": {
+    "text": "接著有人做圖加碼，又是 4.4K 讚：",
+    "url": "https://www.threads.com/@tina928628/post/DgJPBkemTMH",
+    "imgs": [
+      "/img/piyao/soros/more-1.jpg",
+      "/img/piyao/soros/more-2.jpg"
+    ]
+  },
+  "rebuttal": {
+    "label": "國昌老師的反擊",
+    "quote": "為了幫沈伯洋遮醜，連這種謠都敢造。[[我從來沒有拿過索羅斯一塊錢]]，對於這種躲在鍵盤後面的俗辣，沒什麼好多說，[[直接提告！絕不寬貸。]]",
+    "cite": "黃國昌 Threads",
+    "citeUrl": "https://www.threads.com/@huang.guochang/post/DgJbywQEjdX",
+    "yt": "JjAewsHyFNA"
+  },
+  "facts": [
+    {
+      "b": "造謠者的話術：把「合作」偷換成「收錢」。",
+      "t": "他們拿協會 2023 年參與 OCCRP 反貪腐調查這件公開的事，硬接上「索羅斯資助 OCCRP」，就想讓你自己腦補出「黃國昌拿錢」。這正是他們要你相信的說法。",
+      "tone": "teal"
+    },
+    {
+      "b": "錢在哪？拿不出來。",
+      "t": "連他們自己做的加碼圖，寫的也只是「共同調查計畫」，一塊錢的流向都沒有。"
+    },
+    {
+      "b": "照這套邏輯，全球 70 多個 OCCRP 合作單位都拿了索羅斯的錢？",
+      "t": "這不是爆料，是硬湊。"
+    },
+    {
+      "b": "選前 4 天放話，被告就改名。",
+      "t": "11/24 晚上開始傳，11/25 國昌老師完成報案，造謠帳號隨即改名。"
+    }
+  ],
+  "sources": [
+    [
+      "中央社",
+      "https://www.cna.com.tw/news/aipl/202611250185.aspx"
+    ],
+    [
+      "聯合新聞網",
+      "https://udn.com/news/story/6656/9900550"
+    ],
+    [
+      "Newtalk",
+      "https://newtalk.tw/news/view/2026-11-25/1073603"
+    ],
+    [
+      "OCCRP 年報",
+      "https://www.occrp.org/en/about-us/annual-reports/annual-report-2023/"
+    ]
+  ],
+  "summary": "Threads 上有人把協會參與 OCCRP 反貪腐調查，硬拗成「黃國昌拿索羅斯的錢」。"
+}
