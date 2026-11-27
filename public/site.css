@@ -361,3 +361,5 @@ a.hdt:hover{color:var(--teal-d)}
 .kg-rr{background:#fff;border:2px solid var(--teal-d)}
 .kg-rr span{color:var(--teal-d)}
 @media (max-width:600px){.kg-vs{grid-template-columns:1fr;gap:6px}.kg-rr{margin-bottom:10px}}
+.kg-cta{display:block;text-align:center;background:var(--teal-d);color:#fff;text-decoration:none;font-family:var(--serif);font-weight:900;font-size:22px;padding:18px 20px;border-radius:14px}
+.kg-cta:hover{color:#fff;opacity:.92}

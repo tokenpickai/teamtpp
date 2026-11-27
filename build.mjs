@@ -508,16 +508,16 @@ function guidePage() {
 <body class="py">
 ${pyHeader('柯文哲案', '/ko-case/')}
 <main class="wrap py-w kg">
-<header class="py-h"><span class="py-tag">懶人包</span><h1>${esc(g.title)}</h1></header>
+<header class="py-h"><span class="py-tag py-tag-t">懶人包</span><h1>${esc(g.title)}</h1></header>
 ${g.sections.map((x, i) => `<section class="kg-s"><span class="kg-n">${i + 1}</span><h2>${esc(x.h)}</h2>
 <div class="kg-vs">${x.rows.map((w) => `<div class="kg-l"><span>${esc(w.ll)}</span>${esc(w.l)}</div><div class="kg-rr"><span>${esc(w.rl)}</span>${esc(w.r)}</div>`).join('')}</div>
 <p class="kg-take">${esc(x.take)}</p>${gsrc(x.src)}</section>`).join('\n')}
-<section class="kg-s"><span class="kg-n">${g.sections.length + 1}</span><h2>${esc(g.compare.h)}</h2>
-<p class="kg-big">${esc(g.compare.q)}</p>
+<section class="kg-s"><span class="kg-n">${g.sections.length + 1}</span><h2>${esc(g.compare.q)}</h2>
 <div class="kg-t">${g.compare.rows.map(([who, what, res]) => `<div class="kg-r"><b>${esc(who)}</b><span>${esc(what)}</span><em class="${res === '沒事' ? 'ok' : ''}">${esc(res)}</em></div>`).join('')}</div>
 <p class="kg-take">${esc(g.compare.take)}</p>${gsrc(g.compare.rows.map((r) => r[3]).filter((v, i, a) => a.findIndex((w) => w[1] === v[1]) === i))}</section>
 <section class="kg-s"><h2>${esc(g.end.h)}</h2><ul>${g.end.lines.map((l) => `<li>${esc(l)}</li>`).join('')}</ul>${gsrc(g.end.src)}
-<p><a class="py-all" href="/ko-case/">看完整時間軸 →</a></p></section>
+</section>
+<a class="kg-cta" href="/ko-case/">看完整時間軸 →</a>
 </main>
 ${koFooter}
 </body>
