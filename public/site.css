@@ -369,3 +369,9 @@ a.hdt:hover{color:var(--teal-d)}
 .fd-g .kg-img{background:#E8A33D}
 .fd-g .fd-m{color:#B86E00}
 @media (max-width:600px){.fd-g{background:#FFF1D6;border:2px solid #E8A33D;border-radius:14px;padding:12px 16px}.fd-g .fd-img{display:none}.fd-g .fd-m{margin-top:0}}
+/* 為什麼是民眾黨 */
+.wy-tag{background:var(--teal)}
+.wy-v{align-self:stretch}
+.wy-tabs{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
+.wy-tabs button{font:inherit;font-weight:700;font-size:16px;cursor:pointer;padding:8px 18px;border-radius:999px;border:2px solid var(--ink);background:transparent;color:var(--ink)}
+.wy-tabs button[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}

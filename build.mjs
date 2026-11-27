@@ -36,11 +36,11 @@ const head = ({ title, desc, image = '/img/logo.png', url, type = 'website', ld 
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(url)}">
-${image ? `<meta property="og:image" content="${esc(SITE.url + image)}">` : ''}
+${image ? `<meta property="og:image" content="${esc(image.startsWith("http") ? image : SITE.url + image)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
-${image ? `<meta name="twitter:image" content="${esc(SITE.url + image)}">` : ''}
+${image ? `<meta name="twitter:image" content="${esc(image.startsWith("http") ? image : SITE.url + image)}">` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
@@ -329,6 +329,10 @@ ${ko.slice(0, 3).map(koCard).join('\n')}</div>
 ${feed.map(doneCard).join('\n')}
 </div>
 </section>
+${why.length ? `<section class="sec">
+<div class="py-hh"><h2 class="h2">${WHY}</h2><a class="py-all" href="/why/">看全部</a></div>
+<div class="feed">${why.slice(0, 4).map(whyCard).join('\n')}</div>
+</section>` : ''}
 ${piyao.length ? `<section class="sec">
 <div class="py-hh"><h2 class="h2">闢謠跑斷腿</h2><a class="py-all" href="/lies/">看全部</a></div>
 <div class="feed">${piyao.slice(0, 4).map(pyCard).join('\n')}</div>
@@ -397,6 +401,48 @@ ${pyFooter}
 </html>
 `;
 }
+// 為什麼是民眾黨: supporters' own public stories, one data/why/<slug>.json each
+const WHY = '為什麼是民眾黨';
+const ytThumb = (id) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+const whyCard = (r) => `<a class="fd" href="/why/${esc(r.slug)}/" data-kind="${esc(r.kind)}"><span class="fd-img"><img src="${esc(ytThumb(r.yt))}" alt="" loading="lazy"><span class="play">${PLAY}</span></span>
+<span class="fd-m">${esc(r.kind)}・${esc(r.who)}</span>
+<span class="fd-t">${esc(r.quote)}</span>
+<span class="fd-a">${esc(r.summary)}</span></a>`;
+function whyPage(r) {
+  const url = `${SITE.url}/why/${r.slug}/`;
+  return `${head({ title: `${r.quote}｜${r.who}｜${WHY}｜${SITE.name}`, desc: r.summary, image: ytThumb(r.yt), url, type: 'article' })}
+<body class="py">
+${pyHeader(WHY, '/why/')}
+<main class="wrap py-w">
+<header class="py-h"><span class="py-tag wy-tag">${esc(r.kind)}</span><h1>${esc(r.quote)}</h1><p class="py-d">${esc(r.who)}・${esc(r.where)}・${esc(pyDate(r.date))}</p></header>
+<section class="py-s"><div class="py-v wy-v"><iframe src="https://www.youtube-nocookie.com/embed/${esc(r.yt)}" title="${esc(r.quote)}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p class="py-n">${esc(r.summary)}</p></section>
+<p class="py-src">原出處：<a href="${esc(r.source[1])}" target="_blank" rel="noopener">${esc(r.source[0])}</a>。如有授權疑慮，請來信，我們會立即下架：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></p>
+</main>
+${pyFooter.replace('闢謠跑斷腿', WHY)}
+</body>
+</html>
+`;
+}
+function whyIndex(list) {
+  const kinds = ['感人的', '理性的'];
+  return `${head({ title: `${WHY}｜${SITE.name}`, desc: '網友自己說：為什麼加入、為什麼支持民眾黨。', image: list[0] && ytThumb(list[0].yt), url: SITE.url + '/why/' })}
+<body class="py">
+${pyHeader(WHY, '/why/')}
+<main class="wrap mn"><section class="sec ix-feed"><h1 class="h2">${WHY}</h1>
+<div class="wy-tabs" role="group" aria-label="分類">${['全部', ...kinds].map((k, i) => `<button type="button" data-k="${k}" aria-pressed="${i === 0}">${k}</button>`).join('')}</div>
+<div class="feed">${list.map(whyCard).join('\n')}</div>
+</section></main>
+${pyFooter.replace('闢謠跑斷腿', WHY)}
+<script>document.querySelectorAll('.wy-tabs button').forEach((b) => b.onclick = () => {
+  document.querySelectorAll('.wy-tabs button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  document.querySelectorAll('.feed .fd').forEach((c) => { c.hidden = b.dataset.k !== '全部' && c.dataset.kind !== b.dataset.k; });
+});</script>
+</body>
+</html>
+`;
+}
+
 function piyaoIndex(list) {
   return `${head({ title: `闢謠跑斷腿｜${SITE.name}`, desc: '針對民眾黨的謠言，一則一則查清楚。', image: list[0]?.rumor.img, url: SITE.url + '/lies/' })}
 <body class="py">
@@ -555,6 +601,8 @@ const pdir = path.join(ROOT, 'data', 'piyao');
 const piyao = fs.existsSync(pdir) ? fs.readdirSync(pdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(pdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
 const cdir = path.join(ROOT, 'data', 'court');
 const court = fs.existsSync(cdir) ? fs.readdirSync(cdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(cdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
+const wdir = path.join(ROOT, 'data', 'why');
+const why = fs.existsSync(wdir) ? fs.readdirSync(wdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(wdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
 const GUIDE = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'ko-guide.json'), 'utf8'));
 const kdir = path.join(ROOT, 'data', 'ko-case');
 const ko = fs.existsSync(kdir) ? fs.readdirSync(kdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(kdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
@@ -589,10 +637,16 @@ fs.mkdirSync(path.join(DIST, 'councillors'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'councillors', 'index.html'), councillorsPage(people));
 fs.mkdirSync(path.join(DIST, 'election'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'election', 'index.html'), electionPage(people));
+for (const r of why) {
+  fs.mkdirSync(path.join(DIST, 'why', r.slug), { recursive: true });
+  fs.writeFileSync(path.join(DIST, 'why', r.slug, 'index.html'), whyPage(r));
+}
+fs.mkdirSync(path.join(DIST, 'why'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'why', 'index.html'), whyIndex(why));
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
 fs.mkdirSync(path.join(DIST, 'done'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'done', 'index.html'), doneIndex(people.filter((d) => !d.kind)));
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', 'court/', 'election/', 'councillors/', 'legislators/', 'ko-case/', 'ko-case/guide/', ...ko.map((r) => 'ko-case/' + r.slug + '/'), ...piyao.map((r) => 'lies/' + r.slug + '/'), ...court.map((r) => 'court/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', 'court/', 'election/', 'councillors/', 'legislators/', 'ko-case/', 'ko-case/guide/', 'why/', ...why.map((r) => 'why/' + r.slug + '/'), ...ko.map((r) => 'ko-case/' + r.slug + '/'), ...piyao.map((r) => 'lies/' + r.slug + '/'), ...court.map((r) => 'court/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
 
