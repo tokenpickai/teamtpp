@@ -56,5 +56,47 @@
   "portrait": "/img/tsai-chun-chou/portrait.jpg",
   "duo": [],
   "artifact": "",
-  "platform": []
+  "platform": [],
+  "asks": [
+    {
+      "when": "2026.11.16",
+      "title": "教育及文化委員會｜運動部部長李洋報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172124"
+    },
+    {
+      "when": "2026.11.12",
+      "title": "教育及文化委員會｜審查116年度中央政府總預算案有關教育部及所屬單位預算案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172080"
+    },
+    {
+      "when": "2026.11.09",
+      "title": "院會｜僑務委員會代理委員長李姸慧報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171959"
+    },
+    {
+      "when": "2026.11.05",
+      "title": "教育及文化委員會｜國家科學及技術委員會主任委員吳誠文報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171925"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "教育及文化委員會｜文化部部長李遠報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171872"
+    },
+    {
+      "when": "2026.11.02",
+      "title": "教育及文化委員會｜國立故宮博物院院長蕭宗煌報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171758"
+    },
+    {
+      "when": "2026.10.29",
+      "title": "教育及文化委員會｜教育部部長鄭英耀報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171725"
+    },
+    {
+      "when": "2026.10.28",
+      "title": "立法院｜「國民體育法修法」公聽會",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171608"
+    }
+  ]
 }

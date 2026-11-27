@@ -56,5 +56,47 @@
   "portrait": "/img/hsu-chung-hsin/portrait.jpg",
   "duo": [],
   "artifact": "",
-  "platform": []
+  "platform": [],
+  "asks": [
+    {
+      "when": "2026.11.18",
+      "title": "財政委員會｜財政部莊部長翠雲、金融監督管理委員會、法務部廉政署、審計部「台企銀創投公司投資曠世智能公司…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172220"
+    },
+    {
+      "when": "2026.11.18",
+      "title": "院會｜處理115年度中央政府總預算有關內政部主管預算凍結書面報告案計26案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172185"
+    },
+    {
+      "when": "2026.11.16",
+      "title": "內政委員會｜審查116年度中央政府總預算案關於行政院部分",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172114"
+    },
+    {
+      "when": "2026.11.12",
+      "title": "內政委員會｜處理115年度中央政府總預算有關大陸委員會預算凍結書面報告案計2案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172065"
+    },
+    {
+      "when": "2026.11.11",
+      "title": "經濟委員會｜國家發展委員會主任委員及法務部首長「國家發展基金各項投資業務(含創業天使投資方案)執行成效…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172037"
+    },
+    {
+      "when": "2026.11.11",
+      "title": "內政委員會｜審查116年度中央政府總預算案關於警政署及所屬、中央警察大學、消防署及所屬、移民署、空中勤務…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172007"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "聯席會議｜審查中華民國115年度中央政府總預算追加預算案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171886"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "內政委員會｜處理115年度中央政府總預算有關海洋委員會及所屬預算凍結書面報告案計7案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171822"
+    }
+  ]
 }

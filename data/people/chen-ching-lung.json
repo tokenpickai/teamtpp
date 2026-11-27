@@ -93,5 +93,47 @@
   "portrait": "/img/chen-ching-lung/portrait.jpg",
   "duo": [],
   "artifact": "",
-  "platform": []
+  "platform": [],
+  "asks": [
+    {
+      "when": "2026.11.18",
+      "title": "院會｜繼續處理115年度中央政府總預算關於國家通訊傳播委員會預算凍結案1案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172173"
+    },
+    {
+      "when": "2026.11.11",
+      "title": "交通委員會｜審查116年度中央政府總預算案關於交通部民用航空局單位預算",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171998"
+    },
+    {
+      "when": "2026.11.09",
+      "title": "交通委員會｜處理115年度中央政府總預算關於數位發展部主管預算凍結案計12案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171942"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "院會｜交通部部長陳世凱報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171842"
+    },
+    {
+      "when": "2026.10.28",
+      "title": "交通委員會｜國家運輸安全調查委員會主任委員林信得報告業務概況",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171662"
+    },
+    {
+      "when": "2026.10.27",
+      "title": "院會｜行政院院長、主計長、財政部部長報告「115年度中央政府總預算追加預算案」編製經過",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171582"
+    },
+    {
+      "when": "2026.10.21",
+      "title": "聯席會議｜審查行政院函送國家通訊傳播委員會委員提名名單，袁秀慧為委員並為主任委員，蕭蘋為委員並為副主任…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171456"
+    },
+    {
+      "when": "2026.10.19",
+      "title": "聯席會議｜審查行政院函送國家通訊傳播委員會委員提名名單，袁秀慧為委員並為主任委員，蕭蘋為委員並為副主任…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171430"
+    }
+  ]
 }

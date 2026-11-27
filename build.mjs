@@ -178,6 +178,11 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 </div>
 </section>` : ''}
 
+${d.asks && d.asks.length ? `<section aria-labelledby="asks" class="sec">
+<h2 id="asks" class="h2">在立法院問了什麼</h2>
+<ul class="ct-rl">${d.asks.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener"><span>${esc(x.when)}・立法院 IVOD</span>${esc(x.title)}</a></li>`).join('')}</ul>
+</section>` : ''}
+
 </main>
 <footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與${d.kind === 'legislator' ? '立法院' : '議會'}紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
 <script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>

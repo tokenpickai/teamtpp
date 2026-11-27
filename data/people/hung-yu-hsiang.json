@@ -68,5 +68,37 @@
   "portrait": "/img/hung-yu-hsiang/portrait.jpg",
   "duo": [],
   "artifact": "",
-  "platform": []
+  "platform": [],
+  "asks": [
+    {
+      "when": "2026.11.16",
+      "title": "經濟委員會｜處理或審查115年度中央政府總預算有關經濟部及所屬主管預算凍結案等24案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172101"
+    },
+    {
+      "when": "2026.11.11",
+      "title": "外交及國防委員會｜審查本院委員賴士葆等22人、委員陳永康等20人、委員張智倫等17人、委員羅廷瑋等16人、委員…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172038"
+    },
+    {
+      "when": "2026.11.11",
+      "title": "經濟委員會｜國家發展委員會主任委員及法務部首長「國家發展基金各項投資業務(含創業天使投資方案)執行成效…",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/172048"
+    },
+    {
+      "when": "2026.11.06",
+      "title": "院會｜對行政院院長施政報告繼續質詢",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171934"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "聯席會議｜審查中華民國115年度中央政府總預算追加預算案",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171881"
+    },
+    {
+      "when": "2026.11.04",
+      "title": "經濟委員會｜審查116年度中央政府總預算案關於農業部及所屬單位預算部分",
+      "url": "https://ivod.ly.gov.tw/Play/Clip/1M/171786"
+    }
+  ]
 }
