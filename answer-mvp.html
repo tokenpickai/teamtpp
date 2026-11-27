@@ -1,0 +1,159 @@
+<title>被罵的，我們來回答</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+<style>
+/* Layout: one narrow reading column: 大家在傳 → 事實 → 他怎麼反擊 → 民眾隊的看法 → 你接受嗎 */
+:root{
+  --bg:#faf7f0; --fg:#1f2a2c; --muted:#5f6b6d; --line:#e4ded2;
+  --teal:#0fa3b1; --teal-ink:#0b7d88; --red:#c8423b; --card:#ffffff; --soft:#eef7f7;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a1b; --fg:#ecefee; --muted:#9aa6a7; --line:#2b3435;
+  --teal:#2cc3d0; --teal-ink:#5fd5df; --red:#ef6b63; --card:#1b2324; --soft:#173032; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a1b; --fg:#ecefee; --muted:#9aa6a7; --line:#2b3435;
+  --teal:#2cc3d0; --teal-ink:#5fd5df; --red:#ef6b63; --card:#1b2324; --soft:#173032; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.75}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+.brand{font-weight:900;font-size:20px;color:var(--teal-ink)}
+.kicker{font-size:13px;color:var(--muted);letter-spacing:.08em}
+h1{font-size:clamp(28px,6vw,40px);line-height:1.25;margin:4px 0 0;font-weight:900;text-wrap:balance}
+.sub{color:var(--muted);margin:8px 0 0}
+.mock{font-size:12px;color:var(--red);font-weight:700;letter-spacing:.06em}
+.charge{background:var(--card);border-left:6px solid var(--red);padding:20px;border-radius:6px;display:flex;flex-direction:column;gap:12px}
+.charge .tag{color:var(--red);font-weight:700;font-size:13px;letter-spacing:.08em}
+.charge h2{margin:0;font-size:22px;line-height:1.4;text-wrap:balance}
+.charge p{margin:0}
+.post{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.post .who{display:flex;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.post .av{width:34px;height:34px;border-radius:50%;background:var(--line);flex:none}
+.post .txt{font-size:17px;line-height:1.6}
+.post .lbl{font-size:12px;color:var(--red);font-weight:700}
+section h3{font-size:14px;letter-spacing:.1em;color:var(--muted);margin:0 0 10px;font-weight:700}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:560px){.facts{grid-template-columns:1fr}}
+.facts div{min-width:0}
+.facts h4{margin:0 0 4px;font-size:15px}
+.facts ul{margin:0;padding-left:1.1em}
+.unsure h4{color:var(--muted)}
+.vid{display:block;text-decoration:none;color:#fff;background:linear-gradient(135deg,#0b7d88,#123c40);border-radius:10px;aspect-ratio:16/9;max-width:100%;position:relative;overflow:hidden}
+.vid .play{position:absolute;inset:0;margin:auto;width:68px;height:68px;border-radius:50%;background:rgba(255,255,255,.92);transition:transform .15s}
+.vid .play::after{content:"";position:absolute;left:26px;top:21px;border-left:22px solid #0b7d88;border-top:13px solid transparent;border-bottom:13px solid transparent}
+.vid .cap{position:absolute;left:16px;right:16px;bottom:14px;font-weight:900;font-size:clamp(16px,3.6vw,22px);line-height:1.35}
+.vid .meta{position:absolute;left:16px;top:12px;font-size:12px;font-weight:700;opacity:.9}
+.vid:hover .play{transform:scale(1.06)}
+.quotes{display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.quotes blockquote{margin:0;padding-left:14px;border-left:3px solid var(--teal);font-weight:700}
+.quotes cite{display:block;font-style:normal;font-weight:400;font-size:13px;color:var(--muted)}
+.answer{background:var(--soft);padding:22px;border-radius:6px}
+.answer p{margin:0 0 10px}
+.answer .big{font-size:22px;font-weight:900;line-height:1.45}
+.answer .sign{font-size:13px;color:var(--teal-ink);font-weight:700;margin:0}
+.vote{border-top:1px solid var(--line);padding-top:24px}
+.vote h2{font-size:22px;margin:0 0 12px}
+.opts{display:flex;flex-wrap:wrap;gap:10px}
+button{font:inherit;cursor:pointer;border:2px solid var(--teal);background:transparent;color:var(--fg);padding:10px 18px;border-radius:99px;font-weight:700;transition:transform .15s,background .15s}
+button:hover{background:var(--teal);color:#fff;transform:translateY(-2px)}
+button:focus-visible{outline:3px solid var(--teal-ink);outline-offset:2px}
+button[aria-pressed="true"]{background:var(--teal);color:#fff}
+.bars{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.bar{display:grid;grid-template-columns:5.5em 1fr 3em;gap:10px;align-items:center;font-size:14px;font-variant-numeric:tabular-nums}
+.bar .t{height:10px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--teal);width:0;transition:width .5s}
+.src{font-size:13px;color:var(--muted)}
+.src a{color:var(--teal-ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="mock">樣稿：截圖依報導重製，影片連到原始報導，票數為示範</div>
+    <div class="brand">民眾隊</div>
+    <div class="kicker">被罵的，我們來回答 · 2026.11.25</div>
+    <h1>黃國昌拿過索羅斯的錢？</h1>
+    <p class="sub">錯的就說錯。</p>
+  </header>
+
+  <div class="charge">
+    <div class="tag">大家在傳</div>
+    <h2>Threads 網友：黃國昌拿過索羅斯的資金</h2>
+    <div class="post">
+      <div class="lbl">截圖重製（依聯合新聞網引述的原文）</div>
+      <div class="who"><span class="av"></span>Threads 網友 · 11 月 24 日晚間</div>
+      <div class="txt">「原來媒體都沒報，但是這真的太誇張…黃國昌拿過索羅斯的資金，講完了」</div>
+    </div>
+    <p>同一時間還有一張黃國昌和國民黨徐欣瑩的合照在傳，黃國昌說那是 AI 做的。</p>
+  </div>
+
+  <section>
+    <h3>事實</h3>
+    <div class="facts">
+      <div>
+        <h4>確定的</h4>
+        <ul>
+          <li>貼文只有一句話，沒有金額、沒有單據、沒有出處。</li>
+          <li>開放社會基金會（OSF）是索羅斯成立的。沈伯洋擔任台灣民主實驗室理事長時，申請過這個基金會相關的經費，媒體有報導。</li>
+          <li>黃國昌 11 月 25 日說已經請同仁報案。</li>
+        </ul>
+      </div>
+      <div class="unsure">
+        <h4>還不確定的</h4>
+        <ul>
+          <li>發文帳號是誰。黃國昌說對方已經把帳號改名。</li>
+          <li>是提告還是只有報案，報導寫法不一致。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>他怎麼反擊</h3>
+    <a class="vid" href="https://udn.com/news/story/6656/9901295" target="_blank" rel="noopener">
+      <span class="meta">11/25 台中豐原 · 聯合新聞網影音</span>
+      <span class="play" aria-hidden="true"></span>
+      <span class="cap">「已經完成報案的手續」</span>
+    </a>
+    <div class="quotes">
+      <blockquote>「對於這種躲在鍵盤後面的俗辣，沒什麼好多說，直接提告！絕不寬貸。」<cite>黃國昌 Facebook，11/25 上午</cite></blockquote>
+      <blockquote>「是可忍，孰不可忍」<cite>台中豐原車隊掃街，11/25 下午</cite></blockquote>
+    </div>
+  </section>
+
+  <section class="answer">
+    <p class="big">一句「講完了」，不是證據。</p>
+    <p>說別人拿了錢，就要拿出金額、單據和時間。這則貼文三樣都沒有。真正申請過索羅斯基金會經費的，是沈伯洋待過的單位，這件事有報導可查。選前四天丟一句沒來源的話，目的很清楚。</p>
+    <p class="sign">民眾隊的看法</p>
+  </section>
+
+  <section class="vote" aria-labelledby="v1">
+    <h2 id="v1">這樣回答，你接受嗎？</h2>
+    <div class="opts" id="o1">
+      <button id="b-ok" data-k="ok">接受</button>
+      <button id="b-soft" data-k="soft">太護航</button>
+      <button id="b-hard" data-k="hard">太嚴厲</button>
+    </div>
+    <div class="bars" id="r1" hidden></div>
+  </section>
+
+  <p class="src">來源：<a href="https://www.cna.com.tw/news/aipl/202611250185.aspx" target="_blank" rel="noopener">中央社 11/25</a>、<a href="https://udn.com/news/story/6656/9900550" target="_blank" rel="noopener">聯合新聞網 11/25 上午</a>、<a href="https://udn.com/news/story/6656/9901295" target="_blank" rel="noopener">聯合新聞網 11/25 下午（影片）</a></p>
+</div>
+
+<script>
+const seed={ok:412,soft:268,hard:57};
+const labels={ok:"接受",soft:"太護航",hard:"太嚴厲"};
+function load(){try{return localStorage.getItem("v1")}catch(e){return null}}
+function save(v){try{localStorage.setItem("v1",v)}catch(e){}}
+function show(pick){
+  const box=document.getElementById("r1");
+  const c={...seed}; c[pick]++;
+  const tot=Object.values(c).reduce((a,b)=>a+b,0);
+  box.innerHTML=Object.entries(c).map(([k,v])=>{const p=Math.round(v/tot*100);
+    return `<div class="bar"><span>${labels[k]}</span><span class="t"><i data-w="${p}"></i></span><span>${p}%</span></div>`}).join("");
+  box.hidden=false;
+  requestAnimationFrame(()=>box.querySelectorAll("i").forEach(i=>i.style.width=i.dataset.w+"%"));
+  document.querySelectorAll("#o1 button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===pick));
+}
+document.querySelectorAll("#o1 button").forEach(b=>b.addEventListener("click",()=>{save(b.dataset.k);show(b.dataset.k)}));
+const p=load(); if(p&&seed[p]!==undefined) show(p);
+</script>
