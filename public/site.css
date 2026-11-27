@@ -366,3 +366,6 @@ a.hdt:hover{color:var(--teal-d)}
 .kt li.kt-g a{background:#FFF1D6;border:2px solid #E8A33D;border-radius:14px;padding:14px 16px}
 .kt li.kt-g::before{background:#E8A33D}
 .kt li.kt-g .kt-d{color:#B86E00}
+.fd-g .kg-img{background:#E8A33D}
+.fd-g .fd-m{color:#B86E00}
+@media (max-width:600px){.fd-g{background:#FFF1D6;border:2px solid #E8A33D;border-radius:14px;padding:12px 16px}.fd-g .fd-img{display:none}.fd-g .fd-m{margin-top:0}}

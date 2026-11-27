@@ -503,8 +503,8 @@ ${koFooter}
 </html>
 `;
 }
-const guideCard = () => `<a class="fd" href="/ko-case/guide/"><span class="fd-img kg-img"><b>懶人包</b><span>3 分鐘看懂柯文哲案</span></span>
-<span class="fd-m">置頂・懶人包</span>
+const guideCard = () => `<a class="fd fd-g" href="/ko-case/guide/"><span class="fd-img kg-img"><b>懶人包</b><span>3 分鐘看懂柯文哲案</span></span>
+<span class="fd-m">重點整理・懶人包 →</span>
 <span class="fd-t">看懂柯文哲案</span>
 <span class="fd-a">檢方怎麼起訴、法院怎麼判、實際上是怎樣，一條一條對照。</span></a>`;
 const gsrc = (src) => `<p class="kg-src">來源：${src.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join('、')}</p>`;
