@@ -1,0 +1,43 @@
+{
+  "slug": "huang-chang-ching-sen",
+  "date": "2026-09-03",
+  "title": "法院認證：黃國昌揭張景森綠電關係有憑有據",
+  "who": "黃國昌",
+  "summary": "前政委張景森不滿黃國昌指他推農電共生和業者關係密切，求償 300 萬。黃國昌全程沒出庭，北院一造辯論判決仍判張景森敗訴。",
+  "court": "台北地方法院",
+  "result": "駁回張景森求償 300 萬元",
+  "stage": "一審",
+  "shot": {
+    "url": "https://news.ltn.com.tw/news/society/breakingnews/5563189",
+    "img": "/img/court/huang-chang-ching-sen/news.jpg"
+  },
+  "reaction": {
+    "quote": "徹底不出庭，讓張景森及其豪華律師團隊[[一造辯論判決還輸]]",
+    "cite": "聯合新聞網",
+    "citeUrl": "https://udn.com/news/story/6656/9733175"
+  },
+  "facts": [
+    {
+      "b": "簡報確實找業者幫忙。",
+      "t": "北院依卷證認定，張景森受蔡英文指示後，確實找聯合再生董事長洪傳獻等業者協助製作簡報。"
+    },
+    {
+      "b": "連兩年參加業者尾牙。",
+      "t": "張景森連續 2 年參加聯合再生尾牙，親人張景新曾任該公司獨董。"
+    },
+    {
+      "b": "主要陳述並非不實。",
+      "t": "法院認定黃國昌言論涉公共事務，主要陳述並非全然無據；標案部分黃國昌也沒說過張景森牽線。"
+    }
+  ],
+  "sources": [
+    [
+      "自由時報",
+      "https://news.ltn.com.tw/news/society/breakingnews/5563189"
+    ],
+    [
+      "聯合新聞網",
+      "https://udn.com/news/story/6656/9733175"
+    ]
+  ]
+}

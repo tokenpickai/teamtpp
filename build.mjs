@@ -91,6 +91,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
+${nav(d.person.ballot ? '/election/' : '')}
 
 </div></header>
 
@@ -224,10 +225,51 @@ ${pyHeader('最新完成', '/done/')}
 `;
 }
 
-function indexPage(everyone) {
-  const people = everyone.filter((d) => !d.kind);
+const NAV = [['/election/', '11/28選戰專區']];
+const nav = (cur = '') => `<nav class="nav" aria-label="分頁">${NAV.map(([h, t]) => `<a href="${h}"${h === cur ? ' aria-current="page"' : ''}>${t}</a>`).join('')}</nav>`;
+
+function electionSections(everyone) {
   const cands = everyone.filter((d) => d.person.ballot && d.kind !== 'mayor-candidate'); // newcomers + incumbents running again
   const mayors = everyone.filter((d) => d.kind === 'mayor-candidate');
+  return `${mayors.length ? `<section class="sec">
+<h2 class="h2">${esc(mayors[0].person.election)} 市長參選人</h2>
+<div class="people">
+${mayors.map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 's')}</span>
+<span class="pc-n">${esc(d.person.name)}</span>
+<span class="dist"><span class="dl"><b>${esc(CITYFULL[d.person.electCity] || d.person.electCity)}</b><span>${esc(d.person.office.replace(/參選人|候選人/, ''))}</span></span><span class="da">全市</span></span>
+<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
+</a>`).join('\n')}
+</div>
+</section>` : ''}
+${cands.length ? `<section class="sec">
+<h2 class="h2">${esc(cands[0].person.election)} 議員參選人</h2>
+${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
+<div class="people cmp">
+${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
+<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}${d.kind === 'candidate' ? '' : '<span class="pc-tag">爭取連任</span>'}</span>
+<span class="pc-n">${esc(d.person.name)}</span>
+${distBox(d)}
+<span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => t).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>
+</a>`).join('\n')}
+</div>`).join('\n')}
+</section>` : ''}`;
+}
+function electionPage(everyone) {
+  return `${head({ title: `11/28 選戰專區｜${SITE.name}`, desc: '民眾黨 11/28 市長與議員參選人、選區與政見。', image: '/img/logo.png', url: SITE.url + '/election/' })}
+<body class="py">
+${pyHeader('11/28 選戰專區', '/election/')}
+<main class="wrap mn">
+${electionSections(everyone).replace('class="sec"', 'class="sec ix-feed"')}
+</main>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・11/28 選戰專區</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+</body>
+</html>
+`;
+}
+
+function indexPage(everyone) {
+  const people = everyone.filter((d) => !d.kind);
   const all = doneItems(people);
   const total = countChanges(people);
   const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
@@ -241,7 +283,7 @@ function indexPage(everyone) {
 <body class="idx">
 <header class="hd"><div class="wrap hdr">
 <span class="hdt brand"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</span>
-<span class="upd">最近更新 ${esc(updated)}</span>
+${nav()}
 </div></header>
 
 <section class="ih"><div class="wrap ih-in">
@@ -273,6 +315,10 @@ ${piyao.length ? `<section class="sec ix-feed">
 <div class="py-hh"><h2 class="h2">闢謠跑斷腿</h2><a class="py-all" href="/lies/">看全部</a></div>
 <div class="feed">${piyao.slice(0, 4).map(pyCard).join('\n')}</div>
 </section>` : ''}
+${court.length ? `<section class="sec">
+<div class="py-hh"><h2 class="h2">法院認證</h2><a class="py-all" href="/court/">看全部</a></div>
+<div class="feed">${court.slice(0, 4).map(ctCard).join('\n')}</div>
+</section>` : ''}
 <section class="sec${piyao.length ? '' : ' ix-feed'}">
 <div class="py-hh"><h2 class="h2">最新完成</h2><a class="py-all" href="/done/">看全部</a></div>
 <div class="feed">
@@ -293,32 +339,10 @@ ${people.map((d) => {
   }).join('\n')}
 </div>
 
-${mayors.length ? `<section class="sec">
-<h2 class="h2">${esc(mayors[0].person.election)} 市長參選人</h2>
-<div class="people">
-${mayors.map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy">${ballotNo(d, 's')}</span>
-<span class="pc-n">${esc(d.person.name)}</span>
-<span class="dist"><span class="dl"><b>${esc(CITYFULL[d.person.electCity] || d.person.electCity)}</b><span>${esc(d.person.office.replace(/參選人|候選人/, ''))}</span></span><span class="da">全市</span></span>
-<span class="pc-chips">${d.platform.slice(0, 3).map((x) => `<span class="chip">${esc(x.title)}</span>`).join('')}</span>
-</a>`).join('\n')}
-</div>
-</section>` : ''}
-${cands.length ? `<section class="sec">
-<h2 class="h2">${esc(cands[0].person.election)} 議員參選人</h2>
-${CITIES.filter((c) => cands.some((d) => d.person.electCity === c)).map((c) => `<h3 class="h3 cty">${esc(c)}</h3>
-<div class="people cmp">
-${cands.filter((d) => d.person.electCity === c).sort((a, b) => (a.person.district - b.person.district) || (a.person.ballot - b.person.ballot)).map((d) => `<a class="pc" href="/${d.slug}/">
-<span class="pc-top"><img class="pc-img" src="${esc(d.portrait)}" alt="" loading="lazy"${d.portraitPos ? ` style="object-position:${esc(d.portraitPos)}"` : ''}>${ballotNo(d, 's')}${d.kind === 'candidate' ? '' : '<span class="pc-tag">爭取連任</span>'}</span>
-<span class="pc-n">${esc(d.person.name)}</span>
-${distBox(d)}
-<span class="pc-chips">${(d.platform?.length ? d.platform.map((x) => x.title) : d.pitch).slice(0, 3).map((t) => t).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}</span>
-</a>`).join('\n')}
-</div>`).join('\n')}
-</section>` : ''}
+
 
 </main>
-<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為議員本人公開貼文、影片與議會紀錄<span class="ft-upd">最近更新 ${esc(updated)}</span></span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
 <script src="/app.js" defer></script>
 </body>
 </html>
@@ -332,6 +356,7 @@ const pyQuote = (s) => esc(s).replace(/\[\[(.+?)\]\]/g, '<mark>$1</mark>');
 const pyHeader = (t = '闢謠跑斷腿', href = '/lies/') => `<header class="hd"><div class="wrap hdr">
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <a class="hdt" href="${href}">${t}</a>
+${nav(href)}
 </div></header>`;
 const pyFooter = `<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・闢謠跑斷腿</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>`;
 const pyCard = (r) => `<a class="fd" href="/lies/${esc(r.slug)}/"><span class="fd-img py-img"><img src="${esc(r.rumor.img || '/img/logo.png')}" alt="" loading="lazy"></span>
@@ -384,6 +409,51 @@ ${pyFooter}
 `;
 }
 
+// 法院認證
+const ctFooter = pyFooter.replace('闢謠跑斷腿', '法院認證');
+const ctCard = (r) => `<a class="fd" href="/court/${esc(r.slug)}/"><span class="fd-img py-img"><img src="${esc(r.shot.img)}" alt="" loading="lazy"></span>
+<span class="fd-m">${esc(r.date.replace(/-/g, '.'))}・${esc(r.who)}・${esc(r.stage)}</span>
+<span class="fd-t">${esc(r.title)}</span>
+<span class="fd-a">${esc(r.summary)}</span></a>`;
+function courtPage(r) {
+  const url = `${SITE.url}/court/${r.slug}/`;
+  return `${head({ title: `${r.title}｜${SITE.name}`, desc: r.summary, image: r.shot.img, url, type: 'article' })}
+<body class="py">
+${pyHeader('法院認證', '/court/')}
+<main class="wrap py-w">
+<header class="py-h"><span class="py-tag">法院認證</span><h1>${esc(r.title)}</h1><p class="py-d">${esc(pyDate(r.date))}</p>
+<p class="ct-stamp"><b>${esc(r.court)}</b><span>${esc(r.stage)}</span><span>${esc(r.result)}</span></p></header>
+<section class="py-s">
+<p class="py-n">${esc(r.summary)}</p>
+<a href="${esc(r.shot.url)}" target="_blank" rel="noopener"><img class="py-shot" src="${esc(r.shot.img)}" alt="新聞報導截圖"></a>
+</section>
+<section class="py-s"><span class="py-tag py-tag-t">${esc(r.reaction.label || r.who + "怎麼說")}</span>
+<p class="py-q">「${pyQuote(r.reaction.quote)}」<cite><a href="${esc(r.reaction.citeUrl)}" target="_blank" rel="noopener">${esc(r.reaction.cite)}</a></cite></p>
+${r.reaction.yt ? `<div class="py-v"><iframe src="https://www.youtube-nocookie.com/embed/${esc(r.reaction.yt)}" title="${esc(r.who)}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` : ''}
+</section>
+<section class="py-s"><span class="py-tag py-tag-k">報導事實</span>
+<ul class="py-f">${r.facts.map((f) => `<li><b>${esc(f.b)}</b><span>${esc(f.t)}</span></li>`).join('\n')}</ul>
+</section>
+<p class="py-src">來源：${r.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join('、')}</p>
+</main>
+${ctFooter}
+</body>
+</html>
+`;
+}
+function courtIndex(list) {
+  return `${head({ title: `法院認證｜${SITE.name}`, desc: '法院與檢方怎麼判：一則一則看判決認定的事實。', image: list[0]?.shot.img, url: SITE.url + '/court/' })}
+<body class="py">
+${pyHeader('法院認證', '/court/')}
+<main class="wrap mn"><section class="sec ix-feed"><h1 class="h2">法院認證</h1>
+<div class="feed">${list.map(ctCard).join('\n')}</div>
+</section></main>
+${ctFooter}
+</body>
+</html>
+`;
+}
+
 // build
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.cpSync(path.join(ROOT, 'public'), DIST, { recursive: true });
@@ -394,6 +464,8 @@ const ORDER = ['huang-ching-ying', 'chen-shih-hsuan', 'lin-chen-yu', 'chen-yu-ch
 const SITE_UPDATED = fs.existsSync(path.join(ROOT, 'data', 'site.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'site.json'), 'utf8')).updated : '';
 const pdir = path.join(ROOT, 'data', 'piyao');
 const piyao = fs.existsSync(pdir) ? fs.readdirSync(pdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(pdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
+const cdir = path.join(ROOT, 'data', 'court');
+const court = fs.existsSync(cdir) ? fs.readdirSync(cdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(cdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
 const rank = (d) => (ORDER.indexOf(d.slug) + 1) || 999;
 people.sort((a, b) => rank(a) - rank(b));
 for (const d of people) {
@@ -406,10 +478,18 @@ for (const r of piyao) {
   fs.writeFileSync(path.join(DIST, 'lies', r.slug, 'index.html'), piyaoPage(r));
 }
 fs.writeFileSync(path.join(DIST, 'lies', 'index.html'), piyaoIndex(piyao));
+for (const r of court) {
+  fs.mkdirSync(path.join(DIST, 'court', r.slug), { recursive: true });
+  fs.writeFileSync(path.join(DIST, 'court', r.slug, 'index.html'), courtPage(r));
+}
+fs.mkdirSync(path.join(DIST, 'court'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'court', 'index.html'), courtIndex(court));
+fs.mkdirSync(path.join(DIST, 'election'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'election', 'index.html'), electionPage(people));
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
 fs.mkdirSync(path.join(DIST, 'done'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'done', 'index.html'), doneIndex(people.filter((d) => !d.kind)));
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', ...piyao.map((r) => 'lies/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', 'court/', 'election/', ...piyao.map((r) => 'lies/' + r.slug + '/'), ...court.map((r) => 'court/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
 

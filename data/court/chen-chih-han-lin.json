@@ -1,0 +1,44 @@
+{
+  "slug": "chen-chih-han-lin",
+  "date": "2026-11-11",
+  "title": "法院認證：陳智菡揭馬偕容積率有憑有據",
+  "who": "陳智菡",
+  "summary": "陳智菡指林智堅曾承諾新竹馬偕兒童醫院容積率可從 250% 調到 450%，被求償 200 萬。一審判賠 30 萬，高院二審逆轉改判免賠。",
+  "court": "台灣高等法院",
+  "result": "撤銷一審　陳智菡免賠",
+  "stage": "二審",
+  "shot": {
+    "url": "https://news.ltn.com.tw/news/society/breakingnews/5636865",
+    "img": "/img/court/chen-chih-han-lin/news.jpg"
+  },
+  "reaction": {
+    "label": "法院怎麼判",
+    "quote": "陳智菡是依據上述資料發表相關言論，[[已經過合理查證]]，且有相當理由相信內容為真",
+    "cite": "自由時報",
+    "citeUrl": "https://news.ltn.com.tw/news/society/breakingnews/5636865"
+  },
+  "facts": [
+    {
+      "b": "還沒核准就先用 450% 編預算。",
+      "t": "馬偕在新竹市府尚未核准調升容積率前，就以 450% 作為開發規劃和工程預算的基礎。"
+    },
+    {
+      "b": "市府後來真的通過 450%。",
+      "t": "新竹市府事後確實審議通過，把容積率提高到 450%。"
+    },
+    {
+      "b": "院長在董事會說林智堅保證過。",
+      "t": "法院刑事裁定記載，時任新竹馬偕院長 2018 年 8 月 30 日在董事會表示林智堅保證容積率可調到 450%。"
+    }
+  ],
+  "sources": [
+    [
+      "自由時報",
+      "https://news.ltn.com.tw/news/society/breakingnews/5636865"
+    ],
+    [
+      "三立新聞網",
+      "https://www.setn.com/news/1937096"
+    ]
+  ]
+}

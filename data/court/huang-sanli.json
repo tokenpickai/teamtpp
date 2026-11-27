@@ -1,0 +1,43 @@
+{
+  "slug": "huang-sanli",
+  "date": "2026-01-02",
+  "title": "檢方認證：黃國昌質疑三立記者影片來源不違法",
+  "who": "黃國昌",
+  "summary": "黃國昌直播指寶和會跟拍他拆除工程的影片，出現在三立記者游濤的 YouTube 頻道。游濤告妨害名譽，新北地檢不起訴。",
+  "court": "新北地方檢察署",
+  "result": "妨害名譽　不起訴",
+  "stage": "不起訴",
+  "shot": {
+    "url": "https://ctinews.com/news/items/dyny8Po6xZ",
+    "img": "/img/court/huang-sanli/news.jpg"
+  },
+  "reaction": {
+    "quote": "我講的都是真的，[[影片就在游濤的YouTube頻道]]，到底是在告幾點的？",
+    "cite": "中天新聞網",
+    "citeUrl": "https://ctinews.com/news/items/dyny8Po6xZ"
+  },
+  "facts": [
+    {
+      "b": "起因是跟拍風波。",
+      "t": "黃國昌 2025 年 9 月底直播反擊被指找狗仔偷拍，點名游濤跟監他。"
+    },
+    {
+      "b": "影片確實出現在記者頻道。",
+      "t": "黃國昌指自家拆除工程的跟拍畫面，出現在游濤私人 YouTube 頻道。"
+    },
+    {
+      "b": "質疑並非無據。",
+      "t": "檢方認為黃國昌是在討論影片來源，質疑尚非全屬無據，且查無惡意，不起訴。"
+    }
+  ],
+  "sources": [
+    [
+      "中天新聞網",
+      "https://ctinews.com/news/items/dyny8Po6xZ"
+    ],
+    [
+      "經濟日報",
+      "https://money.udn.com/money/story/7307/9241237"
+    ]
+  ]
+}
