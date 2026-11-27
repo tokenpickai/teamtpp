@@ -1,0 +1,56 @@
+{
+  "slug": "chen-chao-tzu",
+  "kind": "legislator",
+  "person": {
+    "name": "陳昭姿",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "她",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "台大醫院藥師出身，健保新藥給付的專家",
+    "倡議代理孕母入法 30 年",
+    "推動人工生殖法修法，代孕入法是她一生最大的心願",
+    "民眾黨立法院黨團副總召，也是 IPAC 共同主席",
+    "2024 年 2 月起擔任不分區立委"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Janice.chen.142"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ccz.tpp2024"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ccz.tpp2024/"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [
+    {
+      "title": "人工生殖法修法、代孕入法",
+      "note": "民眾黨團版本 33 條中 15 條與代孕有關，2026 年 1 月進入衛環委員會審查，持續協調朝野。"
+    }
+  ],
+  "council": "",
+  "portrait": "/img/chen-chao-tzu/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

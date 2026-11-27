@@ -1,0 +1,51 @@
+{
+  "slug": "hung-yu-hsiang",
+  "kind": "legislator",
+  "person": {
+    "name": "洪毓祥",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "他",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "民眾黨立法院黨團幹事長、經濟委員會召委",
+    "資策會出身，做過地方創生與數位轉型",
+    "得過資訊月傑出資訊人才獎",
+    "民眾黨團負責桃園、新竹、苗栗",
+    "2026 年 2 月遞補就任"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61574801496666"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@listentoahung"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/yshungkp/"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [],
+  "council": "",
+  "portrait": "/img/hung-yu-hsiang/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

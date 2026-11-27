@@ -1,0 +1,71 @@
+{
+  "slug": "chiu-hui-ju",
+  "kind": "legislator",
+  "person": {
+    "name": "邱慧洳",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "她",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [
+    {
+      "who": [
+        "all"
+      ],
+      "when": "2026.05",
+      "status": "三讀通過",
+      "place": "立法院・醫療法第 12 條",
+      "title": "三班護病比，正式入法",
+      "bShort": "護病比只是行政公告，醫院做不到也沒事",
+      "aShort": "急性一般病床三班護病比寫進醫療法",
+      "before": "護理人員長期一個人顧太多病人，三班護病比只有衛福部公告，沒有法律強制力。",
+      "after": "2026 年 5 月 8 日立法院三讀修正醫療法，醫院急性一般病床須配置三班護病比，主管機關要定期檢討。邱慧洳和護理團體溝通推出民眾黨版本，最後支持通過入法。",
+      "url": "https://udn.com/news/story/6656/9490944",
+      "thumb": "/img/chiu-hui-ju/item-01.jpg"
+    }
+  ],
+  "pitch": [
+    "國立臺北護理健康大學教授，2026 年 2 月就任立委",
+    "專長醫護法規與護理勞動權益，也有律師資格",
+    "把「三班護病比」寫進醫療法，三讀過關",
+    "為了護理人員在委員會的席次，在議場落淚",
+    "上任第一個會期就把護病比推過三讀"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61587319024264"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCqAvpWVWq36nCmzUyPjgd0g"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/joy20260203/"
+    },
+    {
+      "label": "Threads",
+      "url": "https://www.threads.com/@joy20260203"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [],
+  "council": "",
+  "portrait": "/img/chiu-hui-ju/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

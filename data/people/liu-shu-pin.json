@@ -1,0 +1,56 @@
+{
+  "slug": "liu-shu-pin",
+  "kind": "legislator",
+  "person": {
+    "name": "劉書彬",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "她",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "民眾黨不分區立委，2025 年 3 月遞補就任",
+    "財政委員會委員",
+    "關心離島醫療，主張讓離島留任醫師也能享免稅獎勵",
+    "民眾黨團負責金門",
+    "第十一屆不分區立委，任期到 2028 年"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/people/%E5%8A%89%E6%9B%B8%E5%BD%AC/61570373315266/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ShuPinLiu_TPP"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/liushupin.office"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [
+    {
+      "title": "離島醫護留任誘因",
+      "note": "主張醫療法第 88 條的免稅獎勵擴及離島留任醫師，讓偏鄉醫護有更具體的留任誘因。"
+    }
+  ],
+  "council": "",
+  "portrait": "/img/liu-shu-pin/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

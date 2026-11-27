@@ -1,0 +1,56 @@
+{
+  "slug": "tsai-chun-chou",
+  "kind": "legislator",
+  "person": {
+    "name": "蔡春綢",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "她",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "民眾黨雲林縣黨部主委",
+    "教育及文化委員會委員",
+    "在院會質詢，要求運動防護師國考立法",
+    "民眾黨團負責新北、雲林",
+    "2026 年 2 月遞補就任"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/share/17hETWe5Pm/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCODDm7iAZq0PTrE9Hq-AvMA"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/spring.p97826"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [
+    {
+      "title": "運動防護師國考立法",
+      "note": "2026 年 4 月院會質詢行政院長與運動部長，要求運動防護師納入國家考試、立法保障。"
+    }
+  ],
+  "council": "",
+  "portrait": "/img/tsai-chun-chou/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

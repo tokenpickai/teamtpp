@@ -91,7 +91,7 @@ function personPage(d) {
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.office)}</span><span class="dot" aria-hidden="true"></span>
 <span class="hdt">${esc(p.name)}</span>
-${nav(d.kind ? '/election/' : '/councillors/')}
+${nav(d.kind === 'legislator' ? '/legislators/' : d.kind ? '/election/' : '/councillors/')}
 
 </div></header>
 
@@ -110,7 +110,7 @@ ${cand ? `<p class="bio">${esc(d.bio)}</p>` : ''}
 </div>
 </div></section>
 
-<section><div class="wrap hero">
+${d.kind === 'legislator' && !items.length ? '' : `<section><div class="wrap hero">
 <div class="hero-l">
 <h1>你是哪一種<br>${esc(p.local)}？</h1>
 <div role="group" aria-label="選擇你的身分" class="personas">
@@ -121,7 +121,7 @@ ${d.personas.map((x, i) => `<button type="button" class="pp" data-id="${esc(x.id
 ${cand ? '' : `<div class="fan" aria-hidden="true">
 ${[0, 1, 2].map((i) => `<img class="f f${i}" src="${esc(firstItems[i]?.thumb || '')}" alt=""${firstItems[i] ? '' : ' hidden'}>`).join('')}
 </div>`}
-</div></section>
+</div></section>`}
 
 <main class="wrap mn">
 <div id="items">
@@ -179,7 +179,7 @@ ${d.pending.map((x) => `<div class="pd"><div class="pt">${esc(x.title)}</div><di
 </section>` : ''}
 
 </main>
-<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與議會紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
+<footer class="ft"><div class="wrap ft-in"><span>${SITE.name}・資料來源為${esc(p.name)}本人公開貼文、影片與${d.kind === 'legislator' ? '立法院' : '議會'}紀錄</span><span>聯絡信箱：<a href="mailto:hi@teamtpp.com">hi@teamtpp.com</a></span></div></footer>
 <script type="application/json" id="page-data">${JSON.stringify({ ...page, items: cand ? d.platform.map(({ who }) => ({ who })) : items.map(({ who, when, status, place, title, before, after, thumb }) => ({ who, when, status, place, title, before, after, thumb })) }).replace(/</g, '\\u003c')}</script>
 <script src="/app.js" defer></script>
 </body>
@@ -225,7 +225,7 @@ ${pyHeader('看得見的改變', '/done/')}
 `;
 }
 
-const NAV = [['/councillors/', '現任議員'], ['/election/', '11/28選戰專區']];
+const NAV = [['/legislators/', '現任立委'], ['/councillors/', '現任議員'], ['/election/', '11/28選戰專區']];
 const nav = (cur = '') => `<nav class="nav" aria-label="分頁">${NAV.map(([h, t]) => `<a href="${h}"${h === cur ? ' aria-current="page"' : ''}>${t}</a>`).join('')}</nav>`;
 
 function electionSections(everyone) {
@@ -268,11 +268,12 @@ ${electionSections(everyone).replace('class="sec"', 'class="sec ix-feed"')}
 `;
 }
 
-function councillorsPage(everyone) {
-  const people = everyone.filter((d) => !d.kind);
-  return `${head({ title: `現任議員｜${SITE.name}`, desc: `民眾黨 ${people.length} 位現任議員與他們做成的事。`, image: '/img/logo.png', url: SITE.url + '/councillors/' })}
+function councillorsPage(everyone, kind = '') {
+  const people = everyone.filter((d) => (d.kind || '') === kind);
+  const T = kind ? '現任立委' : '現任議員', P = kind ? '/legislators/' : '/councillors/';
+  return `${head({ title: `${T}｜${SITE.name}`, desc: `民眾黨 ${people.length} 位${T}與他們做成的事。`, image: '/img/logo.png', url: SITE.url + P })}
 <body class="py">
-${pyHeader('現任議員', '/councillors/')}
+${pyHeader(T, P)}
 <main class="wrap mn"><section class="sec ix-feed">
 <div class="people">
 ${people.map((d) => {
@@ -578,6 +579,8 @@ for (const r of ko) {
 fs.writeFileSync(path.join(DIST, 'ko-case', 'index.html'), koIndex(ko));
 fs.mkdirSync(path.join(DIST, 'ko-case', 'guide'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'ko-case', 'guide', 'index.html'), guidePage());
+fs.mkdirSync(path.join(DIST, 'legislators'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'legislators', 'index.html'), councillorsPage(people, 'legislator'));
 fs.mkdirSync(path.join(DIST, 'councillors'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'councillors', 'index.html'), councillorsPage(people));
 fs.mkdirSync(path.join(DIST, 'election'), { recursive: true });
@@ -585,7 +588,7 @@ fs.writeFileSync(path.join(DIST, 'election', 'index.html'), electionPage(people)
 fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(people));
 fs.mkdirSync(path.join(DIST, 'done'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'done', 'index.html'), doneIndex(people.filter((d) => !d.kind)));
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', 'court/', 'election/', 'councillors/', 'ko-case/', 'ko-case/guide/', ...ko.map((r) => 'ko-case/' + r.slug + '/'), ...piyao.map((r) => 'lies/' + r.slug + '/'), ...court.map((r) => 'court/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', 'court/', 'election/', 'councillors/', 'legislators/', 'ko-case/', 'ko-case/guide/', ...ko.map((r) => 'ko-case/' + r.slug + '/'), ...piyao.map((r) => 'lies/' + r.slug + '/'), ...court.map((r) => 'court/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
 

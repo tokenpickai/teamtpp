@@ -1,0 +1,52 @@
+{
+  "slug": "hsu-chung-hsin",
+  "kind": "legislator",
+  "person": {
+    "name": "許忠信",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "他",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "成大法律系教授，專長海商法、公司法、國際貿易",
+    "當過台聯立委，2026 年 4 月遞補為民眾黨立委",
+    "內政委員會，主張警消、海巡裝備升級、用無人機執勤",
+    "新會期第一個報到：「1 年 9 個月做 4 年的事」",
+    "責任區台南、高雄、屏東，顧家鄉永康、新市、新化"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/hsuchunghsin/"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@%E8%A8%B1%E5%BF%A0%E4%BF%A1-r1t"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [
+    {
+      "title": "警消、海巡裝備現代化",
+      "note": "無人機條例通過後，推動警消、海巡、鐵路警察等學會操作無人機，提升裝備。"
+    }
+  ],
+  "council": "",
+  "portrait": "/img/hsu-chung-hsin/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

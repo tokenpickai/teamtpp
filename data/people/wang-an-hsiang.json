@@ -1,0 +1,56 @@
+{
+  "slug": "wang-an-hsiang",
+  "kind": "legislator",
+  "person": {
+    "name": "王安祥",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "他",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [],
+  "pitch": [
+    "外交及國防委員會，責任區彰化、南投、嘉義",
+    "中正大學勞工關係學系教授，當過社會科學院院長",
+    "專長職業安全衛生、勞動條件",
+    "進國會鎖定勞權改革：職安、工時、育兒與長照",
+    "2026 年 2 月遞補就任，被稱為「國會即戰力」"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61553639986147"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E7%8E%8B%E5%AE%89%E7%A5%A5"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ahwang.tpp"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [
+    {
+      "title": "勞工權益改革",
+      "note": "上任宣示聚焦職業安全、工時制度、育兒與長照支持政策，透過法制改革讓勞工兼顧職場與家庭。"
+    }
+  ],
+  "council": "",
+  "portrait": "/img/wang-an-hsiang/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}

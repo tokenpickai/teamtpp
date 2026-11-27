@@ -1,0 +1,82 @@
+{
+  "slug": "chen-ching-lung",
+  "kind": "legislator",
+  "person": {
+    "name": "陳清龍",
+    "office": "立法委員（不分區）",
+    "updated": "2026.11.27",
+    "local": "人",
+    "pron": "他",
+    "council": "",
+    "city": ""
+  },
+  "personas": [
+    {
+      "id": "all",
+      "label": "關心國會的",
+      "sub": "法案、預算",
+      "lead": "關心國會的你，可以看看"
+    }
+  ],
+  "items": [
+    {
+      "who": [
+        "all"
+      ],
+      "when": "2026.10",
+      "status": "三讀通過",
+      "place": "立法院・老人福利法第 22 條",
+      "title": "長輩健保費，中央幫你付",
+      "bShort": "各縣市有錢的補、沒錢的不補",
+      "aShort": "符合條件的 65 歲以上長輩，健保費由中央全額補助",
+      "before": "65 歲以上長輩的健保費補助，要看住在哪個縣市；財政不好、老人多的縣市補不起。",
+      "after": "民眾黨團在議場前守夜，2026 年 10 月 16 日三讀修正老人福利法：近 1 年綜合所得未達申報標準或稅率未達 20% 的長輩，健保費由中央全額補助。陳清龍帶領黨團否決復議，讓修法確定。",
+      "url": "https://udn.com/news/story/6656/9819412",
+      "thumb": "/img/chen-ching-lung/item-01.jpg"
+    },
+    {
+      "who": [
+        "all"
+      ],
+      "when": "2026.07",
+      "status": "三讀通過",
+      "place": "立法院・台灣兒少成長及未來帳戶條例",
+      "title": "孩子 18 歲，有人生第一桶金",
+      "bShort": "育兒津貼只靠行政規定，可能今年有、後年沒有",
+      "aShort": "未來帳戶入法，18 歲至少可累積約 114 萬",
+      "before": "政府的未來帳戶構想只用行政要點辦理，沒有法律保障，「今年有、明年有，可能後年就沒有」。",
+      "after": "民眾黨與國民黨共同提出的「台灣兒少成長及未來帳戶條例」2026 年 7 月 24 日三讀：出生有 6 萬啟動金，0 到 6 歲每年 6 萬，7 到 18 歲每年 3 萬津貼加 3 萬撥入帳戶。",
+      "url": "https://udn.com/news/story/6656/9649472",
+      "thumb": "/img/chen-ching-lung/item-02.jpg"
+    }
+  ],
+  "pitch": [
+    "民眾黨立法院黨團總召，帶著黨團推法案",
+    "當過 4 屆台中市議員，2026 年 2 月接任立委",
+    "兒少未來帳戶三讀，孩子 18 歲可累積約 114 萬",
+    "65 歲以上長輩健保費由中央補助，三讀過關",
+    "舌癌治療後聲音沙啞，照樣站上議場"
+  ],
+  "links": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100001316132567"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@jackylone0329"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/jackylone0329"
+    }
+  ],
+  "promises": [],
+  "citywide": [],
+  "pending": [],
+  "council": "",
+  "portrait": "/img/chen-ching-lung/portrait.jpg",
+  "duo": [],
+  "artifact": "",
+  "platform": []
+}
