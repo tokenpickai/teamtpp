@@ -389,6 +389,7 @@ ${r.rebuttal.yt ? `<div class="py-v"><iframe src="https://www.youtube-nocookie.c
 <section class="py-s"><span class="py-tag py-tag-k">打臉事實</span>
 <ul class="py-f">${r.facts.map((f) => `<li><b>${esc(f.b)}</b><span>${esc(f.t)}</span></li>`).join('\n')}</ul>
 </section>
+${record(r)}
 <p class="py-src">來源：${r.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join('、')}</p>
 </main>
 ${pyFooter}
@@ -407,6 +408,20 @@ ${pyFooter}
 </body>
 </html>
 `;
+}
+
+// 造謠累犯：same "by" across /lies/ and /court/
+function record(r) {
+  if (!r.by) return '';
+  const all = [...piyao.map((x) => ({ x, sec: 'lies', kind: '闢謠' })), ...court.map((x) => ({ x, sec: 'court', kind: '法院認證' }))].filter((e) => e.x.by === r.by);
+  if (all.length < 2) return '';
+  const n = (k) => all.filter((e) => e.kind === k).length;
+  const head = [n('法院認證') && `法院認證 ${n('法院認證')} 次`, n('闢謠') && `闢謠 ${n('闢謠')} 次`].filter(Boolean).join('、');
+  const rows = all.filter((e) => e.x !== r).sort((a, b) => (a.x.date < b.x.date ? 1 : -1));
+  return `<section class="py-s"><span class="py-tag">造謠累犯</span>
+<h2 class="ct-rh">${esc(r.by)}的紀錄：${head}</h2>
+<ul class="ct-rl">${rows.map((e) => `<li><a href="/${e.sec}/${esc(e.x.slug)}/"><span>${esc(e.x.date.replace(/-/g, '.'))}・${e.kind}</span>${esc(e.x.title)}</a></li>`).join('')}</ul>
+</section>`;
 }
 
 // 法院認證
@@ -434,6 +449,7 @@ ${r.reaction.yt ? `<div class="py-v"><iframe src="https://www.youtube-nocookie.c
 <section class="py-s"><span class="py-tag py-tag-k">報導事實</span>
 <ul class="py-f">${r.facts.map((f) => `<li><b>${esc(f.b)}</b><span>${esc(f.t)}</span></li>`).join('\n')}</ul>
 </section>
+${record(r)}
 <p class="py-src">來源：${r.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join('、')}</p>
 </main>
 ${ctFooter}

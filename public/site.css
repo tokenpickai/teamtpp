@@ -297,3 +297,11 @@ a.hdt:hover{color:var(--teal-d)}
 .nav a[aria-current]{color:var(--teal-d);border-bottom-color:var(--teal-d)}
 @media (max-width:700px){.nav{font-size:14px}}
 .ft-upd{display:block;margin-top:4px}
+
+/* 造謠累犯 */
+.ct-rh{font-family:var(--serif);font-weight:900;font-size:clamp(22px,3.4vw,28px);line-height:1.4}
+.ct-rl{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+.ct-rl li{border-top:1px solid var(--paper)}
+.ct-rl a{display:block;padding:12px 0;color:var(--ink);text-decoration:none;font-weight:700;font-size:17px;line-height:1.5}
+.ct-rl a:hover{color:var(--teal-d)}
+.ct-rl span{display:block;font-size:13px;color:var(--teal-d)}
