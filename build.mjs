@@ -21,7 +21,7 @@ const ICONS = {
 };
 const PLAY = '<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#0B2F33"/></svg>';
 
-const head = ({ title, desc, image, url }) => `<!doctype html>
+const head = ({ title, desc, image = '/img/logo.png', url, type = 'website', ld }) => `<!doctype html>
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
@@ -32,7 +32,7 @@ const head = ({ title, desc, image, url }) => `<!doctype html>
 <meta name="theme-color" content="#F4F1EA">
 <meta property="og:site_name" content="民眾隊 teamtpp.com">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:type" content="website">
+<meta property="og:type" content="${type}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(url)}">
@@ -48,6 +48,7 @@ ${image ? `<meta name="twitter:image" content="${esc(SITE.url + image)}">` : ''}
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/site.css">
+${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>` : ''}
 </head>`;
 
 const planCard = (it, attrs, pron) => `<article ${attrs}>
@@ -84,7 +85,7 @@ function personPage(d) {
   const desc = d.pitch.slice(0, 3).join('；');
   const page = { slug: d.slug, name: p.name, office: p.office, personas: d.personas };
 
-  return `${head({ title, desc, image: d.portrait, url })}
+  return `${head({ title, desc, image: d.portrait, url, type: 'profile', ld: { '@context': 'https://schema.org', '@type': 'Person', name: p.name, jobTitle: p.office, image: SITE.url + d.portrait, url, description: desc, affiliation: { '@type': 'PoliticalParty', name: '台灣民眾黨' }, sameAs: d.links.map((l) => l.url) } })}
 <body>
 <header class="hd"><div class="wrap hdr">
 <a class="hdt brand" href="/"><img class="logo" src="/img/logo.png" alt="">${SITE.name}</a><span class="dot" aria-hidden="true"></span>
@@ -230,7 +231,7 @@ function indexPage(everyone) {
   const all = doneItems(people);
   const total = countChanges(people);
   const council = people.reduce((n, d) => n + (parseInt(d.council, 10) || 0), 0);
-  const updated = people.map((d) => d.person.updated).sort().pop();
+  const updated = SITE_UPDATED || people.map((d) => d.person.updated).sort().pop(); // data/site.json, set by the daily update
   // carousel: newest first, but rotate through people so every councillor shows up
   const feed = all.slice(0, 8);
   // carousel = hand-picked 重大政績 (one per councillor, broad impact); never repeats an item shown in 最新完成
@@ -339,7 +340,12 @@ const pyCard = (r) => `<a class="fd" href="/lies/${esc(r.slug)}/"><span class="f
 <span class="fd-a">${esc(r.summary)}</span></a>`;
 function piyaoPage(r) {
   const url = `${SITE.url}/lies/${r.slug}/`;
-  return `${head({ title: `${r.title}｜闢謠跑斷腿｜${SITE.name}`, desc: r.summary, image: r.rumor.img || '/img/logo.png', url })}
+  return `${head({ title: `${r.title}｜闢謠跑斷腿｜${SITE.name}`, desc: r.summary, image: r.rumor.img || '/img/logo.png', url, type: 'article', ld: {
+    '@context': 'https://schema.org', '@type': 'ClaimReview', url, datePublished: r.date, claimReviewed: r.rumor.text || r.title,
+    author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    itemReviewed: { '@type': 'Claim', ...(r.rumor.url ? { appearance: { '@type': 'CreativeWork', url: r.rumor.url } } : {}) },
+    reviewRating: { '@type': 'Rating', ratingValue: 1, bestRating: 5, worstRating: 1, alternateName: '錯誤' },
+  } })}
 <body class="py">
 ${pyHeader()}
 <main class="wrap py-w">
@@ -385,6 +391,7 @@ const dir = path.join(ROOT, 'data', 'people');
 const people = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 // landing order: most popular first, then north → central → south. Unlisted slugs go last.
 const ORDER = ['huang-ching-ying', 'chen-shih-hsuan', 'lin-chen-yu', 'chen-yu-cheng', 'chang-chih-hao', 'sung-pin-ying', 'li-kuo-chang', 'lin-shuo-yen', 'chiang-ho-shu', 'chang-hsueh-ju', 'wu-wei-ta', 'chen-yi-chen'];
+const SITE_UPDATED = fs.existsSync(path.join(ROOT, 'data', 'site.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'site.json'), 'utf8')).updated : '';
 const pdir = path.join(ROOT, 'data', 'piyao');
 const piyao = fs.existsSync(pdir) ? fs.readdirSync(pdir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(pdir, f), 'utf8'))).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
 const rank = (d) => (ORDER.indexOf(d.slug) + 1) || 999;
@@ -405,3 +412,25 @@ fs.writeFileSync(path.join(DIST, 'done', 'index.html'), doneIndex(people.filter(
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['', ...people.map((d) => d.slug + '/'), 'lies/', 'done/', ...piyao.map((r) => 'lies/' + r.slug + '/')].map((u) => `<url><loc>${SITE.url}/${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE.url}/sitemap.xml\n`);
 console.log(`built ${people.length} pages → dist/`);
+
+// social/posts.md: one ready-to-paste Threads/X post per /lies/ entry + one per councillor item first seen today.
+// social/seen.json remembers when each key was first seen (TW date), so nothing is generated twice.
+const today = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
+const SOC = path.join(ROOT, 'social');
+const seenFile = path.join(SOC, 'seen.json');
+const first = !fs.existsSync(seenFile);
+const seen = first ? {} : JSON.parse(fs.readFileSync(seenFile, 'utf8'));
+const fit = (head, body, url) => { const room = 140 - head.length - url.length - 2; return `${head}\n${body.length > room ? body.slice(0, room - 1) + '…' : body}\n${url}`; };
+const posts = [
+  ...piyao.map((r) => ({ key: `lies/${r.slug}`, date: r.date, text: fit(`造謠！${r.title.replace(/？$/, '')}？假的。`, r.summary, `${SITE.url}/lies/${r.slug}/`) })),
+  ...people.filter((d) => !d.kind).flatMap((d) => d.items.map((it, i) => ({ key: `${d.slug}#${it.title}`, item: true, text: fit(`${d.person.name}做到了：${it.title}`, `以前${it.bShort}，現在${it.aShort}。`, `${SITE.url}/${d.slug}/#i-${i}`) }))),
+];
+// first run: existing lies keep their own date, existing items become baseline (no post)
+for (const x of posts) if (!seen[x.key]) seen[x.key] = first ? (x.item ? 'baseline' : x.date) : today;
+const out = posts.filter((x) => seen[x.key] !== 'baseline').map((x) => ({ ...x, at: x.item ? seen[x.key] : x.date, isNew: seen[x.key] === today }))
+  .sort((a, b) => (b.isNew - a.isNew) || (a.at < b.at ? 1 : -1));
+fs.mkdirSync(SOC, { recursive: true });
+fs.writeFileSync(seenFile, JSON.stringify(seen, null, 1) + '\n');
+fs.writeFileSync(path.join(SOC, 'posts.md'), `# 發文文案（${today} 產生，最新在上）\n\n今天新增 ${out.filter((x) => x.isNew).length} 則\n\n${out.map((x) => `## ${x.at}・${x.key}${x.isNew ? '　🆕 今天新增' : ''}\n\n${x.text}\n`).join('\n')}`);
+fs.writeFileSync(path.join(SOC, 'today.json'), JSON.stringify(out.filter((x) => x.isNew).map(({ key, text }) => ({ key, text })), null, 1) + '\n');
+for (const x of out) if (x.text.length > 140) throw new Error(`post over 140: ${x.key}`);
