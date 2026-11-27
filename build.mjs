@@ -535,8 +535,7 @@ function koIndex(list) {
 <body class="py">
 ${pyHeader('柯文哲案', '/ko-case/')}
 <main class="wrap py-w">
-<a class="kg-pin" href="/ko-case/guide/"><b>懶人包</b><span>看懂柯文哲案：檢方怎麼起訴、法院怎麼判、實際上是怎樣，一條一條對照。</span></a>
-<ol class="kt">${list.map((r) => `<li><a href="/ko-case/${esc(r.slug)}/"><span class="kt-d">${esc(r.date.replace(/-/g, '.'))}・${esc(r.stamp)}</span><span class="kt-t">${esc(r.title)}</span><span class="kt-s">${esc(r.summary)}</span></a></li>`).join('\n')}</ol>
+<ol class="kt"><li class="kt-g"><a href="/ko-case/guide/"><span class="kt-d">重點整理・懶人包</span><span class="kt-t">3 分鐘看懂柯文哲案</span><span class="kt-s">檢方怎麼起訴、法院怎麼判、實際上是怎樣，一條一條對照。</span></a></li>${list.map((r) => `<li><a href="/ko-case/${esc(r.slug)}/"><span class="kt-d">${esc(r.date.replace(/-/g, '.'))}・${esc(r.stamp)}</span><span class="kt-t">${esc(r.title)}</span><span class="kt-s">${esc(r.summary)}</span></a></li>`).join('\n')}</ol>
 </main>
 ${koFooter}
 </body>
